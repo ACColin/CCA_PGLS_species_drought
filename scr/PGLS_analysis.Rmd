@@ -11,12 +11,42 @@ output:
 library(ape)
 library(tidyverse)
 library(nlme)
+library(ade4)
 
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre") #contains subspecies
+
+data <- read.table("../data/")
+tree <- read.tree(text = lizards$hprA)
+dat <- lizards$traits[tree$tip.label, ] # sort data according to tree
+plot(tree, main = "Phylogeny for 18 Lizard Species", direction = "up", srt = -90,
+label.offset = 1)
+
+head(dat)
 ```
 
 
-``` {r dataset}
+``` {r Brownian correlation matrix}
+
+mat <- vcv(tree, corr=TRUE) # construct matrix
+fit2 <- gls(matur.L ~ age.mat, correlation=corBrownian(phy=tree), data=dat)
+anova(fit, fit2) # models are the same
 ```
 
-``` {r gls Brownian model}
+``` {r model diagnostic plots}
+
+plot(fit2, resid(., type="n")~fitted(.), main="Normalized Residuals v Fitted Values",
+abline=c(0,0))
+res <- resid(fit2, type="n")
+qqnorm(res)
+qqline(res)
 ```
+
+``` {r remove residual outlier}
+res[which.max(res)] # species with largest residual (outlier)
+## Pg
+## 3.762
+dat3 <- dat[-which(rownames(dat) == "Pg"),]
+tree3 <- drop.tip(tree, "Pg")
+fit3 <- gls(matur.L ~ age.mat, correlation=corBrownian(phy=tree3), data=dat3)
+```
+
