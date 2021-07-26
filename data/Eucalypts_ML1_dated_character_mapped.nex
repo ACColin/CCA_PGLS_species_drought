@@ -1,0 +1,1847 @@
+#NEXUS
+[written Sat Dec 09 14:43:14 AEDT 2017 by Mesquite  version 3.04 (build 725) at DESKTOP-PJ2JSQ0/127.0.0.1]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=731;
+	TAXLABELS
+		Acmena_smithii Agonis_flexuosa Allosyncarpia_ternata Amomyrtus_luma Angophora_bakeri Angophora_costata Angophora_exul Angophora_floribunda Angophora_hispida Angophora_inopina Angophora_melanoxylon Angophora_robur Angophora_subvelutina Angophora_woodsiana Arillastrum_gummiferum Cloezia_floribunda Corymbia_abbreviata Corymbia_abergiana Corymbia_aparrerinja Corymbia_arafurica Corymbia_arenaria Corymbia_aspera Corymbia_aureola Corymbia_bella Corymbia_blakei Corymbia_bleeseri Corymbia_bloxsomei Corymbia_brachycarpa Corymbia_bunites Corymbia_cadophora Corymbia_calophylla Corymbia_candida Corymbia_catenaria Corymbia_chippendalei Corymbia_citriodora Corymbia_clarksoniana Corymbia_collina Corymbia_confertiflora Corymbia_dallachiana Corymbia_dampieri Corymbia_dendromerinx Corymbia_deserticola Corymbia_dichromophloia Corymbia_dimorpha Corymbia_dolichocarpa Corymbia_dunlopiana Corymbia_ellipsoidea Corymbia_eremaea Corymbia_erythrophloia Corymbia_eximia Corymbia_ferriticola Corymbia_ferruginea Corymbia_ficifolia Corymbia_flavescens Corymbia_foelscheana Corymbia_gilbertensis Corymbia_grandifolia Corymbia_greeniana Corymbia_gummifera Corymbia_haematoxylon Corymbia_hamersleyana Corymbia_hendersonii Corymbia_henryi Corymbia_hylandii Corymbia_intermedia Corymbia_jacobsiana Corymbia_lamprophylla Corymbia_latifolia Corymbia_leichhardtii Corymbia_lenziana Corymbia_leptoloma Corymbia_ligans Corymbia_maculata Corymbia_nesophila Corymbia_novoguineesis Corymbia_opaca Corymbia_opacula Corymbia_pachycarpa Corymbia_papillosa Corymbia_papuana Corymbia_pauciseta Corymbia_peltata Corymbia_petalophylla Corymbia_plena Corymbia_polycarpa Corymbia_polysciada Corymbia_porphyritica Corymbia_porrecta Corymbia_ptychocarpa Corymbia_rhodops Corymbia_scabrida Corymbia_stockeri Corymbia_terminalis Corymbia_tessellaris Corymbia_torelliana Corymbia_torta Corymbia_trachyphloia Corymbia_variegata Corymbia_watsoniana Corymbia_xanthope Corymbia_zygophylla Decaspermum_humile Eucalyptopsis_alauda Eucalyptopsis_papuana Eucalyptus_abdita Eucalyptus_absita Eucalyptus_acaciiformis Eucalyptus_accedens Eucalyptus_acies Eucalyptus_acmenoides Eucalyptus_acroleuca Eucalyptus_aequioperta Eucalyptus_agglomerata Eucalyptus_aggregata Eucalyptus_alaticaulis Eucalyptus_alba Eucalyptus_albens Eucalyptus_albida Eucalyptus_albopurpurea Eucalyptus_alipes Eucalyptus_alligatrix Eucalyptus_amplifolia Eucalyptus_amygdalina Eucalyptus_ancophila Eucalyptus_andrewsii Eucalyptus_angophoroides Eucalyptus_angulosa Eucalyptus_angustissima Eucalyptus_annulata Eucalyptus_apiculata Eucalyptus_apodophylla Eucalyptus_apothalassica Eucalyptus_approximans Eucalyptus_aquilina Eucalyptus_arachnae Eucalyptus_arborella Eucalyptus_arenacea Eucalyptus_argillacea Eucalyptus_argophloia Eucalyptus_argutifolia Eucalyptus_argyphea Eucalyptus_aromaphloia Eucalyptus_articulata Eucalyptus_aspersa Eucalyptus_aspratilis Eucalyptus_assimilans Eucalyptus_astringens Eucalyptus_atrata Eucalyptus_badjensis Eucalyptus_baeuerlenii Eucalyptus_baileyana Eucalyptus_bakeri Eucalyptus_balanites Eucalyptus_balanopelex Eucalyptus_balladoniensis Eucalyptus_barberi Eucalyptus_baueriana Eucalyptus_baxteri Eucalyptus_beaniana Eucalyptus_beardiana Eucalyptus_behriana Eucalyptus_bensonii Eucalyptus_benthamii Eucalyptus_beyeriana Eucalyptus_blakelyi Eucalyptus_blaxellii Eucalyptus_blaxlandii Eucalyptus_boliviana Eucalyptus_bosistoana Eucalyptus_botryoides Eucalyptus_brachyandra Eucalyptus_brachycalyx Eucalyptus_brachycorys Eucalyptus_brachyphylla Eucalyptus_brassiana Eucalyptus_brevifolia Eucalyptus_brevipes Eucalyptus_brevistylis Eucalyptus_bridgesiana Eucalyptus_brockwayi Eucalyptus_brookeriana Eucalyptus_brunnea Eucalyptus_buprestium Eucalyptus_burdettiana Eucalyptus_burgessiana Eucalyptus_burracoppinensis Eucalyptus_cadens Eucalyptus_caesia Eucalyptus_calcareana Eucalyptus_calcicola Eucalyptus_caleyi Eucalyptus_caliginosa Eucalyptus_calycogona Eucalyptus_camaldulensis Eucalyptus_campaspe Eucalyptus_camphora Eucalyptus_canaliculata Eucalyptus_canescens Eucalyptus_canobolensis Eucalyptus_capillosa Eucalyptus_capitellata Eucalyptus_captiosa Eucalyptus_carnabyi Eucalyptus_carnea Eucalyptus_carnei Eucalyptus_castrensis Eucalyptus_celastroides Eucalyptus_cephalocarpa Eucalyptus_ceracea Eucalyptus_cerasiformis Eucalyptus_ceratocorys Eucalyptus_cernua Eucalyptus_chartaboma Eucalyptus_chlorophylla Eucalyptus_cinerea Eucalyptus_cladocalyx Eucalyptus_clelandii Eucalyptus_clivicola Eucalyptus_cloeziana Eucalyptus_cneorifolia Eucalyptus_comitae Eucalyptus_communalis Eucalyptus_concinna Eucalyptus_conferruminata Eucalyptus_confluens Eucalyptus_conglobata Eucalyptus_conglomerata Eucalyptus_conica Eucalyptus_consideniana Eucalyptus_conspicua Eucalyptus_conveniens Eucalyptus_coolabah Eucalyptus_cooperiana Eucalyptus_cordata Eucalyptus_cornuta Eucalyptus_coronata Eucalyptus_corrugata Eucalyptus_corticosa Eucalyptus_cosmophylla Eucalyptus_crebra Eucalyptus_crenulata Eucalyptus_creta Eucalyptus_cretata Eucalyptus_croajingolensis Eucalyptus_crucis Eucalyptus_cunninghamii Eucalyptus_cuprea Eucalyptus_cupularis Eucalyptus_curtisii Eucalyptus_cuspidata Eucalyptus_cyanophylla Eucalyptus_cyclostoma Eucalyptus_cylindriflora Eucalyptus_cylindrocarpa Eucalyptus_cypellocarpa Eucalyptus_dalrympleana Eucalyptus_dawsonii Eucalyptus_dealbata Eucalyptus_deanei Eucalyptus_decipiens Eucalyptus_decolor Eucalyptus_decorticans Eucalyptus_decurva Eucalyptus_deflexa Eucalyptus_deglupta Eucalyptus_delegatensis Eucalyptus_delicata Eucalyptus_densa Eucalyptus_denticulata Eucalyptus_depauperata Eucalyptus_desmondensis Eucalyptus_deuaensis Eucalyptus_dielsii Eucalyptus_diminuta Eucalyptus_diptera Eucalyptus_disclusa Eucalyptus_discreta Eucalyptus_dissimulata Eucalyptus_distans Eucalyptus_distuberosa Eucalyptus_diversicolor Eucalyptus_diversifolia Eucalyptus_dives Eucalyptus_dolichocera Eucalyptus_dolichorhyncha Eucalyptus_dolorosa Eucalyptus_dorotoxylon Eucalyptus_drummondii Eucalyptus_dumosa Eucalyptus_dundasii Eucalyptus_dunnii Eucalyptus_dura Eucalyptus_dwyeri Eucalyptus_ebbanoensis Eucalyptus_educta Eucalyptus_effusa Eucalyptus_elaeophloia Eucalyptus_elata Eucalyptus_elliptica Eucalyptus_erectifolia Eucalyptus_eremicola Eucalyptus_eremophila Eucalyptus_erythrocorys Eucalyptus_erythronema Eucalyptus_eudesmioides Eucalyptus_eugenioides Eucalyptus_ewartiana Eucalyptus_exigua Eucalyptus_exilipes Eucalyptus_exilis Eucalyptus_extensa Eucalyptus_extrica Eucalyptus_falcata Eucalyptus_famelica Eucalyptus_farinosa Eucalyptus_fasciculosa Eucalyptus_fastigata Eucalyptus_fergusonii Eucalyptus_fibrosa Eucalyptus_flindersii Eucalyptus_flocktoniae Eucalyptus_foecunda Eucalyptus_foliosa Eucalyptus_formanii Eucalyptus_forrestiana Eucalyptus_fraseri Eucalyptus_fraxinoides Eucalyptus_frenchiana Eucalyptus_froggattii Eucalyptus_fruticosa Eucalyptus_fulgens Eucalyptus_fusiformis Eucalyptus_gamophylla Eucalyptus_gardneri Eucalyptus_georgei Eucalyptus_gigantangion Eucalyptus_gillenii Eucalyptus_gillii Eucalyptus_gittinsii Eucalyptus_glaucescens Eucalyptus_glaucina Eucalyptus_globoidea Eucalyptus_globulus Eucalyptus_glomerosa Eucalyptus_gomphocephala Eucalyptus_gongylocarpa Eucalyptus_goniantha Eucalyptus_goniocalyx Eucalyptus_goniocarpa Eucalyptus_gracilis Eucalyptus_grandis Eucalyptus_granitica Eucalyptus_gregoriensis Eucalyptus_gregsoniana Eucalyptus_griffithsii Eucalyptus_grisea Eucalyptus_grossa Eucalyptus_guilfoylei Eucalyptus_gunnii Eucalyptus_gypsophila Eucalyptus_haemastoma Eucalyptus_hallii Eucalyptus_halophila Eucalyptus_hebetifolia Eucalyptus_herbertiana Eucalyptus_histophylla Eucalyptus_horistes Eucalyptus_houseana Eucalyptus_howittiana Eucalyptus_hypolaena Eucalyptus_ignorabilis Eucalyptus_imlayensis Eucalyptus_impensa Eucalyptus_incerata Eucalyptus_incrassata Eucalyptus_indurata Eucalyptus_infera Eucalyptus_insularis Eucalyptus_interstans Eucalyptus_intertexta Eucalyptus_jacksonii Eucalyptus_jimberlanica Eucalyptus_johnsoniana Eucalyptus_jucunda Eucalyptus_jutsonii Eucalyptus_kartzoffiana Eucalyptus_kessellii Eucalyptus_kingsmillii Eucalyptus_kitsoniana Eucalyptus_kochii Eucalyptus_kondininensis Eucalyptus_koolpinensis Eucalyptus_kruseana Eucalyptus_kumarlensis Eucalyptus_kybeanensis Eucalyptus_lacrimans Eucalyptus_laeliae Eucalyptus_laevopinea Eucalyptus_lanepoolei Eucalyptus_langleyi Eucalyptus_lansdowneana Eucalyptus_largeana Eucalyptus_largiflorens Eucalyptus_latens Eucalyptus_lateritica Eucalyptus_latisinensis Eucalyptus_lehmanii Eucalyptus_leptocalyx Eucalyptus_leptophleba Eucalyptus_leptophylla Eucalyptus_leptopoda Eucalyptus_lesouefii Eucalyptus_leucophloia Eucalyptus_leucoxylon Eucalyptus_ligulata Eucalyptus_ligustrina Eucalyptus_limitaris Eucalyptus_lirata Eucalyptus_litorea Eucalyptus_livida Eucalyptus_lockyeri Eucalyptus_longicornis Eucalyptus_longifolia Eucalyptus_longirostrata Eucalyptus_loxophleba Eucalyptus_lucasii Eucalyptus_lucens Eucalyptus_luculenta Eucalyptus_luehmanniana Eucalyptus_macarthurii Eucalyptus_mackintii Eucalyptus_macrandra Eucalyptus_macrocarpa Eucalyptus_macrorhyncha Eucalyptus_magnificata Eucalyptus_major Eucalyptus_malacoxylon Eucalyptus_mannensis Eucalyptus_mannifera Eucalyptus_marginata Eucalyptus_mckieana Eucalyptus_mcquoidii Eucalyptus_medialis Eucalyptus_megacarpa Eucalyptus_megacornuta Eucalyptus_melanoleuca Eucalyptus_melanophitra Eucalyptus_melanophloia Eucalyptus_melanoxylon Eucalyptus_melliodora Eucalyptus_merrickiae Eucalyptus_michaeliana Eucalyptus_micranthera Eucalyptus_microcarpa Eucalyptus_microcorys Eucalyptus_microneura Eucalyptus_microschema Eucalyptus_microtheca Eucalyptus_mimica Eucalyptus_miniata Eucalyptus_minigwalica Eucalyptus_minniritchi Eucalyptus_misella Eucalyptus_mitchelliana Eucalyptus_moderata Eucalyptus_moluccana Eucalyptus_mooreana Eucalyptus_moorei Eucalyptus_morrisbyi Eucalyptus_morrisii Eucalyptus_muelleriana Eucalyptus_multicaulis Eucalyptus_myriadena Eucalyptus_nanderwairca Eucalyptus_neglecta Eucalyptus_nerthicola Eucalyptus_neutra Eucalyptus_newbeyi Eucalyptus_nicholii Eucalyptus_nitens Eucalyptus_nitida Eucalyptus_nobilis Eucalyptus_normantonensis Eucalyptus_nortonii Eucalyptus_nova Eucalyptus_nudicaulis Eucalyptus_nutans Eucalyptus_obconica Eucalyptus_obesa Eucalyptus_obliqua Eucalyptus_oblonga Eucalyptus_obtusiflora Eucalyptus_occidentalis Eucalyptus_ochrophloia Eucalyptus_odontocarpa Eucalyptus_oldfieldii Eucalyptus_oleosa Eucalyptus_olida Eucalyptus_oligantha Eucalyptus_olivina Eucalyptus_olsenii Eucalyptus_ophitica Eucalyptus_optima Eucalyptus_oraria Eucalyptus_orbifolia Eucalyptus_oreades Eucalyptus_orgadophila Eucalyptus_ornata Eucalyptus_orthostemon Eucalyptus_ovata Eucalyptus_ovularis Eucalyptus_oxymitra Eucalyptus_pachycalyx Eucalyptus_pachyloma Eucalyptus_pachyphylla Eucalyptus_paedoglauca Eucalyptus_paliformis Eucalyptus_paludicola Eucalyptus_panda Eucalyptus_paniculata Eucalyptus_parramattensis Eucalyptus_parvula Eucalyptus_patellaris Eucalyptus_patens Eucalyptus_pauciflora Eucalyptus_pellita Eucalyptus_pendens Eucalyptus_perangusta Eucalyptus_percostata Eucalyptus_perriniana Eucalyptus_persistens Eucalyptus_petiolaris Eucalyptus_petraea Eucalyptus_petrensis Eucalyptus_phaenophylla Eucalyptus_phenax Eucalyptus_phoenicea Eucalyptus_pilbarensis Eucalyptus_pileata Eucalyptus_pilligaensis Eucalyptus_pilularis Eucalyptus_pimpiniana Eucalyptus_piperita Eucalyptus_placita Eucalyptus_planchoniana Eucalyptus_platycorys Eucalyptus_platydisca Eucalyptus_platyphylla Eucalyptus_plauta Eucalyptus_pleurocarpa Eucalyptus_pluricaulis Eucalyptus_polita Eucalyptus_polyanthemos Eucalyptus_polybractea Eucalyptus_populnea Eucalyptus_porosa Eucalyptus_praetermissa Eucalyptus_prava Eucalyptus_preissiana Eucalyptus_prolixa Eucalyptus_prominens Eucalyptus_propinqua Eucalyptus_protensa Eucalyptus_proxima Eucalyptus_pruiniramis Eucalyptus_pruinosa Eucalyptus_pterocarpa Eucalyptus_pulchella Eucalyptus_pulverulenta Eucalyptus_pumila Eucalyptus_purpurata Eucalyptus_pyriformis Eucalyptus_pyrocarpa Eucalyptus_quadrangulata Eucalyptus_quadrans Eucalyptus_quadricostata Eucalyptus_quaerenda Eucalyptus_quinniorum Eucalyptus_racemosa Eucalyptus_radiata Eucalyptus_ralla Eucalyptus_rameliana Eucalyptus_raveretiana Eucalyptus_ravida Eucalyptus_recta Eucalyptus_recurva Eucalyptus_redunca Eucalyptus_regnans Eucalyptus_remota Eucalyptus_resinifera Eucalyptus_retinens Eucalyptus_retusa Eucalyptus_rhodantha Eucalyptus_rhombica Eucalyptus_rhomboidea Eucalyptus_rigens Eucalyptus_rigidula Eucalyptus_risdonii Eucalyptus_rodwayi Eucalyptus_rosacea Eucalyptus_roycei Eucalyptus_rubida Eucalyptus_rubiginosa Eucalyptus_rudderi Eucalyptus_rudis Eucalyptus_rugosa Eucalyptus_rugulata Eucalyptus_rummeryi Eucalyptus_salicola Eucalyptus_saligna Eucalyptus_salmonophloia Eucalyptus_salubris Eucalyptus_sargentii Eucalyptus_saxatilis Eucalyptus_scias Eucalyptus_scoparia Eucalyptus_scopulorum Eucalyptus_scyphocalyx Eucalyptus_seeana Eucalyptus_semota Eucalyptus_sepulcralis Eucalyptus_serraensis Eucalyptus_sessilis Eucalyptus_sicilifolia Eucalyptus_siderophloia Eucalyptus_sideroxylon Eucalyptus_sieberi Eucalyptus_similis Eucalyptus_singularis Eucalyptus_smithii Eucalyptus_socialis Eucalyptus_sparsa Eucalyptus_sparsifolia Eucalyptus_spathulata Eucalyptus_sphaerocarpa Eucalyptus_splendens Eucalyptus_spreta Eucalyptus_squamosa Eucalyptus_staeri Eucalyptus_steedmanii Eucalyptus_stellulata Eucalyptus_stenostoma Eucalyptus_stoatei Eucalyptus_stowardii Eucalyptus_stricklandii Eucalyptus_stricta Eucalyptus_strzeleckii Eucalyptus_sturgissiana Eucalyptus_subangusta Eucalyptus_subcrenulata Eucalyptus_suberea Eucalyptus_subtilis Eucalyptus_suggrandis Eucalyptus_surgens Eucalyptus_synandra Eucalyptus_talyuberlup Eucalyptus_tectifica Eucalyptus_tenella Eucalyptus_tenera Eucalyptus_tenuipes Eucalyptus_tenuiramis Eucalyptus_tenuis Eucalyptus_tephrodes Eucalyptus_terebra Eucalyptus_tereticornis Eucalyptus_tetrapleura Eucalyptus_tetraptera Eucalyptus_tetrodonta Eucalyptus_thamnoides Eucalyptus_tholiformis Eucalyptus_thozetiana Eucalyptus_tindaliae Eucalyptus_tintinnans Eucalyptus_todtiana Eucalyptus_torquata Eucalyptus_tortilis Eucalyptus_transcontinentalis Eucalyptus_tricarpa Eucalyptus_triflora Eucalyptus_trivalvis Eucalyptus_tumida Eucalyptus_ultima Eucalyptus_umbra Eucalyptus_uncinata Eucalyptus_urna Eucalyptus_urophylla Eucalyptus_utilis Eucalyptus_valens Eucalyptus_vegrandis Eucalyptus_vernicosa Eucalyptus_verrucata Eucalyptus_vesiculosa Eucalyptus_vicina Eucalyptus_victoriana Eucalyptus_victrix Eucalyptus_viminalis Eucalyptus_virens Eucalyptus_viridis Eucalyptus_vittata Eucalyptus_vokesensis Eucalyptus_wandoo Eucalyptus_websteriana Eucalyptus_wetarensis Eucalyptus_whitei Eucalyptus_wilcoxii Eucalyptus_williamsiana Eucalyptus_willisii Eucalyptus_woodwardii Eucalyptus_wubinensis Eucalyptus_wyolensis Eucalyptus_xanthonema Eucalyptus_xerothermica Eucalyptus_yalatensis Eucalyptus_yangoura Eucalyptus_yarraensis Eucalyptus_yilgarnensis Eucalyptus_youmanii Eucalyptus_youngiana Eucalyptus_yumbarrana Eucalyptus_zopherophloia Hypocalymma_linifolium Kjellbergiodendron_celebicum Kunzea_ericoides Lophostemon_confertus Lophostemon_suaveolens Myrtus_communis Stockwellia_quadrifida Syncarpia_glomulifera Syncarpia_hillii Syzygium_angophoroides Tepualia_stipularis 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=22;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K M N P Q R S T U V W X Y Z a b c d e f g h j k m n p q r s t u v w";
+	CHARSTATELABELS 
+		1 Subgenus /  Angophora Corymbia Blakella Symphyomyrtus Eucalyptus Eudesmia Minutifructus Idiogenes Acerosae Cruciformes Alveolata Primitiva Cuboidea Newcalypt Mesicalypt, 2 'Hill_Subgenus' /  Corymbia Angophora Gauberwinia Fibridia Leprolaena Eudesmia Heterogaubaea Idiogenes Eucalyptus Symphyomyrtus Nothocalyptus Telocalyptus, 3 Section /  Blakearia Rufaria Ochraria Cadagaria Politaria Apteria Fundoria Longistylus Pedaria Insolitae Amentum Aromatica Cineraceae Capillulus Eucalyptus Longitudinales Nebulosa Pseudophloius Bisectae Inclusae Incognitae Exsertaria Latoangulatae Pumilio Liberivalvae Maidenaria Platysperma Racemus Adnataria Similares Adnataria_ Sejunctae Dumaria Bolites, 4 'Hill_Subsection' /  Minus Blueash Mahogany Peppermint Stringy Greenash Sallee Plus, 5 Brookersection /  Abbreviata Septentrionales Extensa Notiales Curtisia Complanata Reticulata Limbata Ebbanoenses Cuboidea Idiogenes Longistyla Pedariae Insolita Amenta Primitivae Aromatica Cineracea Capillula Eucalyptus Longitudinales Nebulosae Adnataria Pseudophloia Cruciformes Alveolata Bisectae Inclusa Latoangulata Domestica Equatoria Incognita Exsertaria Pumilio Liberivalva Maidenaria Platyspermae Racema Similares Sejuncta Dumaria Bolites, 6 'Hill_Section' /  Blakearia Rufaria Ochraria LIBERIA Apteria Jacoria Gauberwinia Fibraria Apicaria Atricharia Quadraria Heterogaubaea Idiogenes Hesperia Jarraria Pedaria Renantheria Islaria Maidenaria Tingleria Bisectaria Transversaria Telocalyptus Triadaria Exsertaria Pygmaearia Exlegaria Adnataria Aenigmataria Dumaria, 7 Habit /  tree mallee mallet_or_marlock, 8 State /  ACT NSW NT QLD SA TAS VIC sWA nWA PNG NC, 9 Landform /  'coastal plains, coastal low hills and headlands or coastal dunes' 'inland plains, inland low hills or inland dunes (includes deserts)' tablelands hills_or_ridges_or_mountain_tops valley_bottoms_or_flats 'associated with granite inselbergs (WA & SA only)' 'sides or tops of lateritic breakaways (WA only)', 10 Water_Habitat /  on_riverbanks_or_terraces 'associated with fresh-water swamps or lakes' 'associated with salt-water swamps or lakes (wet or dry)' on_floodplains, 11 Soil_type /  'sand (desert or coastal dune, or sandplain or river sands)' 'loam, clay or gravel (sandy loam, sandy clay or rocky or gravelly)' black_cracking_clay gypsum, 12 Nicolle_Habit /  Tree Mallee Facultative_Mallee Facultative_Tree Mallet, 13 Nicolle_Lignotuber /  Yes No Variable, 14 Regenerative_strategy /  Combination_sprouter Unknown Lignotuber_sprouter 'Sprouter (type unknown)' Obligate_seeder 'Sprouter (variable)' Stem_sprouter, 15 Brooker_series_1 /  Scutiformes Dorsiventrales Isobilaterales Tessellatae Clavigerae Torellianae Naviculares Maculatae Cymbaliformes Trachyphloiae Disjunctae Jacobsianae Terminaliptera Curtisianae Tetrodontae Miniatae Scutelliformes Edentatae Heteroptera Ebbanoenses Cuboidea Idiogenes Patenetes Diversiformae Occidentales Pedariae Jacksoniae Calcicolae Subereae Preissianae Muricate Insulares Planchonianae proximae Rubiginosae Insulanae Sphaerocarpae Pachyphloiae Stenostomae Psathyroxyla Regnantes Longitudinales Radiatae Strictae Olsenianae Pauciflorae Fraxinales Contiguae Contiguae Eucalyptus Limitares Pseudostringybarks Piperitales, 16 Brooker_series_2 /  Cruciformes Alveolatae Decurvae Squamosae Curvipterae Caesiae Inclusae Micrantherae Angustissimae Falcatae Subulatae Salmonophloiae Baladonienses Brockwayanae Cooperianae Porantherae Transversae Annulares Levispermae Howittenae Myrtiformes Incognitae Singulares Subexsertae 'Lepidotae-Fimbriatae' Pumilae Liberivalvae Phaeoxyla Erythroxyla Rostratae Foveolatae Connexentes Semiunicolores Brevifoliae Michaelianae Neglectae Orbiculares Globulares Crenulatae Malacoxyla Viminales Compactae Argyrophyllae Confines Acaciiformes Microcarpae Saxicolae obscurae, 17 Brooker_series_3 /  Aquilonares Kitsonianae Benthamiae Sturgissianae Similares Buxeales Rhodoxyla Accedentes Siderophloiae Heterophloiae Coalitae Melliodorae Subbuxeales Dawsonianae Submelliodorae Microcroythae Corrugatae Rufispermae Incrassatae Ovulares Heterostemones Halophilae Furfuraceae Tetrapterae Dissomae Rigentes Dundasianae Deflexae Merrickianae Torquatae Erectae Contortae Stricklandiae Obliquae Loxophleba Kruseanae Elongatae Lehmannianae Klinatae Bolites Cornutae Levispermae, 18 Nicolle_Subgenus /  Mesicalypt Newcalypt Blakella Corymbia Angophora Acerosae Eudesmia Cuboidea Idiogenes Eucalyptus Cruciformes Alveolata Symphyomyrtus, 19 Nicolle_Section /  Abbreviatae Corymbia Torellianae Naviculares Maculatae Angophora Calophyllae Acerosae Complanatae Limbatae Cuboidea Idiogenes Longistylus Frutices Eucalyptus Primitiva Cruciformes Alveolata Bisectae Latoangulatae Glandulosae Domesticae Equatoria Incognitae Exsertaria Maidenaria Platysperma Racemus Adnataria Sejunctae Dumaria Bolites, 20 Nicolle_Series_1 /  Scutiformes Dorsiventrales Isobilaterales Tessellatae Torellianae Naviculares Maculatae Angophora Costatitae Cymbiformes Trachyphloiae Calophyllae Jacobsianae Terminalipterae Acerosae Tetrodontae Miniatae Similes Scutelliformes Heteropterae Ebbanoenses Cuboidea Idiogenes Patentes Diversiformae Subereae Occidentales Pedaria Jacksoniae Calcicolae Preissianae Muricatae Insulares Planchonianae Proximae 'White_mahoganies' Primitiva Radiatae Fraxinales Pachyphloiae Stenostomae Psathyroxyla Regnantes Longitudinales Strictae Olsenianae Pauciflorae Eucalyptus Pseudostringybarks Piperitales, 21 Nicolle_Series_2 /  Cruciformes Alveolata Decurvae Subulatae Squamosae Curviptera Caesiae Inclusae Micrantherae Angustissimae Falcatae Salmonophloiae Balladonienses Brockwayanae Porantherae Transversae Domesticae Equatoria Incognitae Rostratae Subexsertae 'Lepidotae_Fimbriatia' Pumilae Erythroxylon Exsertae Foveolatae Connexentes Semiunicolores Racemus Argyrophyllae Neglectae Orbiculares Globulares Crenulatae Bridgesianae Viminales Acaciiformes Microcarpae Saxicola, 22 Nicolle_Series_3 /  Striolatae Kitsonianae Sturgissianae Lucasianae Buxeales Rhodoxyla Subbuxeales Accedentes Siderophloiae Heterophloiae Melliodorae Submelliodorae Sejunctae Torquatae Rufispermae Tetrapterae Ovulares Heterostemones Halophilae Furfuraceae Merrickianae Dissonae Dundasianae Contortae Stricklandianae Obliquae Platysperma Levispermae Loxophlebae Kruseanae Elongatae Erectae Clinatae Bolites Cornutae ; 
+	MATRIX
+	Acmena_smithii                 ??????????????????????
+	Agonis_flexuosa                ??????????????????????
+	Allosyncarpia_ternata          E?????024????????0????
+	Amomyrtus_luma                 ??????????????????????
+	Angophora_bakeri               01???301(0 2)01(0 2)00???457??
+	Angophora_costata              01???30(1 3)(0 3 4)?1(0 2)00???458??
+	Angophora_exul                 01???301(0 2)01(0 2)00???457??
+	Angophora_floribunda           01???30(1 3 6)(0 1 2 4)?(0 1 2)(0 2)00???457??
+	Angophora_hispida              01???3(0 1)1(3 4)?1(0 2)00???457??
+	Angophora_inopina              01???3(0 1)10?1(0 2)00???457??
+	Angophora_melanoxylon          01???30(1 3)1?1(0 2)00???457??
+	Angophora_robur                01???3010?1(0 2)00???457??
+	Angophora_subvelutina          01???30(1 3)(1 2 3 4)?1(0 2)00???457??
+	Angophora_woodsiana            01???30(1 3)0?(0 1)(0 2)00???457??
+	Arillastrum_gummiferum         D?????0A?????????1????
+	Cloezia_floribunda             ??????????????????????
+	Corymbia_abbreviata            101?110(2 8)1?1(0 2)00C??31D??
+	Corymbia_abergiana             101?11033?0(0 2)001??311??
+	Corymbia_aparrerinja           200?000(2 3 8)(1 3)?(0 1)(0 2)000??200??
+	Corymbia_arafurica             2?0?0?020?(0 1)(0 2)003??203??
+	Corymbia_arenaria              101?11083?1(0 2)001??311??
+	Corymbia_aspera                200?000(2 3 8)(1 3)?1(0 2)000??200??
+	Corymbia_aureola               1?2?1?03(0 3)?0(0 2)006??235??
+	Corymbia_bella                 200?200(2 3 8)(0 1 4)0(0 1)(0 2)003??203??
+	Corymbia_blakei                2?0?0?031?1(0 2)000??200??
+	Corymbia_bleeseri              101?110(2 8)(1 3)?(0 1)(0 2)002??312??
+	Corymbia_bloxsomei             102?12031?0(0 2)006??235??
+	Corymbia_brachycarpa           101?11031?0(0 2)001??311??
+	Corymbia_bunites               1?2?1?03(2 3)?0(0 2)006??235??
+	Corymbia_cadophora             101?1108(0 1 3)?1(0 2)00C??31D??
+	Corymbia_calophylla            101?31(0 1)7(0 3)?0(0 2)008??36B??
+	Corymbia_candida               200?000(2 8)(0 1)3(0 1)(0 2)000??200??
+	Corymbia_catenaria             1?1?1?03(2 3)?0(0 2)006??235??
+	Corymbia_chippendalei          101?11(0 1)(2 7 8)1?0(0 2)002??312??
+	Corymbia_citriodora            104?120(1 3)(0 1 3)?1(0 2)007??246??
+	Corymbia_clarksoniana          101?110(1 3)(0 1 2 3)?1(0 2)001??311??
+	Corymbia_collina               101?1108(1 3)?(0 1)(0 2)002??312??
+	Corymbia_confertiflora         200?000(2 3 8)(0 1)0(0 1)(0 2)004??200??
+	Corymbia_dallachiana           200?0003(0 1 3 4)0(0 1)(0 2)000??200??
+	Corymbia_dampieri              101?110(2 3 8)(0 1)?(0 1)(0 2)002??312??
+	Corymbia_dendromerinx          2?0?0?08(0 1)?(0 1)(0 2)000??200??
+	Corymbia_deserticola           101?11(0 1)8(1 3)?(0 1)(0 2)00C??31D??
+	Corymbia_dichromophloia        101?110(2 3 8)(1 3 4)?(0 1)(0 2)002??312??
+	Corymbia_dimorpha              102?12033?1(0 2)006??235??
+	Corymbia_dolichocarpa          101?110(1 3)(0 1 2 3)?1(0 2)001??311??
+	Corymbia_dunlopiana            101?1102(1 3)?(0 1)(0 2)00C??31D??
+	Corymbia_ellipsoidea           101?1103(2 3)?0(0 2)002??312??
+	Corymbia_eremaea               101?11(0 1)(2 4 7 8)(1 3)?(0 1)(0 2)002??312??
+	Corymbia_erythrophloia         101?1103(0 1)?1(0 2)002??312??
+	Corymbia_eximia                102?1201(0 3)?(0 1)(0 2)006??235??
+	Corymbia_ferriticola           200?00(0 1)(7 8)(1 6)?1(0 2)000??200??
+	Corymbia_ferruginea            101?110(2 3 8)(0 1 3)?1(0 2)00C??31D??
+	Corymbia_ficifolia             101?31070?0(0 2)00A??36B??
+	Corymbia_flavescens            200?000(2 3 8)(0 1)0(0 1)(0 2)000??200??
+	Corymbia_foelscheana           101?1102(0 1)?(0 1)(0 2)002??312??
+	Corymbia_gilbertensis          200?0003(1 3)?1(0 2)000??200??
+	Corymbia_grandifolia           200?000(2 3)(0 1 4)0(0 1)(0 2)000??200??
+	Corymbia_greeniana             101?110(2 3 8)(0 1)?(0 1)(0 2)002??312??
+	Corymbia_gummifera             101?31(0 1)(1 3 6)(0 2 3 4)?(0 1)(0 2)008??319??
+	Corymbia_haematoxylon          101?31(0 1)73?0(0 2)008??36B??
+	Corymbia_hamersleyana          101?11(0 1)8(0 1 3)?1(0 2)002??312??
+	Corymbia_hendersonii           101?1103(1 2 3)?0(0 2)001??311??
+	Corymbia_henryi                104?120(1 3)(0 3)?(0 1)(0 2)007??246??
+	Corymbia_hylandii              101?11033?0(0 2)001??311??
+	Corymbia_intermedia            101?110(1 3)(0 2 3)?(0 1)(0 2)001??311??
+	Corymbia_jacobsiana            106?1502(1 3)0(0 1)(0 2)00B??31C??
+	Corymbia_lamprophylla          101?11033?1(0 2)001??311??
+	Corymbia_latifolia             101?110(2 3 8)(0 1 4)3(0 1)(0 2)002??312??
+	Corymbia_leichhardtii          102?1203(1 3)?0(0 2)006??235??
+	Corymbia_lenziana              1?1?1?0(4 7)1?(0 1)(0 2)002??312??
+	Corymbia_leptoloma             1?2?1?030?0(0 2)006??235??
+	Corymbia_ligans                1?1?1?03(3 4)0(0 1)(0 2)001??311??
+	Corymbia_maculata              104?120(1 6)(0 3)?(0 1)(0 2)007??246??
+	Corymbia_nesophila             101?110(2 3 8)0?(0 1)(0 2)002??312??
+	Corymbia_novoguineesis         101?1103(0 4)3(0 1)(0 2)001??311??
+	Corymbia_opaca                 101?11(0 1)(1 2 3 4 7 8)1?(0 1)(0 2)002??312??
+	Corymbia_opacula               101?11(0 1)(1 2 3 4 7 8)1?(0 1)(0 2)002??312??
+	Corymbia_pachycarpa            101?11(0 1)(2 8)1?0(0 2)00C??31D??
+	Corymbia_papillosa             101?110(2 8)0?(0 1)(0 2)00C??31D??
+	Corymbia_papuana               200?2003(0 1 4)?1(0 2)003??203??
+	Corymbia_pauciseta             2?0?1?020?(0 1)(0 2)000??200??
+	Corymbia_peltata               102?12033?1(0 2)006??235??
+	Corymbia_petalophylla          1?2?1?033?0(0 2)006??235??
+	Corymbia_plena                 101?1103(1 4)00(0 2)001??311??
+	Corymbia_polycarpa             101?110(2 3 8)(0 1 4)?(0 1)(0 2)001??311??
+	Corymbia_polysciada            102?0002(0 4)01(0 2)004??200??
+	Corymbia_porphyritica          101?1103(2 3)?0(0 2)002??312??
+	Corymbia_porrecta              101?11020?(0 1)(0 2)002??312??
+	Corymbia_ptychocarpa           101?110(2 3 8)(0 1 4)?(0 1)(0 2)001??311??
+	Corymbia_rhodops               101?11033?0(0 2)001??311??
+	Corymbia_scabrida              102?1203(1 3)?0(0 2)006??235??
+	Corymbia_stockeri              101?1103(2 3)?0(0 2)001??311??
+	Corymbia_terminalis            101?11(0 1)(1 2 3 4 7 8)1?(0 1)(0 2)002??312??
+	Corymbia_tessellaris           200?200(1 3)(0 1 2 3 4)?(0 1 2)(0 2)003??203??
+	Corymbia_torelliana            103?1203(0 2)?10?15??224??
+	Corymbia_torta                 200?00083?1(0 2)000??200??
+	Corymbia_trachyphloia          105?14(0 1)(1 3)(1 2 3)?(0 1)(0 2)009??31A??
+	Corymbia_variegata             104?120(1 3)(0 1 3)?1(0 2)007??246??
+	Corymbia_watsoniana            102?1203(2 3)?0(0 2)006??235??
+	Corymbia_xanthope              101?11030?1(0 2)001??311??
+	Corymbia_zygophylla            101?11(0 1)8(0 1)?0(0 2)00C??31D??
+	Decaspermum_humile             ??????????????????????
+	Eucalyptopsis_alauda           E?????09?????????0????
+	Eucalyptopsis_papuana          E?????09?????????0????
+	Eucalyptus_abdita              3?J?T?170?1102??jCM??U
+	Eucalyptus_absita              39V0PU170?1102??5CV??3
+	Eucalyptus_acaciiformis        39S0cJ012?1(0 2)00?n?CS?d?
+	Eucalyptus_accedens            39J7TM07(3 6)?1000??7CM??7
+	Eucalyptus_acies               4871BD17(0 3)?0102a??9Db??
+	Eucalyptus_acmenoides          48A2EG0(1 3)(0 2 3 4)?(0 1)000t??9Ec??
+	Eucalyptus_acroleuca           39V0PU031?(0 1)000??0CV??0
+	Eucalyptus_aequioperta         39Z0hW(0 1)71?1(0 1)03??KCX??G
+	Eucalyptus_agglomerata         48D4JG0(1 6)(0 2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_aggregata           39S0cJ0(1 6)(2 3 4)?1(0 2)00?X?CS?S?
+	Eucalyptus_alaticaulis         39S0cJ(0 1)(1 6)(0 2 3 4)01(0 2)00?e?CS?Z?
+	Eucalyptus_alba                39N0ZR0(2 8)(0 1 4)?(0 1)(0 2)00?Q?CR?M?
+	Eucalyptus_albens              39V0PU0(1 3 4 6)(2 3 4)?(1 2)000??5CV??6
+	Eucalyptus_albida              39J0TM170?0????F?CJ?E?
+	Eucalyptus_albopurpurea        3?V?P?140?(0 1)102??5CV??6
+	Eucalyptus_alipes              3?J?P?(0 2)71?1414??XCM??Y
+	Eucalyptus_alligatrix          39S0cJ06(3 4)?1000?k?CS?W?
+	Eucalyptus_amplifolia          39N0ZR01(0 2 3 4)?(0 1)025?V?CR?Q?
+	Eucalyptus_amygdalina          48B3GG05(0 1 2 3)?(0 1)(0 2)00c??9Ee??
+	Eucalyptus_ancophila           39V0PU01(0 3 4)01(0 2)00??6CV??5
+	Eucalyptus_andrewsii           48C1HG0(1 3)(0 1 2 3)?1000g??9Ej??
+	Eucalyptus_angophoroides       39S0cJ0(1 6)(0 3 4)?(0 1)(0 2)00?g?CS?b?
+	Eucalyptus_angulosa            39Z0hW1(4 7)0?(0 1)102??JCX??F
+	Eucalyptus_angustissima        39J0TM170?0102?8?CJ?9?
+	Eucalyptus_annulata            39J7TM17(0 1)?1102??XCM??Y
+	Eucalyptus_apiculata           48E5KG11(2 3)?1102m??9En??
+	Eucalyptus_apodophylla         39N0ZR0(2 8)1?(0 1 2)(0 2)00?Q?CR?M?
+	Eucalyptus_apothalassica       48A2EG0(1 3)(1 2)?(0 1)000t??9Ec??
+	Eucalyptus_approximans         48E5KG11(2 3)?1102m??9En??
+	Eucalyptus_aquilina            4871BD17??(0 1)102W??9DX??
+	Eucalyptus_arachnae            39J7TM17(1 6)?1102??jCM??U
+	Eucalyptus_arborella           3?J?T?(0 2)7(0 6)?1414??jCM??b
+	Eucalyptus_arenacea            48D4JG(0 1)(4 6)1?0(0 2)00e??9Eg??
+	Eucalyptus_argillacea          39V0PU08(1 4)?(1 2)000??0CV??0
+	Eucalyptus_argophloia          39V0PU031?1000??ECV??B
+	Eucalyptus_argutifolia         39Z0hW17(0 3)?1102??HCX??E
+	Eucalyptus_argyphea            39J0TM(0 2)7(0 6)?1414?9?CJ?A?
+	Eucalyptus_aromaphloia         39S0cJ06(0 1 3 4)?1(0 2)00?n?CS?d?
+	Eucalyptus_articulata          3?J?T?171?0102??bCM??V
+	Eucalyptus_aspersa             39J0TM(0 1)71?1102?A?CJ?3?
+	Eucalyptus_aspratilis          39J7TM17??0102??XCM??Y
+	Eucalyptus_assimilans          39Z0hW(0 2)71?1414??HCX??E
+	Eucalyptus_astringens          39J7TM(0 2)7(0 3 6)?1414??XCM??Y
+	Eucalyptus_atrata              39V0PU03(2 3)?1000??8CV??8
+	Eucalyptus_badjensis           39S0cJ013?1????j?CS?c?
+	Eucalyptus_baeuerlenii         39S0cJ(0 1)13?1102?q?CS?f?
+	Eucalyptus_baileyana           54??680(1 3)(0 1 2 3)?(0 1)(0 2)00G??68J??
+	Eucalyptus_bakeri              39J0TM(0 1)(1 3)(1 2 3)?(0 1)102?7?CJ?8?
+	Eucalyptus_balanites           39J0TM(0 1)71?0????9?CJ?A?
+	Eucalyptus_balanopelex         39J0PM170?0102?9?CJ?A?
+	Eucalyptus_balladoniensis      39J0TM171?(0 1)102?C?CJ?C?
+	Eucalyptus_barberi             39S0cJ(0 1)50?1102?d?CS?S?
+	Eucalyptus_baueriana           39V0PU0(1 6)(0 2 3 4)?1(0 2)00??9CV??9
+	Eucalyptus_baxteri             48D4JG(0 1)(1 4 6)(0 1 3 4)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_beaniana            39V0PU033?1000??8CV??8
+	Eucalyptus_beardiana           39J0TM170?0102?4?CJ?5?
+	Eucalyptus_behriana            39V0PU(0 1)(1 4 6)(1 3 4)?1000??5CV??4
+	Eucalyptus_bensonii            48D4JG(0 1)13?1(0 2)00e??9Eg??
+	Eucalyptus_benthamii           39S0cJ01401(0 2)00??2CS?c?
+	Eucalyptus_beyeriana           39V0PU????1(0 2)00??6CV??8
+	Eucalyptus_blakelyi            39N0ZR0(1 3 6)(1 2 3 4)?(0 1)000?V?CR?Q?
+	Eucalyptus_blaxellii           39J7TM17(0 3)?1102??bCM??V
+	Eucalyptus_blaxlandii          48D4JG01(0 2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_boliviana           4?D?J?(0 1)1(2 3)?1(0 2)00u??9Ep??
+	Eucalyptus_bosistoana          39V0PU0(1 6)(0 2 3 4)01000??ECV??A
+	Eucalyptus_botryoides          39P?VN0(1 6)(0 4)?(0 1)000?H?CK?F?
+	Eucalyptus_brachyandra         6B?0WP(0 1)(2 8)3?1000?K?CN?G?
+	Eucalyptus_brachycalyx         39Z0hW(0 1)(4 7)(0 1 3)?(0 1)102??GCX??D
+	Eucalyptus_brachycorys         39Z0hW17(1 4)?0102??KCX??G
+	Eucalyptus_brachyphylla        3?J?T?(0 1)7??0102??cCM??W
+	Eucalyptus_brassiana           39N0ZR03(0 1)0(0 1)000?U?CR?R?
+	Eucalyptus_brevifolia          39T0dR(0 1)(2 8)(1 3)?(0 1)000?a?CT??T
+	Eucalyptus_brevipes            39J0TM17??(0 1)(1 3)02??MCJ??H
+	Eucalyptus_brevistylis         4881CF07(0 4)?(0 1)000S??9CU??
+	Eucalyptus_bridgesiana         39S0cJ0(1 3 6)(2 3)01(0 2)00?g?CS?b?
+	Eucalyptus_brockwayi           39J0TM071?1011?D?CJ?D?
+	Eucalyptus_brookeriana         39S0cJ0(5 6)(0 2 3 4)?(0 1)(0 2)00?X?CS?S?
+	Eucalyptus_brunnea             39P?VN0(1 3)(0 2 3 4)?1023?G?CK?F?
+	Eucalyptus_buprestium          4871BD170?1102Q??9DR??
+	Eucalyptus_burdettiana         39J7TM170?(0 1)102??eCM??b
+	Eucalyptus_burgessiana         48E5KG(0 1)1(0 2 3)?(0 1)102m??9En??
+	Eucalyptus_burracoppinensis    39J0TM171?(0 1)102?4?CJ?5?
+	Eucalyptus_cadens              39S0cJ06(1 4)?1(0 2)00?X?CS?S?
+	Eucalyptus_caesia              39J0TM(0 1)7??1102?5?CJ?6?
+	Eucalyptus_calcareana          39Z0hW(0 1)(4 7)0?(0 1)(1 3)02??HCX??E
+	Eucalyptus_calcicola           4871BD170?0102U??9DW??
+	Eucalyptus_caleyi              39V0PU0(1 3)(2 3)?1(0 2)00??6CV??8
+	Eucalyptus_caliginosa          48D4JG0(1 3)(2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_calycogona          39J0TM1(4 6 7)(0 1)?(0 1)(1 3)02??MCJ??H
+	Eucalyptus_camaldulensis       39N0ZR0(1 3 4 6)(0 1 2 4)?(0 1)025?W?CR?K?
+	Eucalyptus_campaspe            39J7TM(0 2)71?1414??YCM??Q
+	Eucalyptus_camphora            39S0cJ(0 1)(1 3)(2 3 4)?(0 1)(0 2)00?X?CS?S?
+	Eucalyptus_canaliculata        39P?VN013?1023???CK?N?
+	Eucalyptus_canescens           39Z0hR141?0102??HCX??E
+	Eucalyptus_canobolensis        3?S?c?013?1(0 2)00?h?CS?c?
+	Eucalyptus_capillosa           39J7TM071?1(0 2)00??jCM??U
+	Eucalyptus_capitellata         48D4JG01(0 3)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_captiosa            39Z0hW17(0 6)?(0 1)102??JCX??F
+	Eucalyptus_carnabyi            3?J?T?17(0 6)?(0 1)102?4?CJ?5?
+	Eucalyptus_carnea              48A2EG0(1 3)(0 3)?(0 1)000t??9Ec??
+	Eucalyptus_carnei              39J7TM(0 1)7(1 6)?1414??ZCM??R
+	Eucalyptus_castrensis          3?V?P?(0 1)(1 3 4 6)(1 3 4)?(0 1)102??CCV??6
+	Eucalyptus_celastroides        39J0TM(0 1)71?1(1 3)02??MCJ??H
+	Eucalyptus_cephalocarpa        39S0cJ0(1 6)(0 3)?1000?k?CS?W?
+	Eucalyptus_ceracea             54??68(0 1)8(0 3)?(0 1)(0 2)00F??68G??
+	Eucalyptus_cerasiformis        39J7TM171?1102??dCM??X
+	Eucalyptus_ceratocorys         39Z0hW(0 1)(4 7)(0 1)?0102??JCX??F
+	Eucalyptus_cernua              3?J?T?(0 2)74?1414??fCM??Z
+	Eucalyptus_chartaboma          5???6?031?1(0 2)00F??68G??
+	Eucalyptus_chlorophylla        39V0PU(0 1)(2 3 8)(0 1)?(0 1)000??0CV??0
+	Eucalyptus_cinerea             39S0cJ0(1 6)(2 3 4)01000?k?CS?W?
+	Eucalyptus_cladocalyx          39Y?gV04(0 1 3)?1016??FCW??C
+	Eucalyptus_clelandii           39Z0hW(0 1 2)71?1414??HCX??E
+	Eucalyptus_clivicola           39J7TM(0 2)7(0 6)?(0 1)414??jCM??U
+	Eucalyptus_cloeziana           77?0AC03(0 1 3)?(0 1)000N??8BP??
+	Eucalyptus_cneorifolia         39J0TM(0 1)40?(0 1)102?8?CJ?9?
+	Eucalyptus_comitae             39Z0hW17(1 4)?0102??KCX??G
+	Eucalyptus_communalis          3?J?T?170?0102?9?CJ?A?
+	Eucalyptus_concinna            39Z0hW(0 1)(4 7)1?0102??GCX??D
+	Eucalyptus_conferruminata      39J7TM(0 1 2)70?(0 1)414??eCM??b
+	Eucalyptus_confluens           39T0dR0(2 8)3?(0 1)000?a?CT??T
+	Eucalyptus_conglobata          39Z0hW(0 1)(4 7)0?(0 1)102??HCX??E
+	Eucalyptus_conglomerata        48D4JG(0 1)30?0(0 2)00e??9Eg??
+	Eucalyptus_conica              39V0PU0(1 3)(1 2 4)?1(0 2)00??9CV??9
+	Eucalyptus_consideniana        48C1HG(0 1)(1 6)(0 3 4)?(0 1)000g??9Ej??
+	Eucalyptus_conspicua           39S0cJ0(1 6)(0 3 4)?(0 1)000?k?CS?W?
+	Eucalyptus_conveniens          55??7A170?0102J??69K??
+	Eucalyptus_coolabah            39V0PU0(1 2 3 4 8)1?(0 1)000??0CV??0
+	Eucalyptus_cooperiana          39J0TM170?(0 1)102?E?CJ?A?
+	Eucalyptus_cordata             39S0cJ05(0 3)?1(0 1)03?d?CS?Y?
+	Eucalyptus_cornuta             39J7TM(0 1)7(0 3 4)0(0 1)(0 2)00??hCM??b
+	Eucalyptus_coronata            4871BD17(0 3)?1102W??9DX??
+	Eucalyptus_corrugata           39Z0hW(0 1)71?1102??GCX??D
+	Eucalyptus_corticosa           39S0cJ013?1(0 2)00?n?CS?d?
+	Eucalyptus_cosmophylla         39M?YQ(0 1)4(0 3)?(0 1)(0 2)00?N?CQ?J?
+	Eucalyptus_crebra              39V0PU0(1 3)(0 1 2 3 4)?(0 1)000??8CV??8
+	Eucalyptus_crenulata           39S0cJ064?1(0 1)02?f?CS?a?
+	Eucalyptus_creta               39J7TM(0 2)7(0 1)??414??YCM??Q
+	Eucalyptus_cretata             39Z0hW141?1102??HCX??E
+	Eucalyptus_croajingolensis     48B3GG0(1 6)(0 3 4)01(0 2)00k??9Ee??
+	Eucalyptus_crucis              39J0TM(0 1)7??1102?4?CJ?5?
+	Eucalyptus_cunninghamii        48E5KG113?1102m??9En??
+	Eucalyptus_cuprea              39V0PU(0 1)70?1102??5CV??3
+	Eucalyptus_cupularis           39N0ZR0(2 8)(1 3)0(0 1)(0 2)00?Q?CR?M?
+	Eucalyptus_curtisii            82?046(0 1)3(0 1 3)?1102D??57E??
+	Eucalyptus_cuspidata           39Z0hW1(4 7)0?(0 1)102??JCX??F
+	Eucalyptus_cyanophylla         39Z0hW1(4 6)1?0102??HCX??E
+	Eucalyptus_cyclostoma          39Z0hW171?1102??KCX??G
+	Eucalyptus_cylindriflora       39J7TM171?1102??dCM??X
+	Eucalyptus_cylindrocarpa       39Z0hW(0 1)71?1102??KCX??G
+	Eucalyptus_cypellocarpa        39S0cJ(0 1)(1 6)(0 2 3 4)01(0 2)00?e?CS?Z?
+	Eucalyptus_dalrympleana        39S0cJ0(1 4 5 6)(0 2 3)?1(0 2)00?h?CS?c?
+	Eucalyptus_dawsonii            39V0PU01(1 2)?1000??DCV??4
+	Eucalyptus_dealbata            39N0ZR0(1 3)(1 2 3)?(0 1)000?V?CR?Q?
+	Eucalyptus_deanei              39P?VN0(1 3)(0 2 3 4)?1023?G?CK?F?
+	Eucalyptus_decipiens           39J0TM(0 1)70?0102?9?CJ?A?
+	Eucalyptus_decolor             39V0PU033?1(0 2)00??6CV??5
+	Eucalyptus_decorticans         39V0PU033?1000??8CV??8
+	Eucalyptus_decurva             39J0TM17(0 3)?1102?2?CJ?2?
+	Eucalyptus_deflexa             39Z0hW170?(0 1)102??UCX??M
+	Eucalyptus_deglupta            6B?0XP?????014?M?CP?H?
+	Eucalyptus_delegatensis        48C1HG0(1 6)3?1014q??9Ef??
+	Eucalyptus_delicata            39J0TM(0 1)7(0 1)?1000?A?CJ?3?
+	Eucalyptus_densa               39J7TM(0 2)7(1 4)?1414??jCM??U
+	Eucalyptus_denticulata         39S0cJ0(1 6)3?1011?e?CS?Z?
+	Eucalyptus_depauperata         39J7TM170?(0 1)102??XCM??Y
+	Eucalyptus_desmondensis        39J7TM170?1102??jCM??U
+	Eucalyptus_deuaensis           48D4JG113?1(0 2)00u??9Ep??
+	Eucalyptus_dielsii             39J7TM(0 2)70?0414??dCM??X
+	Eucalyptus_diminuta            39J7TM17(0 6)?1102??XCM??Y
+	Eucalyptus_diptera             39J7TM(0 1 2)71?1414??YCM??Q
+	Eucalyptus_disclusa            39?0ZR0(1 3)3?(0 1)000?V?CR?Q?
+	Eucalyptus_discreta            39J0TM170?(0 1)102?F?CJ?E?
+	Eucalyptus_dissimulata         3?J?T?170?0102?F?CJ?E?
+	Eucalyptus_distans             39V0PU02(0 1)?1000??0CV??0
+	Eucalyptus_distuberosa         3?Z?h???????????HCX??E
+	Eucalyptus_diversicolor        39K?UN07(0 3 4)?1016?6?CK?7?
+	Eucalyptus_diversifolia        4871BD1(4 6)0?(0 1)102Q??9DR??
+	Eucalyptus_dives               48B3GG0(1 6)(2 3)?1???k??9Ee??
+	Eucalyptus_dolichocera         39J0TM(0 1)70?(0 1)102?A?CJ?3?
+	Eucalyptus_dolichorhyncha      39Z0hW(0 2)70?0414??QCX??F
+	Eucalyptus_dolorosa            4871BD17(0 3)?1102Q??9DR??
+	Eucalyptus_dorotoxylon         39J0TM(0 1)7??0102?2?CJ?2?
+	Eucalyptus_drummondii          39J0TM(0 1)73?1102?4?CJ?5?
+	Eucalyptus_dumosa              39Z0hW1(1 4 6)1?(0 1)102??HCX??E
+	Eucalyptus_dundasii            39J7TM071?1414??TCM??P
+	Eucalyptus_dunnii              39S0cJ0(1 3)(3 4)?1(0 2)00?g?CS?b?
+	Eucalyptus_dura                39V0PU033?1(0 2)00??6CV??5
+	Eucalyptus_dwyeri              39N0ZR(0 1)1(1 3)?1(0 2)00?V?CR?Q?
+	Eucalyptus_ebbanoensis         55??8A171?0102K??69M??
+	Eucalyptus_educta              39J0TM17??(0 1)102?4?CJ?5?
+	Eucalyptus_effusa              39J7TM17??1102??YCM??Q
+	Eucalyptus_elaeophloia         39S0cJ(0 1)63?1(1 3)02?Z?CS?f?
+	Eucalyptus_elata               48B3GG(0 1)(1 6)(0 2 4)0(0 1)(0 2)00k??9Ee??
+	Eucalyptus_elliptica           39S0cJ012?1(0 2)00?p?CS?e?
+	Eucalyptus_erectifolia         4871BD17(0 3)?(0 1)102Q??9DR??
+	Eucalyptus_eremicola           39J0TM1(4 7)1?0102?A?CJ?3?
+	Eucalyptus_eremophila          39J7TM(0 1 2)7(0 1)?(0 1)414??XCM??Y
+	Eucalyptus_erythrocorys        55??7A(0 1)70?0(0 2)00J??69K??
+	Eucalyptus_erythronema         39J7TM(0 1)70?(0 1)102??dCM??X
+	Eucalyptus_eudesmioides        55??7A1(7 8)0?0102J??69K??
+	Eucalyptus_eugenioides         48D4JG0(1 3)(0 2 3)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_ewartiana           39J0TM1(7 8)(1 3 6)?0102?4?CJ?5?
+	Eucalyptus_exigua              39Z0hW171?0102??KCX??G
+	Eucalyptus_exilipes            39V0PU031?(0 1)000??8CV??8
+	Eucalyptus_exilis              4871BD17??1102X??9DY??
+	Eucalyptus_extensa             39J7TM(0 2)71?(0 1)414??XCM??Y
+	Eucalyptus_extrica             5???7?170?0102J??69K??
+	Eucalyptus_falcata             39J0TM170?0102?9?CJ?A?
+	Eucalyptus_famelica            39Z0hW170?0102??SCX??F
+	Eucalyptus_farinosa            3?V?P?033?1000??8CV??8
+	Eucalyptus_fasciculosa         39V0PU0(4 6)(0 1 3)?(0 1)(0 2)00??9CV??9
+	Eucalyptus_fastigata           48E5KG0(1 6)(2 3 4)?1011h??9Ek??
+	Eucalyptus_fergusonii          39V0PU01(0 3)?(0 1)(0 2)00??6CV??5
+	Eucalyptus_fibrosa             39V0PU0(1 3)(0 1 2 3)?1000??8CV??8
+	Eucalyptus_flindersii          39N0ZR(0 1)4(3 4)?1102?V?CR?Q?
+	Eucalyptus_flocktoniae         39J0TM17(0 1 6)?1102?A?CJ?3?
+	Eucalyptus_foecunda            39J0TM170?0????F?CJ?E?
+	Eucalyptus_foliosa             39J0TM170?0102?8?CJ?9?
+	Eucalyptus_formanii            39J0TM(0 1)71?1????F?CJ?E?
+	Eucalyptus_forrestiana         39Z0hW(0 2)70?0414??QCX??F
+	Eucalyptus_fraseri             39Z0hW(0 2)7(1 3)?1414??HCX??E
+	Eucalyptus_fraxinoides         48C1HG0(1 6)(0 2 3)?1014q??9Ef??
+	Eucalyptus_frenchiana          3???h???????????HCX??E
+	Eucalyptus_froggattii          39V0PU(0 1)6(1 4)?1102??5CV??6
+	Eucalyptus_fruticosa           39J0TM1(7 8)0?0????F?CJ?E?
+	Eucalyptus_fulgens             3?S?c?06(0 4)?1(0 2)00?n?CS?d?
+	Eucalyptus_fusiformis          39V0PU0(1 3)(0 3)?1(0 2)00??6CV??5
+	Eucalyptus_gamophylla          55??791(2 3 4 7 8)(1 3)?(0 1)102J??69K??
+	Eucalyptus_gardneri            39J7TM(0 2)73?1414??jCM??U
+	Eucalyptus_georgei             39Z0hW(0 2)71?1414??HCX??E
+	Eucalyptus_gigantangion        54??6802(1 3)?(0 1)(0 2)00F??68G??
+	Eucalyptus_gillenii            39N0ZR1(2 4 7 8)??1102?V?CR?Q?
+	Eucalyptus_gillii              39J0TM(0 1)(1 4)(1 2 3)?1102?A?CJ?3?
+	Eucalyptus_gittinsii           55??7A170?0102J??69K??
+	Eucalyptus_glaucescens         39S0cJ(0 1)(1 6)3?1(0 1)03?d?CS?Y?
+	Eucalyptus_glaucina            39N0ZR01(0 2 3 4)?1000?V?CR?Q?
+	Eucalyptus_globoidea           48D4JG0(1 6)(0 3)?1(0 2)00e??9Eg??
+	Eucalyptus_globulus            39S0cJ0(5 6)(0 3 4)?(0 1)(0 2)00?e?CS?Z?
+	Eucalyptus_glomerosa           39J0TM(0 1)(4 7)1?0102?4?CJ?5?
+	Eucalyptus_gomphocephala       39a7jM07000016??gCY??a
+	Eucalyptus_gongylocarpa        55??790(2 4 7 8)1?(0 1)0?3H??69K??
+	Eucalyptus_goniantha           39J0TM(0 1)70?1102?9?CJ?A?
+	Eucalyptus_goniocalyx          39S0cJ0(1 4 6)(2 3)?1(0 2)00?e?CS?Z?
+	Eucalyptus_goniocarpa          39J7TM(0 2)70?1414??XCM??Y
+	Eucalyptus_gracilis            39J0TM(0 1)(1 4 6 7)(0 1 4)?(0 1)(1 3)02??MCJ??H
+	Eucalyptus_grandis             39P?VN0(1 3)(0 2 3 4)?1023?G?CK?F?
+	Eucalyptus_granitica           39V0PU03(2 3)?1000??8CV??8
+	Eucalyptus_gregoriensis        3?N?Z?(0 1)23?1??????CR?M?
+	Eucalyptus_gregsoniana         48C1HG11(2 3)?(0 1)(0 2)05p??9Eq??
+	Eucalyptus_griffithsii         39Z0hW(0 1)71?1102??GCX??D
+	Eucalyptus_grisea              39P?VN03(2 3)01023???CK?N?
+	Eucalyptus_grossa              39J7TM171?0102??aCM??S
+	Eucalyptus_guilfoylei          99??RK070?1000?0?AG?0?
+	Eucalyptus_gunnii              39S0cJ05(1 2 3)?1000?d?CS?Y?
+	Eucalyptus_gypsophila          3?Z?h?(0 1)(4 7)1?(0 1)102??HCX??E
+	Eucalyptus_haemastoma          48C1HG01(0 2 3)?(0 1)000g??9Ej??
+	Eucalyptus_hallii              39N0ZR030?1000?Y?CK?T?
+	Eucalyptus_halophila           39J0TM170?0102??NCJ??J
+	Eucalyptus_hebetifolia         3?J?T?171?1102??jCM??U
+	Eucalyptus_herbertiana         39N0ZR(0 1)(2 3 8)3?1(0 2)00?Q?CR?M?
+	Eucalyptus_histophylla         39J7TM(0 1)7(1 6)?1102??jCM??U
+	Eucalyptus_horistes            39J0TM(0 1)71?(0 1)????A?CJ?E?
+	Eucalyptus_houseana            39N0ZR08(1 2 3)0(0 1)(0 2)00?Q?CR?M?
+	Eucalyptus_howittiana          6B?0WP03(0 3)?1000?K?CN?G?
+	Eucalyptus_hypolaena           39J0TM(0 1)71?(0 1)(0 1)02?A?CJ?3?
+	Eucalyptus_ignorabilis         39S0cJ0(1 6)(0 3 4)?1(0 2)00?n?CS?d?
+	Eucalyptus_imlayensis          39S0cJ113?1102?Z?CS?f?
+	Eucalyptus_impensa             3???T?170?1????4?CJ?5?
+	Eucalyptus_incerata            39J7TM171?(0 1)102??XCM??Y
+	Eucalyptus_incrassata          39Z0hW1(1 4 6 7)(0 1)?0102??JCX??F
+	Eucalyptus_indurata            39J0TM(0 1)7(0 1)?0102?C?CJ?C?
+	Eucalyptus_infera              39N0ZJ(0 1)31?1102?V?CR?Q?
+	Eucalyptus_insularis           4871BD17??1102Y??9DZ??
+	Eucalyptus_interstans          39R0bR0(1 3)3?(0 1)000?T?CR?Q?
+	Eucalyptus_intertexta          39V0PU0(1 2 3 4 7 8)(1 3 4)0(0 1)000??5CV??4
+	Eucalyptus_jacksonii           4871BE07(0 4)?(0 1)(0 2)00T??9CV??
+	Eucalyptus_jimberlanica        39J7TM(0 2)71?(0 1)414??YCM??Q
+	Eucalyptus_johnsoniana         4871BD170?0102Q??9DS??
+	Eucalyptus_jucunda             55??7A(0 1)70?0102H??69K??
+	Eucalyptus_jutsonii            39J0TM171?0102?7?CJ?8?
+	Eucalyptus_kartzoffiana        39S0cJ01(2 3 4)01????m?CS?c?
+	Eucalyptus_kessellii           39J0TM(0 1)70?0102?9?CJ?A?
+	Eucalyptus_kingsmillii         39J0TM(0 1)(7 8)(1 3)?(0 1)102?4?CJ?5?
+	Eucalyptus_kitsoniana          39S0cJ(0 1)6(0 4)?1102??1CS??1
+	Eucalyptus_kochii              39J0TM(0 1)71?1102?A?CJ?3?
+	Eucalyptus_kondininensis       39Z0hW(0 1)71?1414??HCX??E
+	Eucalyptus_koolpinensis        39V0PU021?1000??0CV??0
+	Eucalyptus_kruseana            39J7TM17??1102??cCM??W
+	Eucalyptus_kumarlensis         39J0TM(0 1)71?(0 1)011?F?CJ?E?
+	Eucalyptus_kybeanensis         48E5KG(0 1)(1 6)3?1102r??9En??
+	Eucalyptus_lacrimans           48C1HG01(2 3)01(0 2)05p??9Eq??
+	Eucalyptus_laeliae             39J7TM07401000??7CM??7
+	Eucalyptus_laevopinea          48D4JG0(1 3)(2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_lanepoolei          39J0TM(0 1)7(0 3)?(0 1)(0 2)00?4?CJ?5?
+	Eucalyptus_langleyi            48E5KG110?(0 1)102m??9En??
+	Eucalyptus_lansdowneana        39V0PU(0 1)43?1102??5CV??3
+	Eucalyptus_largeana            39V0PU013?1000??5CV??4
+	Eucalyptus_largiflorens        39V0PU0(1 3 4 6)(1 4)?(1 2)000??5CV??4
+	Eucalyptus_latens              39J0TM171?1????F?CJ?E?
+	Eucalyptus_lateritica          4871BD17(0 3)?1102Q??9DR??
+	Eucalyptus_latisinensis        4?A?E?030?0000t??9Ec??
+	Eucalyptus_lehmanii            39J7TM170?(0 1)102??eCM??b
+	Eucalyptus_leptocalyx          39Z0hW170?(0 1)102??PCX??K
+	Eucalyptus_leptophleba         39V0PU03(0 1 2 3)??000??0CV??0
+	Eucalyptus_leptophylla         39J0TM1(1 4 6 7)(0 1)?(0 1)102?F?CJ?E?
+	Eucalyptus_leptopoda           39J0TM(0 1)71?0102?4?CJ?5?
+	Eucalyptus_lesouefii           39Z0hW(0 2)71?1414??HCX??E
+	Eucalyptus_leucophloia         39T0dR(0 1)83?1000?a?CT??T
+	Eucalyptus_leucoxylon          39V0PU0(1 4 6)(0 3 4)0(0 1)(0 2)00??BCV??A
+	Eucalyptus_ligulata            4871BD17??0102U??9DW??
+	Eucalyptus_ligustrina          48D4JG(0 1)1(2 3)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_limitaris           39V0PU(0 1)(2 8)1?(0 1)000??0CV??0
+	Eucalyptus_lirata              54??68(0 1)8(1 3)?1(0 2)00F??68H??
+	Eucalyptus_litorea             3?Z?h?170?0102??SCX??F
+	Eucalyptus_livida              39J7TM(0 1)71?1102??jCM??U
+	Eucalyptus_lockyeri            39N0ZR(0 1)3(1 2 3)?1000?U?CR?R?
+	Eucalyptus_longicornis         39J0TM(0 1)71?1000?A?CJ?3?
+	Eucalyptus_longifolia          39W?fQ01(0 3)?1000??4CQ?J?
+	Eucalyptus_longirostrata       39P?VN03(0 1 3 4)0(0 1)023???CK???
+	Eucalyptus_loxophleba          39J7TM(0 1)71?(0 1)000??bCM??V
+	Eucalyptus_lucasii             39V0PU(0 1)(7 8)(1 3)?(0 1)102??5CV??3
+	Eucalyptus_lucens              39V0PU12(1 3)?1102??9CV??9
+	Eucalyptus_luculenta           39J0TM170?(0 1)102?A?CJ?3?
+	Eucalyptus_luehmanniana        48C1HG110?(0 1)102q??9Ef??
+	Eucalyptus_macarthurii         39S7cM01(2 3)01(0 2)00?X?CS?S?
+	Eucalyptus_mackintii           49D0JJ060?0(0 2)00e??9Eg??
+	Eucalyptus_macrandra           39J7TM(0 1)7001102??XCM??b
+	Eucalyptus_macrocarpa          39J0TM17(0 1)?0102?4?CJ?5?
+	Eucalyptus_macrorhyncha        48D4JG0(1 4 6)(1 2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_magnificata         39V0PU(0 1)(1 3)2?1(0 2)00??9CV??9
+	Eucalyptus_major               39P?VN03(0 2 3)?(0 1)023?Y?CK?T?
+	Eucalyptus_malacoxylon         39S0cJ01(2 3)?1(0 2)00?g?CS?b?
+	Eucalyptus_mannensis           39J0TM(0 1)(2 4 7 8)1?0102?7?CJ?8?
+	Eucalyptus_mannifera           39S0cJ0(1 6)(2 3)?1(0 2)00?p?CS?e?
+	Eucalyptus_marginata           4871BE(0 1)7(0 3 4 6)?1(0 2)00R??9CT??
+	Eucalyptus_mckieana            48D4JG01(1 2)?1(0 2)00e??9Eg??
+	Eucalyptus_mcquoidii           3?J?T?(0 1 2)70?0414??jCM??b
+	Eucalyptus_medialis            39J7TM17(1 4)?0102??jCM??U
+	Eucalyptus_megacarpa           4871BD(0 1)7(0 3)?0(0 2)03W??9DX??
+	Eucalyptus_megacornuta         39J7TM(0 2)7(0 3)?1414??eCM??b
+	Eucalyptus_melanoleuca         39V0PU03(1 3)?1(0 2)00??6CV??5
+	Eucalyptus_melanophitra        39J7TM(0 2)7(0 6)?1414??jCM??U
+	Eucalyptus_melanophloia        39V0PU(0 1)(1 3)(1 2 3)?(0 1)000??8CV??8
+	Eucalyptus_melanoxylon         39Z0PW(0 1)71?1(0 2)03??GCX??D
+	Eucalyptus_melliodora          39V0PU0(1 3 6)(1 2 3 4)?1(0 2)00??BCV??A
+	Eucalyptus_merrickiae          39Z0hW170?0102??VCX??M
+	Eucalyptus_michaeliana         39U0eT0(1 3)2?1000?b?CU?V?
+	Eucalyptus_micranthera         39J0TM170?0102?7?CJ?8?
+	Eucalyptus_microcarpa          39V0PU(0 1)(1 3 4 6)(1 4)?(1 2)000??5CV??6
+	Eucalyptus_microcorys          AA??S?0(1 3)(0 3)?1000?1?BH?1?
+	Eucalyptus_microneura          39V0PU031?1000??0CV??0
+	Eucalyptus_microschema         39J7TM170?(0 1)?????jCM??U
+	Eucalyptus_microtheca          39V0PU(0 1)(2 3 8)(0 1)?(1 2)000??0CV??0
+	Eucalyptus_mimica              39J7TM(0 2)70?1414??XCM??Y
+	Eucalyptus_miniata             54??680(2 3 8)(0 1 3)?(0 1)(0 2)00F??68G??
+	Eucalyptus_minigwalica         3???T??????????F?CJ?E?
+	Eucalyptus_minniritchi         39J0TM1(2 4 7 8)??(0 1)102?4?CJ?5?
+	Eucalyptus_misella             39J0TM170?0102?8?CJ?9?
+	Eucalyptus_mitchelliana        48F6MG(0 1)63?1(1 3)02j??9Em??
+	Eucalyptus_moderata            39J0TM(0 1)71?(0 1)(0 1)02?A?CJ?3?
+	Eucalyptus_moluccana           39V0PU0(1 3)(0 1 2 3)?(0 1 2)000??5CV??6
+	Eucalyptus_mooreana            39N0ZR(0 1)83?1(0 2)00?Q?CR?M?
+	Eucalyptus_moorei              48F6MG11(2 3)?1102j??9Em??
+	Eucalyptus_morrisbyi           39S0cJ050?(0 1)000?d?CS?Y?
+	Eucalyptus_morrisii            39N0ZR(0 1)1(1 3)?1102?U?CR?R?
+	Eucalyptus_muelleriana         48D4JG0(1 6)(0 3 4)?1(0 2)00e??9Eg??
+	Eucalyptus_multicaulis         48C1HG11(0 2 3)?(0 1)102g??9Ej??
+	Eucalyptus_myriadena           39Z0hW(0 1)7(1 4)?1(0 1)03??KCX??G
+	Eucalyptus_nanderwairca        39N0ZR(0 1)13?1(0 2)00?V?CR?Q?
+	Eucalyptus_neglecta            39S0cJ(0 1)6(2 3 4)01(0 1)03?c?CS?X?
+	Eucalyptus_nerthicola          3?????????????????????
+	Eucalyptus_neutra              3?J?T?17(0 6)?1102?A?CJ?3?
+	Eucalyptus_newbeyi             39J7TM(0 2)70?1414??eCM??b
+	Eucalyptus_nicholii            39S0cJ012?1(0 2)00?n?CS?d?
+	Eucalyptus_nitens              39S0cJ0(1 6)(2 3)?1011?e?CS?Z?
+	Eucalyptus_nitida              48B3GG(0 1)5(0 1 2 3 4)?(0 1)(0 2)00c??9Ee??
+	Eucalyptus_nobilis             39S0cJ0(1 3)(2 3)?1(0 2)00?h?CS?c?
+	Eucalyptus_normantonensis      39V0PU(0 1)(2 3 8)(0 1 3)?(0 1)102??5CV??4
+	Eucalyptus_nortonii            39S0cJ0(1 6)(2 3)?1(0 2)00?e?CS?Z?
+	Eucalyptus_nova                39S0cJ0(1 3)(2 3)?1000?k?CS?W?
+	Eucalyptus_nudicaulis          39N0ZR133?1102?V?CR?Q?
+	Eucalyptus_nutans              3?J?T?(0 2)700(0 1)414??XCM??Y
+	Eucalyptus_obconica            3?V?P?(0 1)8(1 3)?1000??0CV??0
+	Eucalyptus_obesa               3?J?T?170?0102?9?CJ?A?
+	Eucalyptus_obliqua             48E5KG(0 1)(1 3 4 5 6)(0 1 2 3)?(0 1)000t??9Er??
+	Eucalyptus_oblonga             48D4JG0(1 6)(0 3)?1(0 2)00e??9Eg??
+	Eucalyptus_obtusiflora         39Z0hW(0 1)7(0 1)?(0 1)102??HCX??E
+	Eucalyptus_occidentalis        39J7TM(0 1)70?1(0 2)00??XCM??Y
+	Eucalyptus_ochrophloia         39V0PU0(1 3)1?(0 1 2)000??ACV??6
+	Eucalyptus_odontocarpa         55??791(2 3 8)1?(0 1)102J??69K??
+	Eucalyptus_oldfieldii          39J0TM(0 1)(7 8)(0 1 6)?0102?4?CJ?5?
+	Eucalyptus_oleosa              39J0TM(0 1)(1 4 6 7)(0 1 4)?(0 1)102?A?CJ?3?
+	Eucalyptus_olida               48C1HG01(2 3)?1000g??9Ej??
+	Eucalyptus_oligantha           39V0PU0(2 8)(0 1 4)?1000??0CV??0
+	Eucalyptus_olivina             3?J?T?(0 1)71?(0 1)102?F?CJ?E?
+	Eucalyptus_olsenii             48G4NG(0 1)13?10?1n??9Ep??
+	Eucalyptus_ophitica            39V0PU01(0 3)?1000??8CV??8
+	Eucalyptus_optima              39J0TM(0 2)71?(0 1)414?A?CJ?3?
+	Eucalyptus_oraria              39Z0hW(0 1)70?1102??KCX??G
+	Eucalyptus_orbifolia           39J0TM1(2 4 7 8)??(0 1)102?4?CJ?5?
+	Eucalyptus_oreades             48C1HG0(1 3)(2 3)?1014q??9Ef??
+	Eucalyptus_orgadophila         39V0PU03131000??5CV??4
+	Eucalyptus_ornata              39J0TM(0 2)71?1414?9?CJ?A?
+	Eucalyptus_orthostemon         3?J?T?17(1 4)?(0 1)102??XCM??Y
+	Eucalyptus_ovata               39S0cJ0(1 4 5 6)(0 1 2 4)?(0 1)(0 2)00?X?CS?S?
+	Eucalyptus_ovularis            39Z0hW(0 1)7(0 1 4)?1(0 1)03??KCX??G
+	Eucalyptus_oxymitra            39J0TM1(2 4 7 8)1?(0 1)102?4?CJ?5?
+	Eucalyptus_pachycalyx          39J0TM03(2 3)?1000?3?CJ?4?
+	Eucalyptus_pachyloma           4871BD17(0 3)?(0 1)102Q??9DR??
+	Eucalyptus_pachyphylla         39J0TM1(2 3 8)1?(0 1)102?4?CJ?5?
+	Eucalyptus_paedoglauca         39V0PU033?1000??8CV??8
+	Eucalyptus_paliformis          48E5KG013?1012m??9En??
+	Eucalyptus_paludicola          3?M?Y?(0 1)4(0 4)?(0 1)(0 2)00?N?CQ?J?
+	Eucalyptus_panda               39V0PU0(1 3)(1 2 3)?(0 1)(0 2)00??6CV??8
+	Eucalyptus_paniculata          39V0PU01(0 3)?(0 1)(0 2)00??6CV??5
+	Eucalyptus_parramattensis      39R0bR01(0 3 4)?(0 1)000?T?CR?Q?
+	Eucalyptus_parvula             39S0cJ012?1000??0CS?d?
+	Eucalyptus_patellaris          39V0PU021?1000??0CV??0
+	Eucalyptus_patens              4871BD07(0 4)01(0 2)00P??9CQ??
+	Eucalyptus_pauciflora          48C1HG(0 1)(1 3 4 5 6)(0 2 3 4)?1(0 2)05p??9Eq??
+	Eucalyptus_pellita             39P?VN03(0 3 4)?1000?H?CK?F?
+	Eucalyptus_pendens             4871BD17(0 6)?(0 1)102X??9DY??
+	Eucalyptus_perangusta          39J0TM170?0102?F?CJ?E?
+	Eucalyptus_percostata          39Z0hW143?1102??HCX??E
+	Eucalyptus_perriniana          39S0cJ(0 1)(1 5 6)(2 3)?1(1 3)02?d?CS?Y?
+	Eucalyptus_persistens          39V0PU(0 1)3(0 1)?1000??5CV??4
+	Eucalyptus_petiolaris          39V0PU040?1(0 2)00??BCV??A
+	Eucalyptus_petraea             39V0PU(0 1)7??(0 1)102??5CV??3
+	Eucalyptus_petrensis           39J0TM170?0102?9?CJ?A?
+	Eucalyptus_phaenophylla        39J7TM17(0 1)?(0 1)102??jCM??U
+	Eucalyptus_phenax              39Z0hW1(4 6 7)(0 1 3)?1102??HCX??E
+	Eucalyptus_phoenicea           54??68(0 1)(2 3 8)(1 3)?(0 1)(0 2)00F??68G??
+	Eucalyptus_pilbarensis         39J7TM183?1102??7CM??7
+	Eucalyptus_pileata             39Z0hW(0 1)7(0 1 3)?(0 1)102??HCX??E
+	Eucalyptus_pilligaensis        39V0PU0(1 3)(1 2)?(0 1)000??5CV??6
+	Eucalyptus_pilularis           48H3QG0(1 3)(0 3)?(0 1)011v??9Es??
+	Eucalyptus_pimpiniana          39Z0hW1(4 7)1?0102??RCX??N
+	Eucalyptus_piperita            48C1HG01(0 2 3)?(0 1)000w??9Et??
+	Eucalyptus_placita             39V0PU01(0 3)?1(0 2)00??6CV??5
+	Eucalyptus_planchoniana        4891DG0(1 3)(0 3)?(0 1)000Z??9Ea??
+	Eucalyptus_platycorys          39Z0hW(0 1)71?(0 1)102??PCX??K
+	Eucalyptus_platydisca          4871BD17(1 3)?1102Q??9DR??
+	Eucalyptus_platyphylla         39N0ZR03(0 3 4)3(0 1)(0 2)00?Q?CR?M?
+	Eucalyptus_plauta              3?J?T?170?0102?F?CJ?E?
+	Eucalyptus_pleurocarpa         55??7A170?0102J??69K??
+	Eucalyptus_pluricaulis         39J7TM17(0 3 6)?(0 1)102??jCM??U
+	Eucalyptus_polita              3?Z?h?(0 2)71?(0 1)414??HCX??E
+	Eucalyptus_polyanthemos        39V0PU01(2 3)?1(0 2)00??9CV??9
+	Eucalyptus_polybractea         39V0PU(0 1)(1 4 6)(1 3)?1102??5CV??6
+	Eucalyptus_populnea            39V0PU0(1 3)(1 2 3 4)?(1 2)000??5CV??4
+	Eucalyptus_porosa              39V0PU(0 1)(1 4 6)(0 1 3)?(0 1)(0 2)00??5CV??A
+	Eucalyptus_praetermissa        39J7TM(0 2)70?0414??jCM??U
+	Eucalyptus_prava               39R0bR0(1 3)3?1000?T?CR?Q?
+	Eucalyptus_preissiana          4871BD17(0 3)?(0 1)102W??9DX??
+	Eucalyptus_prolixa             3?J?T?(0 2)71?1414??MCJ??H
+	Eucalyptus_prominens           39J7TM1(7 8)0?0102??7CM??7
+	Eucalyptus_propinqua           39P?VN0(1 3)(0 3)?(0 1)023?Y?CK?T?
+	Eucalyptus_protensa            39J7TM(0 1 2)71?1414??XCM??Y
+	Eucalyptus_proxima             39J0TW17(0 3)?(0 1)102??fCM??Z
+	Eucalyptus_pruiniramis         39J7TM(0 1)70??102??7CM??7
+	Eucalyptus_pruinosa            39V0PU(0 1)(2 3 8)(1 4)?1000??0CV??0
+	Eucalyptus_pterocarpa          39Z0hW(0 2)71?1414??HCX??E
+	Eucalyptus_pulchella           48B3GG05(0 3 4)?1(0 2)00c??9Ee??
+	Eucalyptus_pulverulenta        39S0cJ(0 1)13?1102?d?CS?Y?
+	Eucalyptus_pumila              39Q?aS113?1102?S?CK?P?
+	Eucalyptus_purpurata           3?J?T?07(0 3 6)?1414?9?CJ?A?
+	Eucalyptus_pyriformis          39J0TM170?(0 1)102?4?CJ?5?
+	Eucalyptus_pyrocarpa           48H3QG010?(0 1)011v??9Es??
+	Eucalyptus_quadrangulata       39S0cJ0(1 3)(2 3)?1(0 2)00?e?CS?Z?
+	Eucalyptus_quadrans            39J0TM(0 1)70?(0 1)(1 3)02??MCJ??H
+	Eucalyptus_quadricostata       39V0PU031?1000??8CV??8
+	Eucalyptus_quaerenda           3?J?T?170?0102?8?CJ?9?
+	Eucalyptus_quinniorum          39S0cJ(0 1)(1 6)(0 2 3 4)01(0 2)00?e?CS?Z?
+	Eucalyptus_racemosa            48C1HG(0 1)(1 3)(0 2 3 4)?(0 1)000g??9Ej??
+	Eucalyptus_radiata             48B3GG0(1 5 6)(0 2 3 4)?(0 1)(0 2)00k??9Ee??
+	Eucalyptus_ralla               48D4JG01(0 2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_rameliana           39J0TM181?0102?4?CJ?5?
+	Eucalyptus_raveretiana         6B?0WP03(0 4)0(0 1)0?1?K?CN?G?
+	Eucalyptus_ravida              39J7TM(0 2)71?(0 1)414??YCM??Q
+	Eucalyptus_recta               3?J?T?(0 2)70?0414?9?CJ?A?
+	Eucalyptus_recurva             39S0cJ112?1102??0CS?U?
+	Eucalyptus_redunca             39J7TM170?(0 1)102??jCM??U
+	Eucalyptus_regnans             48E5KG0(5 6)(3 4)01014h??9Ek??
+	Eucalyptus_remota              48C1HG(0 1)40?(0 1)(0 2)03g??9Ej??
+	Eucalyptus_resinifera          39P?VN0(1 3)(0 3)?(0 1)000?H?CK?F?
+	Eucalyptus_retinens            39S0cJ01(2 3)?1(0 2)00?e?CS?Z?
+	Eucalyptus_retusa              3???T???????????jCM??b
+	Eucalyptus_rhodantha           39J0TM170?(0 1)102?4?CJ?5?
+	Eucalyptus_rhombica            39V0PU03(1 3)?(0 1)000??8CV??8
+	Eucalyptus_rhomboidea          3?J?T?(0 2)71?1414?A?CJ?3?
+	Eucalyptus_rigens              39Z0hW170?0102??SCX??F
+	Eucalyptus_rigidula            39J0TM171?(0 1)????F?CJ?E?
+	Eucalyptus_risdonii            48B3GG(0 1)50?1(0 2)00c??9Ee??
+	Eucalyptus_rodwayi             39S0cJ05(1 2 3 4)?1(0 2)00?X?CS?S?
+	Eucalyptus_rosacea             39J0TM171?(0 1)102?4?CJ?5?
+	Eucalyptus_roycei              55??7A170?0102J??69K??
+	Eucalyptus_rubida              39S0cJ0(1 5 6)(1 2 3)?1(0 2)00?h?CS?c?
+	Eucalyptus_rubiginosa          B8?0FH03(1 3)?(0 1)000b??9Fd??
+	Eucalyptus_rudderi             39V0PU01(0 3)?1(0 2)00??9CV??9
+	Eucalyptus_rudis               39N0ZR07(0 4)?(0 1)025?P?CR?K?
+	Eucalyptus_rugosa              39Z0hW140?0102??GCX??D
+	Eucalyptus_rugulata            3?J?T?07(3 6)?1414?9?CJ?A?
+	Eucalyptus_rummeryi            39V0PU01(0 3)?1000??5CV??4
+	Eucalyptus_salicola            39J0TM071?0016?F?CJ?E?
+	Eucalyptus_saligna             39P?VN0(1 3)(0 3)?(0 1)023?G?CK?F?
+	Eucalyptus_salmonophloia       39J0TM071?(0 1)016?B?CJ?B?
+	Eucalyptus_salubris            39J7TM(0 2)71?(0 1)414??YCM??Q
+	Eucalyptus_sargentii           39J7TM07(0 1 4)?(0 1)414??XCM??Y
+	Eucalyptus_saxatilis           39S0cJ(0 1)(1 6)3?1102?d?CS?Y?
+	Eucalyptus_scias               39P?VN01(0 3)?1000?H?CK?F?
+	Eucalyptus_scoparia            39S0cJ0(1 3)3?1(0 2)00?p?CS?e?
+	Eucalyptus_scopulorum          3?V?P?013?1(0 2)00??8CV??8
+	Eucalyptus_scyphocalyx         39Z0hW(0 1)70?(0 1)102??PCX??M
+	Eucalyptus_seeana              39R0bR0(1 3)(0 3)?(0 1)000?T?CR?Q?
+	Eucalyptus_semota              3?J?T?(0 1)8(1 3 6)?1102??bCM??V
+	Eucalyptus_sepulcralis         4871BD(0 1)70?0102X??9DY??
+	Eucalyptus_serraensis          4?D?J?(0 1)63?1(0 2)03e??9Eg??
+	Eucalyptus_sessilis            39J0TM1(2 8)(1 3)?1102?4?CJ?5?
+	Eucalyptus_sicilifolia         39V0PU033?1(0 2)00??6CV??5
+	Eucalyptus_siderophloia        39V0PU0(1 3)0?(0 1)000??8CV??8
+	Eucalyptus_sideroxylon         39V0PU0(1 3 6)(1 2 3 4)?(0 1)(0 2)00??BCV??A
+	Eucalyptus_sieberi             48C1HG0(1 5 6)(0 2 3)?(0 1)016g??9Ej??
+	Eucalyptus_similis             54??68(0 1)31?0(0 2)00F??68H??
+	Eucalyptus_singularis          39Z0hW(0 2)70?(0 1)414??SCX??F
+	Eucalyptus_smithii             39S0cJ(0 1)(1 6)(2 3 4)?(0 1)????j?CS?c?
+	Eucalyptus_socialis            39J0TM(0 1)(1 2 3 4 6 7 8)(1 3)?(0 1)102?A?CJ?3?
+	Eucalyptus_sparsa              39V0PU1(2 4 7)1?(0 1)102??5CV??4
+	Eucalyptus_sparsifolia         48D4JG01(0 1 2 3)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_spathulata          39J7TM(0 2)7(1 4)?1414??XCM??Y
+	Eucalyptus_sphaerocarpa        48C1HG03(2 3)?(0 1)000d??9Ef??
+	Eucalyptus_splendens           3?S?c?060?1(0 2)00?h?CS?d?
+	Eucalyptus_spreta              39Z0hW(0 1 2)7(1 3)?1414??HCX??E
+	Eucalyptus_squamosa            39J0TM01(0 3)?1000?3?CJ?4?
+	Eucalyptus_staeri              4871BE(0 1)70?(0 1)(0 2)00R??9CT??
+	Eucalyptus_steedmanii          39J7TM(0 2)70?1414??XCM??Y
+	Eucalyptus_stellulata          48F6MG(0 1)(1 6)(2 3 4)?1(1 3)02j??9Em??
+	Eucalyptus_stenostoma          48C1HG01(2 3)?1014f??9Eh??
+	Eucalyptus_stoatei             39Z0hW(0 2)70?0414??QCX??F
+	Eucalyptus_stowardii           39J7TM170?1102??XCM??Y
+	Eucalyptus_stricklandii        39J7TM071?1414??ZCM??R
+	Eucalyptus_stricta             48E5KG11(2 3)?1102m??9En??
+	Eucalyptus_strzeleckii         3?S?c?06(0 3 4)?1(0 2)00?X?CS?S?
+	Eucalyptus_sturgissiana        39S0cJ113?(0 1)?????3CS??2
+	Eucalyptus_subangusta          39J7TM17(0 1)?(0 1)102??jCM??U
+	Eucalyptus_subcrenulata        39S0cJ05(2 3)?1003?Z?CS?U?
+	Eucalyptus_suberea             4871BD(0 1)70?0102V??9DS??
+	Eucalyptus_subtilis            3?J?T?171?1102??jCM??U
+	Eucalyptus_suggrandis          39J7TM170?0102??XCM??Y
+	Eucalyptus_surgens             3?Z?h?170?(0 1)?????GCX??M
+	Eucalyptus_synandra            39J0TM171?1102?4?CJ?5?
+	Eucalyptus_talyuberlup         39J7TM(0 1)7(0 3 4)?0102??eCM??b
+	Eucalyptus_tectifica           39V0PU0(2 3 8)(0 1)?(1 2)000??0CV??0
+	Eucalyptus_tenella             48D4JG01(0 2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_tenera              39J7TM171?1102??XCM??Y
+	Eucalyptus_tenuipes            C6?09B03(1 3)?(0 1)000M??7AN??
+	Eucalyptus_tenuiramis          48B3GG05(0 2 3)?1(0 2)00c??9Ee??
+	Eucalyptus_tenuis              39Z0hW(0 1 2)71?1414??HCX??E
+	Eucalyptus_tephrodes           39V0PU(0 1)8(1 4)?1000??0CV??0
+	Eucalyptus_terebra             39J7TM(0 2)71?1414??YCM??Q
+	Eucalyptus_tereticornis        39N0ZR0(1 3 6)(0 3 4)?(0 1)000?V?CR?Q?
+	Eucalyptus_tetrapleura         39V0PU010?1(0 2)00??6CV??5
+	Eucalyptus_tetraptera          39Z0hW170?0102??QCX??F
+	Eucalyptus_tetrodonta          53??570(2 3 8)(0 1)?(0 1)000E??68F??
+	Eucalyptus_thamnoides          3?J?T?170?0102??XCM??Y
+	Eucalyptus_tholiformis         39V0PU03(1 3)?1000??8CV??8
+	Eucalyptus_thozetiana          39V0PU0(2 3)1?(1 2)000??ACV??6
+	Eucalyptus_tindaliae           48D4JG(0 1)(1 3)(0 2 3)?(0 1)(0 2)00e??9Eg??
+	Eucalyptus_tintinnans          39N0ZR023?1????Q?CR?M?
+	Eucalyptus_todtiana            4871BD(0 1)70?0(0 2)00Q??9DR??
+	Eucalyptus_torquata            39Z0hW071?1014??WCX??D
+	Eucalyptus_tortilis            39J7TM(0 2)71?1414??YCM??Q
+	Eucalyptus_transcontinentalis  39J0TM(0 2)71?1414?A?CJ?3?
+	Eucalyptus_tricarpa            39V0PU0(1 6)(0 1 3)01(0 2)00??BCV??A
+	Eucalyptus_triflora            48E5KG01(2 3)?1014m??9En??
+	Eucalyptus_trivalvis           39J7TM1(2 4 7 8)1?(0 1)102??7CM??7
+	Eucalyptus_tumida              39J7TM170?(0 1)102??jCM??U
+	Eucalyptus_ultima              39J0TM18(0 3)?1102?A?CJ?3?
+	Eucalyptus_umbra               48A2EG01(0 3)?(0 1)000t??9Ec??
+	Eucalyptus_uncinata            39J0TM(0 1)70?0????F?CJ?E?
+	Eucalyptus_urna                39J0TM(0 1 2)7(0 1)?1414?A?CJ?3?
+	Eucalyptus_urophylla           39??VN?????????H?CK?F?
+	Eucalyptus_utilis              3?J?T?(0 1 2)70?0414??XCM??Y
+	Eucalyptus_valens              39Z0hW(0 2)70?(0 1)414??HCX??E
+	Eucalyptus_vegrandis           39J7TM170?0102??XCM??Z
+	Eucalyptus_vernicosa           39S0cJ(0 1)5(2 3)?1103?Z?CS?U?
+	Eucalyptus_verrucata           48D4JG(0 1)63?1(0 2)03e??9Eg??
+	Eucalyptus_vesiculosa          3?J?T?(0 1 2)70?1414??fCM??Z
+	Eucalyptus_vicina              39N0ZR(0 1)1(1 3)?1(0 2)00?V?CR?Q?
+	Eucalyptus_victoriana          48D4JG063?1(0 2)?1e??9Eg??
+	Eucalyptus_victrix             39V0PU0(2 3 7 8)1?(0 1)000??0CV??0
+	Eucalyptus_viminalis           39S0cJ0(1 4 5 6)(0 2 3 4)0(0 1)(0 2)00?h?CS?c?
+	Eucalyptus_virens              39V0PU03(1 3)?1(0 2)00??6CV??8
+	Eucalyptus_viridis             39V0PU(0 1)(1 3 4 6)(1 3 4)?(0 1)102??5CV??6
+	Eucalyptus_vittata             3???h???????????HCX??E
+	Eucalyptus_vokesensis          39J0TM141??102?A?CJ?3?
+	Eucalyptus_wandoo              39J7TM071?1000??jCM??U
+	Eucalyptus_websteriana         39J0TM171?1102?4?CJ?5?
+	Eucalyptus_wetarensis          39??VN?????????G?CK?F?
+	Eucalyptus_whitei              39V0PU031??000??8CV??8
+	Eucalyptus_wilcoxii            39S0cJ(0 1)13?1102?q?CS?f?
+	Eucalyptus_williamsiana        48D4JG0(1 3)(2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_willisii            48B3GG(0 1)6(0 4)?(0 1)(0 2)00k??9Ee??
+	Eucalyptus_woodwardii          39Z0hW071?0414??HCX??E
+	Eucalyptus_wubinensis          39Z0hW(0 1)7(0 1)?(0 1)102??HCX??E
+	Eucalyptus_wyolensis           39J0TM141?0102?A?CJ?3?
+	Eucalyptus_xanthonema          39J7TM17(0 3 4)?1102??jCM??U
+	Eucalyptus_xerothermica        39V0PU?8(0 1 3 4)3(0 1)000??0CV??0
+	Eucalyptus_yalatensis          39J0TM1(4 7)0?1102?A?CJ?3?
+	Eucalyptus_yangoura            48D4JG0(1 6)(0 3)?1(0 2)00e??9Eg??
+	Eucalyptus_yarraensis          39S0cJ06(0 1 2 4)0(0 1)(0 2)00?X?CS?S?
+	Eucalyptus_yilgarnensis        39J0TM(0 1)71?1(1 3)02??MCJ??H
+	Eucalyptus_youmanii            48D4JG0(1 3)(2 3)?1(0 2)00e??9Eg??
+	Eucalyptus_youngiana           39J0TM(0 1)(4 7)1?(0 1)102?4?CJ?5?
+	Eucalyptus_yumbarrana          39J0TM(0 1)4(0 1)?0102?A?CJ?3?
+	Eucalyptus_zopherophloia       39J7TM170?0102??7CM??7
+	Hypocalymma_linifolium         ??????????????????????
+	Kjellbergiodendron_celebicum   ??????????????????????
+	Kunzea_ericoides               ??????????????????????
+	Lophostemon_confertus          ??????????????????????
+	Lophostemon_suaveolens         ??????????????????????
+	Myrtus_communis                ??????????????????????
+	Stockwellia_quadrifida         E?????033????????0????
+	Syncarpia_glomulifera          ??????????????????????
+	Syncarpia_hillii               ??????????????????????
+	Syzygium_angophoroides         ??????????????????????
+	Tepualia_stipularis            ??????????????????????
+
+;
+
+END;
+BEGIN TREES;
+	Title 'Trees from "Eucalypts_2012_dated_tree.nex"';
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		n0 Acmena_smithii,
+[1] 		n1 Agonis_flexuosa,
+[2] 		n2 Allosyncarpia_ternata,
+[3] 		n3 Amomyrtus_luma,
+[4] 		n4 Angophora_bakeri,
+[5] 		n5 Angophora_costata,
+[6] 		n6 Angophora_exul,
+[7] 		n7 Angophora_floribunda,
+[8] 		n8 Angophora_hispida,
+[9] 		n9 Angophora_inopina,
+[10] 		n10 Angophora_melanoxylon,
+[11] 		n11 Angophora_robur,
+[12] 		n12 Angophora_subvelutina,
+[13] 		n13 Angophora_woodsiana,
+[14] 		n14 Arillastrum_gummiferum,
+[15] 		n15 Cloezia_floribunda,
+[16] 		n16 Corymbia_abbreviata,
+[17] 		n17 Corymbia_abergiana,
+[18] 		n18 Corymbia_aparrerinja,
+[19] 		n19 Corymbia_arafurica,
+[20] 		n20 Corymbia_arenaria,
+[21] 		n21 Corymbia_aspera,
+[22] 		n22 Corymbia_aureola,
+[23] 		n23 Corymbia_bella,
+[24] 		n24 Corymbia_blakei,
+[25] 		n25 Corymbia_bleeseri,
+[26] 		n26 Corymbia_bloxsomei,
+[27] 		n27 Corymbia_brachycarpa,
+[28] 		n28 Corymbia_bunites,
+[29] 		n29 Corymbia_cadophora,
+[30] 		n30 Corymbia_calophylla,
+[31] 		n31 Corymbia_candida,
+[32] 		n32 Corymbia_catenaria,
+[33] 		n33 Corymbia_chippendalei,
+[34] 		n34 Corymbia_citriodora,
+[35] 		n35 Corymbia_clarksoniana,
+[36] 		n36 Corymbia_collina,
+[37] 		n37 Corymbia_confertiflora,
+[38] 		n38 Corymbia_dallachiana,
+[39] 		n39 Corymbia_dampieri,
+[40] 		n40 Corymbia_dendromerinx,
+[41] 		n41 Corymbia_deserticola,
+[42] 		n42 Corymbia_dichromophloia,
+[43] 		n43 Corymbia_dimorpha,
+[44] 		n44 Corymbia_dolichocarpa,
+[45] 		n45 Corymbia_dunlopiana,
+[46] 		n46 Corymbia_ellipsoidea,
+[47] 		n47 Corymbia_eremaea,
+[48] 		n48 Corymbia_erythrophloia,
+[49] 		n49 Corymbia_eximia,
+[50] 		n50 Corymbia_ferriticola,
+[51] 		n51 Corymbia_ferruginea,
+[52] 		n52 Corymbia_ficifolia,
+[53] 		n53 Corymbia_flavescens,
+[54] 		n54 Corymbia_foelscheana,
+[55] 		n55 Corymbia_gilbertensis,
+[56] 		n56 Corymbia_grandifolia,
+[57] 		n57 Corymbia_greeniana,
+[58] 		n58 Corymbia_gummifera,
+[59] 		n59 Corymbia_haematoxylon,
+[60] 		n60 Corymbia_hamersleyana,
+[61] 		n61 Corymbia_hendersonii,
+[62] 		n62 Corymbia_henryi,
+[63] 		n63 Corymbia_hylandii,
+[64] 		n64 Corymbia_intermedia,
+[65] 		n65 Corymbia_jacobsiana,
+[66] 		n66 Corymbia_lamprophylla,
+[67] 		n67 Corymbia_latifolia,
+[68] 		n68 Corymbia_leichhardtii,
+[69] 		n69 Corymbia_lenziana,
+[70] 		n70 Corymbia_leptoloma,
+[71] 		n71 Corymbia_ligans,
+[72] 		n72 Corymbia_maculata,
+[73] 		n73 Corymbia_nesophila,
+[74] 		n74 Corymbia_novoguineesis,
+[75] 		n75 Corymbia_opaca,
+[76] 		n76 Corymbia_opacula,
+[77] 		n77 Corymbia_pachycarpa,
+[78] 		n78 Corymbia_papillosa,
+[79] 		n79 Corymbia_papuana,
+[80] 		n80 Corymbia_pauciseta,
+[81] 		n81 Corymbia_peltata,
+[82] 		n82 Corymbia_petalophylla,
+[83] 		n83 Corymbia_plena,
+[84] 		n84 Corymbia_polycarpa,
+[85] 		n85 Corymbia_polysciada,
+[86] 		n86 Corymbia_porphyritica,
+[87] 		n87 Corymbia_porrecta,
+[88] 		n88 Corymbia_ptychocarpa,
+[89] 		n89 Corymbia_rhodops,
+[90] 		n90 Corymbia_scabrida,
+[91] 		n91 Corymbia_stockeri,
+[92] 		n92 Corymbia_terminalis,
+[93] 		n93 Corymbia_tessellaris,
+[94] 		n94 Corymbia_torelliana,
+[95] 		n95 Corymbia_torta,
+[96] 		n96 Corymbia_trachyphloia,
+[97] 		n97 Corymbia_variegata,
+[98] 		n98 Corymbia_watsoniana,
+[99] 		n99 Corymbia_xanthope,
+[100] 		n100 Corymbia_zygophylla,
+[101] 		n101 Decaspermum_humile,
+[102] 		n102 Eucalyptopsis_alauda,
+[103] 		n103 Eucalyptopsis_papuana,
+[104] 		n104 Eucalyptus_abdita,
+[105] 		n105 Eucalyptus_absita,
+[106] 		n106 Eucalyptus_acaciiformis,
+[107] 		n107 Eucalyptus_accedens,
+[108] 		n108 Eucalyptus_acies,
+[109] 		n109 Eucalyptus_acmenoides,
+[110] 		n110 Eucalyptus_acroleuca,
+[111] 		n111 Eucalyptus_aequioperta,
+[112] 		n112 Eucalyptus_agglomerata,
+[113] 		n113 Eucalyptus_aggregata,
+[114] 		n114 Eucalyptus_alaticaulis,
+[115] 		n115 Eucalyptus_alba,
+[116] 		n116 Eucalyptus_albens,
+[117] 		n117 Eucalyptus_albida,
+[118] 		n118 Eucalyptus_albopurpurea,
+[119] 		n119 Eucalyptus_alipes,
+[120] 		n120 Eucalyptus_alligatrix,
+[121] 		n121 Eucalyptus_amplifolia,
+[122] 		n122 Eucalyptus_amygdalina,
+[123] 		n123 Eucalyptus_ancophila,
+[124] 		n124 Eucalyptus_andrewsii,
+[125] 		n125 Eucalyptus_angophoroides,
+[126] 		n126 Eucalyptus_angulosa,
+[127] 		n127 Eucalyptus_angustissima,
+[128] 		n128 Eucalyptus_annulata,
+[129] 		n129 Eucalyptus_apiculata,
+[130] 		n130 Eucalyptus_apodophylla,
+[131] 		n131 Eucalyptus_apothalassica,
+[132] 		n132 Eucalyptus_approximans,
+[133] 		n133 Eucalyptus_aquilina,
+[134] 		n134 Eucalyptus_arachnae,
+[135] 		n135 Eucalyptus_arborella,
+[136] 		n136 Eucalyptus_arenacea,
+[137] 		n137 Eucalyptus_argillacea,
+[138] 		n138 Eucalyptus_argophloia,
+[139] 		n139 Eucalyptus_argutifolia,
+[140] 		n140 Eucalyptus_argyphea,
+[141] 		n141 Eucalyptus_aromaphloia,
+[142] 		n142 Eucalyptus_articulata,
+[143] 		n143 Eucalyptus_aspersa,
+[144] 		n144 Eucalyptus_aspratilis,
+[145] 		n145 Eucalyptus_assimilans,
+[146] 		n146 Eucalyptus_astringens,
+[147] 		n147 Eucalyptus_atrata,
+[148] 		n148 Eucalyptus_badjensis,
+[149] 		n149 Eucalyptus_baeuerlenii,
+[150] 		n150 Eucalyptus_baileyana,
+[151] 		n151 Eucalyptus_bakeri,
+[152] 		n152 Eucalyptus_balanites,
+[153] 		n153 Eucalyptus_balanopelex,
+[154] 		n154 Eucalyptus_balladoniensis,
+[155] 		n155 Eucalyptus_barberi,
+[156] 		n156 Eucalyptus_baueriana,
+[157] 		n157 Eucalyptus_baxteri,
+[158] 		n158 Eucalyptus_beaniana,
+[159] 		n159 Eucalyptus_beardiana,
+[160] 		n160 Eucalyptus_behriana,
+[161] 		n161 Eucalyptus_bensonii,
+[162] 		n162 Eucalyptus_benthamii,
+[163] 		n163 Eucalyptus_beyeriana,
+[164] 		n164 Eucalyptus_blakelyi,
+[165] 		n165 Eucalyptus_blaxellii,
+[166] 		n166 Eucalyptus_blaxlandii,
+[167] 		n167 Eucalyptus_boliviana,
+[168] 		n168 Eucalyptus_bosistoana,
+[169] 		n169 Eucalyptus_botryoides,
+[170] 		n170 Eucalyptus_brachyandra,
+[171] 		n171 Eucalyptus_brachycalyx,
+[172] 		n172 Eucalyptus_brachycorys,
+[173] 		n173 Eucalyptus_brachyphylla,
+[174] 		n174 Eucalyptus_brassiana,
+[175] 		n175 Eucalyptus_brevifolia,
+[176] 		n176 Eucalyptus_brevipes,
+[177] 		n177 Eucalyptus_brevistylis,
+[178] 		n178 Eucalyptus_bridgesiana,
+[179] 		n179 Eucalyptus_brockwayi,
+[180] 		n180 Eucalyptus_brookeriana,
+[181] 		n181 Eucalyptus_brunnea,
+[182] 		n182 Eucalyptus_buprestium,
+[183] 		n183 Eucalyptus_burdettiana,
+[184] 		n184 Eucalyptus_burgessiana,
+[185] 		n185 Eucalyptus_burracoppinensis,
+[186] 		n186 Eucalyptus_cadens,
+[187] 		n187 Eucalyptus_caesia,
+[188] 		n188 Eucalyptus_calcareana,
+[189] 		n189 Eucalyptus_calcicola,
+[190] 		n190 Eucalyptus_caleyi,
+[191] 		n191 Eucalyptus_caliginosa,
+[192] 		n192 Eucalyptus_calycogona,
+[193] 		n193 Eucalyptus_camaldulensis,
+[194] 		n194 Eucalyptus_campaspe,
+[195] 		n195 Eucalyptus_camphora,
+[196] 		n196 Eucalyptus_canaliculata,
+[197] 		n197 Eucalyptus_canescens,
+[198] 		n198 Eucalyptus_canobolensis,
+[199] 		n199 Eucalyptus_capillosa,
+[200] 		n200 Eucalyptus_capitellata,
+[201] 		n201 Eucalyptus_captiosa,
+[202] 		n202 Eucalyptus_carnabyi,
+[203] 		n203 Eucalyptus_carnea,
+[204] 		n204 Eucalyptus_carnei,
+[205] 		n205 Eucalyptus_castrensis,
+[206] 		n206 Eucalyptus_celastroides,
+[207] 		n207 Eucalyptus_cephalocarpa,
+[208] 		n208 Eucalyptus_ceracea,
+[209] 		n209 Eucalyptus_cerasiformis,
+[210] 		n210 Eucalyptus_ceratocorys,
+[211] 		n211 Eucalyptus_cernua,
+[212] 		n212 Eucalyptus_chartaboma,
+[213] 		n213 Eucalyptus_chlorophylla,
+[214] 		n214 Eucalyptus_cinerea,
+[215] 		n215 Eucalyptus_cladocalyx,
+[216] 		n216 Eucalyptus_clelandii,
+[217] 		n217 Eucalyptus_clivicola,
+[218] 		n218 Eucalyptus_cloeziana,
+[219] 		n219 Eucalyptus_cneorifolia,
+[220] 		n220 Eucalyptus_comitae,
+[221] 		n221 Eucalyptus_communalis,
+[222] 		n222 Eucalyptus_concinna,
+[223] 		n223 Eucalyptus_conferruminata,
+[224] 		n224 Eucalyptus_confluens,
+[225] 		n225 Eucalyptus_conglobata,
+[226] 		n226 Eucalyptus_conglomerata,
+[227] 		n227 Eucalyptus_conica,
+[228] 		n228 Eucalyptus_consideniana,
+[229] 		n229 Eucalyptus_conspicua,
+[230] 		n230 Eucalyptus_conveniens,
+[231] 		n231 Eucalyptus_coolabah,
+[232] 		n232 Eucalyptus_cooperiana,
+[233] 		n233 Eucalyptus_cordata,
+[234] 		n234 Eucalyptus_cornuta,
+[235] 		n235 Eucalyptus_coronata,
+[236] 		n236 Eucalyptus_corrugata,
+[237] 		n237 Eucalyptus_corticosa,
+[238] 		n238 Eucalyptus_cosmophylla,
+[239] 		n239 Eucalyptus_crebra,
+[240] 		n240 Eucalyptus_crenulata,
+[241] 		n241 Eucalyptus_creta,
+[242] 		n242 Eucalyptus_cretata,
+[243] 		n243 Eucalyptus_croajingolensis,
+[244] 		n244 Eucalyptus_crucis,
+[245] 		n245 Eucalyptus_cunninghamii,
+[246] 		n246 Eucalyptus_cuprea,
+[247] 		n247 Eucalyptus_cupularis,
+[248] 		n248 Eucalyptus_curtisii,
+[249] 		n249 Eucalyptus_cuspidata,
+[250] 		n250 Eucalyptus_cyanophylla,
+[251] 		n251 Eucalyptus_cyclostoma,
+[252] 		n252 Eucalyptus_cylindriflora,
+[253] 		n253 Eucalyptus_cylindrocarpa,
+[254] 		n254 Eucalyptus_cypellocarpa,
+[255] 		n255 Eucalyptus_dalrympleana,
+[256] 		n256 Eucalyptus_dawsonii,
+[257] 		n257 Eucalyptus_dealbata,
+[258] 		n258 Eucalyptus_deanei,
+[259] 		n259 Eucalyptus_decipiens,
+[260] 		n260 Eucalyptus_decolor,
+[261] 		n261 Eucalyptus_decorticans,
+[262] 		n262 Eucalyptus_decurva,
+[263] 		n263 Eucalyptus_deflexa,
+[264] 		n264 Eucalyptus_deglupta,
+[265] 		n265 Eucalyptus_delegatensis,
+[266] 		n266 Eucalyptus_delicata,
+[267] 		n267 Eucalyptus_densa,
+[268] 		n268 Eucalyptus_denticulata,
+[269] 		n269 Eucalyptus_depauperata,
+[270] 		n270 Eucalyptus_desmondensis,
+[271] 		n271 Eucalyptus_deuaensis,
+[272] 		n272 Eucalyptus_dielsii,
+[273] 		n273 Eucalyptus_diminuta,
+[274] 		n274 Eucalyptus_diptera,
+[275] 		n275 Eucalyptus_disclusa,
+[276] 		n276 Eucalyptus_discreta,
+[277] 		n277 Eucalyptus_dissimulata,
+[278] 		n278 Eucalyptus_distans,
+[279] 		n279 Eucalyptus_distuberosa,
+[280] 		n280 Eucalyptus_diversicolor,
+[281] 		n281 Eucalyptus_diversifolia,
+[282] 		n282 Eucalyptus_dives,
+[283] 		n283 Eucalyptus_dolichocera,
+[284] 		n284 Eucalyptus_dolichorhyncha,
+[285] 		n285 Eucalyptus_dolorosa,
+[286] 		n286 Eucalyptus_dorotoxylon,
+[287] 		n287 Eucalyptus_drummondii,
+[288] 		n288 Eucalyptus_dumosa,
+[289] 		n289 Eucalyptus_dundasii,
+[290] 		n290 Eucalyptus_dunnii,
+[291] 		n291 Eucalyptus_dura,
+[292] 		n292 Eucalyptus_dwyeri,
+[293] 		n293 Eucalyptus_ebbanoensis,
+[294] 		n294 Eucalyptus_educta,
+[295] 		n295 Eucalyptus_effusa,
+[296] 		n296 Eucalyptus_elaeophloia,
+[297] 		n297 Eucalyptus_elata,
+[298] 		n298 Eucalyptus_elliptica,
+[299] 		n299 Eucalyptus_erectifolia,
+[300] 		n300 Eucalyptus_eremicola,
+[301] 		n301 Eucalyptus_eremophila,
+[302] 		n302 Eucalyptus_erythrocorys,
+[303] 		n303 Eucalyptus_erythronema,
+[304] 		n304 Eucalyptus_eudesmioides,
+[305] 		n305 Eucalyptus_eugenioides,
+[306] 		n306 Eucalyptus_ewartiana,
+[307] 		n307 Eucalyptus_exigua,
+[308] 		n308 Eucalyptus_exilipes,
+[309] 		n309 Eucalyptus_exilis,
+[310] 		n310 Eucalyptus_extensa,
+[311] 		n311 Eucalyptus_extrica,
+[312] 		n312 Eucalyptus_falcata,
+[313] 		n313 Eucalyptus_famelica,
+[314] 		n314 Eucalyptus_farinosa,
+[315] 		n315 Eucalyptus_fasciculosa,
+[316] 		n316 Eucalyptus_fastigata,
+[317] 		n317 Eucalyptus_fergusonii,
+[318] 		n318 Eucalyptus_fibrosa,
+[319] 		n319 Eucalyptus_flindersii,
+[320] 		n320 Eucalyptus_flocktoniae,
+[321] 		n321 Eucalyptus_foecunda,
+[322] 		n322 Eucalyptus_foliosa,
+[323] 		n323 Eucalyptus_formanii,
+[324] 		n324 Eucalyptus_forrestiana,
+[325] 		n325 Eucalyptus_fraseri,
+[326] 		n326 Eucalyptus_fraxinoides,
+[327] 		n327 Eucalyptus_frenchiana,
+[328] 		n328 Eucalyptus_froggattii,
+[329] 		n329 Eucalyptus_fruticosa,
+[330] 		n330 Eucalyptus_fulgens,
+[331] 		n331 Eucalyptus_fusiformis,
+[332] 		n332 Eucalyptus_gamophylla,
+[333] 		n333 Eucalyptus_gardneri,
+[334] 		n334 Eucalyptus_georgei,
+[335] 		n335 Eucalyptus_gigantangion,
+[336] 		n336 Eucalyptus_gillenii,
+[337] 		n337 Eucalyptus_gillii,
+[338] 		n338 Eucalyptus_gittinsii,
+[339] 		n339 Eucalyptus_glaucescens,
+[340] 		n340 Eucalyptus_glaucina,
+[341] 		n341 Eucalyptus_globoidea,
+[342] 		n342 Eucalyptus_globulus,
+[343] 		n343 Eucalyptus_glomerosa,
+[344] 		n344 Eucalyptus_gomphocephala,
+[345] 		n345 Eucalyptus_gongylocarpa,
+[346] 		n346 Eucalyptus_goniantha,
+[347] 		n347 Eucalyptus_goniocalyx,
+[348] 		n348 Eucalyptus_goniocarpa,
+[349] 		n349 Eucalyptus_gracilis,
+[350] 		n350 Eucalyptus_grandis,
+[351] 		n351 Eucalyptus_granitica,
+[352] 		n352 Eucalyptus_gregoriensis,
+[353] 		n353 Eucalyptus_gregsoniana,
+[354] 		n354 Eucalyptus_griffithsii,
+[355] 		n355 Eucalyptus_grisea,
+[356] 		n356 Eucalyptus_grossa,
+[357] 		n357 Eucalyptus_guilfoylei,
+[358] 		n358 Eucalyptus_gunnii,
+[359] 		n359 Eucalyptus_gypsophila,
+[360] 		n360 Eucalyptus_haemastoma,
+[361] 		n361 Eucalyptus_hallii,
+[362] 		n362 Eucalyptus_halophila,
+[363] 		n363 Eucalyptus_hebetifolia,
+[364] 		n364 Eucalyptus_herbertiana,
+[365] 		n365 Eucalyptus_histophylla,
+[366] 		n366 Eucalyptus_horistes,
+[367] 		n367 Eucalyptus_houseana,
+[368] 		n368 Eucalyptus_howittiana,
+[369] 		n369 Eucalyptus_hypolaena,
+[370] 		n370 Eucalyptus_ignorabilis,
+[371] 		n371 Eucalyptus_imlayensis,
+[372] 		n372 Eucalyptus_impensa,
+[373] 		n373 Eucalyptus_incerata,
+[374] 		n374 Eucalyptus_incrassata,
+[375] 		n375 Eucalyptus_indurata,
+[376] 		n376 Eucalyptus_infera,
+[377] 		n377 Eucalyptus_insularis,
+[378] 		n378 Eucalyptus_interstans,
+[379] 		n379 Eucalyptus_intertexta,
+[380] 		n380 Eucalyptus_jacksonii,
+[381] 		n381 Eucalyptus_jimberlanica,
+[382] 		n382 Eucalyptus_johnsoniana,
+[383] 		n383 Eucalyptus_jucunda,
+[384] 		n384 Eucalyptus_jutsonii,
+[385] 		n385 Eucalyptus_kartzoffiana,
+[386] 		n386 Eucalyptus_kessellii,
+[387] 		n387 Eucalyptus_kingsmillii,
+[388] 		n388 Eucalyptus_kitsoniana,
+[389] 		n389 Eucalyptus_kochii,
+[390] 		n390 Eucalyptus_kondininensis,
+[391] 		n391 Eucalyptus_koolpinensis,
+[392] 		n392 Eucalyptus_kruseana,
+[393] 		n393 Eucalyptus_kumarlensis,
+[394] 		n394 Eucalyptus_kybeanensis,
+[395] 		n395 Eucalyptus_lacrimans,
+[396] 		n396 Eucalyptus_laeliae,
+[397] 		n397 Eucalyptus_laevopinea,
+[398] 		n398 Eucalyptus_lanepoolei,
+[399] 		n399 Eucalyptus_langleyi,
+[400] 		n400 Eucalyptus_lansdowneana,
+[401] 		n401 Eucalyptus_largeana,
+[402] 		n402 Eucalyptus_largiflorens,
+[403] 		n403 Eucalyptus_latens,
+[404] 		n404 Eucalyptus_lateritica,
+[405] 		n405 Eucalyptus_latisinensis,
+[406] 		n406 Eucalyptus_lehmanii,
+[407] 		n407 Eucalyptus_leptocalyx,
+[408] 		n408 Eucalyptus_leptophleba,
+[409] 		n409 Eucalyptus_leptophylla,
+[410] 		n410 Eucalyptus_leptopoda,
+[411] 		n411 Eucalyptus_lesouefii,
+[412] 		n412 Eucalyptus_leucophloia,
+[413] 		n413 Eucalyptus_leucoxylon,
+[414] 		n414 Eucalyptus_ligulata,
+[415] 		n415 Eucalyptus_ligustrina,
+[416] 		n416 Eucalyptus_limitaris,
+[417] 		n417 Eucalyptus_lirata,
+[418] 		n418 Eucalyptus_litorea,
+[419] 		n419 Eucalyptus_livida,
+[420] 		n420 Eucalyptus_lockyeri,
+[421] 		n421 Eucalyptus_longicornis,
+[422] 		n422 Eucalyptus_longifolia,
+[423] 		n423 Eucalyptus_longirostrata,
+[424] 		n424 Eucalyptus_loxophleba,
+[425] 		n425 Eucalyptus_lucasii,
+[426] 		n426 Eucalyptus_lucens,
+[427] 		n427 Eucalyptus_luculenta,
+[428] 		n428 Eucalyptus_luehmanniana,
+[429] 		n429 Eucalyptus_macarthurii,
+[430] 		n430 Eucalyptus_mackintii,
+[431] 		n431 Eucalyptus_macrandra,
+[432] 		n432 Eucalyptus_macrocarpa,
+[433] 		n433 Eucalyptus_macrorhyncha,
+[434] 		n434 Eucalyptus_magnificata,
+[435] 		n435 Eucalyptus_major,
+[436] 		n436 Eucalyptus_malacoxylon,
+[437] 		n437 Eucalyptus_mannensis,
+[438] 		n438 Eucalyptus_mannifera,
+[439] 		n439 Eucalyptus_marginata,
+[440] 		n440 Eucalyptus_mckieana,
+[441] 		n441 Eucalyptus_mcquoidii,
+[442] 		n442 Eucalyptus_medialis,
+[443] 		n443 Eucalyptus_megacarpa,
+[444] 		n444 Eucalyptus_megacornuta,
+[445] 		n445 Eucalyptus_melanoleuca,
+[446] 		n446 Eucalyptus_melanophitra,
+[447] 		n447 Eucalyptus_melanophloia,
+[448] 		n448 Eucalyptus_melanoxylon,
+[449] 		n449 Eucalyptus_melliodora,
+[450] 		n450 Eucalyptus_merrickiae,
+[451] 		n451 Eucalyptus_michaeliana,
+[452] 		n452 Eucalyptus_micranthera,
+[453] 		n453 Eucalyptus_microcarpa,
+[454] 		n454 Eucalyptus_microcorys,
+[455] 		n455 Eucalyptus_microneura,
+[456] 		n456 Eucalyptus_microschema,
+[457] 		n457 Eucalyptus_microtheca,
+[458] 		n458 Eucalyptus_mimica,
+[459] 		n459 Eucalyptus_miniata,
+[460] 		n460 Eucalyptus_minigwalica,
+[461] 		n461 Eucalyptus_minniritchi,
+[462] 		n462 Eucalyptus_misella,
+[463] 		n463 Eucalyptus_mitchelliana,
+[464] 		n464 Eucalyptus_moderata,
+[465] 		n465 Eucalyptus_moluccana,
+[466] 		n466 Eucalyptus_mooreana,
+[467] 		n467 Eucalyptus_moorei,
+[468] 		n468 Eucalyptus_morrisbyi,
+[469] 		n469 Eucalyptus_morrisii,
+[470] 		n470 Eucalyptus_muelleriana,
+[471] 		n471 Eucalyptus_multicaulis,
+[472] 		n472 Eucalyptus_myriadena,
+[473] 		n473 Eucalyptus_nanderwairca,
+[474] 		n474 Eucalyptus_neglecta,
+[475] 		n475 Eucalyptus_nerthicola,
+[476] 		n476 Eucalyptus_neutra,
+[477] 		n477 Eucalyptus_newbeyi,
+[478] 		n478 Eucalyptus_nicholii,
+[479] 		n479 Eucalyptus_nitens,
+[480] 		n480 Eucalyptus_nitida,
+[481] 		n481 Eucalyptus_nobilis,
+[482] 		n482 Eucalyptus_normantonensis,
+[483] 		n483 Eucalyptus_nortonii,
+[484] 		n484 Eucalyptus_nova,
+[485] 		n485 Eucalyptus_nudicaulis,
+[486] 		n486 Eucalyptus_nutans,
+[487] 		n487 Eucalyptus_obconica,
+[488] 		n488 Eucalyptus_obesa,
+[489] 		n489 Eucalyptus_obliqua,
+[490] 		n490 Eucalyptus_oblonga,
+[491] 		n491 Eucalyptus_obtusiflora,
+[492] 		n492 Eucalyptus_occidentalis,
+[493] 		n493 Eucalyptus_ochrophloia,
+[494] 		n494 Eucalyptus_odontocarpa,
+[495] 		n495 Eucalyptus_oldfieldii,
+[496] 		n496 Eucalyptus_oleosa,
+[497] 		n497 Eucalyptus_olida,
+[498] 		n498 Eucalyptus_oligantha,
+[499] 		n499 Eucalyptus_olivina,
+[500] 		n500 Eucalyptus_olsenii,
+[501] 		n501 Eucalyptus_ophitica,
+[502] 		n502 Eucalyptus_optima,
+[503] 		n503 Eucalyptus_oraria,
+[504] 		n504 Eucalyptus_orbifolia,
+[505] 		n505 Eucalyptus_oreades,
+[506] 		n506 Eucalyptus_orgadophila,
+[507] 		n507 Eucalyptus_ornata,
+[508] 		n508 Eucalyptus_orthostemon,
+[509] 		n509 Eucalyptus_ovata,
+[510] 		n510 Eucalyptus_ovularis,
+[511] 		n511 Eucalyptus_oxymitra,
+[512] 		n512 Eucalyptus_pachycalyx,
+[513] 		n513 Eucalyptus_pachyloma,
+[514] 		n514 Eucalyptus_pachyphylla,
+[515] 		n515 Eucalyptus_paedoglauca,
+[516] 		n516 Eucalyptus_paliformis,
+[517] 		n517 Eucalyptus_paludicola,
+[518] 		n518 Eucalyptus_panda,
+[519] 		n519 Eucalyptus_paniculata,
+[520] 		n520 Eucalyptus_parramattensis,
+[521] 		n521 Eucalyptus_parvula,
+[522] 		n522 Eucalyptus_patellaris,
+[523] 		n523 Eucalyptus_patens,
+[524] 		n524 Eucalyptus_pauciflora,
+[525] 		n525 Eucalyptus_pellita,
+[526] 		n526 Eucalyptus_pendens,
+[527] 		n527 Eucalyptus_perangusta,
+[528] 		n528 Eucalyptus_percostata,
+[529] 		n529 Eucalyptus_perriniana,
+[530] 		n530 Eucalyptus_persistens,
+[531] 		n531 Eucalyptus_petiolaris,
+[532] 		n532 Eucalyptus_petraea,
+[533] 		n533 Eucalyptus_petrensis,
+[534] 		n534 Eucalyptus_phaenophylla,
+[535] 		n535 Eucalyptus_phenax,
+[536] 		n536 Eucalyptus_phoenicea,
+[537] 		n537 Eucalyptus_pilbarensis,
+[538] 		n538 Eucalyptus_pileata,
+[539] 		n539 Eucalyptus_pilligaensis,
+[540] 		n540 Eucalyptus_pilularis,
+[541] 		n541 Eucalyptus_pimpiniana,
+[542] 		n542 Eucalyptus_piperita,
+[543] 		n543 Eucalyptus_placita,
+[544] 		n544 Eucalyptus_planchoniana,
+[545] 		n545 Eucalyptus_platycorys,
+[546] 		n546 Eucalyptus_platydisca,
+[547] 		n547 Eucalyptus_platyphylla,
+[548] 		n548 Eucalyptus_plauta,
+[549] 		n549 Eucalyptus_pleurocarpa,
+[550] 		n550 Eucalyptus_pluricaulis,
+[551] 		n551 Eucalyptus_polita,
+[552] 		n552 Eucalyptus_polyanthemos,
+[553] 		n553 Eucalyptus_polybractea,
+[554] 		n554 Eucalyptus_populnea,
+[555] 		n555 Eucalyptus_porosa,
+[556] 		n556 Eucalyptus_praetermissa,
+[557] 		n557 Eucalyptus_prava,
+[558] 		n558 Eucalyptus_preissiana,
+[559] 		n559 Eucalyptus_prolixa,
+[560] 		n560 Eucalyptus_prominens,
+[561] 		n561 Eucalyptus_propinqua,
+[562] 		n562 Eucalyptus_protensa,
+[563] 		n563 Eucalyptus_proxima,
+[564] 		n564 Eucalyptus_pruiniramis,
+[565] 		n565 Eucalyptus_pruinosa,
+[566] 		n566 Eucalyptus_pterocarpa,
+[567] 		n567 Eucalyptus_pulchella,
+[568] 		n568 Eucalyptus_pulverulenta,
+[569] 		n569 Eucalyptus_pumila,
+[570] 		n570 Eucalyptus_purpurata,
+[571] 		n571 Eucalyptus_pyriformis,
+[572] 		n572 Eucalyptus_pyrocarpa,
+[573] 		n573 Eucalyptus_quadrangulata,
+[574] 		n574 Eucalyptus_quadrans,
+[575] 		n575 Eucalyptus_quadricostata,
+[576] 		n576 Eucalyptus_quaerenda,
+[577] 		n577 Eucalyptus_quinniorum,
+[578] 		n578 Eucalyptus_racemosa,
+[579] 		n579 Eucalyptus_radiata,
+[580] 		n580 Eucalyptus_ralla,
+[581] 		n581 Eucalyptus_rameliana,
+[582] 		n582 Eucalyptus_raveretiana,
+[583] 		n583 Eucalyptus_ravida,
+[584] 		n584 Eucalyptus_recta,
+[585] 		n585 Eucalyptus_recurva,
+[586] 		n586 Eucalyptus_redunca,
+[587] 		n587 Eucalyptus_regnans,
+[588] 		n588 Eucalyptus_remota,
+[589] 		n589 Eucalyptus_resinifera,
+[590] 		n590 Eucalyptus_retinens,
+[591] 		n591 Eucalyptus_retusa,
+[592] 		n592 Eucalyptus_rhodantha,
+[593] 		n593 Eucalyptus_rhombica,
+[594] 		n594 Eucalyptus_rhomboidea,
+[595] 		n595 Eucalyptus_rigens,
+[596] 		n596 Eucalyptus_rigidula,
+[597] 		n597 Eucalyptus_risdonii,
+[598] 		n598 Eucalyptus_rodwayi,
+[599] 		n599 Eucalyptus_rosacea,
+[600] 		n600 Eucalyptus_roycei,
+[601] 		n601 Eucalyptus_rubida,
+[602] 		n602 Eucalyptus_rubiginosa,
+[603] 		n603 Eucalyptus_rudderi,
+[604] 		n604 Eucalyptus_rudis,
+[605] 		n605 Eucalyptus_rugosa,
+[606] 		n606 Eucalyptus_rugulata,
+[607] 		n607 Eucalyptus_rummeryi,
+[608] 		n608 Eucalyptus_salicola,
+[609] 		n609 Eucalyptus_saligna,
+[610] 		n610 Eucalyptus_salmonophloia,
+[611] 		n611 Eucalyptus_salubris,
+[612] 		n612 Eucalyptus_sargentii,
+[613] 		n613 Eucalyptus_saxatilis,
+[614] 		n614 Eucalyptus_scias,
+[615] 		n615 Eucalyptus_scoparia,
+[616] 		n616 Eucalyptus_scopulorum,
+[617] 		n617 Eucalyptus_scyphocalyx,
+[618] 		n618 Eucalyptus_seeana,
+[619] 		n619 Eucalyptus_semota,
+[620] 		n620 Eucalyptus_sepulcralis,
+[621] 		n621 Eucalyptus_serraensis,
+[622] 		n622 Eucalyptus_sessilis,
+[623] 		n623 Eucalyptus_sicilifolia,
+[624] 		n624 Eucalyptus_siderophloia,
+[625] 		n625 Eucalyptus_sideroxylon,
+[626] 		n626 Eucalyptus_sieberi,
+[627] 		n627 Eucalyptus_similis,
+[628] 		n628 Eucalyptus_singularis,
+[629] 		n629 Eucalyptus_smithii,
+[630] 		n630 Eucalyptus_socialis,
+[631] 		n631 Eucalyptus_sparsa,
+[632] 		n632 Eucalyptus_sparsifolia,
+[633] 		n633 Eucalyptus_spathulata,
+[634] 		n634 Eucalyptus_sphaerocarpa,
+[635] 		n635 Eucalyptus_splendens,
+[636] 		n636 Eucalyptus_spreta,
+[637] 		n637 Eucalyptus_squamosa,
+[638] 		n638 Eucalyptus_staeri,
+[639] 		n639 Eucalyptus_steedmanii,
+[640] 		n640 Eucalyptus_stellulata,
+[641] 		n641 Eucalyptus_stenostoma,
+[642] 		n642 Eucalyptus_stoatei,
+[643] 		n643 Eucalyptus_stowardii,
+[644] 		n644 Eucalyptus_stricklandii,
+[645] 		n645 Eucalyptus_stricta,
+[646] 		n646 Eucalyptus_strzeleckii,
+[647] 		n647 Eucalyptus_sturgissiana,
+[648] 		n648 Eucalyptus_subangusta,
+[649] 		n649 Eucalyptus_subcrenulata,
+[650] 		n650 Eucalyptus_suberea,
+[651] 		n651 Eucalyptus_subtilis,
+[652] 		n652 Eucalyptus_suggrandis,
+[653] 		n653 Eucalyptus_surgens,
+[654] 		n654 Eucalyptus_synandra,
+[655] 		n655 Eucalyptus_talyuberlup,
+[656] 		n656 Eucalyptus_tectifica,
+[657] 		n657 Eucalyptus_tenella,
+[658] 		n658 Eucalyptus_tenera,
+[659] 		n659 Eucalyptus_tenuipes,
+[660] 		n660 Eucalyptus_tenuiramis,
+[661] 		n661 Eucalyptus_tenuis,
+[662] 		n662 Eucalyptus_tephrodes,
+[663] 		n663 Eucalyptus_terebra,
+[664] 		n664 Eucalyptus_tereticornis,
+[665] 		n665 Eucalyptus_tetrapleura,
+[666] 		n666 Eucalyptus_tetraptera,
+[667] 		n667 Eucalyptus_tetrodonta,
+[668] 		n668 Eucalyptus_thamnoides,
+[669] 		n669 Eucalyptus_tholiformis,
+[670] 		n670 Eucalyptus_thozetiana,
+[671] 		n671 Eucalyptus_tindaliae,
+[672] 		n672 Eucalyptus_tintinnans,
+[673] 		n673 Eucalyptus_todtiana,
+[674] 		n674 Eucalyptus_torquata,
+[675] 		n675 Eucalyptus_tortilis,
+[676] 		n676 Eucalyptus_transcontinentalis,
+[677] 		n677 Eucalyptus_tricarpa,
+[678] 		n678 Eucalyptus_triflora,
+[679] 		n679 Eucalyptus_trivalvis,
+[680] 		n680 Eucalyptus_tumida,
+[681] 		n681 Eucalyptus_ultima,
+[682] 		n682 Eucalyptus_umbra,
+[683] 		n683 Eucalyptus_uncinata,
+[684] 		n684 Eucalyptus_urna,
+[685] 		n685 Eucalyptus_urophylla,
+[686] 		n686 Eucalyptus_utilis,
+[687] 		n687 Eucalyptus_valens,
+[688] 		n688 Eucalyptus_vegrandis,
+[689] 		n689 Eucalyptus_vernicosa,
+[690] 		n690 Eucalyptus_verrucata,
+[691] 		n691 Eucalyptus_vesiculosa,
+[692] 		n692 Eucalyptus_vicina,
+[693] 		n693 Eucalyptus_victoriana,
+[694] 		n694 Eucalyptus_victrix,
+[695] 		n695 Eucalyptus_viminalis,
+[696] 		n696 Eucalyptus_virens,
+[697] 		n697 Eucalyptus_viridis,
+[698] 		n698 Eucalyptus_vittata,
+[699] 		n699 Eucalyptus_vokesensis,
+[700] 		n700 Eucalyptus_wandoo,
+[701] 		n701 Eucalyptus_websteriana,
+[702] 		n702 Eucalyptus_wetarensis,
+[703] 		n703 Eucalyptus_whitei,
+[704] 		n704 Eucalyptus_wilcoxii,
+[705] 		n705 Eucalyptus_williamsiana,
+[706] 		n706 Eucalyptus_willisii,
+[707] 		n707 Eucalyptus_woodwardii,
+[708] 		n708 Eucalyptus_wubinensis,
+[709] 		n709 Eucalyptus_wyolensis,
+[710] 		n710 Eucalyptus_xanthonema,
+[711] 		n711 Eucalyptus_xerothermica,
+[712] 		n712 Eucalyptus_yalatensis,
+[713] 		n713 Eucalyptus_yangoura,
+[714] 		n714 Eucalyptus_yarraensis,
+[715] 		n715 Eucalyptus_yilgarnensis,
+[716] 		n716 Eucalyptus_youmanii,
+[717] 		n717 Eucalyptus_youngiana,
+[718] 		n718 Eucalyptus_yumbarrana,
+[719] 		n719 Eucalyptus_zopherophloia,
+[720] 		n720 Hypocalymma_linifolium,
+[721] 		n721 Kjellbergiodendron_celebicum,
+[722] 		n722 Kunzea_ericoides,
+[723] 		n723 Lophostemon_confertus,
+[724] 		n724 Lophostemon_suaveolens,
+[725] 		n725 Myrtus_communis,
+[726] 		n726 Stockwellia_quadrifida,
+[727] 		n727 Syncarpia_glomulifera,
+[728] 		n728 Syncarpia_hillii,
+[729] 		n729 Syzygium_angophoroides,
+[730] 		n730 Tepualia_stipularis;
+	TREE tree_1 = ((n721:76.166231,(n723:68.129473,n724:68.129473):8.036758):0.958769,((n725:45.951087,(n101:28.335055,n3:28.335055):17.616032):18.406451,(((n15:31.451939,n730:31.451939):29.564864,(n0:31.433698,n729:31.433698):29.583105):2.574689,((n727:43.708709,n728:43.708709):16.997805,((n720:29.251012,(n1:28.128711,n722:28.128711):1.1223):30.212197,((n2:41.818872,(n726:24.557927,(n102:24.072714,n103:24.072714):0.485213):17.260945):17.496007,(n14:58.518057,(((((n31:8.735148,n53:8.735148):16.862227,n50:25.597376,((n63:9.869377,n87:9.869377):6.031578,((n80:9.623712,(n23:7.116132,(n95:3.558088,n40:3.558088):3.558044):2.50758):5.449206,(n85:8.148753,(n19:4.730047,(n37:3.930787,(n21:3.744877,n55:3.744877):0.18591):0.79926):3.418707):6.924164):0.828037):9.69642):8.72667,((n18:19.230129,n24:19.230129,(n79:10.528012,n38:10.528012):8.702116):5.056849,((n56:6.632241,(n93:4.858636,n94:4.858636):1.773605):10.097347,(((n49:3.333767,n72:3.333767):3.538062,(n62:3.698491,(n97:1.976476,n34:1.976476):1.722015):3.173339):7.989365,((n26:9.271017,(n81:4.263387,(n70:3.396739,n22:3.396739,n68:3.396739):0.866648):5.00763):4.98295,(n28:11.245059,(n98:6.877227,(n43:5.040152,(n32:4.262685,(n90:3.389695,n82:3.389695):0.87299):0.777467):1.837074):4.367832):3.008909):0.607227):1.868394):7.557389):10.037068):12.365188,(((n6:23.686015,n10:23.686015):12.829124,(n7:18.545526,(n11:6.601321,n13:6.601321):11.944204,((n8:6.336471,n5:6.336471):11.308629,n4:17.6451,(n9:11.225709,n12:11.225709):6.41939):0.900426):17.969614):3.718516,(((n58:7.948798,n96:7.948798):18.343023,(n59:18.218269,(n30:14.597747,n52:14.597747):3.620522):8.073552):5.853529,(n17:30.759833,(n99:18.831812,(n64:18.053598,((n66:9.862776,n88:9.862776):3.843956,((n65:4.124543,n35:4.124543):7.567654,(n67:8.243074,(n74:5.857033,n86:5.857033,n16:5.857033,n91:5.857033,(n76:1.955959,n75:1.955959):3.901074):2.386041):3.449123):2.014536):4.346866):0.778214,((n27:10.614656,((n20:2.311537,n33:2.311537):3.294705,n69:5.606242,(n89:5.038657,n77:5.038657):0.567585,n60:5.606242,n44:5.606242,n84:5.606242):5.008414):7.660356,(n78:17.981967,((n29:5.680186,(n47:3.121934,n42:3.121934,n41:3.121934):2.558252):6.413552,n48:12.093738,(n71:7.188262,(n100:3.988612,(n46:1.170477,n61:1.170477):2.818134):3.19965):4.905476,((n51:5.494932,n39:5.494932):1.17297,(n36:5.499118,(n25:4.279409,(n73:2.696602,n92:2.696602):1.582807):1.219709):1.168785,((n57:1.69249,n54:1.69249):2.541528,(n83:2.964701,n45:2.964701):1.269317):2.433885):5.425835):5.888229):0.293044):0.556801):11.92802):1.385518):8.088305):6.455577):11.673029,(((n248:39.303863,((n667:22.528872,((n208:15.853121,n536:15.853121):2.536216,(n459:16.166488,n212:16.166488,n335:16.166488):2.222849):4.139536):7.992508,n417:30.52138,(n627:17.998633,n150:17.998633):12.522747,(n345:20.045617,n600:20.045617,(n293:19.573662,((n302:9.321281,n383:9.321281):5.234606,(n230:7.545802,((n332:2.66854,n494:2.66854):1.767734,((n311:1.119071,n549:1.119071):0.905045,(n338:0.814638,n304:0.814638):1.209478):2.412158):3.109528):7.010085):5.017774):0.471955):10.475763):8.782483):7.966412,(n659:44.534527,(n218:41.142884,((n523:27.83487,n285:27.83487,n673:27.83487):3.256754,((n382:25.178759,((n638:17.341751,n439:17.341751):7.479069,(n177:24.000775,n380:24.000775):0.820045):0.357939):4.734801,((n189:7.793419,(n281:6.386211,n513:6.386211):1.407208):10.409767,((n404:12.260692,n650:12.260692):3.752145,(n133:5.94617,n443:5.94617):10.066667):2.190349):11.710373,(((n235:12.208251,(n309:8.770393,n526:8.770393):3.437858):8.798341,n377:21.006592,((n546:11.313273,(n544:9.994229,n414:9.994229):1.319044):5.094974,((n108:4.18315,n182:4.18315):6.274273,(n299:6.033166,n558:6.033166,n620:6.033166):4.424258):5.950823):4.598345):1.937506,((n682:9.840053,(n203:8.68856,n131:8.68856):1.151492):5.163632,((n602:6.690138,n405:6.690138):2.833126,(n122:8.943514,(n109:5.315884,n634:5.315884):3.62763,((n693:5.56974,(n621:3.699615,n690:3.699615):1.870124):2.430652,n641:8.000392,n578:8.000392,((n671:4.361512,n588:4.361512):0.493797,n597:4.855309,n567:4.855309,n136:4.855309,(n480:4.216456,(n660:3.223458,n587:3.223458):0.992998):0.638853,((n463:3.298229,((n243:1.223785,n706:1.223785):0.980854,(n678:1.12118,(n399:0.912578,n632:0.912578):0.208602):1.083458,n626:2.204638,n713:2.204638,(n430:1.617261,n471:1.617261,(n470:1.221606,(n157:1.032041,n341:1.032041):0.189565):0.395656):0.587377):1.093591):0.241085,n500:3.539314,(n395:3.458909,(n297:1.884719,(n579:1.300882,n524:1.300882):0.583836,(n505:1.672168,n326:1.672168):0.21255,(n184:0.906903,(n245:0.673674,(n265:0.602753,n316:0.602753):0.07092):0.233229):0.977816):1.57419):0.080405,(((n645:1.788889,n516:1.788889,(n467:1.675048,n640:1.675048):0.113841):0.219237,((n394:1.252422,n353:1.252422):0.293144,n489:1.545565,n282:1.545565):0.462561):0.129423,n226:2.13755,((n440:1.12917,((n397:0.601125,n716:0.601125):0.20735,n497:0.808475,n132:0.808475):0.320694):0.854492,n271:1.983661,n433:1.983661,((n161:0.646857,n305:0.646857):0.873785,n415:1.520641,n166:1.520641,n360:1.520641,(n657:0.744597,(n129:0.445923,(n580:0.373021,n200:0.373021):0.072902):0.298674):0.776045):0.46302,((n705:0.441354,n490:0.441354):0.797882,(n112:1.038948,(n124:0.404601,n167:0.404601):0.634347):0.200288):0.744425,((n540:0.92781,n572:0.92781):0.532844,n191:1.460653,(n428:0.919407,(n228:0.385615,n542:0.385615):0.533792):0.541246):0.523008):0.153888):1.401764):1.315995):3.145083):0.943122):0.57975):5.480421):7.940412):6.969462):1.178065):10.05126):3.391643):2.735749):4.760298,(n357:41.36567,(n454:36.05302,((n286:14.595561,n262:14.595561):12.067598,(n594:23.350224,((n512:9.139734,n637:9.139734):8.835657,((n717:4.350629,n343:4.350629):10.05633,(((n599:5.863827,((n622:2.673932,n461:2.673932):1.574921,(n581:3.965962,(n514:2.937243,(n294:1.721813,n387:1.721813):1.21543):1.028719):0.282892):1.614973):0.979917,(((n372:1.491457,n592:1.491457):1.614273,n432:3.10573,n287:3.10573):1.177454,((n244:1.282547,n504:1.282547):1.334921,(n202:1.624714,((n410:0.491619,n654:0.491619):0.55008,(n185:1.019415,(n187:0.467985,(n495:0.291097,n306:0.291097):0.176888):0.55143):0.022284):0.583015):0.992755):1.665716):2.56056):3.6713,((n511:8.625299,(n571:4.239616,n398:4.239616):4.385683):0.466535,(n280:7.783645,(((n151:4.227586,n219:4.227586):0.761407,(((n153:0.630847,n584:0.630847,n606:0.630847):1.07765,(n152:1.040291,n259:1.040291,n221:1.040291):0.668206):1.91819,((n283:2.328128,n389:2.328128):1.127553,((n464:2.132989,((n681:1.278355,(n437:0.804308,n384:0.804308):0.474046):0.321099,n462:1.599453,(n576:0.738583,(n127:0.503024,n322:0.503024):0.235559):0.86087):0.533536):0.281558,(n610:2.05835,(n154:1.536863,(n266:1.352625,(n421:1.253525,(n179:0.843811,(((n533:0.321189,(n140:0.316423,n507:0.316423):0.004766):0.196915,n570:0.518104,n346:0.518104,n312:0.518104):0.277717,((n386:0.355562,n143:0.355562):0.43452,n496:0.790082,((n427:0.450921,n452:0.450921):0.138869,(n476:0.410672,n684:0.410672):0.179118,(n369:0.302533,n375:0.302533):0.287257,((n709:0.376639,n699:0.376639):0.069917,((n337:0.175542,n630:0.175542,n300:0.175542,(n232:0.07227,n712:0.07227):0.103271):0.135308,n320:0.31085,((n502:0.27665,n718:0.27665):0.021153,(n393:0.210324,(((n277:0.116643,n527:0.116643):0.0226,(n460:0.131641,(n608:0.099474,(n702:0.032449,n685:0.032449):0.067025):0.032167):0.007602):0.018233,n409:0.157476,n499:0.157476,(n508:0.096424,n276:0.096424,n548:0.096424,(n366:0.079914,n596:0.079914,(n135:0.069786,(n683:0.046815,n403:0.046815,(n700:0.039774,(n117:0.022775,(n323:0.011843,(n329:0.008208,n321:0.008208):0.003636):0.010932):0.016999):0.007041):0.022971):0.010127):0.01651):0.061052):0.052849):0.087479):0.013047):0.135706):0.143234):0.200292):0.005739):0.04799):0.409713):0.099101):0.184238):0.521487):0.356197):1.041133):0.171007):1.362306):1.266788,((n488:4.844036,n199:4.844036):0.846449,((n170:5.263038,(n264:3.596742,(((n238:2.036134,n517:2.036134):0.248887,((n604:1.335623,(n247:1.194138,(n364:0.589277,n130:0.589277,n547:0.589277,n367:0.589277,(n115:0.51641,n466:0.51641):0.072867):0.604861):0.141486):0.591076,((n423:0.858713,(n569:0.707414,n196:0.707414):0.151299):0.170701,(n557:0.967217,((n352:0.460153,n614:0.460153):0.382564,(n525:0.482386,(n350:0.209935,n589:0.209935,n609:0.209935):0.272452):0.360331):0.1245):0.062197):0.897286,(n355:1.392947,(n672:0.961438,(n174:0.684713,(n121:0.488983,(n193:0.471538,((n664:0.246376,n340:0.246376,n319:0.246376):0.051046,n485:0.297422,(n469:0.227475,n292:0.227475):0.069947):0.174116,((n376:0.278826,(n164:0.127562,n336:0.127562):0.151264):0.025063,(n378:0.214834,n113:0.214834,(n473:0.141184,n420:0.141184,(n692:0.08166,n257:0.08166):0.059524):0.07365):0.089055):0.167649):0.017444):0.19573):0.276725):0.431509):0.533753):0.358322):1.006412,((n361:1.454028,n435:1.454028):1.461273,((n649:2.340916,n618:2.340916):0.338688,n275:2.679603,(n412:1.952914,(n451:0.926589,(n520:0.391383,n181:0.391383):0.535205):1.026326):0.726689):0.235697,(n561:2.355955,n474:2.355955,((n169:1.397906,(n468:1.246732,n573:1.246732):0.151175):0.351487,n258:1.749393,(n240:1.083848,n195:1.083848):0.665545,(n125:1.548552,((n178:0.761104,n436:0.761104):0.453158,((n155:0.81822,n342:0.81822,n233:0.81822):0.196531,(n601:0.866228,(n290:0.617976,n590:0.617976):0.248251,((n186:0.535791,((n629:0.331502,n714:0.331502):0.086974,(n484:0.39374,(n385:0.287245,n646:0.287245):0.106495):0.024736):0.117315):0.17392,(n106:0.631644,((n141:0.262454,(n229:0.165261,n509:0.165261):0.097193):0.186792,(((n370:0.077214,(n438:0.051467,n429:0.051467):0.025748,(n598:0.025829,n704:0.025829,n120:0.025829):0.051385):0.104875,(n479:0.138915,n689:0.138915):0.043174,n613:0.18209,((n198:0.081455,n237:0.081455):0.048363,n529:0.129818,n585:0.129818):0.052272):0.120054,(n268:0.159407,n339:0.159407,n330:0.159407):0.142736,(n214:0.225969,(n149:0.127937,n455:0.127937):0.098032):0.076174,(n568:0.120598,n180:0.120598,(n577:0.106299,n521:0.106299):0.0143):0.181545,n207:0.302144,((n635:0.161011,(n347:0.098288,n483:0.098288):0.062723):0.044756,((n695:0.071887,(n371:0.070106,n296:0.070106):0.001781):0.073944,n388:0.145832,(n255:0.116036,n358:0.116036):0.029796):0.059935,((n148:0.084049,n162:0.084049):0.054331,n114:0.138381,(n647:0.048429,n254:0.048429):0.089952,(n422:0.117069,n615:0.117069,(n298:0.047873,(n478:0.039003,n481:0.039003):0.00887):0.069195):0.021312):0.067386):0.096377):0.147102):0.182399):0.078067):0.156516):0.148523):0.199511):0.33429):0.20084):0.606562):0.559345):0.376133):0.305309):1.666296):0.372184,((n425:3.159422,((n159:1.111973,n607:1.111973):1.53725,(n317:2.570489,n118:2.570489):0.078734,((n711:1.59127,(n662:0.970029,n694:0.970029,(n137:0.705334,(n537:0.410681,n631:0.410681):0.294653):0.264695):0.621241):0.89139,(((n665:0.415608,n318:0.415608):0.409306,(n616:0.677131,(n190:0.313869,n239:0.313869):0.363262):0.147784):0.97783,(((n260:1.144607,(n291:1.064749,n593:1.064749):0.079858):0.509682,(n518:1.472811,(n261:0.530275,n445:0.530275):0.942536):0.181478):0.022539,(((n110:0.434365,n231:0.434365):0.201275,(n416:0.623678,n213:0.623678):0.011962,n656:0.63564,n582:0.63564):0.53671,((n552:0.515056,n315:0.515056):0.307021,n426:0.822077,((n314:0.477,n522:0.477):0.306456,(n379:0.591592,(n158:0.494639,n351:0.494639):0.096953):0.191864):0.038621):0.350273,(((n434:0.385208,(n501:0.190436,n670:0.190436):0.194771):0.262788,(n493:0.453746,(n625:0.372247,(n543:0.156547,n205:0.156547):0.2157):0.081499):0.194249):0.304288,((n278:0.383808,n623:0.383808):0.36809,((n256:0.590834,n227:0.590834):0.012612,n506:0.603446,n669:0.603446):0.148452):0.200386,(n603:0.888695,(n697:0.555267,n554:0.555267):0.333428,((n565:0.388365,n368:0.388365):0.078,(n308:0.441784,n138:0.441784):0.024581):0.42233):0.063589):0.220065,((n163:1.016285,(n331:0.564914,(n402:0.440569,n465:0.440569):0.124345):0.451371):0.109212,(n457:1.08838,((n224:0.549001,n175:0.549001):0.271639,((n408:0.394227,n530:0.394227):0.18862,(n498:0.523347,(n391:0.412167,n487:0.412167):0.11118):0.0595):0.237792):0.26774):0.037118):0.046852,((n696:0.395685,n147:0.395685):0.38964,(n575:0.597119,((n123:0.333674,(n447:0.31558,n515:0.31558):0.018095):0.08868,n116:0.422355,(n539:0.194317,(n482:0.129035,(n553:0.127026,n453:0.127026):0.00201):0.065282):0.228038,((n328:0.25146,n215:0.25146):0.009054,(n168:0.212601,(n413:0.137445,n677:0.137445):0.075156,n449:0.212601,(n401:0.149984,n624:0.149984,(n519:0.088928,n531:0.088928,((n156:0.031809,n555:0.031809):0.019979,n160:0.051788,n400:0.051788):0.037139):0.061056):0.062617):0.047914):0.16184):0.174764):0.188206):0.387024):0.504478):0.125917):0.679915):0.166563):0.510199):0.983705,((n222:3.666478,n528:3.666478):0.40405,((((n532:1.317442,(n246:0.744099,n105:0.744099):0.573343):0.803159,n210:2.120602,n503:2.120602,((n206:1.185584,n559:1.185584,n192:1.185584):0.781474,(n715:0.939629,(n349:0.727906,(n574:0.294943,n362:0.294943):0.432964):0.211723):1.027429):0.153544):0.43992,(n307:1.498228,(n407:1.31504,(n617:1.12314,((n701:0.348558,n666:0.348558):0.476349,(n253:0.300079,n541:0.300079):0.524828):0.298233):0.1919,n605:1.31504,n418:1.31504,((n648:0.507877,n111:0.507877):0.598969,(n707:0.558281,n289:0.558281,n595:0.558281):0.548565):0.208194,(n411:1.028071,((n324:0.5588,n201:0.5588,n642:0.5588,(n374:0.513001,(n628:0.431153,n591:0.431153,n284:0.431153,n126:0.431153):0.081848):0.045799):0.324999,(n354:0.801476,n448:0.801476):0.082323,n676:0.883799,(n313:0.536286,n263:0.536286):0.347513,n188:0.883799,n545:0.883799,(n176:0.869611,n653:0.869611,(n510:0.751094,n450:0.751094):0.118518):0.014188):0.144272):0.286969):0.183188):1.062293):0.233944,((n242:1.738968,(n197:1.642684,(n535:0.948721,(n250:0.688462,n288:0.688462):0.26026):0.693963):0.096283):0.500114,(n325:1.61342,(n139:1.520101,(n171:0.618666,n566:0.618666,(n225:0.597044,n687:0.597044):0.021622):0.901435,(n359:1.455973,((n475:0.557251,(n145:0.188776,n279:0.188776):0.368475):0.496915,n327:1.054166,(n636:0.856343,n538:0.856343,n216:0.856343,n674:0.856343):0.197822):0.401807,(n698:1.213929,n661:1.213929,n472:1.213929,(n491:0.771222,(n551:0.573074,n390:0.573074,(n334:0.336623,(n236:0.197529,(n220:0.101436,n172:0.101436):0.096093):0.139094):0.236451):0.198148):0.442706):0.242044):0.064128):0.093319,((n562:1.166812,((n611:0.858186,n680:0.858186):0.173201,(n241:0.734519,n663:0.734519,n295:0.734519,(n194:0.469484,(n381:0.290975,(n274:0.211928,n583:0.211928):0.079048):0.178509):0.265035):0.296868):0.135425,(n564:0.995855,(n107:0.820328,n643:0.820328):0.175526):0.170957,(n204:0.80383,n356:0.80383,((n668:0.396795,(n710:0.347173,n675:0.347173):0.049622):0.332972,((n396:0.416669,(n708:0.374606,n679:0.374606):0.042063):0.286325,n142:0.702995,(n424:0.230785,n719:0.230785):0.47221):0.026772):0.074062):0.362982):0.029908,n442:1.19672,(n134:0.872912,((n556:0.189955,n534:0.189955):0.348746,n217:0.538701,n446:0.538701,n365:0.538701):0.334211):0.323808,(n419:1.180996,((n104:0.363388,n550:0.363388):0.384814,(n333:0.480116,n267:0.480116,n251:0.480116):0.268086):0.432795,((n392:0.782061,n173:0.782061):0.36846,(n310:0.930274,((n619:0.622484,n644:0.622484):0.039512,((n303:0.168997,n655:0.168997):0.378127,(n686:0.443853,((n486:0.293788,(n633:0.138333,n560:0.138333):0.155455,(n691:0.258187,(n211:0.228585,(n492:0.16632,n563:0.16632):0.062265):0.029601):0.035602):0.087891,(n146:0.127793,n165:0.127793):0.253886,((n651:0.187842,(n703:0.175982,n209:0.175982):0.011859):0.036985,(n688:0.210614,(n119:0.157411,(n348:0.143362,(n270:0.101996,(n406:0.094329,n363:0.094329,(n128:0.037995,n586:0.037995):0.056335):0.007667):0.041366):0.01405):0.053203):0.014212):0.156853,((n272:0.216651,n652:0.216651):0.096414,((n658:0.145719,(n301:0.085415,n458:0.085415):0.060305):0.113588,n269:0.259307,(n252:0.135279,(n612:0.072414,n144:0.072414,(n273:0.029417,n639:0.029417):0.042997):0.062865):0.124028):0.053757,((n456:0.144495,n249:0.144495):0.057271,n431:0.201766,((n344:0.061639,(n373:0.045294,n444:0.045294):0.016345):0.036772,(n223:0.060224,n441:0.060224):0.038186,n477:0.098411,(n183:0.065978,n234:0.065978):0.032432):0.103355):0.111299):0.068614):0.062174):0.103271):0.114872):0.268278):0.220247):0.030476):0.015724):0.4167):0.625662):0.555384):1.276062):0.0726):1.492094):0.055263):0.565296):1.527864):1.30819):1.42321):3.891914):3.568432):5.374833):3.312936):9.389861):5.31265):10.664903):6.331688):0.155795):0.796822):0.14833):1.243306):2.884977):0.766046):12.767462);
+
+END;
+
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  22;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  22;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1512790994744;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4036026246327275029;
+			tell It;
+				setDefaultOrder  8 13 15 5 64 63 57 59 62 65 58 60 66 61 19 6 82 72 34 30 87 32 49 26 35 108 46 86 51 96 70 20 54 88 45 78 107 31 37 106 28 99 98 53 93 114 103 97 100 41 22 105 71 21 112 33 38 111 67 69 92 104 43 23 74 77 75 79 50 89 48 101 42 109 80 85 84 91 95 36 25 47 56 113 94 29 81 24 76 90 55 83 110 39 40 27 68 44 52 73 102 4 17 18 676 570 426 655 161 172 495 590 238 389 465 362 547 346 477 702 435 377 171 544 239 411 602 296 707 233 359 168 224 152 669 342 183 481 528 620 304 427 665 310 717 627 696 542 463 447 124 280 285 282 299 414 562 198 507 474 564 227 464 529 386 697 230 240 554 405 352 621 643 682 376 535 610 145 412 302 450 402 162 729 207 272 420 273 608 147 487 243 575 378 650 410 366 615 439 351 235 596 269 167 657 515 573 453 117 700 571 693 120 498 446 553 632 672 138 281 642 287 566 726 534 623 219 519 245 428 130 496 323 416 730 154 641 440 354 488 409 647 614 188 267 208 569 357 115 721 617 680 715 585 467 461 518 393 408 286 489 493 250 607 353 209 300 679 443 714 704 225 709 718 652 398 338 329 516 628 279 148 218 288 601 140 249 266 618 592 418 490 384 127 261 649 459 202 470 163 322 712 128 686 136 228 275 580 527 155 683 133 308 606 504 502 210 476 485 381 325 349 297 347 595 619 206 629 552 348 445 530 131 678 640 121 387 320 135 444 380 199 415 255 723 125 307 455 703 577 371 508 368 216 603 374 658 247 462 625 231 394 579 706 358 674 340 361 526 316 430 458 263 724 598 317 385 157 388 506 146 651 142 129 293 424 309 262 460 289 639 539 681 328 215 201 662 221 278 191 565 558 531 344 150 170 705 581 536 335 270 594 399 555 160 229 497 122 588 675 391 301 468 364 666 473 503 312 244 432 195 722 265 226 509 395 413 292 431 144 220 727 668 153 725 494 673 545 604 557 613 400 313 551 248 448 720 533 713 119 331 258 294 187 290 532 363 213 406 383 197 196 636 390 404 626 314 728 471 436 184 472 549 456 423 382 689 540 350 217 237 637 694 512 132 274 311 223 538 336 200 510 326 572 268 205 520 305 337 429 612 276 252 149 260 546 212 355 492 560 401 452 505 139 204 370 156 330 567 441 537 561 568 303 671 616 118 482 631 548 241 586 246 514 159 609 158 360 339 134 677 638 501 550 524 563 670 367 164 574 691 403 644 695 654 525 622 182 449 365 306 277 242 407 578 543 295 451 178 203 234 259 500 653 283 442 708 186 180 372 419 600 264 491 251 593 341 181 433 256 126 417 169 522 356 587 284 475 332 373 298 645 716 438 369 469 486 582 397 684 165 175 257 517 559 513 193 123 599 421 321 483 192 690 173 454 630 253 143 719 214 177 597 656 685 211 425 466 589 396 151 698 710 611 271 687 499 232 711 137 185 635 479 648 379 484 584 116 659 521 511 179 375 141 633 661 605 556 190 664 646 291 166 343 315 334 688 624 701 437 176 692 392 174 480 457 541 523 634 319 345 583 333 699 434 236 189 591 663 318 660 478 324 194 422 576 222 254 327 667 12 0 14 1 2 3 16 10 11 9 7;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 6310358819592588084;
+			mqVersion 304;
+			checksumv 0 3 3323384513 null  getNumChars 22 numChars 22 getNumTaxa 731 numTaxa 731   short false   bits 9007199254740991   states 9007199254740991   sumSquaresStatesOnly 3.9989083467985066E20 sumSquares 3.9989083467985066E20 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 428;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 2560 1260;
+			setLocation -13 -13;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #4036026246327275029 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #4036026246327275029;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					newAssistant  #mesquite.lists.TaxaListUniqueID.TaxaListUniqueID;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 2132 1188;
+					setLocation -13 -13;
+					setFont SanSerif;
+					setFontSize 18;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.sort;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #4036026246327275029  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 920.1464207138118.3578774219363646693;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 2132 1188;
+					setLocation -13 -13;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareLineTree.SquareLineTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							setFixedTaxonDistance 0;
+						endTell;
+						setEdgeWidth 8;
+						showEdgeLines off;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition off;
+						toggleColorAssigned on;
+						toggleShadePartition off;
+						toggleShowFootnotes off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '((3:41.818872,(727:24.557927,(103:24.072714,104:24.072714):0.485213):17.260945):17.496007,(15:58.518057,(((((32:8.735148,54:8.735148):16.862227,51:25.597376,((64:9.869377,88:9.869377):6.031578,((81:9.623712,(24:7.116132,(96:3.558088,41:3.558088):3.558044):2.50758):5.449206,(86:8.148753,(20:4.730047,(38:3.930787,(22:3.744877,56:3.744877):0.18591):0.79926):3.418707):6.924164):0.828037):9.69642):8.72667,((19:19.230129,25:19.230129,(80:10.528012,39:10.528012):8.702116):5.056849,((57:6.632241,(94:4.858636,95:4.858636):1.773605):10.097347,(((50:3.333767,73:3.333767):3.538062,(63:3.698491,(98:1.976476,35:1.976476):1.722015):3.173339):7.989365,((27:9.271017,(82:4.263387,(71:3.396739,23:3.396739,69:3.396739):0.866648):5.00763):4.98295,(29:11.245059,(99:6.877227,(44:5.040152,(33:4.262685,(91:3.389695,83:3.389695):0.87299):0.777467):1.837074):4.367832):3.008909):0.607227):1.868394):7.557389):10.037068):12.365188,(((7:23.686015,11:23.686015):12.829124,(8:18.545526,(12:6.601321,14:6.601321):11.944204,((9:6.336471,6:6.336471):11.308629,5:17.6451,(10:11.225709,13:11.225709):6.41939):0.900426):17.969614):3.718516,(((59:7.948798,97:7.948798):18.343023,(60:18.218269,(31:14.597747,53:14.597747):3.620522):8.073552):5.853529,(18:30.759833,(100:18.831812,(65:18.053598,((67:9.862776,89:9.862776):3.843956,((66:4.124543,36:4.124543):7.567654,(68:8.243074,(75:5.857033,87:5.857033,17:5.857033,92:5.857033,(77:1.955959,76:1.955959):3.901074):2.386041):3.449123):2.014536):4.346866):0.778214,((28:10.614656,((21:2.311537,34:2.311537):3.294705,70:5.606242,(90:5.038657,78:5.038657):0.567585,61:5.606242,45:5.606242,85:5.606242):5.008414):7.660356,(79:17.981967,((30:5.680186,(48:3.121934,43:3.121934,42:3.121934):2.558252):6.413552,49:12.093738,(72:7.188262,(101:3.988612,(47:1.170477,62:1.170477):2.818134):3.19965):4.905476,((52:5.494932,40:5.494932):1.17297,(37:5.499118,(26:4.279409,(74:2.696602,93:2.696602):1.582807):1.219709):1.168785,((58:1.69249,55:1.69249):2.541528,(84:2.964701,46:2.964701):1.269317):2.433885):5.425835):5.888229):0.293044):0.556801):11.92802):1.385518):8.088305):6.455577):11.673029,(((249:39.303863,((668:22.528872,((209:15.853121,537:15.853121):2.536216,(460:16.166488,213:16.166488,336:16.166488):2.222849):4.139536):7.992508,418:30.52138,(628:17.998633,151:17.998633):12.522747,(346:20.045617,601:20.045617,(294:19.573662,((303:9.321281,384:9.321281):5.234606,(231:7.545802,((333:2.66854,495:2.66854):1.767734,((312:1.119071,550:1.119071):0.905045,(339:0.814638,305:0.814638):1.209478):2.412158):3.109528):7.010085):5.017774):0.471955):10.475763):8.782483):7.966412,(660:44.534527,(219:41.142884,((524:27.83487,286:27.83487,674:27.83487):3.256754,((383:25.178759,((639:17.341751,440:17.341751):7.479069,(178:24.000775,381:24.000775):0.820045):0.357939):4.734801,((190:7.793419,(282:6.386211,514:6.386211):1.407208):10.409767,((405:12.260692,651:12.260692):3.752145,(134:5.94617,444:5.94617):10.066667):2.190349):11.710373,(((236:12.208251,(310:8.770393,527:8.770393):3.437858):8.798341,378:21.006592,((547:11.313273,(545:9.994229,415:9.994229):1.319044):5.094974,((109:4.18315,183:4.18315):6.274273,(300:6.033166,559:6.033166,621:6.033166):4.424258):5.950823):4.598345):1.937506,((683:9.840053,(204:8.68856,132:8.68856):1.151492):5.163632,((603:6.690138,406:6.690138):2.833126,(123:8.943514,(110:5.315884,635:5.315884):3.62763,((694:5.56974,(622:3.699615,691:3.699615):1.870124):2.430652,642:8.000392,579:8.000392,((672:4.361512,589:4.361512):0.493797,598:4.855309,568:4.855309,137:4.855309,(481:4.216456,(661:3.223458,588:3.223458):0.992998):0.638853,((464:3.298229,((244:1.223785,707:1.223785):0.980854,(679:1.12118,(400:0.912578,633:0.912578):0.208602):1.083458,627:2.204638,714:2.204638,(431:1.617261,472:1.617261,(471:1.221606,(158:1.032041,342:1.032041):0.189565):0.395656):0.587377):1.093591):0.241085,501:3.539314,(396:3.458909,(298:1.884719,(580:1.300882,525:1.300882):0.583836,(506:1.672168,327:1.672168):0.21255,(185:0.906903,(246:0.673674,(266:0.602753,317:0.602753):0.07092):0.233229):0.977816):1.57419):0.080405,(((646:1.788889,517:1.788889,(468:1.675048,641:1.675048):0.113841):0.219237,((395:1.252422,354:1.252422):0.293144,490:1.545565,283:1.545565):0.462561):0.129423,227:2.13755,((441:1.12917,((398:0.601125,717:0.601125):0.20735,498:0.808475,133:0.808475):0.320694):0.854492,272:1.983661,434:1.983661,((162:0.646857,306:0.646857):0.873785,416:1.520641,167:1.520641,361:1.520641,(658:0.744597,(130:0.445923,(581:0.373021,201:0.373021):0.072902):0.298674):0.776045):0.46302,((706:0.441354,491:0.441354):0.797882,(113:1.038948,(125:0.404601,168:0.404601):0.634347):0.200288):0.744425,((541:0.92781,573:0.92781):0.532844,192:1.460653,(429:0.919407,(229:0.385615,543:0.385615):0.533792):0.541246):0.523008):0.153888):1.401764):1.315995):3.145083):0.943122):0.57975):5.480421):7.940412):6.969462):1.178065):10.05126):3.391643):2.735749):4.760298,(358:41.36567,(455:36.05302,((287:14.595561,263:14.595561):12.067598,(595:23.350224,((513:9.139734,638:9.139734):8.835657,((718:4.350629,344:4.350629):10.05633,(((600:5.863827,((623:2.673932,462:2.673932):1.574921,(582:3.965962,(515:2.937243,(295:1.721813,388:1.721813):1.21543):1.028719):0.282892):1.614973):0.979917,(((373:1.491457,593:1.491457):1.614273,433:3.10573,288:3.10573):1.177454,((245:1.282547,505:1.282547):1.334921,(203:1.624714,((411:0.491619,655:0.491619):0.55008,(186:1.019415,(188:0.467985,(496:0.291097,307:0.291097):0.176888):0.55143):0.022284):0.583015):0.992755):1.665716):2.56056):3.6713,((512:8.625299,(572:4.239616,399:4.239616):4.385683):0.466535,(281:7.783645,(((152:4.227586,220:4.227586):0.761407,(((154:0.630847,585:0.630847,607:0.630847):1.07765,(153:1.040291,260:1.040291,222:1.040291):0.668206):1.91819,((284:2.328128,390:2.328128):1.127553,((465:2.132989,((682:1.278355,(438:0.804308,385:0.804308):0.474046):0.321099,463:1.599453,(577:0.738583,(128:0.503024,323:0.503024):0.235559):0.86087):0.533536):0.281558,(611:2.05835,(155:1.536863,(267:1.352625,(422:1.253525,(180:0.843811,(((534:0.321189,(141:0.316423,508:0.316423):0.004766):0.196915,571:0.518104,347:0.518104,313:0.518104):0.277717,((387:0.355562,144:0.355562):0.43452,497:0.790082,((428:0.450921,453:0.450921):0.138869,(477:0.410672,685:0.410672):0.179118,(370:0.302533,376:0.302533):0.287257,((710:0.376639,700:0.376639):0.069917,((338:0.175542,631:0.175542,301:0.175542,(233:0.07227,713:0.07227):0.103271):0.135308,321:0.31085,((503:0.27665,719:0.27665):0.021153,(394:0.210324,(((278:0.116643,528:0.116643):0.0226,(461:0.131641,(609:0.099474,(703:0.032449,686:0.032449):0.067025):0.032167):0.007602):0.018233,410:0.157476,500:0.157476,(509:0.096424,277:0.096424,549:0.096424,(367:0.079914,597:0.079914,(136:0.069786,(684:0.046815,404:0.046815,(701:0.039774,(118:0.022775,(324:0.011843,(330:0.008208,322:0.008208):0.003636):0.010932):0.016999):0.007041):0.022971):0.010127):0.01651):0.061052):0.052849):0.087479):0.013047):0.135706):0.143234):0.200292):0.005739):0.04799):0.409713):0.099101):0.184238):0.521487):0.356197):1.041133):0.171007):1.362306):1.266788,((489:4.844036,200:4.844036):0.846449,((171:5.263038,(265:3.596742,(((239:2.036134,518:2.036134):0.248887,((605:1.335623,(248:1.194138,(365:0.589277,131:0.589277,548:0.589277,368:0.589277,(116:0.51641,467:0.51641):0.072867):0.604861):0.141486):0.591076,((424:0.858713,(570:0.707414,197:0.707414):0.151299):0.170701,(558:0.967217,((353:0.460153,615:0.460153):0.382564,(526:0.482386,(351:0.209935,590:0.209935,610:0.209935):0.272452):0.360331):0.1245):0.062197):0.897286,(356:1.392947,(673:0.961438,(175:0.684713,(122:0.488983,(194:0.471538,((665:0.246376,341:0.246376,320:0.246376):0.051046,486:0.297422,(470:0.227475,293:0.227475):0.069947):0.174116,((377:0.278826,(165:0.127562,337:0.127562):0.151264):0.025063,(379:0.214834,114:0.214834,(474:0.141184,421:0.141184,(693:0.08166,258:0.08166):0.059524):0.07365):0.089055):0.167649):0.017444):0.19573):0.276725):0.431509):0.533753):0.358322):1.006412,((362:1.454028,436:1.454028):1.461273,((650:2.340916,619:2.340916):0.338688,276:2.679603,(413:1.952914,(452:0.926589,(521:0.391383,182:0.391383):0.535205):1.026326):0.726689):0.235697,(562:2.355955,475:2.355955,((170:1.397906,(469:1.246732,574:1.246732):0.151175):0.351487,259:1.749393,(241:1.083848,196:1.083848):0.665545,(126:1.548552,((179:0.761104,437:0.761104):0.453158,((156:0.81822,343:0.81822,234:0.81822):0.196531,(602:0.866228,(291:0.617976,591:0.617976):0.248251,((187:0.535791,((630:0.331502,715:0.331502):0.086974,(485:0.39374,(386:0.287245,647:0.287245):0.106495):0.024736):0.117315):0.17392,(107:0.631644,((142:0.262454,(230:0.165261,510:0.165261):0.097193):0.186792,(((371:0.077214,(439:0.051467,430:0.051467):0.025748,(599:0.025829,705:0.025829,121:0.025829):0.051385):0.104875,(480:0.138915,690:0.138915):0.043174,614:0.18209,((199:0.081455,238:0.081455):0.048363,530:0.129818,586:0.129818):0.052272):0.120054,(269:0.159407,340:0.159407,331:0.159407):0.142736,(215:0.225969,(150:0.127937,456:0.127937):0.098032):0.076174,(569:0.120598,181:0.120598,(578:0.106299,522:0.106299):0.0143):0.181545,208:0.302144,((636:0.161011,(348:0.098288,484:0.098288):0.062723):0.044756,((696:0.071887,(372:0.070106,297:0.070106):0.001781):0.073944,389:0.145832,(256:0.116036,359:0.116036):0.029796):0.059935,((149:0.084049,163:0.084049):0.054331,115:0.138381,(648:0.048429,255:0.048429):0.089952,(423:0.117069,616:0.117069,(299:0.047873,(479:0.039003,482:0.039003):0.00887):0.069195):0.021312):0.067386):0.096377):0.147102):0.182399):0.078067):0.156516):0.148523):0.199511):0.33429):0.20084):0.606562):0.559345):0.376133):0.305309):1.666296):0.372184,((426:3.159422,((160:1.111973,608:1.111973):1.53725,(318:2.570489,119:2.570489):0.078734,((712:1.59127,(663:0.970029,695:0.970029,(138:0.705334,(538:0.410681,632:0.410681):0.294653):0.264695):0.621241):0.89139,(((666:0.415608,319:0.415608):0.409306,(617:0.677131,(191:0.313869,240:0.313869):0.363262):0.147784):0.97783,(((261:1.144607,(292:1.064749,594:1.064749):0.079858):0.509682,(519:1.472811,(262:0.530275,446:0.530275):0.942536):0.181478):0.022539,(((111:0.434365,232:0.434365):0.201275,(417:0.623678,214:0.623678):0.011962,657:0.63564,583:0.63564):0.53671,((553:0.515056,316:0.515056):0.307021,427:0.822077,((315:0.477,523:0.477):0.306456,(380:0.591592,(159:0.494639,352:0.494639):0.096953):0.191864):0.038621):0.350273,(((435:0.385208,(502:0.190436,671:0.190436):0.194771):0.262788,(494:0.453746,(626:0.372247,(544:0.156547,206:0.156547):0.2157):0.081499):0.194249):0.304288,((279:0.383808,624:0.383808):0.36809,((257:0.590834,228:0.590834):0.012612,507:0.603446,670:0.603446):0.148452):0.200386,(604:0.888695,(698:0.555267,555:0.555267):0.333428,((566:0.388365,369:0.388365):0.078,(309:0.441784,139:0.441784):0.024581):0.42233):0.063589):0.220065,((164:1.016285,(332:0.564914,(403:0.440569,466:0.440569):0.124345):0.451371):0.109212,(458:1.08838,((225:0.549001,176:0.549001):0.271639,((409:0.394227,531:0.394227):0.18862,(499:0.523347,(392:0.412167,488:0.412167):0.11118):0.0595):0.237792):0.26774):0.037118):0.046852,((697:0.395685,148:0.395685):0.38964,(576:0.597119,((124:0.333674,(448:0.31558,516:0.31558):0.018095):0.08868,117:0.422355,(540:0.194317,(483:0.129035,(554:0.127026,454:0.127026):0.00201):0.065282):0.228038,((329:0.25146,216:0.25146):0.009054,(169:0.212601,(414:0.137445,678:0.137445):0.075156,450:0.212601,(402:0.149984,625:0.149984,(520:0.088928,532:0.088928,((157:0.031809,556:0.031809):0.019979,161:0.051788,401:0.051788):0.037139):0.061056):0.062617):0.047914):0.16184):0.174764):0.188206):0.387024):0.504478):0.125917):0.679915):0.166563):0.510199):0.983705,((223:3.666478,529:3.666478):0.40405,((((533:1.317442,(247:0.744099,106:0.744099):0.573343):0.803159,211:2.120602,504:2.120602,((207:1.185584,560:1.185584,193:1.185584):0.781474,(716:0.939629,(350:0.727906,(575:0.294943,363:0.294943):0.432964):0.211723):1.027429):0.153544):0.43992,(308:1.498228,(408:1.31504,(618:1.12314,((702:0.348558,667:0.348558):0.476349,(254:0.300079,542:0.300079):0.524828):0.298233):0.1919,606:1.31504,419:1.31504,((649:0.507877,112:0.507877):0.598969,(708:0.558281,290:0.558281,596:0.558281):0.548565):0.208194,(412:1.028071,((325:0.5588,202:0.5588,643:0.5588,(375:0.513001,(629:0.431153,592:0.431153,285:0.431153,127:0.431153):0.081848):0.045799):0.324999,(355:0.801476,449:0.801476):0.082323,677:0.883799,(314:0.536286,264:0.536286):0.347513,189:0.883799,546:0.883799,(177:0.869611,654:0.869611,(511:0.751094,451:0.751094):0.118518):0.014188):0.144272):0.286969):0.183188):1.062293):0.233944,((243:1.738968,(198:1.642684,(536:0.948721,(251:0.688462,289:0.688462):0.26026):0.693963):0.096283):0.500114,(326:1.61342,(140:1.520101,(172:0.618666,567:0.618666,(226:0.597044,688:0.597044):0.021622):0.901435,(360:1.455973,((476:0.557251,(146:0.188776,280:0.188776):0.368475):0.496915,328:1.054166,(637:0.856343,539:0.856343,217:0.856343,675:0.856343):0.197822):0.401807,(699:1.213929,662:1.213929,473:1.213929,(492:0.771222,(552:0.573074,391:0.573074,(335:0.336623,(237:0.197529,(221:0.101436,173:0.101436):0.096093):0.139094):0.236451):0.198148):0.442706):0.242044):0.064128):0.093319,((563:1.166812,((612:0.858186,681:0.858186):0.173201,(242:0.734519,664:0.734519,296:0.734519,(195:0.469484,(382:0.290975,(275:0.211928,584:0.211928):0.079048):0.178509):0.265035):0.296868):0.135425,(565:0.995855,(108:0.820328,644:0.820328):0.175526):0.170957,(205:0.80383,357:0.80383,((669:0.396795,(711:0.347173,676:0.347173):0.049622):0.332972,((397:0.416669,(709:0.374606,680:0.374606):0.042063):0.286325,143:0.702995,(425:0.230785,720:0.230785):0.47221):0.026772):0.074062):0.362982):0.029908,443:1.19672,(135:0.872912,((557:0.189955,535:0.189955):0.348746,218:0.538701,447:0.538701,366:0.538701):0.334211):0.323808,(420:1.180996,((105:0.363388,551:0.363388):0.384814,(334:0.480116,268:0.480116,252:0.480116):0.268086):0.432795,((393:0.782061,174:0.782061):0.36846,(311:0.930274,((620:0.622484,645:0.622484):0.039512,((304:0.168997,656:0.168997):0.378127,(687:0.443853,((487:0.293788,(634:0.138333,561:0.138333):0.155455,(692:0.258187,(212:0.228585,(493:0.16632,564:0.16632):0.062265):0.029601):0.035602):0.087891,(147:0.127793,166:0.127793):0.253886,((652:0.187842,(704:0.175982,210:0.175982):0.011859):0.036985,(689:0.210614,(120:0.157411,(349:0.143362,(271:0.101996,(407:0.094329,364:0.094329,(129:0.037995,587:0.037995):0.056335):0.007667):0.041366):0.01405):0.053203):0.014212):0.156853,((273:0.216651,653:0.216651):0.096414,((659:0.145719,(302:0.085415,459:0.085415):0.060305):0.113588,270:0.259307,(253:0.135279,(613:0.072414,145:0.072414,(274:0.029417,640:0.029417):0.042997):0.062865):0.124028):0.053757,((457:0.144495,250:0.144495):0.057271,432:0.201766,((345:0.061639,(374:0.045294,445:0.045294):0.016345):0.036772,(224:0.060224,442:0.060224):0.038186,478:0.098411,(184:0.065978,235:0.065978):0.032432):0.103355):0.111299):0.068614):0.062174):0.103271):0.114872):0.268278):0.220247):0.030476):0.015724):0.4167):0.625662):0.555384):1.276062):0.0726):1.492094):0.055263):0.565296):1.527864):1.30819):1.42321):3.891914):3.568432):5.374833):3.312936):9.389861):5.31265):10.664903):6.331688):0.155795):0.796822):17.810121000000002;';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName on;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setDataSet #6310358819592588084;
+							endTell;
+						endTell;
+						setMethod  #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates;
+						tell It;
+							setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+							toggleMPRsMode off;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 18;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX 181;
+					setInitialOffsetY 605;
+					setLegendWidth 142;
+					setLegendHeight 340;
+					resume ;
+					modifyColors  0 0  158 3 40 1 1  255 15 15 2 0  255 245 5 2 1  163 118 3 2 2  250 10 10 4 0  5 15 255 4 1  14 138 3 4 2  145 255 5 4 3  71 255 211 4 4  250 10 10 6 0  5 15 255 6 1  0 5 5 6 6  142 5 250 9 0  145 5 255 9 9  250 183 10 10 0  5 191 250 10 1  5 15 255 10 2  255 10 10 10 3  147 10 255 10 4  250 240 5 10 5  243 107 255 10 6  173 10 250 10 7  255 185 5 10 8  106 153 6 10 9  147 255 10 10 10  5 255 225 11 0  5 15 255 11 1  255 5 5 11 2  5 195 255 11 3  255 218 122 11 4  255 252 168 11 5  255 245 5 11 6  205 5 255 11 8  255 155 5 11 9  5 255 225 11 11  168 123 7 12 0  42 122 5 12 1  147 255 138 12 2  10 196 255 12 3  5 45 255 12 4  255 10 10 12 5  175 5 255 12 6  255 245 5 12 7  224 102 255 12 8  147 10 255 12 10  15 153 3 12 11  85 255 5 12 12  5 250 250 14 0  255 5 5 14 2  5 135 255 14 3  5 255 225 14 4  255 155 5 14 5  255 245 5 14 6  168 102 3 14 7  146 6 158 14 8  255 10 157 14 9  115 255 5 14 10  147 255 10 14 11  255 163 251 14 12  255 97 249 14 13  64 184 7 14 14  12 122 2 15 0  138 6 6 15 1  124 9 214 15 2  198 9 214 15 3  200 127 235 15 4  93 38 209 15 5  77 255 169 15 6  145 255 5 15 7  20 199 255 15 8  148 229 255 15 9  20 142 255 15 10  18 158 6 15 11  3 148 131 15 12  255 216 10 15 13  184 112 4 15 14  255 125 5 15 15  250 243 80 17 0  148 3 38 17 1  145 5 255 17 2  223 97 255 17 3  250 189 255 17 4  97 103 255 17 5  212 255 158 17 6  4 189 144 17 7  2 117 48 17 8  145 255 5 17 9  71 189 255 17 10  189 255 255 17 11  15 169 255 17 12  17 168 3 17 13  62 148 96 17 14  255 210 143 17 15  163 119 7 17 16  255 186 82 17 17  250 244 110 18 0  158 3 40 18 1  103 7 179 18 2  181 87 255 18 3  255 179 243 18 4  84 41 255 18 5  117 255 156 18 6  101 194 149 18 7  133 255 167 18 8  89 255 10 18 9  71 189 255 18 10  184 238 255 18 11  56 112 255 18 12  5 15 255 31 0  59 10 255 31 1  255 185 5 31 2  255 245 5 31 3  3 143 8 31 4  152 255 143 31 5  255 5 5 31 6  235 5 255 31 7  255 10 10 31 8  104 255 66 31 9  255 245 5 31 10  30 10 255 31 11  235 5 255 31 12  5 195 255 31 13  128 78 3 31 15  255 26 246 31 16  30 10 255 31 17  5 255 255 31 18  255 157 10 31 19  150 15 255 31 20  221 240 5 31 22  28 128 3 31 23  5 165 255 31 24  10 20 255 31 25  128 51 8 31 26  25 255 5 31 28  158 243 255 31 29  255 177 61 31 30  115 5 255 31 31  197 122 255 41 0  175 5 255 41 1  255 157 10 41 2  255 245 5 41 3  11 92 4 41 4  255 5 5 41 5  235 10 255 41 6  30 255 10 41 7  255 245 5 41 8  5 15 255 41 9  87 8 189 41 10  206 10 255 41 11  4 198 224 41 12  112 68 2 41 14  255 157 10 41 15  255 10 216 41 16  255 5 5 41 17  255 245 5 41 18  5 15 255 41 19  5 255 135 41 20  2 82 24 41 21  136 3 148 41 22  224 215 4 41 23  255 10 10 41 24  5 15 255 41 25  5 255 255 41 26  255 157 10 41 27  242 87 255 41 28  145 5 255 41 29  5 255 165 41 30  6 138 43 41 31  5 195 255 41 32  10 49 255 41 33  255 249 112 41 34  255 186 10 41 35  133 65 3 41 36  5 255 105 41 37  250 64 5 41 38  153 243 255 41 39  255 171 46 41 40  161 41 255 41 41  210 153 255;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #6310358819592588084 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 2132 1188;
+					setLocation -13 -13;
+					setFont SanSerif;
+					setFontSize 18;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 2132 1188;
+						setLocation -13 -13;
+						setFont SanSerif;
+						setFontSize 18;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
