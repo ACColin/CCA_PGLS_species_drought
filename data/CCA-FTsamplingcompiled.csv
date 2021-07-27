@@ -1,0 +1,623 @@
+"","UniqueID","Yearplanted","Row","Tree","TaxonoriginalDN","Regen.strategy","Aridityclass","AridityIndex","Diam.1.w.Bark..mm.","Diam.2.Bark","Diam.1.peeled","Diam.2.peeled","Diamthickness.mm.","Volume.wood..cm3.","Leaf.dry.weight..g.","Wood.dry.weight..g.","Wooddensity.g.cm3.","Leaf.Area","Slice","Countedleaves","Total.Area","Average.Size","X.Area"
+"1",75,1994,44,1,"Eucalyptus cneorifolia","Lignotuber","Semiarid",0.4314,7.35,8.39,5.46,5.57,2.355,1.24,1.942,0.89,0.72,NA,"UniqueID",9,51.28345,5.69816,9.42007
+"2",75,1994,44,3,"Eucalyptus cneorifolia","Lignotuber","Semiarid",0.4314,7.05,6.85,5.23,4.85,1.91,0.89,0.6386,0.67,0.75,NA,"UniqueID",10,31.91264,3.19126,5.86192
+"3",75,1994,44,4,"Eucalyptus cneorifolia","Lignotuber","Semiarid",0.4314,6.61,5.98,5.05,4.37,1.585,0.9,1.7673,0.62,0.69,NA,"UniqueID",11,48.17162,4.37924,8.84847
+"4",112,1993,12,29,"Eucalyptus wyolensis","Lignotuber","Arid",0.0622,8.14,7.73,5.6,6.11,2.08,1.45,6.0282,1.06,0.73,NA,"UniqueID",6,197.977,32.996,35.303
+"5",112,1993,12,30,"Eucalyptus wyolensis","Lignotuber","Arid",0.0622,8.23,8.1,5.8,6.43,2.05,1.67,6.0494,1.22,0.73,NA,"UniqueID",6,177.59,29.598,31.668
+"6",112,1993,12,31,"Eucalyptus wyolensis","Lignotuber","Arid",0.0622,9.33,8.43,6.93,7.09,1.87,1.91,5.7914,1.42,0.74,NA,"UniqueID",7,190.9,27.271,34.041
+"7",129,1993,11,14,"Eucalyptus dundasii","Seeder","Arid",0.1693,12.02,10.32,9.28,7.78,2.64,2.94,2.0942,2.2,0.75,NA,"UniqueID",7,61.161,8.737,10.906
+"8",129,1993,11,15,"Eucalyptus dundasii","Seeder","Arid",0.1693,10.42,9.21,8.78,7.43,1.71,2.81,2.8453,2.34,0.83,NA,"UniqueID",8,87.559,10.945,15.613
+"9",129,1993,11,17,"Eucalyptus dundasii","Seeder","Arid",0.1693,8.54,8.33,6.26,6.09,2.26,1.76,2.03,1.43,0.81,NA,"UniqueID",7,68.488,9.784,12.213
+"10",136,1993,15,13,"Eucalyptus brockwayi","Seeder","Arid",0.1487,9.46,9.55,7.43,6.59,2.495,2.29,2.0103,1.78,0.78,NA,"UniqueID",9,67.106,7.456,11.966
+"11",136,1993,15,14,"Eucalyptus brockwayi","Seeder","Arid",0.1487,7.59,7.52,5.63,5.92,1.78,1.35,2.7534,1.01,0.75,NA,"UniqueID",8,72.109,9.014,12.858
+"12",136,1993,15,16,"Eucalyptus brockwayi","Seeder","Arid",0.1487,9.86,9.94,7.45,6.91,2.72,2.23,2.9225,1.7,0.76,NA,"UniqueID",7,75.054,10.722,13.384
+"13",143,1993,11,27,"Eucalyptus melanoxylon","Combination","Arid",0.1477,7.85,7.98,6.5,6.51,1.41,1.33,1.6624,1.02,0.77,NA,"UniqueID",9,53.13696,5.90411,9.76053
+"14",143,1993,11,28,"Eucalyptus melanoxylon","Combination","Arid",0.1477,9.82,9.13,7.32,7.54,2.045,1.83,1.7816,1.51,0.83,NA,"UniqueID",8,50.64592,6.33074,9.30296
+"15",143,1993,11,30,"Eucalyptus melanoxylon","Combination","Arid",0.1477,9.64,9.19,7.05,7.58,2.1,2.06,2.3704,1.47,0.71,NA,"UniqueID",10,72.39666,7.23967,13.29827
+"16",154,1995,71,13,"Eucalyptus pleurocarpa","Lignotuber","Arid",0.1916,10.29,11.2,8.66,8.08,2.375,2.95,10.1653,1.94,0.66,NA,"UniqueID",5,261.43139,52.28628,48.02136
+"17",154,1995,71,15,"Eucalyptus pleurocarpa","Lignotuber","Arid",0.1916,8.95,8.75,6.74,6.85,2.055,1.71,8.2105,1.16,0.68,NA,"UniqueID",5,232.53035,46.50607,42.71264
+"18",158,2000,188,5,"Eucalyptus valens","Seeder","Semiarid",0.2218,11.57,13.04,9.46,8.23,3.46,3.11,5.756,2.37,0.76,NA,"UniqueID",5,114.231,22.846,19.584
+"19",158,2000,188,6,"Eucalyptus valens","Seeder","Semiarid",0.2218,11.73,11,8.11,8.05,3.285,2.24,5.9355,1.77,0.79,NA,"UniqueID",6,125.666,20.944,21.544
+"20",158,2000,188,8,"Eucalyptus valens","Seeder","Semiarid",0.2218,12.49,12.59,9.71,9.49,2.94,3.16,5.8321,2.52,0.8,NA,"UniqueID",6,131.652,21.942,22.571
+"21",177,1996,85,5,"Eucalyptus notactites","Lignotuber","Semiarid",0.4151,11.53,11.87,9.21,9.1,2.545,3.43,3.5837,2.34,0.68,NA,NA,NA,NA,NA,NA
+"22",177,1996,85,6,"Eucalyptus notactites","Lignotuber","Semiarid",0.4151,8.21,9.33,6.31,7.52,1.855,1.68,4.6486,1.23,0.73,NA,"UniqueID",9,134.083,14.898,23.627
+"23",177,1996,85,7,"Eucalyptus notactites","Lignotuber","Semiarid",0.4151,9.83,9.39,7.24,8.03,1.975,2.09,6.1885,1.54,0.74,NA,"UniqueID",8,200.716,25.09,35.369
+"24",181,1994,41,32,"Eucalyptus stoatei","Seeder","Semiarid",0.2403,10.77,10.33,7.91,7.78,2.705,2.26,7.4703,1.79,0.79,NA,"UniqueID",8,130.18016,16.27252,23.91231
+"25",181,1994,41,33,"Eucalyptus stoatei","Seeder","Semiarid",0.2403,8.48,8.25,6.28,6.43,2.01,1.4,8.9366,1.1,0.79,NA,"UniqueID",11,156.22373,14.20216,28.69616
+"26",181,1994,41,34,"Eucalyptus stoatei","Seeder","Semiarid",0.2403,8.73,8.77,6.96,7.12,1.71,2.09,6.45,1.63,0.78,NA,"UniqueID",10,130.55616,13.05562,23.98138
+"27",193,2000,189,31,"Eucalyptus clivicola","Seeder","Semiarid",0.2295,10.92,11.25,8.62,8.12,2.715,2.58,2.8066,1.95,0.76,NA,"UniqueID",8,101.431,12.679,17.39
+"28",193,2000,189,33,"Eucalyptus clivicola","Seeder","Semiarid",0.2295,10.76,10.08,7.67,8.1,2.535,2.92,2.4957,2.37,0.81,NA,"UniqueID",7,69.137,9.877,11.853
+"29",212,1999,170,14,"Eucalyptus newbeyi","Seeder","Semiarid",0.3299,10.22,9.73,8.45,8.48,1.51,1.97,1.1157,1.4,0.71,NA,"UniqueID",6,62.584,10.431,11.347
+"30",212,1999,170,15,"Eucalyptus newbeyi","Seeder","Semiarid",0.3299,7.44,7.7,6.56,6.12,1.23,1.63,0.9679,1.2,0.74,NA,"UniqueID",7,50.369,7.196,9.133
+"31",212,1999,170,16,"Eucalyptus newbeyi","Seeder","Semiarid",0.3299,9.87,8.65,8.26,6.97,1.645,1.99,1.6838,1.46,0.73,NA,"UniqueID",10,98.163,9.816,17.798
+"32",214,1996,85,17,"Eucalyptus astringens subsp. redacta","Seeder","Semiarid",0.3299,13.08,12.68,10.63,10.14,2.495,3.87,2.7636,2.87,0.74,NA,"UniqueID",8,87.205,10.901,15.367
+"33",214,1996,85,18,"Eucalyptus astringens subsp. redacta","Seeder","Semiarid",0.3299,11.46,10.5,8.35,9.28,2.165,2.51,2.2517,1.91,0.76,NA,"UniqueID",8,79.489,9.936,14.007
+"34",214,1996,85,19,"Eucalyptus astringens subsp. redacta","Seeder","Semiarid",0.3299,8.46,7.81,6.68,5.87,1.86,1.76,3.0933,1.3,0.74,NA,"UniqueID",8,94.847,11.856,16.714
+"35",215,1994,42,32,"Eucalyptus utilis","Seeder","Semiarid",0.3299,9.43,9.64,7.85,7.27,1.975,1.71,2.5758,1.29,0.75,NA,"UniqueID",9,65.88573,7.32064,12.1023
+"36",215,1994,42,33,"Eucalyptus utilis","Seeder","Semiarid",0.3299,10.89,9.59,8.83,8.68,1.485,2.4,2.9468,1.92,0.8,NA,"UniqueID",11,92.50529,8.40957,16.99195
+"37",215,1994,42,34,"Eucalyptus utilis","Seeder","Semiarid",0.3299,10.73,10.64,8.63,9.03,1.855,2.88,3.7557,2.28,0.79,NA,"UniqueID",7,93.84139,13.40591,17.23738
+"38",230,1999,171,27,"Eucalyptus wandoo subsp. wandoo","Combination","Arid",0.1587,8.53,8.33,6.54,5.99,2.165,1.76,6.6214,1.21,0.69,NA,"UniqueID",8,206.787,25.848,37.493
+"39",230,1999,171,28,"Eucalyptus wandoo subsp. wandoo","Combination","Arid",0.1587,12.77,12.84,9.69,9.41,3.255,3.47,1.8749,2.16,0.62,NA,"UniqueID",7,81.449,11.636,14.768
+"40",230,1999,171,30,"Eucalyptus wandoo subsp. wandoo","Combination","Arid",0.1587,12.2,12.25,8.21,8.4,3.92,2.73,3.7215,1.96,0.72,NA,"UniqueID",8,116.506,14.563,21.124
+"41",323,1993,25,6,"Eucalyptus georgia fulgida","Seeder","Arid",0.1816,10.93,10.72,8.07,7.57,3.005,2.84,9.6113,2.08,0.73,NA,"UniqueID",5,188.956,37.791,33.695
+"42",323,1993,25,7,"Eucalyptus georgia fulgida","Seeder","Arid",0.1816,12.19,12.08,9.52,9.11,2.82,3.83,12.7404,2.73,0.71,NA,"UniqueID",6,248.387,41.398,44.292
+"43",323,1993,25,9,"Eucalyptus georgia fulgida","Seeder","Arid",0.1816,11.97,11.17,9.38,8.4,2.68,3.88,7.7935,2.95,0.76,NA,"UniqueID",5,152.945,30.589,27.273
+"44",339,1993,11,24,"Eucalyptus patraea","Lignotuber","Arid",0.1193,9.53,9.32,7.64,7.15,2.03,2.39,3.7386,1.94,0.81,NA,"UniqueID",6,104.681,17.447,18.667
+"45",339,1993,11,25,"Eucalyptus patraea","Lignotuber","Arid",0.1193,9.34,8.97,6.94,6.89,2.24,1.95,4.0359,1.55,0.79,NA,"UniqueID",8,121.45,15.181,21.657
+"46",339,1993,11,26,"Eucalyptus patraea","Lignotuber","Arid",0.1193,10.65,10.38,8.38,7.62,2.515,2.56,4.4294,2.06,0.8,NA,"UniqueID",9,136.603,15.178,24.359
+"47",423,1994,45,14,"Eucalyptus intertexta","Combination","Arid",0.0934,7.39,7.52,6.15,6.07,1.345,1.46,2.5873,1,0.68,NA,"UniqueID",10,92.93202,9.2932,17.07034
+"48",423,1994,45,15,"Eucalyptus intertexta","Combination","Arid",0.0934,8.35,8.78,6.27,6.53,2.165,1.58,2.2672,1.08,0.68,NA,"UniqueID",10,75.56067,7.55607,13.87946
+"49",423,1994,45,16,"Eucalyptus intertexta","Combination","Arid",0.0934,8.53,9,6.05,5.69,2.895,1.33,2.3012,0.82,0.62,NA,"UniqueID",10,82.98909,8.29891,15.24396
+"50",427,1994,42,8,"Eucalyptus sparsa","Lignotuber","Arid",0.0956,7.58,7.49,5.99,6.11,1.485,1.45,2.8952,1.03,0.71,NA,"UniqueID",6,79.2301,13.20502,14.55348
+"51",427,1994,42,10,"Eucalyptus sparsa","Lignotuber","Arid",0.0956,8.57,8.99,6.82,6.67,2.035,1.36,3.933,1.06,0.78,NA,"UniqueID",9,117.28049,13.03117,21.54282
+"52",427,1994,42,11,"Eucalyptus sparsa","Lignotuber","Arid",0.0956,6.07,6.02,4.37,4.26,1.73,0.71,3.2712,0.52,0.73,NA,"UniqueID",8,118.70107,14.83763,21.80376
+"53",482,1994,40,12,"Eucalyptus porosa","Combination","Arid",0.1605,8.05,8.59,6.57,6.65,1.71,1.73,1.6411,1.17,0.68,NA,"UniqueID",7,59.41459,8.4878,10.91365
+"54",482,1994,40,14,"Eucalyptus porosa","Combination","Arid",0.1605,8.67,7.93,6.25,7.29,1.53,1.76,1.2349,1.35,0.77,NA,"UniqueID",7,46.53323,6.6476,8.54752
+"55",482,1994,40,15,"Eucalyptus porosa","Combination","Arid",0.1605,10.83,11.25,9.09,8.98,2.005,2.36,2.4295,1.77,0.75,NA,"UniqueID",11,98.23454,8.93041,18.04434
+"56",545,1994,39,9,"Eucalyptus lucasii","Lignotuber","Arid",0.0911,8.27,8.45,6.43,6.09,2.1,1.23,3.9716,0.89,0.72,NA,"UniqueID",9,121.46292,13.49588,22.31107
+"57",545,1994,39,11,"Eucalyptus lucasii","Lignotuber","Arid",0.0911,7.5,7.34,5.63,5.27,1.97,1.21,4.1702,0.84,0.69,NA,"UniqueID",10,128.96899,12.8969,23.68984
+"58",545,1994,39,12,"Eucalyptus lucasii","Lignotuber","Arid",0.0911,10.76,9.79,7.57,8.46,2.26,2.63,2.9318,1.93,0.73,NA,"UniqueID",8,101.59956,12.69995,18.66245
+"59",570,1994,60,33,"Eucalyptus bridgesiana","Combination","DrySubhumid",0.5384,7.51,7.77,6.45,6.27,1.28,1.72,3.001,1.12,0.65,NA,"UniqueID",7,132.41083,18.91583,24.32206
+"60",570,1994,60,34,"Eucalyptus bridgesiana","Combination","DrySubhumid",0.5384,8.4,8.09,6.61,7,1.44,1.95,3.2099,1.11,0.57,NA,"UniqueID",6,148.6884,24.7814,27.31202
+"61",570,1994,60,36,"Eucalyptus bridgesiana","Combination","DrySubhumid",0.5384,10.03,9.49,7.87,7.42,2.115,2.09,5.0966,1.23,0.59,NA,"UniqueID",7,178.04502,25.435,32.70443
+"62",598,1994,51,14,"Eucalyptus smithii","Combination","Humid",0.7696,8.12,7.85,6.45,6.96,1.28,1.89,2.6573,1.05,0.56,NA,"UniqueID",5,125.22673,25.04535,23.00243
+"63",598,1994,51,15,"Eucalyptus smithii","Combination","Humid",0.7696,8.29,8.3,6.82,6.9,1.435,1.89,2.49,1.24,0.66,NA,"UniqueID",5,103.52198,20.7044,19.01557
+"64",598,1994,51,16,"Eucalyptus smithii","Combination","Humid",0.7696,9.32,9.2,7.94,7.61,1.485,2.23,1.5639,1.4,0.63,NA,"UniqueID",5,101.96304,20.39261,18.72921
+"65",604,1994,53,17,"Eucalyptus amplifolia subsp. amplifolia","Combination","DrySubhumid",0.6038,10.09,10.47,7.79,8.43,2.17,2.81,4.3584,1.54,0.55,NA,"UniqueID",5,255.47131,51.09426,46.92658
+"66",604,1994,53,18,"Eucalyptus amplifolia subsp. amplifolia","Combination","DrySubhumid",0.6038,8.85,8.62,7.63,6.9,1.47,1.91,5.4911,1.17,0.61,NA,"UniqueID",5,239.62111,47.92422,44.01511
+"67",604,1994,53,19,"Eucalyptus amplifolia subsp. amplifolia","Combination","DrySubhumid",0.6038,8.58,8.15,7.52,7.53,0.84,1.95,3.0286,1.17,0.6,NA,"UniqueID",5,176.23667,35.24733,32.37226
+"68",616,1994,16,41,"Eucalyptus aquatica","Combination","Humid",0.673,8.31,8.12,6.16,6.07,2.1,1.16,2.2828,0.83,0.72,NA,"UniqueID",9,96.91233,10.76804,17.80147
+"69",616,1994,16,42,"Eucalyptus aquatica","Combination","Humid",0.673,10.12,9.87,7.54,7.67,2.39,2.46,3.1063,1.56,0.63,NA,"UniqueID",8,161.50876,20.1886,29.66695
+"70",616,1994,16,43,"Eucalyptus aquatica","Combination","Humid",0.673,8.4,8.27,6.54,5.8,2.165,1.37,4.0224,0.89,0.65,NA,"UniqueID",11,172.92789,15.72072,31.76448
+"71",634,1995,76,21,"Eucalyptus fergusonii subsp. dorsiventralis","Combination","DrySubhumid",0.5233,9.59,9.15,6.4,6.47,2.935,1.57,3.0175,1.04,0.66,NA,"UniqueID",10,172.19888,17.21989,31.63057
+"72",634,1995,76,22,"Eucalyptus fergusonii subsp. dorsiventralis","Combination","DrySubhumid",0.5233,11.4,11.25,8.8,8.78,2.535,2.74,3.184,1.74,0.64,NA,"UniqueID",9,138.39459,15.37718,25.42119
+"73",634,1995,76,23,"Eucalyptus fergusonii subsp. dorsiventralis","Combination","DrySubhumid",0.5233,8.8,7.91,7.2,6.3,1.605,1.11,4.0073,0.76,0.68,NA,"UniqueID",10,178.74437,17.87444,32.83289
+"74",639,1994,53,9,"Eucalyptus paniculata (subsp. matutina)","Combination","Humid",0.818,11.27,12,8.58,9.65,2.52,3.75,1.7422,2.48,0.66,NA,"UniqueID",9,96.38034,10.70893,17.70375
+"75",639,1994,53,10,"Eucalyptus paniculata (subsp. matutina)","Combination","Humid",0.818,9.38,8.8,7.24,7.69,1.625,2.4,3.3035,1.7,0.71,NA,NA,NA,NA,NA,NA
+"76",639,1994,53,11,"Eucalyptus paniculata (subsp. matutina)","Combination","Humid",0.818,9.68,10.25,6.93,7.81,2.595,2.1,3.3312,1.46,0.7,NA,"UniqueID",8,140.69907,17.58738,25.84449
+"77",641,1994,56,8,"Eucalyptus parramattensis subsp. decadens","Combination","DrySubhumid",0.7309,7.11,7.06,5.64,5.77,1.38,1.21,2.8456,0.73,0.6,NA,"UniqueID",8,154.0948,19.26185,28.3051
+"78",641,1994,56,9,"Eucalyptus parramattensis subsp. decadens","Combination","DrySubhumid",0.7309,9.1,9.36,7.85,7.14,1.735,2.04,2.4767,1.11,0.54,NA,"UniqueID",9,131.53946,14.6155,24.162
+"79",641,1994,56,10,"Eucalyptus parramattensis subsp. decadens","Combination","DrySubhumid",0.7309,10.46,10.34,8.73,8.79,1.64,2.33,2.4988,1.22,0.52,NA,"UniqueID",7,152.27983,21.75426,27.97172
+"80",643,1994,61,29,"Eucalyptus fergusonii subsp. fergusonii","Combination","DrySubhumid",0.713,10.31,9.85,7.78,7.57,2.405,2.68,2.8421,1.73,0.65,NA,"UniqueID",10,198.03759,19.80376,36.37679
+"81",643,1994,61,30,"Eucalyptus fergusonii subsp. fergusonii","Combination","DrySubhumid",0.713,10.62,11.52,7.99,9.13,2.51,2.04,2.7538,1.31,0.64,NA,"UniqueID",9,202.8795,22.54217,37.26618
+"82",643,1994,61,31,"Eucalyptus fergusonii subsp. fergusonii","Combination","DrySubhumid",0.713,14.38,13.34,10.57,11.12,3.015,4.13,3.7363,2.78,0.67,NA,"UniqueID",8,174.95392,21.86924,32.13664
+"83",645,1994,61,13,"Eucalyptus fusiformis","Combination","Humid",0.8575,12.71,11.91,9.54,10.03,2.525,2.8,2.68,1.77,0.63,NA,"UniqueID",8,160.41035,20.05129,29.46518
+"84",645,1994,61,14,"Eucalyptus fusiformis","Combination","Humid",0.8575,11.7,11.17,8.88,8.26,2.865,3.12,2.2022,1.96,0.63,NA,"UniqueID",8,120.65715,15.08214,22.16306
+"85",645,1994,61,15,"Eucalyptus fusiformis","Combination","Humid",0.8575,7.97,8.3,6.55,6.42,1.65,1.63,2.8505,1.17,0.72,NA,"UniqueID",6,165.7939,27.63232,30.45407
+"86",646,1994,58,12,"Eucalyptus ancophila","Combination","Humid",0.8463,9.71,8.85,7.26,6.94,2.18,1.9,2.2894,1.24,0.65,NA,"UniqueID",6,173.39366,28.89894,31.85004
+"87",646,1994,58,14,"Eucalyptus ancophila","Combination","Humid",0.8463,10.85,11.33,8.84,7.98,2.68,2.51,4.036,1.57,0.63,NA,"UniqueID",6,213.92545,35.65424,39.29517
+"88",646,1994,58,15,"Eucalyptus ancophila","Combination","Humid",0.8463,10.71,10.63,7.99,8.13,2.61,2.23,3.4718,1.62,0.73,NA,"UniqueID",6,179.32875,29.88812,32.94023
+"89",653,1994,50,33,"Eucalyptus banksii","Combination","DrySubhumid",0.5235,12.44,12.86,10.76,10.15,2.195,4.18,3.1635,2.47,0.59,NA,"UniqueID",7,160.38667,22.91238,29.46083
+"90",653,1994,50,35,"Eucalyptus banksii","Combination","DrySubhumid",0.5235,12.83,12.24,9.32,10.35,2.7,3.43,4.1636,2.223,0.65,NA,"UniqueID",7,135.35848,19.33693,24.8635
+"91",653,1994,50,36,"Eucalyptus banksii","Combination","DrySubhumid",0.5235,10.44,10.78,8.65,8.15,2.21,2.9,3.2137,1.94,0.67,NA,"UniqueID",7,112.11744,16.01678,20.59444
+"92",659,1994,58,1,"Eucalyptus mckieana","Combination","DrySubhumid",0.6148,9.63,9.29,7.82,8.03,1.535,2.47,4.9525,1.56,0.63,NA,"UniqueID",6,186.0654,31.0109,34.17766
+"93",659,1994,58,3,"Eucalyptus mckieana","Combination","DrySubhumid",0.6148,9.24,8.79,7.38,7.64,1.505,2.24,4.4993,1.22,0.54,NA,"UniqueID",7,179.29935,25.61419,32.93483
+"94",666,1994,50,13,"Eucalyptus fibrosa","Combination","DrySubhumid",0.6368,9.38,9.32,7.46,7.72,1.76,2.31,3.2682,1.45,0.63,NA,"UniqueID",7,102.23908,14.60558,18.77992
+"95",666,1994,50,15,"Eucalyptus fibrosa","Combination","DrySubhumid",0.6368,8.98,8.66,7.26,6.82,1.78,2.2,3.6776,1.42,0.65,NA,"UniqueID",8,191.46292,23.93286,35.16911
+"96",666,1994,50,16,"Eucalyptus fibrosa","Combination","DrySubhumid",0.6368,10.98,10.95,8.89,9.13,1.955,2.88,3.0713,1.83,0.64,NA,"UniqueID",6,172.87736,28.81289,31.7552
+"97",667,1994,60,29,"Eucalyptus interstans","Combination","DrySubhumid",0.7162,7.9,8.12,5.92,6.54,1.78,1.57,1.857,0.89,0.57,NA,"UniqueID",9,145.6516,16.18351,26.7542
+"98",667,1994,60,30,"Eucalyptus interstans","Combination","DrySubhumid",0.7162,10.51,10.8,9.3,8.71,1.65,3.1,2.0138,1.57,0.51,NA,"UniqueID",10,136.08715,13.60872,24.99734
+"99",667,1994,60,32,"Eucalyptus interstans","Combination","DrySubhumid",0.7162,8.6,8.63,7.04,6.8,1.695,1.91,1.568,0.97,0.51,NA,"UniqueID",10,134.06492,13.40649,24.62589
+"100",668,1994,52,6,"Eucalyptus amplifolia subsp. sessiliflora","Combination","DrySubhumid",0.5714,8.02,8.63,7.05,6.37,1.615,1.74,4.1927,0.97,0.56,NA,"UniqueID",7,197.90425,28.27204,36.3523
+"101",668,1994,52,7,"Eucalyptus amplifolia subsp. sessiliflora","Combination","DrySubhumid",0.5714,13.37,12.47,12.04,10.11,1.845,4.2,4.412,2.14,0.51,NA,"UniqueID",6,180.09005,30.01501,33.08007
+"102",668,1994,52,8,"Eucalyptus amplifolia subsp. sessiliflora","Combination","DrySubhumid",0.5714,9.11,8.52,7.94,7.37,1.16,2.13,3.5233,1.33,0.62,NA,"UniqueID",6,144.69597,24.116,26.57867
+"103",671,1994,52,1,"Eucalyptus prava","Combination","DrySubhumid",0.6147,11.04,10.83,7.97,8.07,2.915,2.45,3.6802,1.29,0.53,NA,"UniqueID",8,144.57351,18.07169,26.55617
+"104",671,1994,52,4,"Eucalyptus prava","Combination","DrySubhumid",0.6147,9.72,9.75,8.4,8.19,1.44,3.02,1.6007,1.81,0.6,NA,"UniqueID",8,107.71397,13.46425,19.78558
+"105",674,1994,52,9,"Eucalyptus sideroxylon","Combination","DrySubhumid",0.5225,9.1,9.66,7.43,6.87,2.23,2.11,1.5133,1.26,0.6,NA,"UniqueID",10,103.87072,10.38707,19.07963
+"106",674,1994,52,10,"Eucalyptus sideroxylon","Combination","DrySubhumid",0.5225,7.42,7.44,6.48,5.85,1.265,1.51,2.9939,0.95,0.63,NA,"UniqueID",9,158.65157,17.62795,29.14212
+"107",674,1994,52,12,"Eucalyptus sideroxylon","Combination","DrySubhumid",0.5225,9.01,9.27,7.22,7.42,1.82,1.73,2.0786,1.11,0.64,NA,"UniqueID",9,140.8236,15.64707,25.86736
+"108",679,1994,59,12,"Eucalyptus populnea subsp. populnea","Combination","Semiarid",0.3167,8.6,8.92,6.82,6.42,2.14,1.65,4.2281,1.08,0.65,NA,"UniqueID",7,182.82855,26.11836,33.5831
+"109",679,1994,59,13,"Eucalyptus populnea subsp. populnea","Combination","Semiarid",0.3167,9.07,8.71,6.3,6.8,2.34,1.72,4.2361,1.18,0.69,NA,"UniqueID",5,193.81585,38.76317,35.60132
+"110",679,1994,59,15,"Eucalyptus populnea subsp. populnea","Combination","Semiarid",0.3167,8.09,8.94,6.32,6.91,1.9,1.69,4.971,1.17,0.69,NA,"UniqueID",7,205.34265,29.33466,37.71863
+"111",680,1994,51,1,"Eucalyptus elegans","Combination","Semiarid",0.3167,10.36,10.52,8.19,7.92,2.385,2.59,2.1761,1.76,0.68,NA,"UniqueID",11,115.38705,10.48973,21.19502
+"112",680,1994,51,3,"Eucalyptus elegans","Combination","Semiarid",0.3167,9.61,10.22,7.41,7.58,2.42,2.33,1.0804,1.58,0.68,NA,"UniqueID",11,89.65718,8.15065,16.46879
+"113",680,1994,51,4,"Eucalyptus elegans","Combination","Semiarid",0.3167,10.56,9.45,7.3,7.17,2.77,1.9,1.178,1.24,0.65,NA,"UniqueID",10,89.4709,8.94709,16.43458
+"114",681,1994,49,5,"Eucalyptus woollsiana (E. pilligaensis)","Combination","Semiarid",0.31,10.57,9.87,8.56,7.29,2.295,2.48,1.8628,1.6,0.65,NA,"UniqueID",11,81.22184,7.3838,14.91934
+"115",681,1994,49,6,"Eucalyptus woollsiana (E. pilligaensis)","Combination","Semiarid",0.31,10.26,10.57,8.07,8.21,2.275,2.41,2.2615,1.66,0.69,NA,"UniqueID",9,92.0727,10.2303,16.91249
+"116",681,1994,49,8,"Eucalyptus woollsiana (E. pilligaensis)","Combination","Semiarid",0.31,10.71,9.93,8.33,7.58,2.365,2.69,3.786,2.01,0.75,NA,"UniqueID",9,149.68458,16.63162,27.49501
+"117",683,1994,53,33,"Eucalyptus panda","Combination","Semiarid",0.3159,10.47,10.07,7.84,7.69,2.505,2.11,1.5862,1.24,0.59,NA,"UniqueID",7,116.51871,16.64553,21.40289
+"118",683,1994,53,35,"Eucalyptus panda","Combination","Semiarid",0.3159,8.45,8.16,5.86,6.05,2.35,1.25,2.1448,0.83,0.66,NA,"UniqueID",7,148.13341,21.16192,27.21008
+"119",683,1994,53,36,"Eucalyptus panda","Combination","Semiarid",0.3159,8.92,8.05,5.67,6.56,2.37,1.54,2.983,1.06,0.69,NA,"UniqueID",7,136.18669,19.45524,25.01563
+"120",685,1994,53,5,"Eucalyptus nubilis","Combination","Semiarid",0.3134,9.59,10.09,7.23,7.47,2.49,1.97,3.729,1.34,0.68,NA,"UniqueID",6,131.72726,21.95454,24.19649
+"121",685,1994,53,6,"Eucalyptus nubilis","Combination","Semiarid",0.3134,10.43,10.5,9.06,7.9,1.16,2.67,4.6829,1.87,0.7,NA,"UniqueID",8,180.55609,22.56951,33.16568
+"122",685,1994,53,8,"Eucalyptus nubilis","Combination","Semiarid",0.3134,8.42,8.28,6.5,6.36,1.92,1.61,5.8074,1.09,0.68,NA,"UniqueID",5,229.82667,45.96533,42.21601
+"123",686,1994,51,5,"Eucalyptus argophloia","Combination","Semiarid",0.3121,13.43,12.03,11.41,9.94,2.055,4.07,1.4805,2.47,0.61,NA,"UniqueID",8,72.04709,9.00589,13.23406
+"124",686,1994,51,7,"Eucalyptus argophloia","Combination","Semiarid",0.3121,10.61,10.37,8.62,8.8,1.78,2.9,1.4609,1.87,0.64,NA,"UniqueID",11,78.17506,7.10682,14.35969
+"125",686,1994,51,8,"Eucalyptus argophloia","Combination","Semiarid",0.3121,10.46,10.51,9.48,9.23,1.13,3.45,1.5085,2.25,0.65,NA,"UniqueID",7,75.86693,10.83813,13.93572
+"126",689,1994,53,25,"Eucalyptus dura","Combination","Semiarid",0.3478,10.17,9.9,7.08,7.46,2.765,1.8,3.2572,1.2,0.67,NA,"UniqueID",9,150.29581,16.69953,27.60728
+"127",689,1994,53,26,"Eucalyptus dura","Combination","Semiarid",0.3478,7.25,7.08,5.5,5.69,1.57,1.21,3.988,0.92,0.76,NA,"UniqueID",6,125.08657,20.84776,22.97669
+"128",689,1994,53,27,"Eucalyptus dura","Combination","Semiarid",0.3478,8.8,8.53,6.14,6.58,2.305,1.43,3.2945,0.97,0.68,NA,"UniqueID",6,198.74368,33.12395,36.50649
+"129",690,1994,49,17,"Eucalyptus melanophloia subsp. melanophloia","Combination","Semiarid",0.3006,10.01,10.73,7.71,7.22,2.905,1.87,3.2956,1.29,0.69,NA,"UniqueID",11,165.70502,15.06409,30.43774
+"130",697,1994,54,16,"Eucalyptus cambageana","Combination","Semiarid",0.3047,10.89,10.51,9.42,8.22,1.88,3.06,4.831,2.32,0.76,NA,"UniqueID",6,181.22267,30.20378,33.28812
+"131",697,1994,54,18,"Eucalyptus cambageana","Combination","Semiarid",0.3047,9.98,9.03,7.71,7.91,1.695,2.26,4.3367,1.6,0.71,NA,"UniqueID",6,149.90245,24.98374,27.53503
+"132",697,1994,54,19,"Eucalyptus cambageana","Combination","Semiarid",0.3047,12.67,12.7,9.93,9.09,3.175,2.75,4.8725,2.05,0.75,NA,"UniqueID",7,171.89227,24.55604,31.57425
+"133",698,1994,54,21,"Eucalyptus orgadophila","Combination","Semiarid",0.2951,8.93,8.68,6.54,6.25,2.41,1.43,2.0653,0.96,0.67,NA,"UniqueID",8,128.88012,16.11001,23.67351
+"134",698,1994,54,22,"Eucalyptus orgadophila","Combination","Semiarid",0.2951,12.68,11.85,8.97,10.04,2.76,3.09,2.1887,1.99,0.64,NA,"UniqueID",10,122.097,12.2097,22.42754
+"135",698,1994,54,23,"Eucalyptus orgadophila","Combination","Semiarid",0.2951,8.95,9,7.5,7.93,1.26,2.4,2.311,1.69,0.7,NA,"UniqueID",10,127.20456,12.72046,23.36573
+"136",712,1994,49,24,"Eucalyptus moluccana","Combination","Semiarid",0.4318,10.49,10.17,8.66,8.6,1.7,2.56,3.2073,1.78,0.7,NA,"UniqueID",9,128.38447,14.26494,23.58247
+"137",712,1994,49,25,"Eucalyptus moluccana","Combination","Semiarid",0.4318,14.98,13.83,10.85,11.48,3.24,4.51,6.2698,3.16,0.7,NA,"UniqueID",11,213.0136,19.36487,39.12768
+"138",712,1994,49,26,"Eucalyptus moluccana","Combination","Semiarid",0.4318,11.33,10.94,7.97,8.53,2.885,2.62,5.019,1.89,0.72,NA,"UniqueID",7,163.80787,23.40112,30.08926
+"139",713,1994,49,20,"Eucalyptus tereticornis subsp. tereticornis","Combination","DrySubhumid",0.5833,13.26,12.88,10.63,10.82,2.345,4.32,3.6252,2.31,0.53,NA,"UniqueID",10,194.1363,19.41363,35.66018
+"140",713,1994,49,21,"Eucalyptus tereticornis subsp. tereticornis","Combination","DrySubhumid",0.5833,9.56,10.01,8.24,8.47,1.43,2.53,3.5207,1.37,0.54,NA,"UniqueID",11,183.96448,16.72404,33.79175
+"141",713,1994,49,23,"Eucalyptus tereticornis subsp. tereticornis","Combination","DrySubhumid",0.5833,11.13,11.34,9.48,9.39,1.8,3.23,3.4078,1.87,0.58,NA,"UniqueID",6,200.00606,33.33434,36.73837
+"142",716,1994,58,4,"Eucalyptus hallii","Combination","DrySubhumid",0.5469,11.28,10.36,9.32,8.1,2.11,2.6,4.6985,1.56,0.6,NA,"UniqueID",5,159.7104,31.94208,29.33661
+"143",716,1994,58,5,"Eucalyptus hallii","Combination","DrySubhumid",0.5469,9.32,8.6,7.73,7.08,1.555,2.09,3.0109,1.38,0.66,NA,"UniqueID",7,124.3051,17.75787,22.83314
+"144",716,1994,58,6,"Eucalyptus hallii","Combination","DrySubhumid",0.5469,7.98,7.8,6.82,6.34,1.31,1.8,4.5489,1.15,0.64,NA,"UniqueID",6,172.98709,28.83118,31.77536
+"145",717,1994,54,13,"Eucalyptus siderophloia","Combination","DrySubhumid",0.6024,7.79,8.33,5.94,6.34,1.92,1.3,2.3508,0.77,0.59,NA,"UniqueID",6,125.21482,20.86914,23.00025
+"146",717,1994,54,14,"Eucalyptus siderophloia","Combination","DrySubhumid",0.6024,10.24,9.93,7.63,7.96,2.29,2.2,2.6327,1.54,0.7,NA,"UniqueID",7,120.78925,17.25561,22.18733
+"147",717,1994,54,15,"Eucalyptus siderophloia","Combination","DrySubhumid",0.6024,10.98,10.36,8.32,8.81,2.105,2.82,1.5404,1.94,0.69,NA,"UniqueID",7,83.23395,11.89056,15.28894
+"148",720,1994,50,21,"Eucalyptus kabiana","Lignotuber","Humid",0.6827,10.31,10.51,8.13,8.18,2.255,2.8,2.0384,1.93,0.69,NA,"UniqueID",10,85.70289,8.57029,15.74245
+"149",720,1994,50,22,"Eucalyptus kabiana","Lignotuber","Humid",0.6827,10.43,10.36,7.82,7.59,2.69,2.22,1.6199,1.52,0.68,NA,"UniqueID",10,81.65911,8.16591,14.99966
+"150",720,1994,50,23,"Eucalyptus kabiana","Lignotuber","Humid",0.6827,8.63,9.13,7.39,6.84,1.765,1.89,1.9251,1.33,0.7,NA,"UniqueID",7,107.78171,15.39739,19.79802
+"151",722,1994,50,1,"Eucalyptus blakelyi","Combination","DrySubhumid",0.5571,8.16,7.77,6.36,6.65,1.46,1.68,4.0107,0.88,0.52,NA,"UniqueID",8,147.21268,18.40159,27.04095
+"152",722,1994,50,3,"Eucalyptus blakelyi","Combination","DrySubhumid",0.5571,11.65,11.18,9.7,9.98,1.575,3.5,3.081,1.81,0.52,NA,"UniqueID",8,167.65464,20.95683,30.79586
+"153",722,1994,50,4,"Eucalyptus blakelyi","Combination","DrySubhumid",0.5571,12.13,12.36,10.39,10.73,1.685,4.27,3.2393,2.3,0.54,NA,"UniqueID",8,132.08034,16.51004,24.26135
+"154",723,1994,50,6,"Eucalyptus dealbata","Uncertain","Semiarid",0.4153,11.2,11.43,9.73,9.17,1.865,3.3,3.3783,1.88,0.57,NA,"UniqueID",7,158.80212,22.68602,29.16977
+"155",724,1994,50,9,"Eucalyptus dealbata","Uncertain","Semiarid",0.4153,10.83,11.25,9.67,8.52,1.945,3.16,2.0446,1.69,0.53,NA,"UniqueID",8,147.57155,18.44644,27.10687
+"156",724,1994,50,11,"Eucalyptus dealbata","Uncertain","Semiarid",0.4153,9.78,10.92,7.86,9.06,1.89,2.8,2.7219,1.63,0.58,NA,"UniqueID",11,130.87895,11.89809,24.04067
+"157",728,1994,60,1,"Eucalyptus vicina","Lignotuber","Semiarid",0.2139,10.71,9.37,7.2,8.48,2.2,2.49,3.2064,1.55,0.62,NA,"UniqueID",8,122.50694,15.31337,22.50284
+"158",728,1994,60,2,"Eucalyptus vicina","Lignotuber","Semiarid",0.2139,7.51,7.61,6.25,6.24,1.315,1.57,2.7451,1.12,0.71,NA,"UniqueID",7,95.56197,13.65171,17.55342
+"159",728,1994,60,3,"Eucalyptus vicina","Lignotuber","Semiarid",0.2139,9.43,9.98,7.42,6.55,2.72,1.93,2.5818,1.18,0.61,NA,"UniqueID",9,101.36626,11.26292,18.61959
+"160",729,1994,49,1,"Eucalyptus viridis","Lignotuber","Arid",0.1985,11.64,11.04,8.99,9.01,2.34,2.95,2.1263,2.2,0.75,NA,"UniqueID",10,63.74584,6.37458,11.70924
+"161",729,1994,49,2,"Eucalyptus viridis","Lignotuber","Arid",0.1985,10.8,10.03,8.36,7.8,2.335,1.94,1.5654,1.43,0.74,NA,"UniqueID",12,56.02809,4.66901,10.29159
+"162",729,1994,49,3,"Eucalyptus viridis","Lignotuber","Arid",0.1985,9.1,8.72,6.9,6.87,2.025,1.55,1.9321,1.1,0.71,NA,"UniqueID",13,62.20927,4.78533,11.42699
+"163",730,1994,49,15,"Eucalyptus morrisii","Lignotuber","Arid",0.1971,8.77,9.55,7.48,6.9,1.97,2.28,5.0454,1.67,0.73,NA,"UniqueID",10,147.07652,14.70765,27.01594
+"164",736,1994,48,22,"Eucalyptus polybractea","Lignotuber","Semiarid",0.266,10.51,10.91,8.08,8.42,2.46,2.67,1.4191,2.09,0.78,NA,"UniqueID",8,48.00764,6.00096,8.81835
+"165",736,1994,48,23,"Eucalyptus polybractea","Lignotuber","Semiarid",0.266,9.49,8.39,7.92,6.67,1.645,2.27,2.9842,1.72,0.76,NA,"UniqueID",10,108.14746,10.81475,19.86521
+"166",736,1994,48,24,"Eucalyptus polybractea","Lignotuber","Semiarid",0.266,12.35,11.36,8.45,9.28,2.99,3.14,2.8898,2.33,0.74,NA,"UniqueID",10,98.23612,9.82361,18.04463
+"167",742,1994,46,36,"Eucalyptus polyanthemos subsp. polyanthemos","Combination","Semiarid",0.4899,8.57,7.65,6.61,5.73,1.94,1.44,3.8141,0.99,0.69,NA,"UniqueID",10,178.89526,17.88953,32.86061
+"168",743,1994,47,19,"Eucalyptus dawsonii","Combination","Semiarid",0.4369,12.6,12.97,9.71,10.48,2.69,5.14,3.4601,3.28,0.64,NA,"UniqueID",9,137.92882,15.32542,25.33563
+"169",743,1994,47,20,"Eucalyptus dawsonii","Combination","Semiarid",0.4369,11.44,11.32,8.59,9.12,2.525,2.68,2.7477,1.73,0.65,NA,"UniqueId",7,110.50198,15.786,20.2977
+"170",743,1994,47,21,"Eucalyptus dawsonii","Combination","Semiarid",0.4369,9.47,8.39,6.93,7.53,1.7,1.85,2.8784,1.22,0.66,NA,"UniqueID",7,122.06003,17.43715,22.42075
+"171",746,1994,48,18,"Eucalyptus caleyi subsp. caleyi","Combination","Semiarid",0.3752,13.44,13.26,10.53,10.24,2.965,3.79,4.3974,2.44,0.64,NA,"UniqueID",8,197.49974,24.68747,36.278
+"172",746,1994,48,19,"Eucalyptus caleyi subsp. caleyi","Combination","Semiarid",0.3752,15.43,16.13,11.74,12.24,3.79,5.88,4.5628,3.96,0.67,NA,"UniqueID",9,184.47561,20.49729,33.88564
+"173",747,1994,47,5,"Eucalyptus conica","Combination","Semiarid",0.3791,13.42,14.13,10.85,11.93,2.385,5.15,2.8956,3.55,0.69,NA,"UniqueID",13,122.41772,9.41675,22.48646
+"174",747,1994,47,6,"Eucalyptus conica","Combination","Semiarid",0.3791,12.02,12.1,9.24,9.04,2.92,3,1.787,2.03,0.68,NA,"UniqueID",11,81.52349,7.41123,14.97475
+"175",747,1994,47,8,"Eucalyptus conica","Combination","Semiarid",0.3791,13.37,12.38,9.21,10.84,2.85,3.61,1.3188,2.41,0.67,NA,"UniqueID",8,67.26679,8.40835,12.35599
+"176",751,1994,48,25,"Eucalyptus dwyeri","Uncertain","Semiarid",0.3934,10.37,13.06,8.28,11.08,2.035,3.74,2.3607,2.28,0.61,NA,"UniqueID",9,118.08378,13.12042,21.69037
+"177",751,1994,48,27,"Eucalyptus dwyeri","Uncertain","Semiarid",0.3934,13.6,11.97,10.07,11.1,2.2,4.44,2.9881,3.03,0.68,NA,"UniqueID",9,103.92097,11.54677,19.08886
+"178",751,1994,48,28,"Eucalyptus dwyeri","Uncertain","Semiarid",0.3934,10.3,9.57,8.57,7.39,1.955,2.56,3.3062,1.82,0.71,NA,"UniqueID",10,104.55629,10.45563,19.20556
+"179",777,1994,48,13,"Eucalyptus melliodora","Combination","Semiarid",0.4644,12.06,12.93,9.38,9.88,2.865,3.44,2.7063,2.17,0.63,NA,"UniqueID",11,113.88284,10.35299,20.91872
+"180",777,1994,48,14,"Eucalyptus melliodora","Combination","Semiarid",0.4644,12.27,11.96,9.23,9.51,2.745,3.6,2.1894,2.43,0.68,NA,"UniqueID",10,116.87158,11.68716,21.46771
+"181",777,1994,48,15,"Eucalyptus melliodora","Combination","Semiarid",0.4644,13.61,12.1,9.24,11.06,2.705,3.71,2.1719,2.48,0.67,NA,"UniqueID",9,107.11782,11.90198,19.67608
+"182",783,1995,74,13,"Eucalyptus behriana","Lignotuber","Semiarid",0.2317,9.78,10.12,8.05,7.78,2.035,2.37,4.823,1.84,0.78,NA,"UniqueID",8,168.14739,21.01842,30.88637
+"183",783,1995,74,15,"Eucalyptus behriana x E. odorata","Lignotuber","Semiarid",0.2317,9.07,8.84,6.7,6.84,2.185,1.52,4.931,1.22,0.8,NA,"UniqueID",9,171.36633,19.0407,31.47765
+"184",783,1995,74,16,"Eucalyptus behriana x E. odorata","Lignotuber","Semiarid",0.2317,9.39,9.75,6.92,7.61,2.305,1.95,6.2566,1.44,0.74,NA,"UniqueID",7,184.75731,26.3939,33.93738
+"185",806,1995,71,8,"Eucalyptus rugosa","Lignotuber","Semiarid",0.4818,9.58,9.47,7.6,7.73,1.86,2.24,6.1874,1.57,0.7,NA,"UniqueID",9,194.44801,21.60533,35.71743
+"186",806,1995,71,10,"Eucalyptus rugosa","Lignotuber","Semiarid",0.4818,8.19,8.35,6.47,6.46,1.805,1.57,4.3246,1.06,0.68,NA,"UniqueID",7,114.67078,16.38154,21.06345
+"187",806,1995,71,11,"Eucalyptus rugosa","Lignotuber","Semiarid",0.4818,11.64,11.03,9.68,8.42,2.285,3.1,4.5052,2.09,0.67,NA,"UniqueID",10,151.13118,15.11312,27.76073
+"188",822,1995,66,34,"Eucalyptus odorata","Combination","Semiarid",0.2834,10.57,10.79,9.06,7.69,2.305,2.76,3.0553,2.01,0.73,NA,"UniqueID",8,80.76977,10.09622,14.8363
+"189",822,1995,66,36,"Eucalyptus odorata","Combination","Semiarid",0.2834,10.22,10.14,8.01,8.14,2.105,2.49,1.9025,1.8,0.72,NA,"UniqueID",9,59.94665,6.66074,11.01138
+"190",822,1995,66,37,"Eucalyptus odorata","Combination","Semiarid",0.2834,8.33,9.1,7.97,6.88,1.29,2.05,2.6207,1.53,0.75,NA,"UniqueID",8,75.75101,9.46888,13.91442
+"191",823,1995,71,28,"Eucalyptus camaldulensis subsp. camaldulensis","Combination","Semiarid",0.2842,10.06,10.02,7.94,7.76,2.19,2.46,2.7563,1.48,0.6,NA,"UniqueID",9,194.09046,21.56561,35.65176
+"192",823,1995,71,29,"Eucalyptus camaldulensis subsp. camaldulensis","Combination","Semiarid",0.2842,8.09,8.36,6.83,6.55,1.535,1.73,2.3145,1.01,0.58,NA,"UniqueID",6,145.17682,24.19614,26.66699
+"193",823,1995,71,30,"Eucalyptus camaldulensis subsp. camaldulensis","Combination","Semiarid",0.2842,12.3,11.3,9.47,8.16,2.985,2.85,3.0638,1.61,0.56,NA,"UniqueID",9,175.48893,19.49877,32.23491
+"194",825,1995,75,2,"Eucalyptus albopurpurea (atypical form)","Lignotuber","Semiarid",0.2967,9.04,8.76,7.07,7.39,1.67,2.16,5.0726,1.49,0.69,NA,"UniqueID",8,157.1722,19.64653,28.87038
+"195",825,1995,75,4,"Eucalyptus albopurpurea (atypical form)","Lignotuber","Semiarid",0.2967,8.37,7.28,5.61,5.93,2.055,1.08,4.7663,0.77,0.71,NA,"UniqueID",7,120.66458,17.2378,22.16443
+"196",825,1995,75,5,"Eucalyptus albopurpurea (atypical form)","Lignotuber","Semiarid",0.2967,8.02,7.66,6.52,5.84,1.66,1.47,3.3081,1.06,0.72,NA,"UniqueID",7,115.32262,16.47466,21.18318
+"197",942,1995,75,15,"Eucalyptus albopurpurea","Lignotuber","Semiarid",0.325,10.04,10.42,7.86,7.59,2.505,2.35,3.1389,1.53,0.65,NA,"UniqueID",10,152.71318,15.27132,28.05132
+"198",942,1995,75,16,"Eucalyptus albopurpurea","Lignotuber","Semiarid",0.325,9.3,10.15,7.52,6.49,2.72,1.99,4.5618,1.4,0.7,NA,"UniqueID",10,179.78515,17.97852,33.02407
+"199",945,1995,74,28,"Eucalyptus petiolaris (yellow flower morph)","Combination","Semiarid",0.2764,11.73,12.24,9.54,8.23,3.1,3.07,3.5784,1.84,0.6,NA,"UniqueID",10,130.86532,13.08653,24.03816
+"200",945,1995,74,30,"Eucalyptus petiolaris (yellow flower morph)","Combination","Semiarid",0.2764,12.56,11.67,8.69,9.08,3.23,3.32,2.6927,1.86,0.56,NA,"UniqueID",6,103.53465,17.25577,19.0179
+"201",945,1995,74,31,"Eucalyptus petiolaris (yellow flower morph)","Combination","Semiarid",0.2764,12.27,12.13,9.78,9.29,2.665,3.48,4.511,2.44,0.7,NA,"UniqueID",7,181.2321,25.8903,33.28985
+"202",980,1995,66,29,"Eucalyptus largiflorens","Combination","Arid",0.1374,11.35,10.87,9.1,8.73,2.195,3.35,2.5327,2.2,0.66,NA,"UniqueID",9,102.10595,11.34511,18.75546
+"203",980,1995,66,32,"Eucalyptus largiflorens","Combination","Arid",0.1374,11.96,9.45,7.25,9.41,2.375,2.61,2.9227,1.91,0.73,NA,"UniqueID",8,97.75679,12.2196,17.95658
+"204",980,1995,66,33,"Eucalyptus largiflorens","Combination","Arid",0.1374,9.04,8.86,7.13,7.2,1.785,2.09,1.4893,1.39,0.67,NA,"UniqueID",9,61.37597,6.81955,11.27392
+"205",1095,1995,65,15,"Eucalyptus occidentalis","Combination","Arid",0.287,7.94,7.74,6.45,5.96,1.635,1.51,6.2894,1.06,0.7,NA,"UniqueID",7,152.00234,21.71462,27.92075
+"206",1095,1995,65,16,"Eucalyptus occidentalis","Combination","Arid",0.287,8.67,8.85,7.17,6.82,1.765,1.62,6.1401,1.14,0.7,NA,"UniqueID",6,141.09937,23.51656,25.91802
+"207",1095,1995,65,17,"Eucalyptus occidentalis","Combination","Arid",0.287,10.79,11.48,9.01,8.11,2.575,2.82,6.7944,1.87,0.66,NA,"UniqueID",7,165.74433,23.67776,30.44496
+"208",1111,1995,70,13,"Eucalyptus densa","Seeder","Arid",0.1626,11.01,12.37,9.39,8.13,2.93,1.79,1.5655,2.41,1.35,NA,"UniqueID",9,54.83618,6.09291,14.97187
+"209",1111,1995,70,15,"Eucalyptus densa","Seeder","Arid",0.1626,8.74,9.05,6.6,6.98,2.105,3.12,1.3362,1.45,0.46,NA,"UniqueID",8,45.00385,5.62548,12.28736
+"210",1121,1995,72,4,"Eucalyptus megacornuta","Seeder","Semiarid",0.2086,9.42,8.38,7.42,6.67,1.855,1.98,3.5365,1.39,0.7,NA,"UniqueID",9,149.3644,16.59604,27.43619
+"211",1121,1995,72,5,"Eucalyptus megacornuta","Seeder","Semiarid",0.2086,10.45,9.87,8.74,8.11,1.735,2.58,4.9212,1.74,0.67,NA,"UniqueID",9,189.42251,21.04695,34.79432
+"212",1121,1995,72,7,"Eucalyptus megacornuta","Seeder","Semiarid",0.2086,8.92,8.99,7.27,6.8,1.92,1.64,3.6191,1.16,0.71,NA,"UniqueID",9,119.32289,13.2581,21.91798
+"213",1122,1995,69,23,"Eucalyptus sporadica","Lignotuber","Semiarid",0.2086,7.69,7.91,6.2,6.21,1.595,1.48,2.3354,1.08,0.73,NA,"UniqueID",7,76.58865,10.94124,14.06828
+"214",1122,1995,69,25,"Eucalyptus sporadica","Lignotuber","Semiarid",0.2086,10.01,8.28,8.15,6.88,1.63,2.02,2.7949,1.37,0.68,NA,"UniqueID",9,73.99704,8.22189,13.59224
+"215",1122,1995,69,26,"Eucalyptus sporadica","Lignotuber","Semiarid",0.2086,8.24,7.6,6.5,6.67,1.335,1.55,2.7749,1.14,0.74,NA,"UniqueID",7,74.88521,10.69789,13.75539
+"216",1131,1995,69,32,"Eucalyptus rudis subsp. rudis","Combination","Semiarid",0.2801,6.66,6.93,5.07,5.27,1.625,1.18,1.0948,0.64,0.54,NA,"UniqueID",7,85.02964,12.14709,15.61878
+"217",1131,1995,69,34,"Eucalyptus rudis subsp. rudis","Combination","Semiarid",0.2801,12.08,11.81,9.57,9.24,2.54,3.58,2.4873,1.77,0.49,NA,"UniqueID",9,157.82391,17.53599,28.99009
+"218",1137,1995,70,37,"Eucalyptus megacarpa","Combination","DrySubhumid",0.5402,12.38,12.06,10.08,9.28,2.54,3.42,5.6116,2.2,0.64,NA,"UniqueID",6,200.00317,33.33386,36.73784
+"219",1137,1995,70,40,"Eucalyptus megacarpa","Combination","DrySubhumid",0.5402,13.49,14.72,11.38,10.15,3.34,4.41,6.5434,2.66,0.6,NA,"UniqueID",9,194.89753,21.65528,35.80001
+"220",1152,1995,62,25,"Eucalyptus foecunda subsp. foecunda","Lignotuber","Semiarid",0.3491,8.91,9.67,7.46,7.19,1.965,2.13,0.8057,1.39,0.65,NA,"UniqueID",9,40.56359,4.50707,7.45098
+"221",1152,1995,62,26,"Eucalyptus foecunda subsp. foecunda","Lignotuber","Semiarid",0.3491,8.6,8.77,6.86,6.59,1.96,1.37,0.8069,1.04,0.76,NA,"UniqueID",9,41.80353,4.64484,7.67874
+"222",1152,1995,62,27,"Eucalyptus foecunda subsp. foecunda","Lignotuber","Semiarid",0.3491,9.83,9.41,7.99,7.26,1.995,2.14,0.7283,1.49,0.7,NA,"UniqueID",9,39.10412,4.3449,7.18289
+"223",1154,1995,68,10,"Eucalyptus absita","Lignotuber","Semiarid",0.254,12.64,13.01,9.53,9.45,3.335,3.35,4.2415,2.21,0.66,NA,"UniqueID",12,220.70354,18.39196,40.54021
+"224",1178,1995,63,17,"Eucalyptus victrix","Combination","Arid",0.0847,9.08,8.77,7.05,6.6,2.1,1.72,4.3876,1.17,0.68,NA,"UniqueID",8,152.09363,19.0117,27.93751
+"225",1178,1995,63,19,"Eucalyptus victrix","Combination","Arid",0.0847,8.01,7.29,6.16,5.64,1.75,1.36,5.2623,0.99,0.73,NA,"UniqueID",7,175.13648,25.0195,32.17017
+"226",1178,1995,63,20,"Eucalyptus victrix","Combination","Arid",0.0847,7.77,7.82,5.54,5.32,2.365,1.12,3.593,0.73,0.65,NA,"UniqueID",10,129.06378,12.90638,23.70725
+"227",1191,2002,201,21,"Eucalyptus aridomontana","Lignotuber","Arid",0.1349,9.32,9.03,7.4,6.65,2.15,2.29,2.9853,1.74,0.76,NA,"UniqueID",8,102.799,12.85,19.22
+"228",1206,1995,66,25,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.126,7.21,7.08,6.04,6.19,1.03,1.41,3.3364,0.8,0.57,NA,"UniqueID",8,179.35594,22.41949,32.94523
+"229",1206,1995,66,26,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.126,8.47,8.77,6.83,7.09,1.66,1.7,3.9761,0.9,0.53,NA,"UniqueID",8,219.83981,27.47998,40.38156
+"230",1206,1995,66,27,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.126,7.04,6.79,5.62,5.42,1.395,1.35,4.2273,0.77,0.57,NA,"UniqueID",9,220.45145,24.49461,40.49391
+"231",1207,1995,66,19,"Eucalyptus normantonensis","Lignotuber","Arid",0.1146,7.69,7.46,5.57,5.4,2.09,1.05,3.0397,0.76,0.72,NA,"UniqueID",7,82.88377,11.84054,15.22461
+"232",1207,1995,66,20,"Eucalyptus normantonensis","Lignotuber","Arid",0.1146,8.47,8.57,6.64,6.72,1.84,1.78,3.3977,1.14,0.64,NA,"UniqueID",8,105.06846,13.13356,19.29964
+"233",1207,1995,66,21,"Eucalyptus normantonensis","Lignotuber","Arid",0.1146,6.32,6.62,5.26,4.76,1.46,0.95,2.756,0.68,0.72,NA,"UniqueID",9,118.85134,13.2057,21.83136
+"234",1209,1995,73,1,"Eucalyptus gillenii","Lignotuber","Arid",0.1125,8.89,7.79,7.15,6.04,1.745,1.61,2.9344,1.14,0.71,NA,"UniqueID",7,129.84738,18.54963,23.85118
+"235",1209,1995,73,2,"Eucalyptus gillenii","Lignotuber","Arid",0.1125,8.4,8.37,6.83,7.04,1.45,1.91,3.7147,1.25,0.65,NA,"UniqueID",6,128.84019,21.47337,23.66618
+"236",1209,1995,73,3,"Eucalyptus gillenii","Lignotuber","Arid",0.1125,8.25,8.31,6.26,6.4,1.95,1.75,5.942,1.09,0.62,NA,"UniqueID",5,228.94283,45.78857,42.05366
+"237",1220,1996,88,35,"Eucalyptus microcarpa","Combination","Semiarid",0.2565,10.71,11.42,8.56,7.87,2.85,2.65,2.5123,1.74,0.66,NA,"UniqueID",6,139.67,23.278,24.612
+"238",1220,1996,88,37,"Eucalyptus microcarpa","Combination","Semiarid",0.2565,10.61,10.57,8.65,8.96,1.785,3.07,3.7584,2.34,0.76,NA,"UniqueID",7,139.531,19.933,24.588
+"239",1220,1996,88,38,"Eucalyptus microcarpa","Combination","Semiarid",0.2565,8.69,9.01,7.23,7.44,1.515,1.97,2.7738,1.49,0.76,NA,"UniqueID",8,116.296,14.537,20.493
+"240",1226,1996,94,10,"Eucalyptus pulverulenta","Lignotuber","DrySubhumid",0.6078,6.87,6.59,4.85,5.22,1.695,1.05,2.9419,0.71,0.68,NA,"UniqueID",7,131.98,18.854,23.257
+"241",1226,1996,94,11,"Eucalyptus pulverulenta","Lignotuber","DrySubhumid",0.6078,8.84,9.28,5.98,6.12,3.01,1.72,2.4775,1.19,0.69,NA,"UniqueID",6,102.5,17.083,18.062
+"242",1226,1996,94,12,"Eucalyptus pulverulenta","Lignotuber","DrySubhumid",0.6078,6.13,6.26,4.49,4.25,1.825,0.78,1.8997,0.55,0.71,NA,"UniqueID",7,96.717,13.817,17.043
+"243",1238,2000,198,9,"Eucalyptus microcorys","Combination","Humid",0.8687,9.15,7.88,7.54,6.38,1.555,1.89,0.9706,1,0.53,NA,"UniqueID",6,80.247,13.374,13.758
+"244",1238,2000,198,10,"Eucalyptus microcorys","Combination","Humid",0.8687,8.35,9.03,7.56,7.15,1.335,1.99,1.6602,1.16,0.58,NA,"UniqueID",8,127.266,15.908,21.819
+"245",1238,2000,198,12,"Eucalyptus microcorys","Combination","Humid",0.8687,11.31,12.28,9.19,10.08,2.16,3.63,2.0988,1.95,0.54,NA,"UniqueID",7,151.955,21.708,26.051
+"246",1239,1996,95,21,"Eucalyptus propinqua","Combination","Humid",0.8993,8.74,8.5,7.16,6.93,1.575,1.87,1.7433,1.06,0.57,NA,"UniqueID",9,125.386,13.932,22.095
+"247",1239,1996,95,22,"Eucalyptus propinqua","Combination","Humid",0.8993,7.73,8.26,6.33,7.13,1.265,1.57,1.9931,0.89,0.57,NA,"UniqueID",6,105.837,17.639,18.65
+"248",1239,1996,95,24,"Eucalyptus propinqua","Combination","Humid",0.8993,9.41,8.68,7.27,7.96,1.43,2,2.7798,1.21,0.61,NA,"UniqueID",7,159.033,22.719,28.024
+"249",1241,1996,95,2,"Eucalyptus bancroftii","Combination","Humid",0.7566,10.22,10.43,8.2,8.22,2.115,2.49,2.4691,1.32,0.53,NA,"UniqueID",7,140.937,20.134,24.835
+"250",1241,1996,95,3,"Eucalyptus bancroftii","Combination","Humid",0.7566,8.98,10.16,8.47,7.66,1.505,2.48,2.7624,1.47,0.59,NA,"UniqueID",5,165.486,33.097,29.161
+"251",1242,2000,197,18,"Eucalyptus tetrapleura","Combination","Humid",0.7566,7.91,8.14,6.63,6.31,1.555,1.58,4.0078,1.21,0.77,NA,"UniqueID",8,181.041,22.63,31.038
+"252",1242,2000,197,19,"Eucalyptus tetrapleura","Combination","Humid",0.7566,9.83,10.05,7.68,7.44,2.38,1.92,3.0398,1.32,0.69,NA,"UniqueID",5,138.237,27.647,23.7
+"253",1242,2000,197,20,"Eucalyptus tetrapleura","Combination","Humid",0.7566,11.47,12,9.39,9.78,2.15,3.96,3.3567,2.29,0.58,NA,"UniqueID",5,136.561,27.312,23.412
+"254",1245,2000,194,13,"Eucalyptus rummeryi","Combination","DrySubhumid",0.6139,8.96,9.33,7.34,6.31,2.32,1.87,1.9233,1.22,0.65,NA,"UniqueID",6,109.711,18.285,18.809
+"255",1245,2000,194,14,"Eucalyptus rummeryi","Combination","DrySubhumid",0.6139,10.25,10.23,8.07,7.99,2.21,2.64,1.8508,1.7,0.64,NA,"Uniques",8,123.113,15.389,21.107
+"256",1254,1996,90,26,"Eucalyptus infera","Lignotuber","Semiarid",0.4278,8.98,8.88,7.21,7.26,1.695,1.93,2.8328,1.34,0.69,NA,"UniqueID",9,143.408,15.934,25.271
+"257",1254,1996,90,27,"Eucalyptus infera","Lignotuber","Semiarid",0.4278,7.78,7.13,6.67,5.75,1.245,1.36,2.2626,0.93,0.68,NA,"UniqueID",9,123.647,13.739,21.789
+"258",1254,1996,90,28,"Eucalyptus infera","Lignotuber","Semiarid",0.4278,7.93,7.55,6.06,6.23,1.595,1.53,2.3571,1.18,0.77,NA,"UniqueID",10,135.506,13.551,23.878
+"259",1255,1996,92,19,"Eucalyptus chloroclada","Combination","Semiarid",0.411,8.89,9.17,6.46,7.75,1.925,1.75,1.7305,1.03,0.59,NA,"UniqueID",7,133.595,19.085,23.541
+"260",1255,1996,92,20,"Eucalyptus chloroclada","Combination","Semiarid",0.411,8.14,8.4,6.76,6.42,1.68,1.55,2.6029,0.88,0.57,NA,"UniqueID",6,151.822,25.304,26.753
+"261",1255,1996,92,21,"Eucalyptus chloroclada","Combination","Semiarid",0.411,8.3,8.77,7,6.62,1.725,1.56,1.6031,0.97,0.62,NA,"UniqueID",6,149.323,24.887,26.313
+"262",1260,1996,90,30,"Eucalyptus decorticans","Combination","Semiarid",0.3433,8.7,8.68,6.73,6.63,2.01,1.67,1.3127,1.11,0.66,NA,"UniqueID",7,85.132,12.162,15.002
+"263",1260,1996,90,31,"Eucalyptus decorticans","Combination","Semiarid",0.3433,7.75,7.94,5.59,5.53,2.285,1.37,2.4303,0.91,0.66,NA,"UniqueID",10,130.958,13.096,23.077
+"264",1260,1996,90,33,"Eucalyptus decorticans","Combination","Semiarid",0.3433,7.78,7.64,5.5,5.6,2.16,1.2,1.375,0.81,0.68,NA,"UniqueID",9,98.555,10.951,17.367
+"265",1264,1996,90,21,"Eucalyptus corynodes","Combination","Semiarid",0.3321,8.28,8.47,6.6,6.46,1.845,1.61,4.0397,1.18,0.73,NA,"UniqueID",7,187.464,26.781,33.034
+"266",1264,1996,90,22,"Eucalyptus corynodes","Combination","Semiarid",0.3321,9.01,8.89,7.32,6.9,1.84,1.95,2.2566,1.43,0.73,NA,"UniqueID",7,109.576,15.654,19.309
+"267",1267,1996,89,26,"Eucalyptus suffulgens","Combination","Semiarid",0.3344,8.91,9.27,6.69,6.9,2.295,1.69,1.9523,1.16,0.69,NA,"UniqueID",6,111.068,18.511,19.572
+"268",1267,1996,89,27,"Eucalyptus suffulgens","Combination","Semiarid",0.3344,8.87,8.38,7.12,6.1,2.015,1.76,1.6402,1.22,0.69,NA,"UniqueID",5,103.773,20.755,18.286
+"269",1267,1996,89,29,"Eucalyptus suffulgens","Combination","Semiarid",0.3344,8.88,8.54,6.09,6.84,2.245,1.75,2.4519,1.12,0.64,NA,"UniqueID",8,106.471,13.309,18.762
+"270",1272,1996,90,9,"Eucalyptus tereticornis subsp. rotunda","Combination","Semiarid",0.3692,11.93,11.28,9.29,9.58,2.17,3.3,2.3195,1.81,0.55,NA,"UniqueID",5,152.917,30.583,26.946
+"271",1272,1996,90,10,"Eucalyptus tereticornis subsp. rotunda","Combination","Semiarid",0.3692,10.47,10.01,8.63,8.05,1.9,2.87,2.5074,1.54,0.54,NA,"UniqueID",5,171.607,34.321,30.24
+"272",1272,1996,90,11,"Eucalyptus tereticornis subsp. rotunda","Combination","Semiarid",0.3692,11.92,10.7,8.36,10.1,2.08,3.43,2.4473,1.82,0.53,NA,"UniqueID",5,183.599,36.72,32.353
+"273",1276,1996,89,15,"Eucalyptus sicilifolia","Combination","Semiarid",0.3023,8.56,8.4,6.47,6.33,2.08,1.74,3.1235,1.25,0.72,NA,"UniqueID",8,133.994,16.749,23.612
+"274",1276,1996,89,16,"Eucalyptus sicilifolia","Combination","Semiarid",0.3023,10.99,9.8,8.41,8.19,2.095,2.77,2.672,1.97,0.71,NA,"UniqueID",6,102.773,17.129,18.11
+"275",1276,1996,89,17,"Eucalyptus sicilifolia","Combination","Semiarid",0.3023,11.94,9.41,7.17,9.52,2.33,2.83,2.0536,2.08,0.73,NA,"UniqueID",7,89.382,12.769,15.75
+"276",1279,1996,89,19,"Eucalyptus tholiformis","Combination","Semiarid",0.2771,10.49,10.11,8.53,7.8,2.135,2.56,4.0245,1.68,0.66,NA,"UniqueID",6,147.701,24.617,26.027
+"277",1279,1996,89,20,"Eucalyptus tholiformis","Combination","Semiarid",0.2771,10.54,9.9,7.34,7.83,2.635,2.09,3.0782,1.32,0.63,NA,"UniqueID",8,157.881,19.735,27.821
+"278",1279,1996,89,22,"Eucalyptus tholiformis","Combination","Semiarid",0.2771,11.81,11.68,8.82,8.95,2.86,2.84,3.8979,1.88,0.66,NA,"UniqueID",8,162.692,20.337,28.669
+"279",1281,1996,90,1,"Eucalyptus thozetiana","Combination","Semiarid",0.2221,11.15,10.29,9.13,7.7,2.305,2.15,4.351,1.59,0.74,NA,"UniqueID",10,166.431,16.643,29.328
+"280",1284,1996,87,28,"Eucalyptus ammophila","Combination","Semiarid",0.2063,11.03,11.51,9,9.29,2.125,2.68,1.6942,1.58,0.59,NA,"UniqueID",8,102.196,12.774,18.008
+"281",1284,1996,87,30,"Eucalyptus ammophila","Combination","Semiarid",0.2063,11.2,9.67,8.52,7.95,2.2,2.72,1.8632,1.76,0.65,NA,"UniqueID",8,156.372,19.547,27.555
+"282",1284,1996,87,31,"Eucalyptus ammophila","Combination","Semiarid",0.2063,10.99,10.63,8.8,8.66,2.08,2.94,1.6234,1.79,0.61,NA,"UniqueID",6,96.861,16.144,17.068
+"283",1289,1996,90,24,"Eucalyptus exilipes","Combination","Semiarid",0.2524,10.91,10.62,8.49,7.97,2.535,2.23,0.6294,1.54,0.69,NA,"UniqueID",10,48.983,4.898,8.631
+"284",1291,1996,91,2,"Eucalyptus persistens","Combination","Semiarid",0.2603,10.68,11.31,8.14,8.91,2.47,2.46,2.581,1.76,0.72,NA,"UniqueID",9,131.557,14.617,23.182
+"285",1291,1996,91,3,"Eucalyptus persistens","Combination","Semiarid",0.2603,9.42,9.05,7.15,6.83,2.245,1.92,1.717,1.13,0.59,NA,"UniqueID",6,79.481,13.247,14.006
+"286",1291,1996,91,4,"Eucalyptus persistens","Combination","Semiarid",0.2603,12.04,11.16,9.32,8.63,2.625,3.35,2.5832,2.48,0.74,NA,"UniqueID",7,122.968,17.567,21.669
+"287",1293,1996,90,17,"Eucalyptus brownii","Combination","Semiarid",0.2708,10.06,9.68,7.39,7.94,2.205,2.33,2.3197,1.51,0.65,NA,"UniqueID",8,131.275,16.409,23.133
+"288",1293,1996,90,19,"Eucalyptus brownii","Combination","Semiarid",0.2708,8.91,9.12,7.01,6.61,2.205,1.89,2.1898,1.25,0.66,NA,"UniqueID",9,118.228,13.136,20.834
+"289",1298,1998,156,14,"Eucalyptus paedoglauca","Combination","DrySubhumid",0.5834,9.74,10.36,7.47,7.3,2.665,2.52,2.8546,1.74,0.69,NA,"UniqueID",7,166.061,23.723,30.109
+"290",1298,1998,156,15,"Eucalyptus paedoglauca","Combination","DrySubhumid",0.5834,7.72,7.78,6.18,6.16,1.58,1.41,2.6447,0.86,0.61,NA,"UniqueID",6,144.256,24.043,26.155
+"291",1298,1998,156,16,"Eucalyptus paedoglauca","Combination","DrySubhumid",0.5834,8.39,8.18,6.26,6.64,1.835,1.8,2.487,1.23,0.68,NA,"UniqueID",6,151.716,25.286,27.508
+"292",1305,1996,94,1,"Eucalyptus granitica","Combination","Humid",0.8318,9.41,8.99,6.73,7.36,2.155,1.76,3.3017,1.18,0.67,NA,"UniqueID",8,148.749,18.594,26.212
+"293",1305,1996,94,2,"Eucalyptus granitica","Combination","Humid",0.8318,9.76,9.24,7.48,6.86,2.33,1.93,2.9839,1.28,0.66,NA,"UniqueID",6,119.249,19.875,21.013
+"294",1305,1996,94,3,"Eucalyptus granitica","Combination","Humid",0.8318,8.46,8.05,5.87,6.2,2.22,1.58,1.9116,0.96,0.61,NA,"UniqueID",6,83.55,13.925,14.723
+"295",1308,1996,91,32,"Eucalyptus atrata","Combination","Humid",0.8186,8.16,8.52,6.24,6.42,2.01,1.52,3.1016,0.99,0.65,NA,"UniqueID",10,159.505,15.951,28.107
+"296",1308,1996,91,33,"Eucalyptus atrata","Combination","Humid",0.8186,8.15,7.85,5.96,5.86,2.09,1.15,2.6811,0.84,0.73,NA,"UniqueID",8,139.559,17.445,24.592
+"297",1308,1996,91,34,"Eucalyptus atrata","Combination","Humid",0.8186,9.91,10.18,7.3,7.68,2.555,2.02,3.1536,1.31,0.65,NA,"UniqueID",9,170.59,18.954,30.061
+"298",1309,1996,94,18,"Eucalyptus insulana","Combination","Humid",0.8819,8.48,7.77,5.88,6.89,1.74,1.52,0.6987,1.08,0.71,NA,"UniqueID",6,41.479,6.913,7.309
+"299",1309,1996,94,20,"Eucalyptus insulana","Combination","Humid",0.8819,8.91,8.4,6.93,7.17,1.605,1.98,0.8015,1.26,0.64,NA,"UniqueID",7,46.359,6.623,8.169
+"300",1309,1996,94,21,"Eucalyptus insulana","Combination","Humid",0.8819,8.78,8.98,7.13,7.32,1.655,2.25,0.8389,1.39,0.62,NA,"UniqueID",8,61.891,7.736,10.906
+"301",1314,1996,93,8,"Eucalyptus camaldulensis subsp. simulata","Combination","Semiarid",0.4977,8.8,8.39,6.99,7.29,1.455,2.41,3.76,1.21,0.5,NA,"UniqueID",3,172.605,71.633,30.4155
+"302",1314,1996,93,9,"Eucalyptus camaldulensis subsp. simulata","Combination","Semiarid",0.4977,9.6,9.2,7.53,8.12,1.575,2.17,2.1154,1.11,0.51,NA,"UniqueID",6,173.937,28.99,30.65
+"303",1314,1996,93,12,"Eucalyptus camaldulensis subsp. simulata","Combination","Semiarid",0.4977,8.04,9.37,6.95,7.8,1.33,2.13,2.5095,1.11,0.52,NA,"UniqueID",6,197.122,32.854,34.736
+"304",1322,1996,94,26,"Eucalyptus cullenii","Combination","DrySubhumid",0.5211,7.99,7.91,6.08,5.82,2,1.54,0.4621,1.03,0.67,NA,"UniqueID",7,31.883,4.555,5.618
+"305",1322,1996,94,27,"Eucalyptus cullenii","Combination","DrySubhumid",0.5211,8.5,8.07,6.3,6.68,1.795,1.7,0.589,0.98,0.58,NA,"UniqueID",8,35.822,4.478,6.312
+"306",1323,1996,93,3,"Eucalyptus lockyeri","Combination","Humid",0.8499,9.64,8.74,8.11,6.86,1.705,2.23,2.208,1.33,0.6,NA,"UniqueID",8,158.289,19.786,27.893
+"307",1323,1996,93,4,"Eucalyptus lockyeri","Combination","Humid",0.8499,8.5,7.6,6.85,6.29,1.48,1.63,2.1855,0.88,0.54,NA,"UniqueID",10,189.415,18.941,33.378
+"308",1330,1996,87,7,"Eucalyptus melanophloia subsp. nana","Combination","Arid",0.1494,6.96,6.22,4.79,5.45,1.47,1.08,2.3697,0.76,0.7,NA,"UniqueID",10,124.837,12.484,21.998
+"309",1330,1996,87,8,"Eucalyptus melanophloia subsp. nana","Combination","Arid",0.1494,6.84,6.27,4.85,5.46,1.4,1.15,2.3276,0.77,0.67,NA,"UniqueID",10,135.716,13.572,23.915
+"310",1330,1996,87,9,"Eucalyptus melanophloia subsp. nana","Combination","Arid",0.1494,4.99,4.95,3.83,3.64,1.235,0.59,1.7617,0.49,0.83,NA,"UniqueID",10,90.109,9.011,15.879
+"311",1353,1999,177,1,"Eucalyptus lucens","Lignotuber","Arid",0.1216,5.35,5.04,3.83,3.65,1.455,0.62,1.3686,0.48,0.77,NA,"UniqueID",7,63.585,9.084,12.28
+"312",1353,1999,177,2,"Eucalyptus lucens","Lignotuber","Arid",0.1216,9.93,9.25,8.17,7.56,1.725,2.83,1.5903,2.24,0.79,NA,"UniqueID",7,79.59,11.37,15.371
+"313",1353,1999,177,3,"Eucalyptus lucens","Lignotuber","Arid",0.1216,8.01,7.76,5.7,5.98,2.045,1.52,1.7432,1.2,0.79,NA,"UniqueID",7,81.275,11.611,15.696
+"314",1355,1996,86,16,"Eucalyptus coolabah","Combination","Arid",0.0964,11.17,11.72,8.58,8.15,3.08,2.7,2.5914,1.66,0.61,NA,"UniqueID",9,173.932,19.326,30.649
+"315",1355,1996,86,17,"Eucalyptus coolabah","Combination","Arid",0.0964,9.33,9.19,6.65,6.99,2.44,1.54,2.9147,1,0.65,NA,"UniqueID",6,155.41,25.902,27.386
+"316",1364,1996,87,22,"Eucalyptus microcarpa (Adelaide variant)","Combination","Semiarid",0.3411,10.91,11.23,8.75,8.6,2.395,2.84,1.9862,1.95,0.69,NA,"UniqueID",6,143.429,23.905,25.274
+"317",1364,1996,87,25,"Eucalyptus microcarpa (Adelaide variant)","Combination","Semiarid",0.3411,9.34,9.27,7.43,7.11,2.035,1.99,2.9411,1.33,0.67,NA,"UniqueID",9,138.429,15.381,24.393
+"318",1364,1996,87,26,"Eucalyptus microcarpa (Adelaide variant)","Combination","Semiarid",0.3411,7.97,9.12,6.21,7.06,1.91,1.88,3.1682,1.35,0.72,NA,"UniqueID",5,125.267,25.053,22.074
+"319",1590,1996,88,5,"Eucalyptus wimmerensis","Lignotuber","Semiarid",0.264,12.18,12.02,10.53,9.32,2.175,3.82,1.1685,2.66,0.7,NA,"UniqueID",9,65.326,7.258,11.511
+"320",1590,1996,88,6,"Eucalyptus wimmerensis","Lignotuber","Semiarid",0.264,10.89,11.64,9.1,8.87,2.28,2.88,3.3946,2.08,0.72,NA,"UniqueID",9,109.698,12.189,19.33
+"321",1590,1996,88,8,"Eucalyptus wimmerensis","Lignotuber","Semiarid",0.264,9.75,9.45,7.63,7.54,2.015,1.98,0.7597,1.46,0.74,NA,"UniqueID",8,56.539,7.067,9.963
+"322",1676,1997,133,5,"Eucalyptus albens","Combination","Semiarid",0.2313,11.83,12.76,10.62,9.4,2.285,3.02,3.2443,2.13,0.71,NA,"UniqueID",6,157.948,26.325,29.008
+"323",1676,1997,133,6,"Eucalyptus albens","Combination","Semiarid",0.2313,10.14,10.24,7.38,7.63,2.685,2.3,3.9214,1.75,0.76,NA,"UniqueID",5,156.423,31.285,28.728
+"324",1676,1997,133,7,"Eucalyptus albens","Combination","Semiarid",0.2313,11.02,11.23,8.1,8.37,2.89,3.12,3.4366,2.42,0.78,NA,"UniqueID",6,135.787,22.631,24.938
+"325",1716,1997,137,19,"Eucalyptus fasciculosa","Combination","Semiarid",0.3233,12.05,12.39,10.2,9.45,2.395,4.13,2.9357,2.72,0.66,NA,"UniqueID",6,168.502,28.084,30.947
+"326",1716,1997,137,20,"Eucalyptus fasciculosa","Combination","Semiarid",0.3233,10.24,10.63,8.83,7.97,2.035,2.77,2.6165,1.78,0.64,NA,"UniqueID",6,146.306,24.384,26.87
+"327",1716,1997,137,21,"Eucalyptus fasciculosa","Combination","Semiarid",0.3233,12.24,10.82,8.66,10.1,2.15,3.51,3.3334,2.35,0.67,NA,"UniqueID",7,141.903,20.272,26.061
+"328",1727,1997,138,16,"Eucalyptus tricarpa","Combination","Semiarid",0.4994,11.52,10.01,8.77,7.8,2.48,2.84,3.6352,2.06,0.73,NA,"UniqueID",6,179.135,29.856,32.899
+"329",1727,1997,138,17,"Eucalyptus tricarpa","Combination","Semiarid",0.4994,13.39,12.69,9.14,10.13,3.405,4.14,3.5795,2.84,0.69,NA,"UniqueID",6,178.833,29.806,32.844
+"330",1727,1997,138,18,"Eucalyptus tricarpa","Combination","Semiarid",0.4994,9.64,9.84,7.92,7.38,2.09,2.52,4.5047,1.81,0.72,NA,"UniqueID",6,177.909,29.651,32.674
+"331",1733,1997,141,29,"Eucalyptus bosistoana","Combination","Semiarid",0.4895,10.97,10.51,8.11,8.6,2.385,2.3,3.0465,1.56,0.68,NA,"UniqueID",6,117.691,19.615,21.615
+"332",1733,1997,141,30,"Eucalyptus bosistoana","Combination","Semiarid",0.4895,12.43,10.37,10.34,8.26,2.1,3.57,3.5964,2.49,0.7,NA,"UniqueID",7,148.729,21.247,27.315
+"333",1734,1997,142,31,"Eucalyptus baueriana","Combination","Semiarid",0.4895,8.14,9.01,7.52,6.65,1.49,2.06,2.0426,1.49,0.72,NA,"UniqueID",6,118.465,19.744,20.312
+"334",1734,1997,142,32,"Eucalyptus baueriana","Combination","Semiarid",0.4895,7.89,8.34,6.3,5.83,2.05,1.47,2.5198,0.94,0.64,NA,"UniqueID",5,168.017,33.603,28.809
+"335",1734,1997,142,33,"Eucalyptus baueriana","Combination","Semiarid",0.4895,7.39,7.87,5.5,6.05,1.855,1.4,1.3771,0.98,0.7,NA,"UniqueID",6,89.044,14.841,15.268
+"336",1736,1997,144,28,"Eucalyptus tereticornis subsp. mediana","Combination","Semiarid",0.4827,10.41,10.77,8.44,7.91,2.415,3.27,3.6641,1.97,0.6,NA,"UniqueID",4,192.093,48.023,32.937
+"337",1736,1997,144,29,"Eucalyptus tereticornis subsp. mediana","Combination","Semiarid",0.4827,9.96,10.19,7.93,8.12,2.05,2.26,3.7186,1.31,0.58,NA,"UniqueID",7,165.005,23.572,28.292
+"338",1736,1997,144,30,"Eucalyptus tereticornis subsp. mediana","Combination","Semiarid",0.4827,10.47,9.36,8.34,7.29,2.1,2.52,2.514,1.64,0.65,NA,"UniqueID",6,131.568,21.928,22.559
+"339",1738,1997,142,10,"Eucalyptus polyanthemos subsp. vestita (subsp. longior)","Combination","DrySubhumid",0.6081,11.77,11.33,9.87,9.11,2.06,3.18,2.5922,2.31,0.73,NA,"UniqueID",6,141.777,23.63,24.309
+"340",1738,1997,142,11,"Eucalyptus polyanthemos subsp. vestita (subsp. longior)","Combination","DrySubhumid",0.6081,10.8,10.96,9.07,8.71,1.99,2.69,2.4256,1.93,0.72,NA,"UniqueID",5,145.636,29.127,24.971
+"341",1738,1997,142,12,"Eucalyptus polyanthemos subsp. vestita (subsp. longior)","Combination","DrySubhumid",0.6081,10.07,9.77,7.54,7.88,2.21,2.26,2.7275,1.68,0.74,NA,"UniqueID",6,117.999,19.666,20.232
+"342",1751,1997,141,17,"Eucalyptus spectatrix","Lignotuber","DrySubhumid",0.6982,9.88,10.62,7.93,8.43,2.07,3.04,3.3005,2.26,0.74,NA,"UniqueID",6,84.719,14.12,15.559
+"343",1751,1997,141,18,"Eucalyptus spectatrix","Lignotuber","DrySubhumid",0.6982,12.34,12.18,10.33,10.79,1.7,4.06,3.3379,2.71,0.67,NA,"UniqueID",7,88.502,12.643,16.254
+"344",1751,1997,141,20,"Eucalyptus spectatrix","Lignotuber","DrySubhumid",0.6982,10.55,10.66,8.17,8.3,2.37,2.75,4.4947,1.91,0.69,NA,"UniqueID",8,120.47,15.059,22.125
+"345",1761,1997,143,26,"Eucalyptus beyeriana","Combination","DrySubhumid",0.6855,11.83,11.3,8.96,7.74,3.215,2.76,1.784,2.21,0.8,NA,"UniqueID",6,98.53,16.422,16.894
+"346",1761,1997,143,27,"Eucalyptus beyeriana","Combination","DrySubhumid",0.6855,11.34,10.98,8.34,8.87,2.555,2.8,1.4255,1.82,0.65,NA,"UniqueID",5,82.18,16.436,14.091
+"347",1761,1997,143,28,"Eucalyptus beyeriana","Combination","DrySubhumid",0.6855,8.92,8.87,5.86,5.89,3.02,1.42,2.8957,0.93,0.65,NA,"UniqueID",6,127.861,21.31,21.923
+"348",1763,1997,143,13,"Eucalyptus parramattensis subsp. parramattensis","Combination","DrySubhumid",0.6255,10.28,9.87,8.71,7.68,1.88,2.32,1.7142,1.51,0.65,NA,"UniqueID",5,76.76,15.352,13.161
+"349",1763,1997,143,15,"Eucalyptus parramattensis subsp. parramattensis","Combination","DrySubhumid",0.6255,12.9,12.12,10.72,9.59,2.355,3.82,2.0676,2.04,0.53,NA,"UniqueID",6,136.064,22.677,23.33
+"350",1763,1997,143,16,"Eucalyptus parramattensis subsp. parramattensis","Combination","DrySubhumid",0.6255,10.84,10.63,8.05,8.27,2.575,2.89,1.6872,1.67,0.58,NA,"UniqueID",6,115.203,19.2,19.753
+"351",1764,1997,144,1,"Eucalyptus maidenii","Combination","DrySubhumid",0.5805,10.8,11.23,8.96,7.78,2.645,2.7,5.7555,1.81,0.67,NA,"UniqueID",5,277.745,55.549,47.623
+"352",1764,1997,144,4,"Eucalyptus maidenii","Combination","DrySubhumid",0.5805,11.51,11.84,9.74,8.98,2.315,3.58,7.8649,2.34,0.65,NA,"UniqueID",5,241.501,48.3,41.408
+"353",1765,1997,141,33,"Eucalyptus kartzoffiana","Combination","DrySubhumid",0.5416,11.44,10.83,9.07,8.41,2.395,3.15,5.2011,2.04,0.65,NA,"UniqueID",7,187.022,26.717,34.348
+"354",1765,1997,141,34,"Eucalyptus kartzoffiana","Combination","DrySubhumid",0.5416,11.95,12.34,10.1,9.92,2.135,4.02,3.0235,2.67,0.66,NA,"UniqueID",6,179.395,29.899,32.947
+"355",1765,1997,141,35,"Eucalyptus kartzoffiana","Combination","DrySubhumid",0.5416,10.3,9.33,8.66,7.72,1.625,3.38,2.9608,2.06,0.61,NA,"UniqueID",8,120.005,15.001,22.04
+"356",1798,1997,145,1,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.3901,12.15,10.44,7.84,9.51,2.62,3.64,2.3031,2.48,0.68,NA,"UniqueID",7,113.608,16.23,19.479
+"357",1798,1997,145,3,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.3901,11.86,12.01,9.54,9,2.665,3.4,2.48,2.05,0.6,NA,"UniqueID",7,128.357,18.337,22.009
+"358",1798,1997,145,4,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.3901,14.29,14.29,11.4,9.99,3.595,4.74,2.5685,3.04,0.64,NA,"UniqueID",6,108.822,18.137,18.659
+"359",1991,1998,152,17,"Eucalyptus diversifolia subsp. diversifolia","Lignotuber","Humid",0.6592,10.36,10.59,8.85,8.92,1.59,3.16,1.8972,2.19,0.69,NA,"UniqueID",6,70.548,11.758,12.791
+"360",1991,1998,152,19,"Eucalyptus diversifolia subsp. diversifolia","Lignotuber","Humid",0.6592,9.85,9.38,8.31,7.63,1.645,2.71,1.9354,1.8,0.66,NA,"UniqueID",6,59.045,9.841,10.706
+"361",1991,1998,152,20,"Eucalyptus diversifolia subsp. diversifolia","Lignotuber","Humid",0.6592,11.34,12.17,9.41,10.1,2,4.2,2.0187,2.68,0.64,NA,"UniqueID",6,65.526,10.921,11.881
+"362",2072,1998,158,17,"Eucalyptus squamosa","Combination","Humid",0.6674,8.11,7.86,6.46,6.23,1.64,1.74,1.6037,1.16,0.67,NA,"UniqueID",6,94.561,15.76,21.015
+"363",2072,1998,158,19,"Eucalyptus squamosa","Combination","Humid",0.6674,11.2,11.4,8.56,8.6,2.72,2.52,2.7479,1.45,0.58,NA,"UniqueID",7,116.031,16.576,25.787
+"364",2072,1998,158,20,"Eucalyptus squamosa","Combination","Humid",0.6674,10.77,10.06,8.6,8.26,1.985,2.56,1.4961,1.56,0.61,NA,"UniqueID",7,83.8,11.971,18.624
+"365",2080,1998,153,1,"Eucalyptus rudderi (E. hypostomatica)","Combination","DrySubhumid",0.7237,13.25,14.13,11.51,11.12,2.375,4.22,2.4353,2.66,0.63,NA,"UniqueID",6,187.968,31.328,34.081
+"366",2080,1998,153,2,"Eucalyptus rudderi (E. hypostomatica)","Combination","DrySubhumid",0.7237,9.03,10.51,7.82,6.45,2.635,1.78,1.7727,1.27,0.71,NA,"UniqueID",5,111.275,22.255,20.175
+"367",2080,1998,153,4,"Eucalyptus rudderi (E. hypostomatica)","Combination","DrySubhumid",0.7237,8.8,8.52,7.04,6.76,1.76,1.76,2.0758,1.16,0.66,NA,"UniqueID",8,120.775,15.097,21.898
+"368",2081,1998,152,9,"Eucalyptus fracta","Combination","DrySubhumid",0.6548,10.89,11.36,9.09,8.08,2.54,3,2.0292,2.13,0.71,NA,"UniqueID",7,99.497,14.214,18.04
+"369",2081,1998,152,10,"Eucalyptus fracta","Combination","DrySubhumid",0.6548,10.44,9.35,8.24,7.02,2.265,2.14,2.5626,1.53,0.71,NA,"UniqueID",6,118.697,19.783,21.521
+"370",2081,1998,152,11,"Eucalyptus fracta","Combination","DrySubhumid",0.6548,10.66,10.57,8.22,8.38,2.315,2.79,2.1597,1.92,0.69,NA,"UniqueID",7,111.948,15.993,20.297
+"371",2083,1998,84,17,"Eucalyptus aenea","Lignotuber","Semiarid",0.4056,9.14,9.41,6.99,6.92,2.32,1.95,2.1159,1.38,0.71,NA,"UniqueID",8,77.348,9.668,14.024
+"372",2083,1998,84,18,"Eucalyptus aenea","Lignotuber","Semiarid",0.4056,10.9,10.63,8.27,7.99,2.635,2.55,1.695,2.04,0.8,NA,"UniqueID",7,60.789,8.684,11.022
+"373",2083,1998,84,19,"Eucalyptus aenea","Lignotuber","Semiarid",0.4056,9.45,9.04,7.4,7.06,2.015,2.24,1.875,1.66,0.74,NA,"UniqueID",6,58.615,9.769,10.628
+"374",2085,1998,156,21,"Eucalyptus glaucina","Combination","DrySubhumid",0.5698,9.03,8.53,6.68,6.56,2.16,1.63,3.3436,0.9,0.55,NA,"UniqueID",6,245.931,40.989,44.59
+"375",2085,1998,156,23,"Eucalyptus glaucina","Combination","DrySubhumid",0.5698,9.56,9.76,6.97,7.1,2.625,2.14,2.5306,1.2,0.56,NA,"UniqueID",7,199.772,28.539,36.221
+"376",2085,1998,156,24,"Eucalyptus glaucina","Combination","DrySubhumid",0.5698,11.47,10.65,8.85,7.78,2.745,2.65,3.1356,1.56,0.59,NA,"UniqueID",8,148.3,18.538,26.888
+"377",2086,1998,155,10,"Eucalyptus largeana","Combination","Humid",0.7673,10.1,9.02,6.96,8,2.08,2.14,2.4543,1.52,0.71,NA,"UniqueID",6,144.726,24.121,26.24
+"378",2086,1998,155,11,"Eucalyptus largeana","Combination","Humid",0.7673,10.7,11.5,8.57,9.2,2.215,2.63,2.4677,1.78,0.68,NA,"UniqueID",7,133.757,19.108,24.252
+"379",2086,1998,155,12,"Eucalyptus largeana","Combination","Humid",0.7673,11.04,10.19,8.75,8.07,2.205,2.82,2.5911,2.02,0.72,NA,"UniqueID",6,138.825,23.137,25.17
+"380",2089,1998,158,29,"Eucalyptus seeana","Combination","Humid",0.8855,9.33,8.96,8.3,7.68,1.155,2.55,0.9661,1.39,0.55,NA,"UniqueID",9,88.699,9.855,16.082
+"381",2089,1998,158,30,"Eucalyptus seeana","Combination","Humid",0.8855,9.73,9.76,8.09,8.12,1.64,2.63,0.7982,1.45,0.55,NA,"UniqueID",8,81.412,10.177,14.761
+"382",2089,1998,158,31,"Eucalyptus seeana","Combination","Humid",0.8855,9.66,9.79,8.09,7.79,1.785,2.76,1.0948,1.51,0.55,NA,"UniqueID",7,86.825,12.404,15.742
+"383",2099,1998,151,29,"Eucalyptus ophitica","Combination","DrySubhumid",0.6461,12.94,12.48,10.23,9.61,2.79,3.7,5.3574,2.28,0.62,NA,"UniqueID",6,177.774,29.629,32.232
+"384",2099,1998,151,30,"Eucalyptus ophitica","Combination","DrySubhumid",0.6461,11.2,11.15,8.06,8.44,2.925,2.83,3.7803,2.03,0.72,NA,"UniqueID",6,137.571,22.929,24.943
+"385",2099,1998,151,32,"Eucalyptus ophitica","Combination","DrySubhumid",0.6461,12.19,11.26,8.25,9.53,2.835,2.71,4.8078,1.88,0.69,NA,"UniqueID",6,180.034,30.006,32.642
+"386",2104,1998,150,1,"Eucalyptus rhombica","Combination","Semiarid",0.3714,12.05,11.35,9.14,8.76,2.75,3.09,3.0151,2.16,0.7,NA,"UniqueID",6,107.633,17.939,19.515
+"387",2104,1998,150,3,"Eucalyptus rhombica","Combination","Semiarid",0.3714,7.8,7.92,6.16,5.75,1.905,1.43,3.0925,1.04,0.73,NA,"UniqueID",6,133.264,22.211,24.162
+"388",2104,1998,150,4,"Eucalyptus rhombica","Combination","Semiarid",0.3714,10.74,10.19,8,7.46,2.735,2.13,2.8334,1.53,0.72,NA,"UniqueID",6,117.6,19.6,21.322
+"389",2106,1998,151,18,"Eucalyptus taurina","Combination","Semiarid",0.4324,12.58,11.73,8.6,9.32,3.195,3.32,2.9,2.26,0.68,NA,"UniqueID",7,121.676,17.382,22.061
+"390",2106,1998,151,19,"Eucalyptus taurina","Combination","Semiarid",0.4324,10.23,10.74,8.14,8.58,2.125,2.53,2.8321,1.38,0.55,NA,"UniqueID",8,146.118,18.265,26.493
+"391",2106,1998,151,20,"Eucalyptus taurina","Combination","Semiarid",0.4324,9.12,9.09,6.57,6.59,2.525,2.09,1.5407,1.32,0.63,NA,"UniqueID",6,74.912,12.485,13.582
+"392",2107,1998,151,9,"Eucalyptus major","Combination","Semiarid",0.4423,8.49,7.5,6.57,5.58,1.92,1.91,2.0138,1.26,0.66,NA,"UniqueID",8,146.819,18.352,26.62
+"393",2107,1998,151,10,"Eucalyptus major","Combination","Semiarid",0.4423,8.64,8.74,7.15,6.88,1.675,1.95,1.9381,1.18,0.61,NA,"UniqueID",7,134.013,19.145,24.298
+"394",2108,1998,159,9,"Eucalyptus curtisii","Lignotuber","Humid",0.9055,6.99,7.15,5.9,5.52,1.36,1.15,0.5166,0.84,0.73,NA,"UniqueID",8,33.506,4.188,6.075
+"395",2108,1998,159,12,"Eucalyptus curtisii","Lignotuber","Humid",0.9055,7.22,7.2,5.95,6.18,1.145,1.56,1.319,1.1,0.71,NA,"UniqueID",7,69.408,9.915,12.584
+"396",2111,1998,151,22,"Eucalyptus melanoleuca","Combination","Semiarid",0.4731,12.51,11.71,9.37,9.79,2.53,3.93,3.5688,2.52,0.64,NA,"UniqueID",4,163.21,40.803,29.592
+"397",2111,1998,151,23,"Eucalyptus melanoleuca","Combination","Semiarid",0.4731,8.72,9.52,7.24,6.65,2.175,1.42,2.9723,0.94,0.66,NA,"UniqueID",8,152.775,19.097,27.7
+"398",2111,1998,151,24,"Eucalyptus melanoleuca","Combination","Semiarid",0.4731,9.78,9.84,7.27,6.52,2.915,1.99,2.2491,1.4,0.7,NA,"UniqueID",7,123.249,17.607,22.346
+"399",2116,1998,150,9,"Eucalyptus virens","Combination","Semiarid",0.3058,9.09,8.56,6.06,7.16,2.215,1.59,1.1399,1.09,0.69,NA,"UniqueID",8,54.998,6.875,9.972
+"400",2116,1998,150,11,"Eucalyptus virens","Combination","Semiarid",0.3058,9.83,9.32,6.55,6.77,2.915,1.66,1.6577,1.2,0.72,NA,"UniqueID",8,76.978,9.622,13.957
+"401",2116,1998,150,12,"Eucalyptus virens","Combination","Semiarid",0.3058,8.52,7.95,6.3,5.65,2.26,1.64,1.0432,1.08,0.66,NA,"UniqueID",7,54.522,7.789,9.886
+"402",2119,1998,83,20,"Eucalyptus ochrophloia","Combination","Arid",0.186,8.55,8.72,6.69,7.05,1.765,1.82,3.7592,1.41,0.77,NA,"UniqueID",7,108.973,15.568,19.758
+"403",2119,1998,83,21,"Eucalyptus ochrophloia","Combination","Arid",0.186,9.78,9.61,8.12,7.5,1.885,2.53,3.0008,1.99,0.79,NA,"UniqueID",7,81.27,11.61,14.735
+"404",2119,1998,83,22,"Eucalyptus ochrophloia","Combination","Arid",0.186,8.62,9.31,7.42,6.55,1.98,2.2,2.5173,1.59,0.72,NA,"UniqueID",7,81.553,11.65,14.786
+"405",2168,1999,178,5,"Eucalyptus brockwayi","Seeder","Arid",0.1489,14.12,11.73,11.55,8.4,2.95,4.92,2.9201,3.9,0.79,NA,"UniqueID",8,78.289,9.786,15.119
+"406",2168,1999,178,7,"Eucalyptus brockwayi","Seeder","Arid",0.1489,12.16,11.33,8.79,8.17,3.265,3.07,2.2352,2.4,0.78,NA,"UniqueID",8,63.391,7.924,12.242
+"407",2216,1999,174,21,"Eucalyptus arachnaea subsp. arrecta","Seeder","Arid",0.162,11.89,10.85,9.29,8.39,2.53,2.88,4.1264,2.22,0.77,NA,"UniqueID",7,125.587,17.941,24.254
+"408",2216,1999,174,22,"Eucalyptus arachnaea subsp. arrecta","Seeder","Arid",0.162,11.37,10.71,8.81,8.07,2.6,2.98,4.6006,2.12,0.71,NA,"UniqueID",8,114.366,14.296,22.087
+"409",2241,1999,168,14,"Eucalyptus longicornis","Combination","Semiarid",0.2313,11.17,11.38,9.08,9.19,2.14,3.33,1.6921,2.49,0.75,NA,"UniqueID",7,62.547,8.935,11.341
+"410",2241,1999,168,15,"Eucalyptus longicornis","Combination","Semiarid",0.2313,10.53,10.3,8.46,8.16,2.105,2.31,2.0794,1.69,0.73,NA,"UniqueID",6,77.334,12.889,14.022
+"411",2241,1999,168,16,"Eucalyptus longicornis","Combination","Semiarid",0.2313,11.69,12.15,8.9,9.8,2.57,2.78,2.0058,2.16,0.78,NA,"UniqueID",7,73.33,10.476,13.296
+"412",2283,2000,187,24,"Eucalyptus longicornis","Combination","Arid",0.145,11.31,12.19,10.04,9.05,2.205,3.86,1.8671,2.94,0.76,NA,"UniqueID",8,65.627,8.203,11.251
+"413",2283,2000,187,25,"Eucalyptus longicornis","Combination","Arid",0.145,9.75,10.21,8.33,8.84,1.395,3.36,1.235,2.65,0.79,NA,"UniqueID",9,49.107,5.456,8.419
+"414",2283,2000,187,26,"Eucalyptus longicornis","Combination","Arid",0.145,11.61,11.94,9.9,9.01,2.32,3.65,1.9458,2.77,0.76,NA,"UniqueID",9,66.324,7.369,11.371
+"415",2506,1999,166,1,"Eucalyptus moluccana (northern variant)","Combination","Semiarid",0.4462,12.58,12.81,9.71,9.87,2.905,3.8,7.2548,2.4,0.63,NA,"UniqueID",5,111.5465,41.4855,20.22475
+"416",2506,1999,166,2,"Eucalyptus moluccana (northern variant)","Combination","Semiarid",0.4462,11.58,9.94,7.7,9.59,2.115,2.83,9.5781,1.77,0.63,NA,"UniqueID",5,165.76,40.7485,30.054
+"417",2506,1999,166,3,"Eucalyptus moluccana (northern variant)","Combination","Semiarid",0.4462,12.08,11.18,8.62,9.53,2.555,3.25,6.9504,2.21,0.68,NA,"UniqueID",4,122.5025,34.9095,22.211
+"418",2508,1999,166,6,"Eucalyptus shirleyi","Combination","Semiarid",0.4158,7.24,7.65,5.34,5.62,1.965,1.22,6.2766,0.73,0.6,NA,"UniqueID",8,268.413,33.552,48.666
+"419",2508,1999,166,7,"Eucalyptus shirleyi","Combination","Semiarid",0.4158,9.11,8.76,6.8,7.06,2.005,2.39,5.8116,1.59,0.67,NA,"UniqueID",9,255.533,28.393,46.331
+"420",2508,1999,166,8,"Eucalyptus shirleyi","Combination","Semiarid",0.4158,10.59,10.84,7.96,7.54,2.965,2.15,5.5248,1.36,0.63,NA,"UniqueID",8,235.839,29.48,42.76
+"421",2512,1999,165,27,"Eucalyptus brassiana","Combination","DrySubhumid",0.5573,11.25,11.23,8.7,8.48,2.65,2.44,1.0451,1.29,0.53,NA,"UniqueID",7,96.407,13.772,17.48
+"422",2512,1999,165,28,"Eucalyptus brassiana","Combination","DrySubhumid",0.5573,9.13,8.78,7.38,7.95,1.29,2.28,1.2653,1.35,0.59,NA,"UniqueID",8,113.263,14.158,20.536
+"423",2512,1999,165,30,"Eucalyptus brassiana","Combination","DrySubhumid",0.5573,9.77,8.57,7.93,6.61,1.9,2.02,1.383,1.14,0.56,NA,"UniqueID",6,120.423,20.071,21.834
+"424",2520,1999,165,32,"Eucalyptus staigeriana","Combination","Semiarid",0.4802,8.09,7.64,6.06,5.67,2,1.55,2.1976,0.93,0.6,NA,"UniqueID",10,121.217,12.122,21.978
+"425",2520,1999,165,33,"Eucalyptus staigeriana","Combination","Semiarid",0.4802,7.62,7.57,5.55,5.7,1.97,1.36,1.1721,0.79,0.58,NA,"UniqueID",8,62.834,7.854,11.393
+"426",2520,1999,165,34,"Eucalyptus staigeriana","Combination","Semiarid",0.4802,5.9,5.61,4.2,4.08,1.615,0.73,1.433,0.46,0.63,NA,"UniqueID",7,75.518,10.788,13.692
+"427",2521,1999,165,8,"Eucalyptus tardecidens","Combination","Semiarid",0.4435,9.83,9.56,7.58,7.97,1.92,2.12,2.528,1.28,0.6,NA,"UniqueID",10,110.523,11.052,20.039
+"428",2521,1999,165,10,"Eucalyptus tardecidens","Combination","Semiarid",0.4435,7.68,7.41,5.9,6.13,1.53,1.63,2.4969,0.99,0.61,NA,"UniqueID",7,95.632,13.662,17.339
+"429",2521,1999,165,11,"Eucalyptus tardecidens","Combination","Semiarid",0.4435,11.63,10.75,9.26,8.47,2.325,2.55,3.1781,1.67,0.65,NA,"UniqueID",7,109.938,15.705,19.933
+"430",2532,1999,168,7,"Eucalyptus drepanophylla","Combination","Semiarid",0.2887,10.79,10.38,7.69,8.11,2.685,2.99,4.0957,2.06,0.69,NA,"UniqueID",9,183.442,20.382,35.427
+"431",2532,1999,168,9,"Eucalyptus drepanophylla","Combination","Semiarid",0.2887,8.75,8.8,6.81,6.73,2.005,2.29,3.7505,1.74,0.76,NA,"UniqueID",8,198.65,24.831,38.364
+"432",2532,1999,168,10,"Eucalyptus drepanophylla","Combination","Semiarid",0.2887,11.02,10.21,9.1,8.01,2.06,3.2,5.0764,2.15,0.67,NA,"UniqueID",7,168.819,24.117,32.603
+"433",2533,1999,170,5,"Eucalyptus quadricostata","Combination","Semiarid",0.2719,9.57,9.51,7.78,7.4,1.95,2.23,5.5685,1.48,0.66,NA,"UniqueID",7,188.379,26.911,34.155
+"434",2533,1999,170,6,"Eucalyptus quadricostata","Combination","Semiarid",0.2719,9.59,9.39,7.94,7.32,1.86,2.04,3.3163,1.3,0.64,NA,"UniqueID",7,191.045,27.292,34.639
+"435",2533,1999,170,7,"Eucalyptus quadricostata","Combination","Semiarid",0.2719,9,8.65,7.02,6.48,2.075,1.68,2.776,1.1,0.65,NA,"UniqueID",10,131.217,13.122,23.791
+"436",2545,1999,166,17,"Eucalyptus decolor","Combination","Semiarid",0.4871,11.36,10.54,9.04,8.07,2.395,2.67,2.5013,1.87,0.7,NA,"UniqueID",9,195.056,21.673,35.366
+"437",2545,1999,166,19,"Eucalyptus decolor","Combination","Semiarid",0.4871,8.43,8.68,6.68,6.02,2.205,1.55,2.5675,1.06,0.68,NA,"UniqueID",8,140.883,17.61,25.544
+"438",2545,1999,166,20,"Eucalyptus decolor","Combination","Semiarid",0.4871,12.05,10.74,8.27,9.57,2.475,3.07,2.5191,2.14,0.7,NA,"UniqueID",8,152.405,19.051,27.633
+"439",2553,1999,174,13,"Eucalyptus camaldulensis subsp. acuta","Combination","Semiarid",0.2021,11.37,10.97,8.51,8.32,2.755,2.97,2.9115,1.98,0.67,NA,"UniqueID",8,122.584,15.323,23.674
+"440",2553,1999,174,14,"Eucalyptus camaldulensis subsp. acuta","Combination","Semiarid",0.2021,9.65,9.67,7.35,7.51,2.23,2.43,3.2268,1.41,0.58,NA,"UniqueID",6,165.013,27.502,31.868
+"441",2553,1999,174,15,"Eucalyptus camaldulensis subsp. acuta","Combination","Semiarid",0.2021,10.93,10.15,8.51,7.72,2.425,2.97,2.5787,1.69,0.57,NA,"UniqueID",7,113.214,16.173,21.864
+"442",2554,1999,175,16,"Eucalyptus intertexta","Combination","Arid",0.1816,11,10.62,9.09,9.35,1.59,3.58,1.4449,2.59,0.72,NA,"UniqueID",7,74.042,10.577,14.299
+"443",2554,1999,175,17,"Eucalyptus intertexta","Combination","Arid",0.1816,10.57,10.92,9,8.72,1.885,3.61,1.3082,2.51,0.7,NA,"UniqueID",7,79.428,11.347,15.339
+"444",2554,1999,175,18,"Eucalyptus intertexta","Combination","Arid",0.1816,9.69,9.58,7.42,7.53,2.16,1.96,1.6665,1.37,0.7,NA,"UniqueID",7,105.282,15.04,20.332
+"445",2555,1999,178,13,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.0966,11.77,11.36,9.61,8.96,2.28,3.87,2.3502,2.36,0.61,NA,"UniqueID",7,127.3,18.186,24.585
+"446",2555,1999,178,14,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.0966,11.79,10.92,9.88,8.32,2.255,3.39,1.9999,2.16,0.64,NA,"UniqueID",6,114.16,19.027,22.047
+"447",2555,1999,178,16,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.0966,14.38,12.96,9.54,11.19,3.305,5.09,2.5684,3.26,0.64,NA,"UniqueID",7,103.208,14.744,19.932
+"448",2556,1999,177,12,"Eucalyptus largiflorens (green-leaf variant)","Combination","Hyperarid",0.0503,10.34,10.61,7.28,8.64,2.515,2.97,2.7333,2.24,0.75,NA,"UniqueID",8,99.324,12.416,19.182
+"449",2556,1999,177,13,"Eucalyptus largiflorens (green-leaf variant)","Combination","Hyperarid",0.0503,12.33,11.24,9.97,10.19,1.705,4.49,2.3741,3.37,0.75,NA,"UniqueID",7,96.294,13.756,18.597
+"450",2566,1999,178,9,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2187,9.82,9.89,7.94,7.84,1.965,2.75,1.9015,1.83,0.67,NA,"UniqueID",7,87.039,12.434,16.809
+"451",2566,1999,178,11,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2187,11.76,11.53,8.85,8.38,3.03,3.23,2.3382,2.39,0.74,NA,"UniqueID",8,95.455,11.932,18.435
+"452",2566,1999,178,12,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2187,13.19,12.66,9.96,10.53,2.68,4.44,2.8406,2.87,0.65,NA,"UniqueID",7,113.512,16.216,21.922
+"453",2580,2000,188,1,"Eucalyptus odorata (E. silvestris)","Combination","Semiarid",0.2802,11.47,11.17,7.54,7.43,3.835,2.02,1.3172,1.54,0.76,NA,"UniqueID",6,51.507,8.585,8.83
+"454",2580,2000,188,2,"Eucalyptus odorata (E. silvestris)","Combination","Semiarid",0.2802,9.07,8.48,7.64,6.69,1.61,2.28,1.6691,1.74,0.76,NA,"UniqueID",7,58.61,8.373,10.048
+"455",2580,2000,188,3,"Eucalyptus odorata (E. silvestris)","Combination","Semiarid",0.2802,10.74,11.12,9.02,9.17,1.835,3.19,1.6423,2.2,0.69,NA,"UniqueID",6,66.925,11.154,11.474
+"456",2581,2000,189,28,"Eucalyptus leucoxylon subsp. stephaniae","Combination","Semiarid",0.261,11.35,11.05,8.67,8.62,2.555,2.59,2.1845,1.58,0.61,NA,"UniqueID",7,93.185,13.312,15.976
+"457",2581,2000,189,29,"Eucalyptus leucoxylon subsp. stephaniae","Combination","Semiarid",0.261,8.41,8.03,6,5.76,2.34,1.58,1.2801,0.92,0.58,NA,"UniqueID",7,58.498,8.357,10.029
+"458",2583,2000,188,13,"Eucalyptus froggattii","Lignotuber","Semiarid",0.2697,9.22,9.57,7.63,7.32,1.92,2.16,3.0726,1.8,0.83,NA,"UniqueID",7,82.985,11.855,14.227
+"459",2583,2000,188,14,"Eucalyptus froggattii","Lignotuber","Semiarid",0.2697,9.66,9.38,7.91,7.93,1.6,2.54,3.924,1.97,0.78,NA,"UniqueID",7,92.428,13.204,15.846
+"460",2583,2000,188,15,"Eucalyptus froggattii","Lignotuber","Semiarid",0.2697,12.95,11.8,10.21,9.24,2.65,3.35,2.8055,2.79,0.83,NA,"UniqueID",8,81.863,10.233,14.035
+"461",2585,2000,190,17,"Eucalyptus leucoxylon subsp. leucoxylon (subsp. connata)","Combination","Semiarid",0.4136,12.1,11.19,9.16,9.41,2.36,2.77,2.7448,1.87,0.68,NA,"UniqueID",8,127.863,15.983,21.921
+"462",2585,2000,190,18,"Eucalyptus leucoxylon subsp. leucoxylon (subsp. connata)","Combination","Semiarid",0.4136,11.63,11.89,8.49,9.16,2.935,2.8,1.5156,1.85,0.66,NA,"UniqueID",8,108.411,13.551,18.586
+"463",2585,2000,190,20,"Eucalyptus leucoxylon subsp. leucoxylon (subsp. connata)","Combination","Semiarid",0.4136,10.02,10.13,8.02,7.87,2.13,2.69,1.526,1.71,0.64,NA,"UniqueID",7,72.652,10.379,12.456
+"464",2614,2002,199,28,"Eucalyptus eremicola subsp. eremicola","Lignotuber","Arid",0.0573,7.56,7.87,6.35,6.62,1.23,1.62,0.8137,1.3,0.8,NA,"UniqueID",7,27.76,3.966,5.19
+"465",2614,2002,199,30,"Eucalyptus eremicola subsp. eremicola","Lignotuber","Arid",0.0573,7.6,7.79,6.52,6.53,1.17,1.99,1.0474,1.54,0.77,NA,"UniqueID",9,30.042,3.338,5.617
+"466",2677,2000,182,34,"Eucalyptus intertexta","Combination","Arid",0.0739,9.42,9.3,7.23,7.34,2.075,2.29,1.7424,1.74,0.76,NA,"UniqueID",6,68.859,11.476,11.805
+"467",2677,2000,182,37,"Eucalyptus intertexta","Combination","Arid",0.0739,8.4,8.35,6.07,6.51,2.085,1.64,2.0498,1.07,0.65,NA,"UniqueID",10,116.694,11.669,20.006
+"468",2689,2002,208,16,"Eucalyptus gillenii","Lignotuber","Arid",0.1482,10.78,10.2,8.61,8.09,2.14,3.01,3.0865,2.03,0.67,NA,"UniqueID",5,144.978,28.996,27.106
+"469",2689,2002,208,18,"Eucalyptus gillenii","Lignotuber","Arid",0.1482,9.33,8.17,7.72,6.11,1.835,2.01,4.1213,1.41,0.7,NA,"UniqueID",7,155.092,22.156,28.996
+"470",2689,2002,208,19,"Eucalyptus gillenii","Lignotuber","Arid",0.1482,10.89,10.06,8.99,7.46,2.25,2.77,3.7542,2,0.72,NA,"UniqueID",8,142.96,17.87,26.728
+"471",2761,2000,185,37,"Eucalyptus petraea","Lignotuber","Arid",0.1069,8.05,8.22,5.74,6.1,2.215,1.52,2.2638,1.27,0.84,NA,"UniqueID",6,86.736,14.456,14.87
+"472",2761,2000,185,38,"Eucalyptus petraea","Lignotuber","Arid",0.1069,8.87,8.37,6.37,6.9,1.985,1.66,2.5549,1.27,0.77,NA,"UniqueID",7,80.097,11.442,13.732
+"473",2761,2000,185,39,"Eucalyptus petraea","Lignotuber","Arid",0.1069,8.88,9.19,7.12,7.42,1.765,2.23,1.6318,1.64,0.74,NA,"UniqueID",7,106.244,15.178,18.215
+"474",2895,2000,187,8,"Eucalyptus microcarpa","Combination","Arid",0.1757,9.49,9.12,6.85,7.21,2.275,2.47,3.5513,1.64,0.66,NA,"UniqueID",5,158.667,31.733,27.202
+"475",2895,2000,187,9,"Eucalyptus microcarpa","Combination","Arid",0.1757,10.2,9.07,7.09,8.19,1.995,1.97,2.901,1.39,0.71,NA,"UniqueID",5,164.407,32.881,28.186
+"476",2895,2000,187,10,"Eucalyptus microcarpa","Combination","Arid",0.1757,12,10.34,9.4,8.11,2.415,3.38,4.5115,2.26,0.67,NA,"UniqueID",7,186.7,26.671,32.008
+"477",2897,2000,187,5,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2086,11.74,12.74,10.06,10.84,1.79,3.28,2.1969,1.9,0.58,NA,"UniqueID",6,114.407,19.068,19.614
+"478",2897,2000,187,6,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2086,11.03,10.8,9.27,8.84,1.86,3.35,2.5981,2.09,0.62,NA,"UniqueID",6,124.765,20.794,21.39
+"479",2897,2000,187,7,"Eucalyptus leucoxylon subsp. pruinosa","Combination","Semiarid",0.2086,11.83,12.28,9.54,9.65,2.46,3.36,2.0418,1.93,0.57,NA,"UniqueID",7,100.775,14.396,17.277
+"480",2898,2000,189,23,"Eucalyptus albens","Combination","Semiarid",0.3177,12.09,11.5,9.35,9.32,2.46,3.51,4.5525,2.49,0.71,NA,"UniqueID",5,174.267,34.853,29.877
+"481",2898,2000,189,24,"Eucalyptus albens","Combination","Semiarid",0.3177,11.65,12.19,9.3,8.26,3.14,2.8,5.8471,2.08,0.74,NA,"UniqueID",7,205.562,29.366,35.242
+"482",2898,2000,189,26,"Eucalyptus albens","Combination","Semiarid",0.3177,12.47,12.71,10.01,9.65,2.76,3.51,4.156,2.45,0.7,NA,"UniqueID",8,238.243,29.78,40.845
+"483",2899,2000,189,1,"Eucalyptus polyanthemos subsp. polyanthemos","Combination","Semiarid",0.4878,10.81,10.45,8.95,8.81,1.75,2.86,1.884,1.93,0.67,NA,"UniqueID",7,116.118,16.588,19.907
+"484",2899,2000,189,3,"Eucalyptus polyanthemos subsp. polyanthemos","Combination","Semiarid",0.4878,10.28,10.81,7.73,7.96,2.7,2.2,1.525,1.35,0.61,NA,"UniqueID",7,135.346,19.335,23.204
+"485",2899,2000,189,4,"Eucalyptus polyanthemos subsp. polyanthemos","Combination","Semiarid",0.4878,10.72,9.72,7.97,7.23,2.62,2.37,3.475,1.62,0.68,NA,"UniqueID",8,152.088,19.011,26.074
+"486",2900,2000,193,29,"Eucalyptus stenostoma","Seeder","DrySubhumid",0.5898,11.52,12.21,8.81,9.33,2.795,3.76,2.5628,2.14,0.57,NA,"UniqueID",5,82.336,16.467,14.116
+"487",2900,2000,193,30,"Eucalyptus stenostoma","Seeder","DrySubhumid",0.5898,11.48,11.52,8.81,9.05,2.57,2.63,2.339,1.46,0.56,NA,"UniqueID",6,104.72,17.453,17.953
+"488",2902,2000,192,5,"Eucalyptus bosistoana","Combination","DrySubhumid",0.6612,10.87,11.42,8.07,8.79,2.715,1.74,2.8005,1.18,0.68,NA,"UniqueID",6,111.53,18.588,19.121
+"489",2902,2000,192,7,"Eucalyptus bosistoana","Combination","DrySubhumid",0.6612,12.49,11.34,9.65,8.81,2.685,3.64,4.0045,2.26,0.62,NA,"UniqueID",6,187.091,31.182,32.075
+"490",2902,2000,192,8,"Eucalyptus bosistoana","Combination","DrySubhumid",0.6612,12.86,11.17,10.82,8.72,2.245,2.85,2.6476,1.96,0.69,NA,"UniqueID",6,112.231,18.705,19.241
+"491",2903,2000,198,15,"Eucalyptus paniculata","Combination","DrySubhumid",0.7335,11.89,12.36,9.99,9.04,2.61,3.47,3.6266,2.43,0.7,NA,"UniqueID",6,187.703,31.284,32.18
+"492",2903,2000,198,16,"Eucalyptus paniculata","Combination","DrySubhumid",0.7335,11.34,10.78,8.47,7.92,2.865,2.35,2.9451,1.69,0.72,NA,"UniqueID",6,158.923,26.487,27.246
+"493",2903,2000,198,17,"Eucalyptus paniculata","Combination","DrySubhumid",0.7335,8.79,8.32,7.4,6.72,1.495,2.03,3.1964,1.45,0.71,NA,"UniqueID",7,188.943,26.992,32.393
+"494",2918,2000,196,2,"Eucalyptus fergusonii subsp. fergusonii","Combination","Humid",0.7635,9.57,8.9,6.61,7.62,2.12,1.88,2.7093,1.35,0.72,NA,"UniqueID",6,117.698,19.616,20.178
+"495",2918,2000,196,3,"Eucalyptus fergusonii subsp. fergusonii","Combination","Humid",0.7635,11.07,11.3,9.39,9.23,1.875,3.48,2.8013,2.26,0.65,NA,"UniqueID",6,140.998,23.5,24.173
+"496",2918,2000,196,4,"Eucalyptus fergusonii subsp. fergusonii","Combination","Humid",0.7635,10.54,9.92,8.18,8.05,2.115,2.88,2.2903,1.9,0.66,NA,"UniqueID",5,123.396,24.679,21.155
+"497",2920,2000,196,10,"Eucalyptus rudderi","Combination","Humid",0.7833,10.06,10.46,8.03,8.21,2.14,2.8,1.698,1.77,0.63,NA,"UniqueID",6,133.528,22.255,22.892
+"498",2920,2000,196,11,"Eucalyptus rudderi","Combination","Humid",0.7833,8.71,9.03,7.39,7.03,1.66,2.3,2.1521,1.58,0.69,NA,"UniqueID",5,131.535,26.307,22.551
+"499",2920,2000,196,12,"Eucalyptus rudderi","Combination","Humid",0.7833,10.27,9.48,8.24,7.42,2.045,3.2,1.6771,2.14,0.67,NA,"UniqueID",5,115.219,23.044,19.753
+"500",2927,2000,191,29,"Eucalyptus scopulorum","Combination","DrySubhumid",0.6759,10.31,9.25,8.05,6.92,2.295,2.48,3.2133,1.84,0.74,NA,"UniqueID",7,150.941,21.563,25.878
+"501",2927,2000,191,30,"Eucalyptus scopulorum","Combination","DrySubhumid",0.6759,12.64,11.78,8.63,9.32,3.235,3.18,2.9023,2.04,0.64,NA,"UniqueID",5,121.529,24.306,20.835
+"502",2927,2000,191,31,"Eucalyptus scopulorum","Combination","DrySubhumid",0.6759,11.48,11.52,8.86,8.91,2.615,2.9,2.4388,2.08,0.72,NA,"UniqueID",6,104.878,17.48,17.981
+"503",2930,2000,190,22,"Eucalyptus caleyi subsp. ovendenii","Combination","Semiarid",0.458,11.75,11.06,8.82,9.05,2.47,3.22,2.433,2.12,0.66,NA,"UniqueID",7,170.334,24.333,29.202
+"504",2930,2000,190,23,"Eucalyptus caleyi subsp. ovendenii","Combination","Semiarid",0.458,13.21,13.11,9.98,9.93,3.205,3.17,3.1582,2.21,0.7,NA,"UniqueID",8,176.932,22.116,30.333
+"505",2932,2000,190,26,"Eucalyptus exserta","Combination","Semiarid",0.3765,8.91,8.65,7.04,6.86,1.83,2,0.7268,1.13,0.57,NA,"UniqueID",7,53.825,7.689,9.228
+"506",2932,2000,190,27,"Eucalyptus exserta","Combination","Semiarid",0.3765,9.25,8.79,7.05,7.33,1.83,1.87,0.8514,1.14,0.61,NA,"UniqueID",8,44.252,5.531,7.587
+"507",2932,2000,190,28,"Eucalyptus exserta","Combination","Semiarid",0.3765,9.52,9.73,7.71,7.78,1.88,2.69,0.8146,1.74,0.65,NA,"UniqueID",7,60.787,8.684,10.421
+"508",2937,2000,191,9,"Eucalyptus tereticornis subsp. basaltica","Combination","DrySubhumid",0.5699,16.12,15.18,14.12,13.33,1.925,6.51,2.2768,3.53,0.54,NA,"UniqueID",6,163.459,27.243,28.024
+"509",2937,2000,191,11,"Eucalyptus tereticornis subsp. basaltica","Combination","DrySubhumid",0.5699,13.25,13.96,12.07,10.74,2.2,4.56,1.8812,3.09,0.68,NA,"UniqueID",6,124.925,20.821,21.417
+"510",2937,2000,191,12,"Eucalyptus tereticornis subsp. basaltica","Combination","DrySubhumid",0.5699,10.22,11.23,9.37,8.37,1.855,3.4,2.1997,2.2,0.65,NA,"UniqueID",5,188.281,37.656,32.279
+"511",2939,2000,193,9,"Eucalyptus rubida subsp. barbigerorum","Combination","DrySubhumid",0.5872,10.82,10.58,8.11,9.14,2.075,2.81,3.9488,1.56,0.56,NA,"UniqueID",7,180.518,25.788,30.948
+"512",2945,2000,192,21,"Eucalyptus magnificata","Combination","DrySubhumid",0.5528,14.66,13.57,11.46,10.38,3.195,4.75,2.086,3.08,0.65,NA,"UniqueID",6,150.297,25.049,25.767
+"513",2945,2000,192,22,"Eucalyptus magnificata","Combination","DrySubhumid",0.5528,8.86,8.52,6.86,6.37,2.075,1.98,1.9411,1.34,0.68,NA,"UniqueID",7,142.916,20.417,24.502
+"514",2945,2000,192,24,"Eucalyptus magnificata","Combination","DrySubhumid",0.5528,11.38,10.75,8.47,9.27,2.195,3.03,2.9029,2.08,0.69,NA,"UniqueID",7,152.818,21.831,26.199
+"515",2954,2000,186,11,"Eucalyptus populnea subsp. bimbil","Combination","Semiarid",0.2372,8.68,8.88,6.36,6.46,2.37,1.93,2.0692,1.46,0.76,NA,"UniqueID",6,78.534,13.089,13.464
+"516",2954,2000,186,12,"Eucalyptus populnea subsp. bimbil","Combination","Semiarid",0.2372,10.32,10.47,7.98,7.91,2.45,2.86,2.3875,2.18,0.76,NA,"UniqueID",6,88.609,14.768,15.191
+"517",2954,2000,186,13,"Eucalyptus populnea subsp. bimbil","Combination","Semiarid",0.2372,14.43,13.89,11.39,10.42,3.255,4.98,2.2632,3.66,0.73,NA,"UniqueID",7,84.53,12.076,14.492
+"518",2957,2000,185,28,"Eucalyptus coolabah","Combination","Arid",0.1191,9.01,9.17,7.15,7.43,1.8,1.59,1.8049,1.12,0.7,NA,"UniqueID",6,76.328,12.721,13.086
+"519",2957,2000,185,29,"Eucalyptus coolabah","Combination","Arid",0.1191,9.38,8.81,7,6.73,2.23,1.65,1.369,1.05,0.64,NA,"UniqueID",6,73.656,12.276,12.628
+"520",2957,2000,185,30,"Eucalyptus coolabah","Combination","Arid",0.1191,8.02,8.66,6.42,6.49,1.885,1.88,2.3122,1.21,0.64,NA,"UniqueID",7,108.265,15.466,18.561
+"521",3180,2001,220,13,"Eucalyptus albopurpurea","Lignotuber","Semiarid",0.3017,11.43,10.69,9.08,8.45,2.295,3.35,3.575,2.36,0.7,NA,"UniqueID",6,122.086,20.348,25.139
+"522",3180,2001,220,15,"Eucalyptus albopurpurea","Lignotuber","Semiarid",0.3017,9.87,10.03,7.81,7.71,2.19,2.76,3.3475,1.97,0.71,NA,"UniqueID",7,116.338,16.62,23.955
+"523",3180,2001,220,16,"Eucalyptus albopurpurea","Lignotuber","Semiarid",0.3017,9.72,9.32,7.69,7.85,1.75,2.32,2.5945,1.69,0.73,NA,"UniqueID",6,113.426,18.904,23.356
+"524",3183,2001,235,25,"Eucalyptus behriana","Lignotuber","Semiarid",0.2803,10.87,10.73,8.42,8.6,2.29,3.03,3.8211,2.17,0.72,NA,"UniqueID",8,143.496,17.937,29.548
+"525",3183,2001,235,27,"Eucalyptus behriana","Lignotuber","Semiarid",0.2803,8.76,9.58,7.8,7.36,1.59,1.95,5.1007,1.44,0.74,NA,"UniqueID",7,159.096,22.728,32.76
+"526",3183,2001,235,28,"Eucalyptus behriana","Lignotuber","Semiarid",0.2803,9.61,9.64,7.72,7.18,2.175,2.29,5.9828,1.75,0.76,NA,"UniqueID",7,186.322,26.617,38.366
+"527",3433,2001,229,1,"Eucalyptus falcata","Seeder","Arid",0.1617,8.57,9.48,6.66,7.63,1.88,2.29,1.3626,1.6,0.7,NA,"UniqueID",6,48.884,8.147,10.066
+"528",3433,2001,229,2,"Eucalyptus falcata","Seeder","Arid",0.1617,8.15,8.61,6.48,6.39,1.945,1.9,1.7933,1.42,0.75,NA,"UniqueID",8,62.865,7.858,12.945
+"529",3433,2001,229,4,"Eucalyptus falcata","Seeder","Arid",0.1617,8.47,8.83,6.82,6.02,2.23,1.88,2.3388,1.37,0.73,NA,"UniqueID",7,76.385,10.912,15.729
+"530",3434,2001,227,9,"Eucalyptus gardneri subsp. gardneri","Seeder","Arid",0.1617,8.56,8.26,6.85,6.64,1.665,2.11,1.554,1.63,0.77,NA,"UniqueID",7,65.218,9.317,13.429
+"531",3434,2001,227,10,"Eucalyptus gardneri subsp. gardneri","Seeder","Arid",0.1617,11.91,8.77,9.93,6.65,2.05,3.05,1.2995,2.31,0.76,NA,"UniqueID",7,61.296,8.757,12.622
+"532",3438,2001,227,1,"Eucalyptus astringens subsp. astringens","Seeder","Arid",0.1863,9.45,8.73,6.22,7.38,2.29,1.72,1.0074,1.26,0.73,NA,"UniqueID",6,35.813,5.969,7.374
+"533",3438,2001,227,2,"Eucalyptus astringens subsp. astringens","Seeder","Arid",0.1863,8.65,8.02,6.08,6.69,1.95,1.59,2.3327,1.18,0.74,NA,"UniqueID",7,66.936,9.562,13.783
+"534",3438,2001,227,4,"Eucalyptus astringens subsp. astringens","Seeder","Arid",0.1863,9.04,9.23,6.52,7.02,2.365,1.82,1.8451,1.37,0.75,NA,"UniqueID",6,55.116,9.186,11.349
+"535",3467,2001,224,33,"Eucalyptus extensa","Seeder","Arid",0.1509,11.5,11.09,9.88,9.01,1.85,3.45,1.3232,2.6,0.75,NA,"UniqueID",6,38.474,6.412,7.922
+"536",3467,2001,224,34,"Eucalyptus extensa","Seeder","Arid",0.1509,7.33,7.82,5.44,5.98,1.865,1.36,2.0503,1.06,0.78,NA,"UniqueID",8,64.808,8.101,13.345
+"537",3467,2001,224,35,"Eucalyptus extensa","Seeder","Arid",0.1509,10.45,10.78,8.28,7.87,2.54,1.81,1.6385,1.34,0.74,NA,"UniqueID",7,56.472,8.067,11.628
+"538",3474,2001,235,5,"Eucalyptus vittata","Seeder","Arid",0.1201,11.68,11.44,8.97,8.41,2.87,2.87,2.4841,2.22,0.77,NA,"UniqueID",7,68.628,9.804,14.131
+"539",3474,2001,235,6,"Eucalyptus vittata","Seeder","Arid",0.1201,10.32,10.62,8.58,7.82,2.27,2.66,3.2844,2.13,0.8,NA,"UniqueID",6,86.479,14.413,17.807
+"540",3474,2001,235,8,"Eucalyptus vittata","Seeder","Arid",0.1201,8.34,7.46,6.47,5.56,1.885,1.43,4.1757,1.19,0.83,NA,"UniqueID",8,105.183,13.148,21.659
+"541",3480,2001,221,33,"Eucalyptus distuberosa subsp. distuberosa","Seeder","Arid",0.1196,7.25,6.81,5.29,5.26,1.755,1.27,1.28,1.04,0.82,NA,"UniqueID",6,38.417,6.403,7.91
+"542",3480,2001,221,34,"Eucalyptus distuberosa subsp. distuberosa","Seeder","Arid",0.1196,11.84,10.75,8.94,7.84,2.905,2.69,2.0135,1.95,0.72,NA,"UniqueID",6,64.818,10.803,13.347
+"543",3480,2001,221,35,"Eucalyptus distuberosa subsp. distuberosa","Seeder","Arid",0.1196,9.14,8.8,6.42,6.81,2.355,1.71,2.0927,1.37,0.8,NA,"UniqueID",6,59.313,9.885,12.213
+"544",3493,2001,224,29,"Eucalyptus salicola","Seeder","Arid",0.0877,8.07,8.37,6.4,6.29,1.875,1.66,1.0687,1.26,0.76,NA,"UniqueID",9,36.861,4.096,7.59
+"545",3493,2001,224,31,"Eucalyptus salicola","Seeder","Arid",0.0877,9.37,8.94,7.34,6.74,2.115,2.17,1.4337,1.69,0.78,NA,"UniqueID",6,44.481,7.414,9.159
+"546",3493,2001,224,32,"Eucalyptus salicola","Seeder","Arid",0.0877,10.44,10.98,8.5,7.73,2.595,2.37,1.195,1.78,0.75,NA,"UniqueID",7,41.801,5.972,8.607
+"547",3523,2001,224,21,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.1773,8.71,9.34,7.66,7.51,1.44,2.22,2.1449,1.38,0.62,NA,"UniqueID",6,155.168,25.861,31.951
+"548",3523,2001,224,22,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.1773,7.41,7.23,5.13,5.31,2.1,1.36,2.1739,0.8,0.59,NA,"UniqueID",6,176.321,29.387,36.307
+"549",3523,2001,224,23,"Eucalyptus camaldulensis subsp. arida","Combination","Arid",0.1773,8.86,8.73,7.3,6.83,1.73,2.2,1.7624,1.21,0.55,NA,"UniqueID",7,140.125,20.018,28.853
+"550",3536,2001,235,1,"Eucalyptus cuprea","Lignotuber","Arid",0.1326,7.55,7.21,4.79,5.25,2.36,0.85,3.1072,0.63,0.74,NA,"UniqueID",7,108.053,15.436,22.249
+"551",3536,2001,235,2,"Eucalyptus cuprea","Lignotuber","Arid",0.1326,9.35,8.86,7,6.35,2.43,1.93,2.6313,1.41,0.73,NA,"UniqueID",10,107.82,10.782,22.202
+"552",3536,2001,235,4,"Eucalyptus cuprea","Lignotuber","Arid",0.1326,8.84,9.39,6.59,6.64,2.5,1.57,1.7657,1.12,0.71,NA,"UniqueID",6,70.142,11.69,14.443
+"553",3549,2001,239,5,"Eucalyptus drummondii","Lignotuber","DrySubhumid",0.5722,7.93,8.27,6.11,5.35,2.37,1.48,1.2106,0.94,0.64,NA,"UniqueID",7,81.299,11.614,16.741
+"554",3549,2001,239,7,"Eucalyptus drummondii","Lignotuber","DrySubhumid",0.5722,8.56,8.16,6.14,6.53,2.025,1.17,1.1699,0.75,0.64,NA,"UniqueID",7,61.418,8.774,12.647
+"555",3565,2001,234,9,"Eucalyptus vesiculosa","Seeder","Semiarid",0.2492,11.13,10.45,9.34,8.82,1.71,3.03,4.9493,2.21,0.73,NA,"UniqueID",7,142.404,20.343,29.323
+"556",3565,2001,234,10,"Eucalyptus vesiculosa","Seeder","Semiarid",0.2492,12.65,13.02,10.64,10.17,2.43,4.3,5.7935,3.13,0.73,NA,"UniqueID",6,150.06,25.01,30.899
+"557",3579,2001,233,21,"Eucalyptus purpurata","Seeder","Semiarid",0.2346,9.91,10.5,8.47,8.26,1.84,2.82,1.6744,2.07,0.73,NA,"UniqueID",6,60.145,10.024,12.385
+"558",3579,2001,233,23,"Eucalyptus purpurata","Seeder","Semiarid",0.2346,8.89,8.89,7.1,8.05,1.315,2.57,0.989,1.91,0.74,NA,"UniqueID",7,35.126,5.018,7.233
+"559",3579,2001,233,24,"Eucalyptus purpurata","Seeder","Semiarid",0.2346,8.53,8.32,6.58,6.69,1.79,1.81,2.5322,1.43,0.79,NA,"UniqueID",8,78.061,9.758,16.074
+"560",3595,2001,232,25,"Eucalyptus rigens","Lignotuber","Semiarid",0.2552,9.64,9.84,7.93,7.9,1.825,2.83,2.7701,2.1,0.74,NA,NA,NA,NA,NA,NA
+"561",3595,2001,232,26,"Eucalyptus rigens","Lignotuber","Semiarid",0.2552,10.73,10.09,9.26,8.68,1.44,2.9,4.0118,2.4,0.83,NA,NA,NA,NA,NA,NA
+"562",3595,2001,232,28,"Eucalyptus rigens","Lignotuber","Semiarid",0.2552,11.4,9.92,8.54,8.19,2.295,3.25,4.7695,2.39,0.74,NA,NA,NA,NA,NA,NA
+"563",3606,2001,224,13,"Eucalyptus creta","Seeder","Semiarid",0.2043,9.95,10.1,8.06,7.54,2.225,2.01,2.3772,1.52,0.76,NA,"UniqueID",6,65.013,10.836,13.387
+"564",3606,2001,224,14,"Eucalyptus creta","Seeder","Semiarid",0.2043,8.54,9.11,6.41,6.94,2.15,1.66,3.0831,1.28,0.77,NA,"UniqueID",5,63.273,12.655,13.029
+"565",3606,2001,224,15,"Eucalyptus creta","Seeder","Semiarid",0.2043,8.4,8.13,6.46,6.13,1.97,1.52,3.4971,1.11,0.73,NA,"UniqueID",7,98.647,14.092,20.313
+"566",3657,2001,221,30,"Eucalyptus distuberosa subsp. aerata","Seeder","Arid",0.1442,8.77,9.52,6.66,7.4,2.115,2.08,1.9651,1.64,0.79,NA,"UniqueID",6,54.373,9.062,11.196
+"567",3657,2001,221,31,"Eucalyptus distuberosa subsp. aerata","Seeder","Arid",0.1442,8.64,8.3,6.99,6.56,1.695,1.67,1.6834,1.29,0.77,NA,"UniqueID",6,52.338,8.723,10.777
+"568",3657,2001,221,32,"Eucalyptus distuberosa subsp. aerata","Seeder","Arid",0.1442,8.52,7.71,5.6,6.87,1.88,1.63,2.1457,1.23,0.75,NA,"UniqueID",7,52.471,7.496,10.805
+"569",3660,2001,221,21,"Eucalyptus frenchiana","Seeder","Arid",0.1405,10.98,9.33,7.91,6.96,2.72,2.28,2.5536,1.9,0.83,NA,"UniqueID",6,57.297,9.549,11.798
+"570",3660,2001,221,22,"Eucalyptus frenchiana","Seeder","Arid",0.1405,10.96,10.23,8.09,8.62,2.24,2.98,2.4041,2.35,0.79,NA,"UniqueID",7,62.18,8.883,12.804
+"571",3660,2001,221,23,"Eucalyptus frenchiana","Seeder","Arid",0.1405,7.86,8,5.32,6.57,1.985,1.48,2.0377,1.24,0.84,NA,"UniqueID",7,57.508,8.215,11.842
+"572",3679,2001,222,36,"Eucalyptus caesia subsp. caesia","Lignotuber","Arid",0.1651,7.36,7.34,5.17,5.6,1.965,1.28,1.9125,0.93,0.73,NA,"UniqueID",6,63.446,10.574,13.064
+"573",3679,2001,222,37,"Eucalyptus caesia subsp. caesia","Lignotuber","Arid",0.1651,7.05,7.57,5.41,5.17,2.02,1.23,1.8772,0.82,0.67,NA,"UniqueID",6,70.075,11.679,14.429
+"574",3679,2001,222,38,"Eucalyptus caesia subsp. caesia","Lignotuber","Arid",0.1651,10.21,10.08,7.66,7.62,2.505,2.57,2.486,1.59,0.62,NA,"UniqueID",6,91.256,15.209,18.791
+"575",3704,2001,220,6,"Eucalyptus lehmannii subsp. parallela","Lignotuber","Semiarid",0.2489,10.44,9.18,8.14,6.58,2.45,2.07,1.3655,1.69,0.82,NA,"UniqueID",6,56.014,9.336,11.534
+"576",3704,2001,220,7,"Eucalyptus lehmannii subsp. parallela","Lignotuber","Semiarid",0.2489,10.64,10.47,8.35,8.77,1.995,2.93,1.4736,2.29,0.78,NA,"UniqueID",6,39.783,6.63,8.192
+"577",3704,2001,220,8,"Eucalyptus lehmannii subsp. parallela","Lignotuber","Semiarid",0.2489,8.04,9.41,6.54,7.53,1.69,1.94,1.1864,1.58,0.81,NA,"UniqueID",7,41.362,5.909,8.517
+"578",3710,2001,238,10,"Eucalyptus preissiana subsp. lobata","Lignotuber","Semiarid",0.3315,10.99,10.29,7.98,7.24,3.03,1.92,10.6513,1.31,0.68,NA,"UniqueID",6,227.332,37.889,46.811
+"579",3710,2001,238,11,"Eucalyptus preissiana subsp. lobata","Lignotuber","Semiarid",0.3315,9.02,9.78,6.17,6.61,3.01,1.31,12.185,0.91,0.69,NA,"UniqueID",7,233.065,33.295,47.991
+"580",3710,2001,238,12,"Eucalyptus preissiana subsp. lobata","Lignotuber","Semiarid",0.3315,8.61,8.4,6.37,6.49,2.075,1.21,13.7896,0.92,0.76,NA,"UniqueID",6,237.961,39.66,48.999
+"581",3742,2001,231,9,"Eucalyptus sp. 'Sullivan Soak' (aff. horistes)","Lignotuber","Semiarid",0.2023,8.71,9.22,7.33,7.51,1.545,2.27,0.5106,1.84,0.81,NA,"UniqueID",10,20.162,2.016,4.152
+"582",3742,2001,231,11,"Eucalyptus sp. 'Sullivan Soak' (aff. horistes)","Lignotuber","Semiarid",0.2023,7.07,7.29,6.07,5.97,1.16,1.7,0.258,1.36,0.8,NA,"UniqueID",10,14.473,1.447,2.98
+"583",3742,2001,231,12,"Eucalyptus sp. 'Sullivan Soak' (aff. horistes)","Lignotuber","Semiarid",0.2023,11.09,10.92,8.67,9.01,2.165,3.48,0.509,2.8,0.8,NA,"UniqueID",10,19.883,1.988,4.094
+"584",3766,2001,229,22,"Eucalyptus petraea","Lignotuber","Arid",0.144,8.05,7.69,5.94,5.69,2.055,1.25,3.2803,0.95,0.76,NA,"UniqueID",9,115.937,12.882,23.873
+"585",3766,2001,229,23,"Eucalyptus petraea","Lignotuber","Arid",0.144,10.53,10.19,9.61,8.45,1.33,2.73,2.1854,2.15,0.79,NA,"UniqueID",8,75.95,9.494,15.639
+"586",3796,2002,207,20,"Eucalyptus blakelyi","Combination","Semiarid",0.4651,11.62,10.83,9.48,8.37,2.3,3.56,3.2956,2.13,0.6,NA,"UniqueID",8,127.783,15.973,23.891
+"587",3796,2002,207,22,"Eucalyptus blakelyi","Combination","Semiarid",0.4651,9.71,10.07,7.18,7.63,2.485,2.16,2.5856,1.52,0.7,NA,"UniqueID",8,94.919,11.865,17.746
+"588",3796,2002,207,23,"Eucalyptus blakelyi","Combination","Semiarid",0.4651,11.1,10.6,9.06,8.31,2.165,3.04,3.187,1.83,0.6,NA,"UniqueID",7,124.512,17.787,23.279
+"589",3797,2002,241,16,"Eucalyptus neglecta","Lignotuber","Humid",0.78,9.44,9.2,7.19,7.32,2.065,2.41,3.9994,1.68,0.7,NA,"UniqueID",6,236.009,39.335,44.125
+"590",3797,2002,241,17,"Eucalyptus neglecta","Lignotuber","Humid",0.78,9.69,9.53,7.89,7.46,1.935,1.78,3.3576,1.19,0.67,NA,"UniqueID",6,187.076,31.179,34.976
+"591",3816,2002,206,5,"Eucalyptus singularis","Seeder","Arid",0.1855,10.83,9.57,8.45,6.88,2.535,2.49,2.7027,1.96,0.79,NA,"UniqueID",9,68.034,7.559,12.72
+"592",3816,2002,206,6,"Eucalyptus singularis","Seeder","Arid",0.1855,9.54,9.42,7.89,7.54,1.765,2.33,2.4043,1.83,0.79,NA,"UniqueID",8,59.337,7.417,11.094
+"593",3816,2002,206,7,"Eucalyptus singularis","Seeder","Arid",0.1855,9.83,9.23,7.65,7.13,2.14,2.32,2.4185,1.85,0.8,NA,"UniqueID",8,64.964,8.121,12.146
+"594",4172,2002,200,21,"Eucalyptus largiflorens","Combination","Hyperarid",0.046,9.35,9.69,6.64,6.61,2.895,1.31,2.3685,1.06,0.81,NA,"UniqueID",6,80.017,13.336,14.96
+"595",4172,2002,200,24,"Eucalyptus largiflorens","Combination","Hyperarid",0.046,6.44,6.43,4.54,5.22,1.555,0.99,3.2749,0.87,0.88,NA,"UniqueID",7,118.236,16.891,22.106
+"596",4179,2002,203,10,"Eucalyptus normantonensis","Lignotuber","Arid",0.1211,7.99,7.43,6.06,5.47,1.945,1.5,2.0936,1.08,0.72,NA,"UniqueID",6,67.764,11.294,12.669
+"597",4179,2002,203,11,"Eucalyptus normantonensis","Lignotuber","Arid",0.1211,6.38,6.51,5.17,5.09,1.315,1.21,3.3629,0.95,0.79,NA,"UniqueID",8,141.472,17.684,26.45
+"598",4183,2002,202,21,"Eucalyptus melanophloia nana","Combination","Arid",0.1493,7.93,8.13,5.89,5.65,2.26,1.29,0.7309,0.91,0.71,NA,"UniqueID",6,35.647,5.941,6.665
+"599",4183,2002,202,22,"Eucalyptus melanophloia nana","Combination","Arid",0.1493,6.7,6.98,5.23,5.04,1.705,1.09,1.3122,0.72,0.66,NA,"UniqueID",9,73.153,8.128,13.677
+"600",4183,2002,202,23,"Eucalyptus melanophloia nana","Combination","Arid",0.1493,6.45,7.32,5.55,4.41,1.905,1.19,1.6033,0.85,0.71,NA,"UniqueID",8,76.336,9.542,14.272
+"601",4184,2002,202,8,"Eucalyptus nudicaulis","Lignotuber","Arid",0.1631,7.81,7.74,6.19,5.95,1.705,1.13,2.5449,0.78,0.69,NA,"UniqueID",7,110.051,15.722,20.576
+"602",4184,2002,202,9,"Eucalyptus nudicaulis","Lignotuber","Arid",0.1631,6.7,6.57,5.15,4.99,1.565,0.82,2.1762,0.57,0.7,NA,"UniqueID",6,110.658,18.443,20.689
+"603",4184,2002,202,11,"Eucalyptus nudicaulis","Lignotuber","Arid",0.1631,5.6,5.3,4.63,4.37,0.95,0.74,2.1865,0.51,0.69,NA,"UniqueID",8,96.454,12.057,18.033
+"604",4231,2002,244,20,"Eucalyptus camaldulensis obtusa","Combination","Semiarid",0.3313,9.74,10.01,8.05,7.63,2.035,2.69,2.7789,1.5,0.56,NA,"UniqueID",5,206.489,41.298,41.331
+"605",4231,2002,244,21,"Eucalyptus camaldulensis obtusa","Combination","Semiarid",0.3313,10.95,10.68,8.8,8.08,2.375,2.47,2.8437,1.44,0.58,NA,"UniqueID",6,184.169,30.695,34.433
+"606",4231,2002,244,22,"Eucalyptus camaldulensis obtusa","Combination","Semiarid",0.3313,11.1,10.42,9.22,8.46,1.92,3.33,3.6424,1.82,0.55,NA,"UniqueID",6,234.82,39.137,43.903
+"607",4258,2002,245,10,"Eucalyptus camaldulensis subsp. refulgens","Combination","Arid",0.0998,11.83,11.66,8.71,9.4,2.69,3.91,2.886,2.37,0.61,NA,"UniqueID",7,180.193,25.742,33.689
+"608",4258,2002,245,12,"Eucalyptus camaldulensis subsp. refulgens","Combination","Arid",0.0998,10.44,10.96,8.51,8.3,2.295,2.79,2.2556,1.67,0.6,NA,"UniqueID",7,186.385,26.626,34.847
+"609",4279,2002,201,13,"Eucalyptus rowleyi","Lignotuber","Arid",0.0767,7.23,7.19,6.03,6.07,1.16,1.25,5.5159,0.99,0.79,NA,"UniqueID",10,184.9,18.49,34.57
+"610",4279,2002,201,15,"Eucalyptus rowleyi","Lignotuber","Arid",0.0767,6.57,6,5.48,4.96,1.065,0.82,5.2294,0.8,0.98,NA,"UniqueID",7,183.665,26.238,34.339
+"611",4283,2002,200,25,"Eucalyptus lucasii","Lignotuber","Arid",0.0925,9.6,9.36,7.39,7.53,2.02,2.23,3.6037,1.69,0.76,NA,"UniqueID",8,127.619,15.952,23.86
+"612",4283,2002,200,27,"Eucalyptus lucasii","Lignotuber","Arid",0.0925,9.48,9.28,7.55,7.35,1.93,2.47,2.5781,1.75,0.71,NA,"UniqueID",8,139.819,17.477,26.141
+"613",4283,2002,200,28,"Eucalyptus lucasii","Lignotuber","Arid",0.0925,9.36,9.48,7.6,7.52,1.86,2.41,3.364,1.76,0.73,NA,"UniqueID",9,133.469,14.83,24.954
+"614",4303,2002,200,29,"Eucalyptus gongylocarpa","Combination","Arid",0.0838,9.63,9.27,7.08,7.29,2.265,2.17,0.6709,1.32,0.61,NA,"UniqueID",9,27.874,3.097,5.211
+"615",4303,2002,200,30,"Eucalyptus gongylocarpa","Combination","Arid",0.0838,9.78,10.14,6.85,6.57,3.25,2.38,1.6371,1.42,0.6,NA,"UniqueID",8,58.182,7.273,10.878
+"616",4303,2002,200,31,"Eucalyptus gongylocarpa","Combination","Arid",0.0838,8.27,8.73,6.37,6.16,2.235,1.05,1.0346,0.65,0.62,NA,"UniqueID",8,43.821,5.478,8.193
+"617",5233,2010,300,25,"Eucalyptus camaldulensis subsp. minima","Combination","Arid",0.1081,9.53,9.84,7.47,7.77,2.065,2.04,2.5841,1.23,0.6,NA,"UniqueID",6,102.816,17.136,32.405
+"618",5233,2010,300,27,"Eucalyptus camaldulensis subsp. minima","Combination","Arid",0.1081,10.84,9.15,8.77,7.18,2.02,1.98,2.3129,1.12,0.57,NA,"UniqueID",8,99.763,12.47,31.443
+"619",5233,2010,300,28,"Eucalyptus camaldulensis subsp. minima","Combination","Arid",0.1081,11.71,10.98,9.1,8.23,2.68,3.15,1.3871,1.64,0.52,NA,"UniqueID",7,90.63,12.947,28.564
+"620",9999,1993,29,6,"Eucalyptus flindersii","Lignotuber","Arid",0.1907,9.24,9.14,7.03,7.31,2.02,2.13,3.2845,1.38,0.65,NA,"UniqueID",10,162.361,16.236,33.025
+"621",9999,1993,29,7,"Eucalyptus flindersii","Lignotuber","Arid",0.1907,8.01,7.67,5.55,6.24,1.945,1.39,3.2047,0.94,0.68,NA,"UniqueID",10,119.01676,11.90168,21.86175
+"622",9999,1993,29,9,"Eucalyptus flindersii","Lignotuber","Arid",0.1907,7.96,7.73,6.67,6.15,1.435,1.74,2.6534,1.12,0.64,NA,"UniqueID",9,119.39049,13.26561,21.9304
