@@ -8,26 +8,18 @@ output:
 ---
 
 ``` {r setup, echo = FALSE}
-library(ape)
+library(ape) #tree handling
 library(tidyverse)
-library(nlme)
-library(ade4)
-data("lizards")
-view(lizards)
+library(nlme) # regression modelling
+library(ade4) # lizard dataset example
 
-tree <- read.tree(text = lizards$hprA)
-dat <- lizards$traits[tree$tip.label, ]
-plot(tree, main = "Phylogeny for 18 Lizard Species", direction = "up", srt = -90,
-label.offset = 1)
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre") # contains subspecies
+                                                         # csv file with column headings
 
-
-tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre") #contains subspecies
-
-data <- read.table("../data/")
-tree <- read.tree(text = lizards$hprA)
+data <- read.table("../data/") # trait data for PGLS
+tree <- read.tree(text = lizards$hprA) # import newick format tree
 dat <- lizards$traits[tree$tip.label, ] # sort data according to tree
-plot(tree, main = "Phylogeny for 18 Lizard Species", direction = "up", srt = -90,
-label.offset = 1)
+plot(tree, main = "Thornhill phylogeny for Eucalypts", direction = "up", srt = -90, label.offset = 1)
 
 head(dat)
 ```
