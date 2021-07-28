@@ -20,6 +20,7 @@ library(plyr)
 library(dplyr)
 library(readxl)
 library(ggplot2)
+library(conflicted)
 ```
 
 ## Merging life-history trait data to CCA# by = species
@@ -30,16 +31,19 @@ CCAnumber <- read.csv("../data/life_history_CCA.csv", header = T)
 view(CCAnumber)
 nrow(CCAnumber)
 
-species <- read.csv("../data/CCA_VPM_species_PGLS.csv", header = T)
-colname
+species <- read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
+  distinct(acceptedname_ala, .keep_all = TRUE)
+colnames(species)[4] <- "name"
+nrow(species)
+view(species)
 
-trait.ds <- left_join(CCAnumber, species, by = "name") %>%
-  distinct(name, .keep_all = T) %>%
+trait.ds <- left_join(species, CCAnumber, by = "name") %>%
+  distinct(name, .keep_all = T) #%>%
   drop_na(genus)
 
 
-view(lifehis_data)  
-nrow(lifehis_data)
+view(trait.ds)  
+nrow(trait.ds)
 
 write.csv(trait.ds, "../outputs/") # add file name
 ```
