@@ -12,6 +12,14 @@ library(ape)
 library(tidyverse)
 library(nlme)
 library(ade4)
+data("lizards")
+view(lizards)
+
+tree <- read.tree(text = lizards$hprA)
+dat <- lizards$traits[tree$tip.label, ]
+plot(tree, main = "Phylogeny for 18 Lizard Species", direction = "up", srt = -90,
+label.offset = 1)
+
 
 tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre") #contains subspecies
 
