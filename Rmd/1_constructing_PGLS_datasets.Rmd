@@ -1,0 +1,43 @@
+---
+title: "Constructing PGLS dataset for CCA species with functional and life-history trait data"
+author: "Anne-Cecile Colin"
+date: "10/06/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(devtools)
+library(readr)
+library(sp)
+library(raster)
+library(stats)
+library(plyr)
+library(dplyr)
+library(readxl)
+library(ggplot2)
+```
+
+## Merging life-history trait data to CCA# by = species
+
+``` {r adding life-history data}
+CCAnumber <- read.csv("../data/merge_to_lifehistory.csv", header = T)
+view(CCAnumber)
+colnames(CCAnumber)[1] <- "name"
+
+lifehistory <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
+view(lifehistory)
+
+lifehis_data <- left_join(CCAnumber, lifehistory, by = "name") %>%
+  distinct(name, .keep_all = T) %>%
+  drop_na(genus)
+
+view(lifehis_data)  
+nrow(lifehis_data)
+
+write.csv(lifehis_data, "../outputs/life_history_CCA.csv")
+```
