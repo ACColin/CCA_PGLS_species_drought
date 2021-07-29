@@ -38,14 +38,22 @@ nrow(species)
 view(species)
 
 trait.ds <- left_join(species, CCAnumber, by = "name") %>%
-  distinct(name, .keep_all = T) #%>%
-  drop_na(genus)
+  distinct(name, .keep_all = T) %>%
+  drop_na(FieldID)
 
 
 view(trait.ds)  
 nrow(trait.ds)
 
-write.csv(trait.ds, "../outputs/") # add file name
+write.csv(trait.ds, "../outputs/full.df.first.draft.csv") # add file name
 ```
 
-## Merging 
+## How many species from the dataset don't have life-history traits? Merging Victoria CCA species directly with euclid trait from Desi
+
+``` {r EUCLID to Victoria species}
+EUCLID <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
+nrow(EUCLID)
+
+test.full.df <- left_join(species, EUCLID, by = "name")
+
+```
