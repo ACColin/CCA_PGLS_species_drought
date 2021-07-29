@@ -21,6 +21,7 @@ library(dplyr)
 library(readxl)
 library(ggplot2)
 library(conflicted)
+library(ape)
 ```
 
 ## Merging life-history trait data to CCA# by = species
@@ -41,7 +42,6 @@ trait.ds <- left_join(species, CCAnumber, by = "name") %>%
   distinct(name, .keep_all = T) %>%
   drop_na(FieldID)
 
-
 view(trait.ds)  
 nrow(trait.ds)
 
@@ -52,8 +52,16 @@ write.csv(trait.ds, "../outputs/full.df.first.draft.csv") # add file name
 
 ``` {r EUCLID to Victoria species}
 EUCLID <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
+view(EUCLID)
 nrow(EUCLID)
 
 test.full.df <- left_join(species, EUCLID, by = "name")
+nrow(test.full.df)
+write.csv(test.full.df, "../outputs/test.full.lifehist.df.csv")
+```
+
+## Getting Thornhill's phylo species as csv
+
+``` {r Thornhill's species}
 
 ```
