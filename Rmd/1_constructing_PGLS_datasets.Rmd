@@ -60,8 +60,20 @@ nrow(test.full.df)
 write.csv(test.full.df, "../outputs/test.full.lifehist.df.csv")
 ```
 
-## Getting Thornhill's phylo species as csv
+## Getting Thornhill's phylo species as csv to 
 
-``` {r Thornhill's species}
+``` {r Thornhills species}
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre",)
+thornhill.species <- as.data.frame(tree$tip.label)
+view(thornhill.species)
+df <- data.frame(matrix(unlist(thornhill.species), nrow=length(thornhill.species), byrow=TRUE))
+write.csv(df, "../outputs/thornhill.species.list.csv")
 
+thornhill <- read.csv("../data/thornhill_species_list.csv")
+nrow(thornhill)
 ```
+
+## How many species from Thornhill's phylogeny need to be dropped out?
+``` {r}
+```
+
