@@ -34,15 +34,17 @@ nrow(CCAnumber)
 
 species <- read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
   distinct(acceptedname_ala, .keep_all = TRUE)
+species <- species[!(species$Taxonresolution_ALA=="Hybrid") | species$Taxonresolution_ALA=="Variety",]
 colnames(species)[4] <- "name"
 nrow(species)
 view(species)
+write.csv(species, "../outputs/VPM_species.csv") # just to check the number of species in each genus
 
-trait.ds <- left_join(species, CCAnumber, by = "name") %>%
+trait.ds <- full_join(species, CCAnumber, by = "name") %>%
   distinct(name, .keep_all = T) %>%
   drop_na(FieldID)
 
-view(trait.ds)  
+view(trait.ds)
 nrow(trait.ds)
 
 write.csv(trait.ds, "../outputs/full.df.first.draft.csv") # add file name
@@ -59,6 +61,18 @@ test.full.df <- left_join(species, EUCLID, by = "name")
 nrow(test.full.df)
 write.csv(test.full.df, "../outputs/test.full.lifehist.df.csv")
 ```
+There are 823 species in the flora dataset and 930 in Victoria's.
+Corymbia and Angophora species have no trait data (96), 
+
+## How many species in CCA don't have flora traits?
+``` {r}
+test.df <- left_join(EUCLID, species, by = "name")
+nrow(test.df)
+
+```
+There are 930 taxa in Victoria's dataset and 823 are matching with taxa from the flora traits.
+
+
 
 ## Getting Thornhill's phylo species as csv to 
 
@@ -73,7 +87,9 @@ thornhill <- read.csv("../data/thornhill_species_list.csv")
 nrow(thornhill)
 ```
 
-## How many species from Thornhill's phylogeny need to be dropped out?
+## How many species from Victoria list not found in Thornhill phylo?
 ``` {r}
 ```
+
+
 
