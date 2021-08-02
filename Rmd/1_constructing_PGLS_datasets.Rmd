@@ -110,9 +110,9 @@ write.csv(thornhill.vic.df, "../outputs/datasets_in_progress/Victoria_thornhill_
 thornhill_labels <- read.csv("../data/tree_labels.csv")
 tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
 
-tree$tip.label<-d[[2]][match(tree$tip.label, d[[1]])]
+tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
 tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
-
+plot(tree)
 
 ```
 
