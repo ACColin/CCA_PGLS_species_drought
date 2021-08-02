@@ -101,7 +101,19 @@ nrow(victoria.species)
 
 thornhill.vic.df <- left_join(victoria.species, thornhill.species, by = "name")
 view(thornhill.vic.df)
+write.csv(thornhill.vic.df, "../outputs/datasets_in_progress/Victoria_thornhill_merge.csv")
 ```
 
+## Making the tip label match with victoria's dataset:
+
+``` {r changing phylo tip labels}
+thornhill_labels <- read.csv("../data/tree_labels.csv")
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+
+tree$tip.label<-d[[2]][match(tree$tip.label, d[[1]])]
+tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
+
+
+```
 
 
