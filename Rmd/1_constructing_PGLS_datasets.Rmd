@@ -91,8 +91,16 @@ thornhill <- read.csv("../data/thornhill_species_list.csv", header = T) #%>%
 write.csv(thornhill, "../outputs/split_thornhill_data.csv")
 ```
 
-## How many species from Victoria list not found in Thornhill phylo?
+## How many species from Victoria list not found in Thornhill phylo? trying to merge based on species name
 ``` {r}
+thornhill.species <- read.csv("../outputs/datasets_in_progress/split_thornhill_data.csv", header = T)
+view(thornhill.species)
+victoria.species <- read.csv("../outputs/VPM_species.csv", header = T)
+nrow(thornhill.species)
+nrow(victoria.species)
+
+thornhill.vic.df <- left_join(victoria.species, thornhill.species, by = "name")
+view(thornhill.vic.df)
 ```
 
 
