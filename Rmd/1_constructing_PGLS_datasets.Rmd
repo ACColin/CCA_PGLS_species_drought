@@ -22,6 +22,7 @@ library(readxl)
 library(ggplot2)
 library(conflicted)
 library(ape)
+library(data.table)
 ```
 
 ## Merging life-history trait data to CCA# by = species
@@ -81,10 +82,13 @@ tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre",)
 thornhill.species <- as.data.frame(tree$tip.label)
 view(thornhill.species)
 df <- data.frame(matrix(unlist(thornhill.species), nrow=length(thornhill.species), byrow=TRUE))
-write.csv(df, "../outputs/thornhill.species.list.csv")
+write.csv(df, "../outputs/datasets_in_progress/thornhill.species.list.csv")
+```
 
-thornhill <- read.csv("../data/thornhill_species_list.csv")
-nrow(thornhill)
+```{r cleaning thornhill phylo}
+thornhill <- read.csv("../data/thornhill_species_list.csv", header = T) #%>%
+  setDT(thornhill)[, paste0("taxon", 1:7) := tstrsplit(species, "_")]
+write.csv(thornhill, "../outputs/split_thornhill_data.csv")
 ```
 
 ## How many species from Victoria list not found in Thornhill phylo?
