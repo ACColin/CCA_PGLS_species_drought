@@ -20,6 +20,7 @@ library(plyr)
 library(dplyr)
 library(readxl)
 library(ggplot2)
+library(ggtree)
 library(conflicted)
 library(ape)
 library(data.table)
@@ -92,7 +93,9 @@ write.csv(thornhill, "../outputs/split_thornhill_data.csv")
 ```
 
 ## How many species from Victoria list not found in Thornhill phylo? trying to merge based on species name
-``` {r}
+thornhill's phylogeny has species names based on Dean's taxonomy so it's supposed to match perfectly with victoria's species based on Dean's taxonomy name.
+
+``` {r matching victoria and thornhill datasets}
 thornhill.species <- read.csv("../outputs/datasets_in_progress/split_thornhill_data.csv", header = T)
 view(thornhill.species)
 victoria.species <- read.csv("../outputs/VPM_species.csv", header = T)
@@ -104,7 +107,23 @@ view(thornhill.vic.df)
 write.csv(thornhill.vic.df, "../outputs/datasets_in_progress/Victoria_thornhill_merge.csv")
 ```
 
-## Making the tip label match with victoria's dataset:
+If everything is fine, the only data missing now in the merged dataset corresponds to taxa that Victoria has but were not included in the phylogeny (so we'll have to suss out the phylo signal for those ones)
+
+Now let's try to add the functional trait to the back end of that, and depending were the gaps are across the three datasets we'll know if it's a lack of data because EUCLID simply doesn't have data for those taxa or if it's dubious taxa and a species in EUCLID is actually a subspecies in Thornhill/DN.
+
+```{r second merging with life-history traits from EUCLID}
+Victoria.thornhill.merge.df <- read.csv("../outputs/datasets_in_progress/Victoria_thornhill_merge.csv", header = T)
+view(Victoria.thornhill.merge.df)
+EUCLID.traits.df <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
+view(EUCLID.traits.df)
+full.merge.df <- left_join(Victoria.thornhill.merge.df, EUCLID.traits.df, by = "name")
+view(full.merge.df)
+write.csv(full.merge.df, "../outputs/datasets_in_progress/victoria_thornhill_euclid_merge.csv")
+
+
+```
+
+## Making the phylogeny's tip labels match with victoria's dataset:
 
 ``` {r changing phylo tip labels}
 thornhill_labels <- read.csv("../data/tree_labels.csv")
@@ -112,8 +131,9 @@ tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
 
 tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
 tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
+ggtree(tree)
 plot(tree)
-
+ggsave("../plots/test.pdf", width = 50, height = 120, limitsize = FALSE)
 ```
 
 
