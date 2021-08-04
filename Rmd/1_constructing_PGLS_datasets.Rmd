@@ -113,14 +113,16 @@ Now let's try to add the functional trait to the back end of that, and depending
 
 ```{r second merging with life-history traits from EUCLID}
 Victoria.thornhill.merge.df <- read.csv("../outputs/datasets_in_progress/Victoria_thornhill_merge.csv", header = T)
+n=1
+nrow(Victoria.thornhill.merge.df)
 view(Victoria.thornhill.merge.df)
 EUCLID.traits.df <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
 view(EUCLID.traits.df)
-full.merge.df <- left_join(Victoria.thornhill.merge.df, EUCLID.traits.df, by = "name")
+nrow(EUCLID.traits.df)
+df.full.double.merge <- dplyr::left_join(Victoria.thornhill.merge.df, EUCLID.traits.df, by=c("DNname" = "name1", "ALAname" = "name2")) #merging according to ALA names and DN names across Victoria's and EUCLID data
+nrow(df.full.double.merge)
 view(full.merge.df)
-write.csv(full.merge.df, "../outputs/datasets_in_progress/victoria_thornhill_euclid_merge.csv")
-
-
+write.csv(df.full.double.merge, "../outputs/datasets_in_progress/victoria_thornhill_euclid_doublemerge.csv")
 ```
 
 ## Making the phylogeny's tip labels match with victoria's dataset:
