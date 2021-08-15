@@ -10,47 +10,93 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-library(tidyverse)
-library(devtools)
-library(readr)
-library(sp)
-library(raster)
-library(stats)
-library(plyr)
-library(dplyr)
-library(readxl)
-library(ggplot2)
-library(ggtree)
-library(conflicted)
-library(ape)
-library(data.table)
+librarian::shelf(tidyverse, readr, conflicted, ggtree, ape, data.table, DesiQuintans/desiderata)
+
+#conflict_prefer("filter", "dplyr")
 ```
 
-## Merging life-history trait data to CCA# by = species
+## 1. Aim
 
-``` {r adding life-history data}
+This project aims to construct the dataset for Victoria's PGLS analysis on all CCA species.
+Victoria works on traits associated with drought in all species found at CCA which includes Angophora, Corymbia and Eucalyptus species.
+Victoria's analysis aims to see whether P50 (and other functional/life-history traits) is different between humid/arid biomes, accounting for  the phylogeny.
+To control for the phylogeny, i.e. if evolutionary relationships influence traits value, I am using the most resloved and complete phylogeny for this work produced by Thornhill et al., 2016.
 
-CCAnumber <- read.csv("../data/life_history_CCA.csv", header = T)
-view(CCAnumber)
-nrow(CCAnumber)
+In this project, I compare the species list from the Thornhill phylogeny, the CCA functional traits dataframe and the life-history traits extracted from EUCLID.
 
-species <- read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
-  distinct(acceptedname_ala, .keep_all = TRUE)
-species <- species[!(species$Taxonresolution_ALA=="Hybrid") | species$Taxonresolution_ALA=="Variety",]
+## 2. Constructing the dataset
+
+``` {r reading raw data}
+
+CCAnumber <- 
+  # reading the dataset with the arboretum field ID (CCA#) and mother tree reference (UniqueID)
+  read.csv("../data/CCA_ID.csv", header = T) %>%
+  glimpse()
+colnames(CCAnumber)[1] <- "name"
+
+species <- 
+  # reading Victoria's species dataset (which contains all species from CCA)
+  read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
+  # keeping only one row per species-provenance (to avoid duplicates later on)
+  # as it is a species-scale analysis, but Victoria will use =/= provenances per species
+  distinct(UniqueID, .keep_all = TRUE)
+
+species <- 
+  #removing varieties and hybrids from the list
+  species[!(species$Taxonresolution_ALA=="Hybrid") | species$Taxonresolution_ALA=="Variety",]
 colnames(species)[4] <- "name"
-nrow(species)
 view(species)
-write.csv(species, "../outputs/VPM_species.csv") # just to check the number of species in each genus
+```
 
-trait.ds <- full_join(species, CCAnumber, by = "name") %>%
+``` {r merging dataframes}
+trait.ds <- 
+  # merging the species dataset to CCA# by species name
+  full_join(species, CCAnumber, by = "name") %>%
   distinct(name, .keep_all = T) %>%
   drop_na(FieldID)
 
 view(trait.ds)
 nrow(trait.ds)
+```
 
+Writing the output:
+``` {r output}
 write.csv(trait.ds, "../outputs/full.df.first.draft.csv") # add file name
 ```
+
+## Merging with EUCLID's life-history dataset:
+
+``` {r adding life-history data}
+lifehistory <- read.csv("../data/all_traits_from_EUCLID.csv", header = T) %>%
+  glimpse()
+```
+
+``` {r merge dataframes by species name}
+lifehis_data <- left_join(CCAnumber, lifehistory, by = "name") %>%
+  distinct(name, .keep_all = T) %>%
+  drop_na(genus)
+
+view(lifehis_data)  
+nrow(lifehis_data)
+```
+
+We can see here that out of the 935 taxa in the EUCLID dataset and 964 taxa in CCA, only 738 of them merge.
+Let's have a look at the rows that don't merge.
+
+``` {r}
+dubious_species <-
+  anti_join(CCAnumber, lifehistory, by = "name") %>%
+  distinct(name, .keep_all = T) #%>%
+dubious_species <-
+  dplyr::filter(!grepl( c(';?;|; x ;'), name)) %>%
+  glimpse()
+view(dubious_species)
+```
+
+``` {r output}
+write.csv(lifehis_data, "../outputs/life_history_CCA.csv")
+```
+
 
 ## How many species from the dataset don't have life-history traits? Merging Victoria CCA species directly with euclid trait from Desi
 
