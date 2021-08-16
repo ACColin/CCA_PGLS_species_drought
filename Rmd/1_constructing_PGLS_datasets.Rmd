@@ -32,11 +32,13 @@ CCAnumber <-
   # reading the dataset with the arboretum field ID (CCA#) and mother tree reference (UniqueID)
   read.csv("../data/CCA_ID.csv", header = T) %>%
   glimpse()
-colnames(CCAnumber)[1] <- "name"
+
+#colnames(CCAnumber)[1] <- "name"
+nrow(CCAnumber)
 
 species <- 
   # reading Victoria's species dataset (which contains all species from CCA)
-  read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
+  read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) #%>%
   # keeping only one row per species-provenance (to avoid duplicates later on)
   # as it is a species-scale analysis, but Victoria will use =/= provenances per species
   distinct(UniqueID, .keep_all = TRUE)
@@ -45,72 +47,88 @@ species <-
   #removing varieties and hybrids from the list
   species[!(species$Taxonresolution_ALA=="Hybrid") | species$Taxonresolution_ALA=="Variety",]
 colnames(species)[4] <- "name"
+
 view(species)
+nrow(species)
 ```
 
 ``` {r merging dataframes}
-trait.ds <- 
-  # merging the species dataset to CCA# by species name
-  full_join(species, CCAnumber, by = "name") %>%
-  distinct(name, .keep_all = T) %>%
+species.ds <- 
+  # merging the species dataset to CCA# by RowTree number (unique ID compared to merging by species name)
+  # keeps all provenances per species and avoid mismatches by differences in species name column
+  # such as symbols, lower case/caps, etc.
+  left_join(species, CCAnumber, by = 'RowTree') #%>%
+  #distinct(name, .keep_all = T) %>%
   drop_na(FieldID)
 
-view(trait.ds)
-nrow(trait.ds)
+view(species.ds)
+
+# all rows from Victoria's dataset have the CCA info now!
+nrow(species.ds)
 ```
 
 Writing the output:
 ``` {r output}
-write.csv(trait.ds, "../outputs/full.df.first.draft.csv") # add file name
+write.csv(species.ds, "../outputs/full.df.first.draft.csv") # add file name
 ```
 
 ## Merging with EUCLID's life-history dataset:
 
-``` {r adding life-history data}
+``` {r adding life-history data to env}
 lifehistory <- read.csv("../data/all_traits_from_EUCLID.csv", header = T) %>%
   glimpse()
 ```
 
 ``` {r merge dataframes by species name}
-lifehis_data <- left_join(CCAnumber, lifehistory, by = "name") %>%
-  distinct(name, .keep_all = T) %>%
+full.ds <- left_join(species.ds, lifehistory, by = "name") %>%
+  # keep one replicate per species-provenance
+  distinct(UniqueID, .keep_all = T) %>%
+  # remove species with no EUCLID information
   drop_na(genus)
 
-view(lifehis_data)  
-nrow(lifehis_data)
+view(full.ds)  
+nrow(full.ds)
 ```
 
-We can see here that out of the 935 taxa in the EUCLID dataset and 964 taxa in CCA, only 738 of them merge.
-Let's have a look at the rows that don't merge.
+``` {r output}
+write.csv(full.ds, "../outputs/life_history_CCA.csv")
+```
+
+We can see here that out of the 1849 taxa (rows) in the CCA dataset, 1586 have life-history trait data merged.
+Let's have a look at the 263 rows that don't merge.
 
 ``` {r}
 dubious_species <-
-  anti_join(CCAnumber, lifehistory, by = "name") %>%
+  anti_join(species.ds, lifehistory, by = "name") %>%
   distinct(name, .keep_all = T) #%>%
 dubious_species <-
   dplyr::filter(!grepl( c(';?;|; x ;'), name)) %>%
   glimpse()
+
 view(dubious_species)
+nrow(dubious_species)
 ```
 
-``` {r output}
-write.csv(lifehis_data, "../outputs/life_history_CCA.csv")
-```
+They all seem to be dubious species (either no records found for life-history traits or refered to as subspecies instead of species. but mostly no records).
 
 
-## How many species from the dataset don't have life-history traits? Merging Victoria CCA species directly with euclid trait from Desi
+## How many species from the dataset don't have life-history traits? Merging Victoria CCA species directly with euclid trait I extracted
 
 ``` {r EUCLID to Victoria species}
-EUCLID <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
-view(EUCLID)
+EUCLID <- read.csv("../data/all_traits_from_EUCLID.csv", header = T)
 nrow(EUCLID)
 
-test.full.df <- left_join(species, EUCLID, by = "name")
+test.species <- 
+  read.csv("../data/CCA_VPM_species_PGLS.csv", header = T)
+colnames(species)[4] <- "name"
+test.species <-
+  distinct(name, .keep_all = TRUE)
+  
+test.full.df <- left_join(test.species, EUCLID, by = "name")
 nrow(test.full.df)
 write.csv(test.full.df, "../outputs/test.full.lifehist.df.csv")
 ```
-There are 823 species in the flora dataset and 930 in Victoria's.
-Corymbia and Angophora species have no trait data (96), 
+There are 935 species in the flora dataset and 930 in Victoria's.
 
 ## How many species in CCA don't have flora traits?
 ``` {r}
@@ -133,25 +151,39 @@ write.csv(df, "../outputs/datasets_in_progress/thornhill.species.list.csv")
 ```
 
 ```{r cleaning thornhill phylo}
-thornhill <- read.csv("../data/thornhill_species_list.csv", header = T) #%>%
+thornhill <- read.csv("../data/thornhill_species_list.csv", header = T)#%>%
+view(thornhill)
   setDT(thornhill)[, paste0("taxon", 1:7) := tstrsplit(species, "_")]
 write.csv(thornhill, "../outputs/split_thornhill_data.csv")
 ```
 
 ## How many species from Victoria list not found in Thornhill phylo? trying to merge based on species name
-thornhill's phylogeny has species names based on Dean's taxonomy so it's supposed to match perfectly with victoria's species based on Dean's taxonomy name.
+
+Thornhill's phylogeny has species names based on Dean's taxonomy so it's supposed to match perfectly with Victoria's species based on Dean's classification of Eucalypts.
 
 ``` {r matching victoria and thornhill datasets}
-thornhill.species <- read.csv("../outputs/datasets_in_progress/split_thornhill_data.csv", header = T)
-view(thornhill.species)
-victoria.species <- read.csv("../outputs/VPM_species.csv", header = T)
-nrow(thornhill.species)
-nrow(victoria.species)
+thornhill.species <-
+  read.csv("../data/ThornhillSpeciesCleaned.csv", header = T) %>%
+  glimpse()
 
-thornhill.vic.df <- left_join(victoria.species, thornhill.species, by = "name")
+victoria.species <-
+  read.csv("../outputs/VPM_species.csv", header = T) %>%
+  glimpse()
+
+nrow(thornhill.species)
+nrow(victoria.species) # there are 200 taxa more in Victoria's compared to Thornhill
+
+thornhill.vic.df <- left_join(victoria.species, thornhill.species, by = "name") %>%
+  #removing rows with no phylo information
+  drop_na(original)
+
+nrow(thornhill.vic.df) # looks like not all Thornhill species have a match
+                       # (only 603 compared to Thornhill = 729)
 view(thornhill.vic.df)
 write.csv(thornhill.vic.df, "../outputs/datasets_in_progress/Victoria_thornhill_merge.csv")
 ```
+
+# Conclusion: not all Victoria's taxa are listed in Thornhill and same for the opposite, not all Thornhill's taxa are in Victoria's. Total, 603 taxa are matching between the two.
 
 If everything is fine, the only data missing now in the merged dataset corresponds to taxa that Victoria has but were not included in the phylogeny (so we'll have to suss out the phylo signal for those ones)
 
@@ -159,7 +191,7 @@ Now let's try to add the functional trait to the back end of that, and depending
 
 ```{r second merging with life-history traits from EUCLID}
 Victoria.thornhill.merge.df <- read.csv("../outputs/datasets_in_progress/Victoria_thornhill_merge.csv", header = T)
-n=1
+
 nrow(Victoria.thornhill.merge.df)
 view(Victoria.thornhill.merge.df)
 EUCLID.traits.df <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
