@@ -194,20 +194,24 @@ Victoria.thornhill.merge.df <- read.csv("../outputs/datasets_in_progress/Victori
 
 nrow(Victoria.thornhill.merge.df)
 view(Victoria.thornhill.merge.df)
-EUCLID.traits.df <- read.csv("../data/euc_traits_from_EUCLID.csv", header = T)
+EUCLID.traits.df <- read.csv("../data/all_traits_from_EUCLID.csv", header = T)
 view(EUCLID.traits.df)
 nrow(EUCLID.traits.df)
 
-Victoria_EUCLID_merge <- left_join(victoria.species, EUCLID.traits.df, by = c("name" = "name1"))
+Victoria_EUCLID_merge <- left_join(victoria.species, EUCLID.traits.df, by = "name")
+# now adding a column that says if present in Thornhill taxa list or not:
+Victoria_EUCLID_merge$in.thornhill <- victoria.species$name %in% thornhill.species$name
+
 view(Victoria_EUCLID_merge)
 nrow(Victoria_EUCLID_merge)
-write.csv(Victoria_EUCLID_merge, "../outputs/datasets_in_progress/Victoria_EUCLID_merge.csv")
-
-df.full.double.merge <- dplyr::left_join(Victoria.thornhill.merge.df, EUCLID.traits.df, by=c("DNname" = "name1", "ALAname" = "name2")) #merging according to ALA names and DN names across Victoria's and EUCLID data
-nrow(df.full.double.merge)
-view(full.merge.df)
-write.csv(df.full.double.merge, "../outputs/datasets_in_progress/victoria_thornhill_euclid_doublemerge.csv")
 ```
+
+``` {r output}
+write.csv(Victoria_EUCLID_merge, "../outputs/datasets_in_progress/victoria_thornhill_euclid_merge.csv")
+```
+
+We now have a dataset with the life-history trait data for Eucalypt species and we know which ones are present in the taxa list from Thornhill's phylogeny.
+
 
 ## Making the phylogeny's tip labels match with victoria's dataset:
 
