@@ -9,9 +9,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+librarian::shelf(tidyverse, readr, conflicted, ggtree, ape, data.table, DesiQuintans/desiderata)
+
 ```
 
-# Aim:
+## 1. Aim:
 
 In the previous script `1_constructing_PGLS_datasets.Rmd`, I merged and cleaned the life-history traits from EUCLID with Victoria's CCA dataset.
 
@@ -20,4 +23,39 @@ The aim of this script is to use the datasets created from `1_constructing_PGLS_
 The descriptions in the EUCLID flora can be pretty old and therefore outdated in terms of taxonomy (what names the taxa are refered to as).
 With this script I will make a list of the unmatched taxa across the three datasets and update the taxa names in my EUCLID dataset so they can all match to their current taxonomical name.
 
-At the end of this script I will have a different lists of unmatched taxa among the three datasets. I will use those lists to count the number of dubious species in the EUCLID dataset with Dean, and change the taxa name according to the classification of Eucalypts. 
+At the end of this script I will have a different lists of unmatched taxa among the three datasets. I will use those lists to count the number of dubious species in the EUCLID dataset with Dean, and change the taxa name according to the classification of Eucalypts.
+
+## 2. Read input data
+
+``` {r}
+EUCLID <-
+  read.csv("../data/all_traits_from_EUCLID.csv", header = T) %>%
+  glimpse()
+
+Victoria_full_df <-
+  read.csv("../outputs/datasets_in_progress/Victoria_EUCLID_merge.csv", header = T) %>%
+  glimpse()
+```
+
+# Which taxa (and how many) are in the EUCLID flora but not in CCA?
+
+The function `dyplr::anti_join` retunrs rows of x that do not have a match in y.
+
+``` {r}
+CCA.taxa.not.in.EUCLID <-
+  anti_join(Victoria_full_df, EUCLID, by = "name")
+
+nrow(CCA.taxa.not.in.EUCLID) # 142
+view(CCA.taxa.not.in.EUCLID)
+```
+
+142 taxa in Victoria's dataset do not have a match in EUCLID.
+
+``` {r}
+EUCLID.taxa.not.in.CCA <-
+  anti_join(EUCLID, Victoria_full_df, by = "name")
+nrow(EUCLID.taxa.not.in.CCA) # 161
+View(EUCLID.taxa.not.in.CCA)
+```
+
+161 taxa in EUCLID do not have a match in Victoria's dataset
