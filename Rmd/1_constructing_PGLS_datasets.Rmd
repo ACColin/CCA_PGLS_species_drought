@@ -24,7 +24,7 @@ To control for the phylogeny, i.e. if evolutionary relationships influence trait
 
 In this project, I compare the species list from the Thornhill phylogeny, the CCA functional traits dataframe and the life-history traits extracted from EUCLID.
 
-## 2. Constructing the dataset
+## 2. Read input data
 
 ``` {r reading raw data}
 
@@ -51,6 +51,8 @@ colnames(species)[4] <- "name"
 view(species)
 nrow(species)
 ```
+
+## 3. Merging CCA datasets
 
 ``` {r merging dataframes}
 species.ds <- 
@@ -139,6 +141,40 @@ nrow(test.df)
 There are 930 taxa in Victoria's dataset and 823 are matching with taxa from the flora traits.
 
 
+## Cleaning the dataset with Dean:
+
+I had a discussion with Dean about the unmatched taxa in `all_traits_from_EUCLID.csv` that I extracted. After revising the taxonomy I updated the taxa names from EUCLID according to the latest classification and I am now using `EUCLIDTraitsCleaned.csv`  in order to merge it with the CCA dataset.
+`EUCLIDTraitsCleaned.csv` only contains the traits that Victoria is interested in, in order to reduce the number of rows in the final dataset.
+
+``` {r loading input data}
+EUCLIDupdated <-
+  read.csv("../data/EUCLIDTraitsCleaned.csv", header = T) %>%
+  glimpse()
+
+Victoria.sp <-
+  read.csv("../outputs/full.df.first.draft.csv", header = T) %>%
+  glimpse()
+
+colnames(Victoria.sp)[5] <- "name2" # changing Taxonsimplified_DN to name to merge to EUCLID
+colnames(Victoria.sp)[3] <- "name"
+Victoria.sp[[3]] <- tolower(Victoria.sp[[3]])
+glimpse(Victoria.sp) # looks good to go
+```
+
+``` {r merging datasets}
+Victoria.EUCLID.df <-
+    left_join(Victoria.sp, EUCLIDupdated, by = "name") %>%
+  glimpse()
+
+view(Victoria.EUCLID.df)
+```
+
+Let's have a look if there is no missing data...
+``` {r writing output}
+write.csv(Victoria.EUCLID.df, "../outputs/Victoria.EUCLID.df.csv")
+```
+
+There is a bunch but it's for dubious species only. Will see with Dean.
 
 ## Getting Thornhill's phylo species as csv to 
 
@@ -181,6 +217,26 @@ nrow(thornhill.vic.df) # looks like not all Thornhill species have a match
                        # (only 603 compared to Thornhill = 729)
 view(thornhill.vic.df)
 write.csv(thornhill.vic.df, "../outputs/datasets_in_progress/Victoria_thornhill_merge.csv")
+```
+
+``` {r adding Thornhill voucher data to Victoria's dataset}
+thornhill.species <-
+  read.csv("../data/ThornhillDataCleaned.csv", header = T) %>%
+  glimpse()
+colnames(thornhill.species)[1] <- "name"
+thornhill.species[[1]] <- tolower(thornhill.species[[1]])
+glimpse(thornhill.species)
+Victoria.EUCLID.df <-
+    read.csv("../outputs/Victoria.EUCLID.df.csv", header = T) %>%
+  glimpse()
+
+FULL.DF <-
+  left_join(Victoria.EUCLID.df, thornhill.species, by = "name") %>%
+  glimpse()
+```
+
+``` {r}
+write.csv(FULL.DF, "../outputs/datasets_in_progress/Victoria_EUCLID_Thornhill_merge.v2.csv")
 ```
 
 # Conclusion: not all Victoria's taxa are listed in Thornhill and same for the opposite, not all Thornhill's taxa are in Victoria's. Total, 603 taxa are matching between the two.

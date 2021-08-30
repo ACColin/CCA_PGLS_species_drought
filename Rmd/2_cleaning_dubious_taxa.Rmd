@@ -34,7 +34,10 @@ EUCLID <-
 
 Victoria_full_df <-
   read.csv("../outputs/datasets_in_progress/Victoria_EUCLID_merge.csv", header = T) %>%
+  distinct(name, .keep_all = T) %>%
   glimpse()
+
+view(Victoria_full_df)
 ```
 
 # Which taxa (and how many) are in the EUCLID flora but not in CCA?
@@ -45,17 +48,39 @@ The function `dyplr::anti_join` retunrs rows of x that do not have a match in y.
 CCA.taxa.not.in.EUCLID <-
   anti_join(Victoria_full_df, EUCLID, by = "name")
 
-nrow(CCA.taxa.not.in.EUCLID) # 142
+nrow(CCA.taxa.not.in.EUCLID) # 137
 view(CCA.taxa.not.in.EUCLID)
 ```
 
-142 taxa in Victoria's dataset do not have a match in EUCLID.
+137 taxa in Victoria's dataset do not have a match in EUCLID.
 
 ``` {r}
 EUCLID.taxa.not.in.CCA <-
   anti_join(EUCLID, Victoria_full_df, by = "name")
-nrow(EUCLID.taxa.not.in.CCA) # 161
+nrow(EUCLID.taxa.not.in.CCA) # 160
 View(EUCLID.taxa.not.in.CCA)
 ```
 
-161 taxa in EUCLID do not have a match in Victoria's dataset
+I'm going to manually check all of those taxa to see if they are really present in CCA or just that the name is different.
+
+Then I'll make a column with the name it should be refered to as to match with CCA.
+``` {r}
+write.csv(EUCLID.taxa.not.in.CCA, "../outputs/species.to.check.with.Dean.csv")
+```
+160 taxa in EUCLID do not have a match in Victoria's dataset.
+Most of them have a different taxonomy where it is a subsp. in one and a species in the other.
+Let's try to match them with the ALA_accepted name to see if the list reduces.
+
+# Trying to match the remaining taxa in Victoria's dataset with the ALA taxa name
+
+``` {r}
+second.merge.by.name <-
+  left_join(CCA.taxa.not.in.EUCLID, EUCLID.taxa.not.in.CCA, BY = C("name2" = "name"))
+second.merge.by.name <- na.omit(second.merge.by.name, cols=Row)
+
+glimpse(second.merge.by.name)
+
+nrow(second.merge.by.name)
+view(second.merge.by.name)
+```
+
