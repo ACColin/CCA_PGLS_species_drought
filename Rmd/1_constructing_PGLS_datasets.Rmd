@@ -232,11 +232,24 @@ Victoria.EUCLID.df <-
 
 FULL.DF <-
   left_join(Victoria.EUCLID.df, thornhill.species, by = "name") %>%
+  distinct(UniqueID, .keep_all = TRUE) %>%
   glimpse()
+
+# I need to add the original name in EUCLID
+EUCLID.traits.df <- read.csv("../data/all_traits_from_EUCLID.csv", header = T)
+colnames(EUCLID.traits.df)[1] <- "EUCLID_name"
+glimpse(EUCLID.traits.df)
+
+full.FULL.DF <-
+  left_join(Victoria.EUCLID.df, EUCLID.traits.df, by = "botanical_desc") %>%
+  distinct(UniqueID, .keep_all = TRUE)
 ```
 
 ``` {r}
 write.csv(FULL.DF, "../outputs/datasets_in_progress/Victoria_EUCLID_Thornhill_merge.v2.csv")
+```
+``` {r}
+write.csv(full.FULL.DF, "../outputs/datasets_in_progress/Victoria_EUCLID_Thornhill_merge.v3.csv")
 ```
 
 # Conclusion: not all Victoria's taxa are listed in Thornhill and same for the opposite, not all Thornhill's taxa are in Victoria's. Total, 603 taxa are matching between the two.
@@ -268,6 +281,81 @@ write.csv(Victoria_EUCLID_merge, "../outputs/datasets_in_progress/victoria_thorn
 
 We now have a dataset with the life-history trait data for Eucalypt species and we know which ones are present in the taxa list from Thornhill's phylogeny.
 
+
+## Final dataset:
+
+I cleaned the EUCLID phylogeny and added an additional column with the updated taxon names from the classification.
+Now all I need to do is merge Victoria's dataset to EUCLID, add the resprouting data from Dean, match the taxa to Thornhill's voucher data.
+
+``` {r final merge}
+#### input data###
+
+Victoria <-
+  read.csv("../data/CCA_VPM_species_PGLS.csv", header = T) %>%
+  distinct(UniqueID, .keep_all = TRUE) %>%
+  glimpse()
+colnames(Victoria)[2] <- "name" # by updated name
+colnames(Victoria)[5] <- "name" # by ALA name
+
+glimpse(Victoria)
+
+EUCLID <-
+  read.csv("../data/EUCLIDTraitsCleaned.csv", header = T) %>%
+  glimpse()
+colnames(EUCLID)[2] <- "name"
+glimpse(EUCLID)
+
+Resprouting <-
+  read.csv("../data/CCARegenerationStrategyCleaned.csv", header = T) %>%
+  glimpse()
+colnames(Resprouting)[12] <- "name"
+glimpse(Resprouting)
+
+Thornhill <-
+  read.csv("../data/ThornhillDataCleaned.csv", header = T) %>%
+  glimpse()
+colnames(Thornhill)[2] <- "name"
+glimpse(Thornhill)
+
+
+# merge Victoria to Resprouting by name
+Victoria.Resp <-
+  left_join(Victoria, Resprouting, by = "name") %>%
+  glimpse()
+
+# merge Victoria.Resp to EUCLID by DN.name = name
+Victoria.Resp.EUCLID <-
+  left_join(Victoria.Resp, EUCLID, by = "name") %>%
+  glimpse()
+
+# merge Victoria.Resp.EUCLID to Thornhill by name = binomial
+colnames(Victoria.Resp.EUCLID)[2] <- "name2" # by updated name
+colnames(Victoria.Resp.EUCLID)[5] <- "name" # by ALA name
+glimpse(Victoria.Resp.EUCLID)
+
+Victoria.Resp.EUCLID.Thornhill <-
+  left_join(Victoria.Resp.EUCLID, Thornhill, by = "name") %>%
+  distinct(UniqueID, .keep_all = TRUE) %>%
+  glimpse()
+
+# write resulting df
+write.csv(Victoria.Resp.EUCLID.Thornhill, "../outputs/03092021.VPM.PGLS.df.csv")
+# anti_join Victoria.Resp.EUCLID to Thornhill
+# (check which taxa don't merge)
+non.matching.Thornhill.species <-
+  anti_join(Thornhill, Victoria, by = "name")
+# write resulting df
+write.csv(non.matching.Thornhill.species, "../outputs/NonMatchingThornhillSpecies.csv")
+
+# Thornhill uses the outaded names too so merge with EUCLID.name instead of updated name
+
+Victoria.Thornhill.by.ALA <-
+  left_join(Victoria, Thornhill, by = "name") %>%
+  distinct(UniqueID, .keep_all = TRUE) %>%
+  glimpse()
+write.csv(Victoria.Thornhill.by.ALA, "../outputs/Victoria.Thornhill.by.ALA.csv")
+
+```
 
 ## Making the phylogeny's tip labels match with victoria's dataset:
 
