@@ -1,0 +1,107 @@
+---
+title: "Manipulating phylo and plotting data"
+author: "AC"
+date: "16/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+conflict_prefer("filter", "dplyr")
+conflict_prefer("drop.tip", "ape")
+librarian::shelf(tidyverse, readr, conflicted, ggtree, ape, data.table, phytools, TreeTools, tidytree, treeio, daee, DesiQuintans/desiderata)
+
+```
+
+```{r, raw data}
+thornhill_labels <- read.csv("../data/tree_labels.csv")
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+```
+
+
+## First tree manipulation: changing the tip labels
+
+Let's have a look at what they look like now:
+```{r}
+ggtree(tree,layout = "fan")
+```
+
+In the environment, "tree" is a phylo object and if you click on it you can see tip.label as a list (type `tree[["tip.label"]]` in the console) which gives the original name of the tree's leaves contained in Thornhill's phylogeny.  
+
+Now we want to swap those names with the ones we are going to use (the CCA names) based on the spreadsheet that we edited with Dean.  
+
+```{r}
+new_tree <- tree
+new_tree$tip.label <- thornhill_labels$name5[TreeTools::match(tree$tip.label, thornhill_labels$original)]
+par(mfrow=c(1,2))
+plot(tree)
+plot(new_tree)
+```
+I'm using the match() function of TreeTools to change the tip.label. As you can see in the phylo object new_tree, tip.label is still read as a character just like in the original tree, and the names appear normally when plotted. Nothing else should differ between the two phylo objects.  
+Note to myself: there are other ways to change the tip labels but this set of commands is the only way to conserve tip.label as character, ensuring that the phylo object remains readable by phylo packages in the following steps. If tip.label is not displayed as character then any manipulation of tips will fail as the function is unable to retrieve them in the phylo object.  
+
+If you open thornhill_labels, you will see that the variable "name3" corresponds to the full species name with underscores instead of white spaces as they can be problematic for some manipulations with phylogenetic packages in R.  
+
+## Second tree manipulation: removing some tips
+
+Now we want to remove species in the phylogeny that are not part of the analysis so they do not appear in the modified phylogeny. To do so I use the function drop.tip() from TreeTools, which removes a set of tips and collapses the corresponding set of branches.
+
+```{r}
+pruned_tree <- new_tree
+
+prune.species <- c("lophostemon_suaveolens", "myrtus_communis", "decaspermum_humile",
+                   "amomyrtus_luma", "cloezia_floribunda", "tepualia_stipularis",
+                   "acmena_smithii", "syzygium_angophoroides", "syncarpia_hillii",
+                   "syncarpia_glomulifera", "hypocalymma_linifolium", "kunzea_ericoides",
+                   "agonis_flexuosa", "allosyncarpia_ternata", "stockwellia_quadrifida",
+                   "stockwellia_quadrifida", "eucalyptopsis_papuana", "eucalyptopsis_alauda",
+                   "arillastrum_gummiferum", "lophostemon_confertus", "kjellbergiodendron_celebicum",
+                   "heteropyxis_natalensis", "eucalyptus_yangoura", "corymbia_novoguinensis",
+                   "eucalyptus_wetarensis", "eucalyptus_websteriana", "eucalyptus_urophylla",
+                   "corymbia_paractia", "corymbia_setosa", "eucalyptus_arachnaeae",
+                   "eucalyptus_baiophylla", "eucalyptus_coccifera", "eucalyptus_glomericassis",
+                   "eucalyptus_grasbyi", "eucalyptus_leucophylla", "eucalyptus_stockeri",
+                   "eucalyptus_sheathiana", "kjellbergiodendron_celebicum", "lophostemon_confertus")
+
+pruned_tree <- drop.tip(pruned_tree, prune.species, trim.internal = T)
+plot(pruned_tree)
+
+#write.tree(pruned_tree, "../plots/tree_inprogress_check_taxanames_in_double.tre")
+```
+
+You can see at the bottom part of the tree that a set of tips and the corresponding branches are gone.  
+
+If you look at the phylo object 'pruned_tree' you can see that the listed tips in the vector 'prune.species' are removed from tip.label and that the number of tips and nodes is now reduced.  
+
+## Third tree manipulation: adding tips
+
+Now we can change the tree to include the additional tips for all subspecies, hybrids and provenances at CCA.
+
+I use the R function add.taxa.phylo from @vanderleidebastiani:
+    `https://github.com/vanderleidebastiani/daee/blob/master/R/add.taxa.phylo.R`
+    
+A description of the function and required data:  
+The function add.taxa.phylo allows to add the new tips according to more related species or node provided. The taxa object is a matrix with three columns. The first column is the node label or tip label to new tip be anchored. The second column is the label to new tip. The third column is the terminal edge length for the added tips, can be NA. If anchored label is a node the new tip is inserted as polytomy and edge length is not used, the length is computed to keep the tree ultrametric. If anchored is a tip label and edge length was provided the new tip is inserted with length provide, and if edge length was NA the length is computed simply by split current edge length by two.
+
+This is the matrix required for the function:
+
+```{r include=FALSE}
+new_tips_data <- read.csv("../data/NewTipsMatrixCleaned.csv")
+new_tips_data <- new_tips_data %>%
+  mutate_if(is.logical, as.character)
+```
+
+The names will be matched based on 'name5' which corresponds to the binomial with underscore as a white space.
+The names will match between the binomial in Thornhill, and each taxa name in CCA.
+
+Now let's use the function.
+
+```{r}
+full_tree <- pruned_tree
+class(new_tips_data)
+class(full_tree)
+full_tree <- add.taxa.phylo(full_tree, new_tips_data)
+
+tree.label.info(full_tree, new_tips_data)
+```
+

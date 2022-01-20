@@ -1,190 +1,61 @@
 Taxon,taxon,binomial,genus,species,subspecies,taxon,Status,Accepted name,Authority,Collection source,ETS accession,ITS accession,matK accession,psbA accession
-Acmena smithii,acmena smithii,acmena smithii,acmena,smithii,NA,acmena smithii,Synonym,Syzygium smithii,(Poir.) Nied.,GenBank,AM489889,AM234137,DQ088545,AM489808
-Agonis flexuosa,agonis flexuosa,agonis flexuosa,agonis,flexuosa,NA,agonis flexuosa,Accepted,,(Muhl. ex Willd.) Sweet,GenBank,EU850635,DQ499115,AF184711,
-Allosyncarpia ternata,allosyncarpia ternata,allosyncarpia ternata,allosyncarpia,ternata,NA,allosyncarpia ternata,Accepted,,S.T.Blake,GenBank,DQ352477,DQ352477,,AF190370
-Amomyrtus luma,amomyrtus luma,amomyrtus luma,amomyrtus,luma,NA,amomyrtus luma,Accepted,,(Molina) D.Legrand & Kausel,GenBank,AM489892,AM234073,,AM489811
-Angophora bakeri subsp. bakeri,angophora bakeri subsp. bakeri,angophora bakeri ,angophora,bakeri,bakeri,angophora bakeri subsp. bakeri,Accepted,,C.C.Hall,CANB 786317**,KT631411,KT630893,KT632621,KT632063
-Angophora costata subsp. costata,angophora costata subsp. costata,angophora costata,angophora,costata,costata,angophora costata subsp. costata,Accepted,,(Gaertn.) Hochr. ex Britten,CANB 786256**,KT631412,,KT632622,KT632064
-Angophora exul,angophora exul,angophora exul,angophora,exul,NA,angophora exul,Accepted,,K.D.Hill,NSW 573034**,KT631413,KT630894,KT632623,KT632065
-Angophora floribunda,angophora floribunda,angophora floribunda,angophora,floribunda,NA,angophora floribunda,Accepted,,(Sm.) Sweet,CANB 786321**,KT631414,KT630895,,AF190375
-Angophora hispida,angophora hispida,angophora hispida,angophora,hispida,NA,angophora hispida,Accepted,,(Sm.) Blaxell,NSW 589284**,KT631415,KT630896,KT632624,KT632066
-Angophora inopina,angophora inopina,angophora inopina,angophora,inopina,NA,angophora inopina,Accepted,,K.D.Hill,CANB 786238**,KT631416,KT630897,KT632625,KT632067
-Angophora melanoxylon,angophora melanoxylon,angophora melanoxylon,angophora,melanoxylon,NA,angophora melanoxylon,Accepted,,F.Muell. ex R.T.Baker,NSW 785602**,KT631417,KT630898,KT632626,KT632068
-Angophora robur,angophora robur,angophora robur,angophora,robur,NA,angophora robur,Accepted,,L.A.S.Johnson & K.D.Hill,NSW 537287**,KT631418,KT630899,KT632627,
-Angophora subvelutina,angophora subvelutina,angophora subvelutina,angophora,subvelutina,NA,angophora subvelutina,Accepted,,F.Muell.,CANB 786273**,KT631419,KT630900,KT632628,KT632069
-Angophora woodsiana,angophora woodsiana,angophora woodsiana,angophora,woodsiana,NA,angophora woodsiana,Accepted,,F.M.Bailey,CANB 786271**,KT631420,KT630901,KT632629,KT632070
-Arillastrum gummiferum,arillastrum gummiferum,arillastrum gummiferum,arillastrum,gummiferum,NA,arillastrum gummiferum,Accepted,,(Brongn. & Gris) Pancher ex Baill.,GenBank,DQ352479,DQ352479,AF368198,AF190372
-Cloezia floribunda,cloezia floribunda,cloezia floribunda,cloezia,floribunda,NA,cloezia floribunda,Accepted,,Brongn. & Gris,GenBank,AY606255,AF172767,AY521533,
-Corymbia abbreviata,corymbia abbreviata,corymbia abbreviata,corymbia,abbreviata,NA,corymbia abbreviata,Accepted,,(Blakely & Jacobs),CANB 459002**,KT631421,DQ993136,,
 Corymbia abergiana,corymbia abergiana,corymbia abergiana,corymbia,abergiana,NA,corymbia abergiana,Accepted,,(F.Muell.) K.D.Hill &,Currency Creek 1303,KT631422,DQ993145,,KT632071
-Corymbia aparrerinja,corymbia aparrerinja,corymbia aparrerinja,corymbia,aparrerinja,NA,corymbia aparrerinja,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 785580**,KT631423,KT630902,KT632630,KT632072
-Corymbia arafurica,corymbia arafurica,corymbia arafurica,corymbia,arafurica,NA,corymbia arafurica,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 557707**,KT631424,KT630903,KT632631,KT632073
-Corymbia arenaria,corymbia arenaria,corymbia arenaria,corymbia,arenaria,NA,corymbia arenaria,Accepted,,(Blakely) K.D.Hill &,CANB 785523**,KT631425,KT630904,KT632632,KT632074
-Corymbia aspera,corymbia aspera,corymbia aspera,corymbia,aspera,NA,corymbia aspera,Accepted,,(F.Muell.) K.D.Hill &,CANB 785505**,KT631426,,,
-Corymbia aureola,corymbia aureola,corymbia aureola,corymbia,aureola,NA,corymbia aureola,Accepted,,(Brooker & A.R.Bean),CANB 582839**,KT631427,GQ366352,KT632633,KT632075
-Corymbia bella,corymbia bella,corymbia bella,corymbia,bella,NA,corymbia bella,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 785527**,,DQ993123,KT632634,
-Corymbia blakei,corymbia blakei,corymbia blakei,corymbia,blakei,NA,corymbia blakei,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 582767**,KT631428,,,
-Corymbia bleeseri,corymbia bleeseri,corymbia bleeseri,corymbia,bleeseri,NA,corymbia bleeseri,Accepted,,(Blakely) K.D.Hill &,CANB 785481,KT631429,KT630905,KT632635,KT632076
 Corymbia bloxsomei,corymbia bloxsomei,corymbia bloxsomei,corymbia,bloxsomei,NA,corymbia bloxsomei,Accepted,,(Maiden) K.D.Hill &,Currency Creek 687,KT631430,GQ366353,KT632636,
-Corymbia brachycarpa,corymbia brachycarpa,corymbia brachycarpa,corymbia,brachycarpa,NA,corymbia brachycarpa,Accepted,,(D.J.Carr & S.G.M.Carr),Mt Annan 891880,KT631431,DQ352484,KT632637,KT632077
 Corymbia bunites,corymbia bunites,corymbia bunites,corymbia,bunites,NA,corymbia bunites,Accepted,,(Brooker & A.R.Bean),Currency Creek 711,KT631432,KT630906,KT632638,KT632078
-Corymbia cadophora subsp. cadophora,corymbia cadophora subsp. cadophora,corymbia cadophora,corymbia,cadophora,cadophora,corymbia cadophora subsp. cadophora,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 785542**,KT631433,KT630907,KT632639,KT632079
 Corymbia calophylla,corymbia calophylla,corymbia calophylla,corymbia,calophylla,NA,corymbia calophylla,Accepted,,(R.Br. ex Lindl.) K.D.Hill,Currency Creek 1160,KT631434,KT630908,HQ287615,KT632080
 Corymbia candida subsp. dispodes,corymbia candida subsp. dispodes,corymbia candida,corymbia,candida,dispodes,corymbia candida subsp. dispodes,Accepted,,K.D.Hill & L.A.S.Johnson,Currency Creek 2752,KT631435,KT630909,KT632640,
 Corymbia catenaria,corymbia catenaria,corymbia catenaria,corymbia,catenaria,NA,corymbia catenaria,Synonym,Corymbia watsoniana,(Brooker & A.R.Bean),Currency Creek 700,KT631436,KT630910,KT632641,
-Corymbia chippendalei,corymbia chippendalei,corymbia chippendalei,corymbia,chippendalei,NA,corymbia chippendalei,Accepted,,(D.J.Carr & S.G.M.Carr),CANB 513580**,KT631437,KT630911,,KT632081
 Corymbia citriodora,corymbia citriodora,corymbia citriodora,corymbia,citriodora,NA,corymbia citriodora,Accepted,,(Hook.) K.D.Hill &,Currency Creek 698,KT631438,AF390461,KT632642,KT632082
-Corymbia clarksoniana,corymbia clarksoniana,corymbia clarksoniana,corymbia,clarksoniana,NA,corymbia clarksoniana,Accepted,,(D.J.Carr & S.G.M.Carr),ANBG 643951,KT631439,KT630912,KT632643,KT632083
-Corymbia collina,corymbia collina,corymbia collina,corymbia,collina,NA,corymbia collina,Accepted,,(W.Fitzg.) K.D.Hill &,CANB 785553**,KT631440,KT630913,KT632644,KT632084
-Corymbia confertiflora,corymbia confertiflora,corymbia confertiflora,corymbia,confertiflora,NA,corymbia confertiflora,Accepted,,(Kippist ex F.Muell.) K.D.Hill,CANB 785485**,KT631441,KT630914,KT632645,KT632085
-Corymbia dallachiana,corymbia dallachiana,corymbia dallachiana,corymbia,dallachiana,NA,corymbia dallachiana,Accepted,,(Benth.) K.D.Hill &,CANB 697829**,KT631442,KT630915,KT632646,KT632086
-Corymbia dampieri,corymbia dampieri,corymbia dampieri,corymbia,dampieri,NA,corymbia dampieri,Synonym,Corymbia greeniana,(D.J.Carr & S.G.M.Carr),GenBank,DQ352493,GQ366359,,
-Corymbia dendromerinx,corymbia dendromerinx,corymbia dendromerinx,corymbia,dendromerinx,NA,corymbia dendromerinx,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 644448**,KT631443,GQ366360,KT632647,
-Corymbia deserticola subsp. deserticola,corymbia deserticola subsp. deserticola,corymbia deserticola,corymbia,deserticola,deserticola,corymbia deserticola subsp. deserticola,Accepted,,(S.G.M.Carr) K.D.Hill &,CANB 804353**,KT631444,DQ993135,KT632648,
-Corymbia dichromophloia,corymbia dichromophloia,corymbia dichromophloia,corymbia,dichromophloia,NA,corymbia dichromophloia,Accepted,,(F.Muell.) K.D.Hill &,CANB 785493**,KT631445,KT630916,KT632649,KT632087
-Corymbia dimorpha,corymbia dimorpha,corymbia dimorpha,corymbia,dimorpha,NA,corymbia dimorpha,Synonym,Corymbia peltata,(Benth.) K.D.Hill &,GenBank,DQ352496,GQ366362,,
-Corymbia dolichocarpa,corymbia dolichocarpa,corymbia dolichocarpa,corymbia,dolichocarpa,NA,corymbia dolichocarpa,Synonym,Corymbia clarksoniana,(D.J.Carr & S.G.M.Carr),GenBank,DQ352497,GQ366363,,
-Corymbia dunlopiana,corymbia dunlopiana,corymbia dunlopiana,corymbia,dunlopiana,NA,corymbia dunlopiana,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 640209**,KT631446,KT630917,KT632650,KT632088
-Corymbia ellipsoidea,corymbia ellipsoidea,corymbia ellipsoidea,corymbia,ellipsoidea,NA,corymbia ellipsoidea,Accepted,,(D.J.Carr & S.G.M.Carr),Mt Annan 904974,KT631447,,KT632651,KT632089
 Corymbia eremaea subsp. eremaea,corymbia eremaea subsp. eremaea,corymbia eremaea,corymbia,eremaea,eremaea,corymbia eremaea subsp. eremaea,Accepted,,(D.J.Carr & S.G.M.Carr),Currency Creek 1708,KT631448,KT630918,KT632652,KT632090
-Corymbia erythrophloia,corymbia erythrophloia,corymbia erythrophloia,corymbia,erythrophloia,NA,corymbia erythrophloia,Accepted,,(Blakely) K.D.Hill &,Mt Annan 891984,KT631449,KT630919,KT632653,KT632091
-Corymbia eximia,corymbia eximia,corymbia eximia,corymbia,eximia,NA,corymbia eximia,Accepted,,(Schauer) K.D.Hill &,ANBG 62889,KT631450,AF190360,KT632654,KT632092
-Corymbia ferriticola,corymbia ferriticola,corymbia ferriticola,corymbia,ferriticola,NA,corymbia ferriticola,Accepted,,(Brooker & Edgecombe) K.D.Hill,CANB 804359**,KT631451,KT630920,KT632655,KT632093
-Corymbia ferruginea subsp. ferruginea,corymbia ferruginea subsp. ferruginea,corymbia ferruginea,corymbia,ferruginea,ferruginea,corymbia ferruginea subsp. ferruginea,Accepted,,(Schauer) K.D.Hill &,CANB 785503**,,KT630921,KT632656,KT632094
-Corymbia ficifolia,corymbia ficifolia,corymbia ficifolia,corymbia,ficifolia,NA,corymbia ficifolia,Accepted,,(F.Muell.) K.D.Hill &,ANBG c208,DQ352499,AF390451,KT632657,
-Corymbia flavescens,corymbia flavescens,corymbia flavescens,corymbia,flavescens,NA,corymbia flavescens,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 785561**,DQ352500,KT630922,KT632658,
-Corymbia foelscheana,corymbia foelscheana,corymbia foelscheana,corymbia,foelscheana,NA,corymbia foelscheana,Accepted,,(F.Muell.) K.D.Hill &,CANB 785474**,KT631452,KT630923,KT632659,KT632095
-Corymbia gilbertensis,corymbia gilbertensis,corymbia gilbertensis,corymbia,gilbertensis,NA,corymbia gilbertensis,Accepted,,(Maiden & Blakely) K.D.Hill,CANB 739029**,KT631453,,,
-Corymbia grandifolia,corymbia grandifolia,corymbia grandifolia,corymbia,grandifolia,NA,corymbia grandifolia,Accepted,,(R.Br. ex Benth.) K.D.Hill,CANB 739034**,KT631454,KT630924,KT632660,KT632096
-Corymbia greeniana,corymbia greeniana,corymbia greeniana,corymbia,greeniana,NA,corymbia greeniana,Accepted,,(D.J.Carr & S.G.M.Carr),CANB 785522**,KT631455,KT630925,KT632661,KT632097
 Corymbia gummifera,corymbia gummifera,corymbia gummifera,corymbia,gummifera,NA,corymbia gummifera,Accepted,,(Gaertn.) K.D.Hill &,Currency Creek 1228,KT631456,AF390463,KT632662,KT632098
 Corymbia haematoxylon,corymbia haematoxylon,corymbia haematoxylon,corymbia,haematoxylon,NA,corymbia haematoxylon,Accepted,,(Maiden) K.D.Hill &,Currency Creek 1147,KT631457,KT630926,,
-Corymbia hamersleyana,corymbia hamersleyana,corymbia hamersleyana,corymbia,hamersleyana,NA,corymbia hamersleyana,Accepted,,(D.J.Carr & S.G.M.Carr),CANB 804358**,DQ352503,KT630927,KT632663,KT632100
 Corymbia hendersonii,corymbia hendersonii,corymbia hendersonii,corymbia,hendersonii,NA,corymbia hendersonii,Accepted,,K.D.Hill & L.A.S.Johnson,Currency Creek 701,KT631458,GQ366365,,KT632101
-Corymbia henryi,corymbia henryi,corymbia henryi,corymbia,henryi,NA,corymbia henryi,Accepted,,(S.T.Blake) K.D.Hill &,ANBG 8910948,KT631459,AF390457,KT632664,KT632102
-Corymbia hylandii,corymbia hylandii,corymbia hylandii,corymbia,hylandii,NA,corymbia hylandii,Accepted,,(D.J.Carr & S.G.M.Carr),CANB 738922**,,,,KT632103
 Corymbia intermedia,corymbia intermedia,corymbia intermedia,corymbia,intermedia,NA,corymbia intermedia,Accepted,,(F.Muell. ex R.T.Baker),Currency Creek 708,KT631460,KT630928,HQ287616,KT632104
-Corymbia jacobsiana,corymbia jacobsiana,corymbia jacobsiana,corymbia,jacobsiana,NA,corymbia jacobsiana,Accepted,,(Blakely) K.D.Hill &,CANB 558528**,KT631461,DQ993127,,KT632105
-Corymbia lamprophylla,corymbia lamprophylla,corymbia lamprophylla,corymbia,lamprophylla,NA,corymbia lamprophylla,Accepted,,(Brooker & A.R.Bean) K.D.Hill &,Mt Annan 842093,KT631462,,KT632665,KT632106
-Corymbia latifolia,corymbia latifolia,corymbia latifolia,corymbia,latifolia,NA,corymbia latifolia,Accepted,,(F.Muell.) K.D.Hill &,CANB 785515**,KT631463,,,
-Corymbia leichhardtii,corymbia leichhardtii,corymbia leichhardtii,corymbia,leichhardtii,NA,corymbia leichhardtii,Accepted,,(F.M.Bailey) K.D.Hill &,Mt Annan 891967,KT631464,DQ993122,KT632666,KT632107
-Corymbia lenziana,corymbia lenziana,corymbia lenziana,corymbia,lenziana,NA,corymbia lenziana,Accepted,,(D.J.Carr & S.G.M.Carr) K.D.Hill,CANB 794064**,KT631465,,KT632667,KT632108
 Corymbia leptoloma,corymbia leptoloma,corymbia leptoloma,corymbia,leptoloma,NA,corymbia leptoloma,Accepted,,(Brooker & A.R.Bean) K.D.Hill &,Currency Creek 1302,DQ352508,GQ366367,KT632668,KT632109
-Corymbia ligans subsp. ligans,corymbia ligans subsp. ligans,corymbia ligans,corymbia,ligans,ligans,corymbia ligans subsp. ligans,Accepted,,K.D.Hill & L.A.S.Johnson,Mt Annan 892078,DQ352509,GQ366368,,
-Corymbia maculata,corymbia maculata,corymbia maculata,corymbia,maculata,NA,corymbia maculata,Accepted,,(Hook.) K.D.Hill &,ANBG 7800470,KT631466,AF058461,KT632669,KT632110
-Corymbia nesophila,corymbia nesophila,corymbia nesophila,corymbia,nesophila,NA,corymbia nesophila,Accepted,,(Blakely) K.D.Hill &,CANB 785518**,KT631467,,KT632670,
-Corymbia novoguinensis,corymbia novoguinensis,corymbia novoguinensis,corymbia,novoguinensis,NA,corymbia novoguinensis,Accepted,,(D.J.Carr & S.G.M.Carr) K.D.Hill,CANB 738912**,KT631468,,,KT632111
-Corymbia opaca,corymbia opaca,corymbia opaca,corymbia,opaca,NA,corymbia opaca,Synonym,Corymbia terminalis,(F.Muell.) K.D.Hill &,GenBank,DQ352511,DQ993124,,
-Corymbia opacula,corymbia opacula,corymbia opacula,corymbia,opacula,NA,corymbia opacula,Accepted,,L.A.S.Johnson,GenBank,,DQ993125,,
-Corymbia pachycarpa,corymbia pachycarpa,corymbia pachycarpa,corymbia,pachycarpa,NA,corymbia pachycarpa,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 785564**,KT631469,,,
-Corymbia papillosa,corymbia papillosa,corymbia papillosa,corymbia,papillosa,NA,corymbia papillosa,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 564789**,KT631470,,,
-Corymbia papuana,corymbia papuana,corymbia papuana,corymbia,papuana,NA,corymbia papuana,Accepted,,(F.Muell.) K.D.Hill &,CANB 583122**,KT631471,AF190359,KT632671,KT632112
-Corymbia pauciseta,corymbia pauciseta,corymbia pauciseta,corymbia,pauciseta,NA,corymbia pauciseta,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 448845**,KT631472,KT630929,KT632672,KT632113
 Corymbia peltata,corymbia peltata,corymbia peltata,corymbia,peltata,NA,corymbia peltata,Accepted,,(Benth.) K.D.Hill &,Currency Creek 2505,KT631473,KT630930,KT632673,KT632114
-Corymbia petalophylla,corymbia petalophylla,corymbia petalophylla,corymbia,petalophylla,NA,corymbia petalophylla,Accepted,,(Brooker & A.R.Bean) K.D.Hill &,Mt Annan 892019,KT631474,GQ366370,KT632674,KT632115
-Corymbia plena,corymbia plena,corymbia plena,corymbia,plena,NA,corymbia plena,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 660150**,KT631475,KT630931,,KT632116
-Corymbia polycarpa,corymbia polycarpa,corymbia polycarpa,corymbia,polycarpa,NA,corymbia polycarpa,Accepted,,(F.Muell.) K.D.Hill &,CANB 785478**,KT631476,AF390452,,KT632117
-Corymbia polysciada,corymbia polysciada,corymbia polysciada,corymbia,polysciada,NA,corymbia polysciada,Accepted,,(F.Muell.) K.D.Hill &,CANB 785475**,KT631477,KT630932,KT632675,KT632118
-Corymbia porphyritica,corymbia porphyritica,corymbia porphyritica,corymbia,porphyritica,NA,corymbia porphyritica,Synonym,Corymbia ellipsoidea,(D.J.Carr & S.G.M.Carr) K.D.Hill,GenBank,DQ352516,,,
-Corymbia porrecta,corymbia porrecta,corymbia porrecta,corymbia,porrecta,NA,corymbia porrecta,Accepted,,(S.T.Blake) K.D.Hill &,CANB 628340**,KT631478,DQ993134,KT632676,KT632119
-Corymbia ptychocarpa subsp. ptychocarpa,corymbia ptychocarpa subsp. ptychocarpa,corymbia ptychocarpa,corymbia,ptychocarpa,ptychocarpa,corymbia ptychocarpa subsp. ptychocarpa,Accepted,,(F.Muell.) K.D.Hill &,CANB 785501**,KT631479,KT630933,KT632677,KT632120
-Corymbia rhodops,corymbia rhodops,corymbia rhodops,corymbia,rhodops,NA,corymbia rhodops,Accepted,,(D.J.Carr & S.G.M.Carr) K.D.Hill,GenBank,DQ352518,,,
-Corymbia scabrida,corymbia scabrida,corymbia scabrida,corymbia,scabrida,NA,corymbia scabrida,Accepted,,(Brooker & A.R.Bean) K.D.Hill &,Mt Annan 891868,KT631480,GQ366371,KT632678,KT632121
-Corymbia stockeri subsp. stockeri,corymbia stockeri subsp. stockeri,corymbia stockeri,corymbia,stockeri,stockeri,corymbia stockeri subsp. stockeri,Accepted,,(D.J.Carr & S.G.M.Carr) K.D.Hill,GenBank,DQ352520,,,
-Corymbia terminalis,corymbia terminalis,corymbia terminalis,corymbia,terminalis,NA,corymbia terminalis,Accepted,,(F.Muell.) K.D.Hill &,CANB 785544**,DQ352521,GQ366372,KT632679,
 Corymbia tessellaris,corymbia tessellaris,corymbia tessellaris,corymbia,tessellaris,NA,corymbia tessellaris,Accepted,,(F.Muell.) K.D.Hill &,Currency Creek s.n.,KT631481,AF058457,KT632680,KT632122
-Corymbia torelliana,corymbia torelliana,corymbia torelliana,corymbia,torelliana,NA,corymbia torelliana,Accepted,,(F.Muell.) K.D.Hill &,Mt Annan 981102,KT631482,GQ366373,KT632681,KT632123
-Corymbia torta,corymbia torta,corymbia torta,corymbia,torta,NA,corymbia torta,Accepted,,K.D.Hill & L.A.S.Johnson,CANB 644409**,KT631483,,,
-Corymbia trachyphloia,corymbia trachyphloia,corymbia trachyphloia,corymbia,trachyphloia,NA,corymbia trachyphloia,Accepted,,(F.Muell.) K.D.Hill &,ANBG 60750,DQ352523,AF390455,KT632682,
-Corymbia variegata,corymbia variegata,corymbia variegata,corymbia,variegata,NA,corymbia variegata,Synonym,Corymbia citriodora,(Hook.) K.D.Hill &,GenBank,DQ352524,AF390462,AF368203,
-Corymbia watsoniana subsp. watsoniana,corymbia watsoniana subsp. watsoniana,corymbia watsoniana,corymbia,watsoniana,watsoniana,corymbia watsoniana subsp. watsoniana,Accepted,,(F.Muell.) K.D.Hill &,ANBG 68771,KT631484,GQ366374,KT632683,
-Corymbia xanthope,corymbia xanthope,corymbia xanthope,corymbia,xanthope,NA,corymbia xanthope,Accepted,,(A.R.Bean & Brooker) K.D.Hill &,GenBank,DQ352526,GQ366375,,
-Corymbia zygophylla,corymbia zygophylla,corymbia zygophylla,corymbia,zygophylla,NA,corymbia zygophylla,Accepted,,(Blakely) K.D.Hill &,CANB 785546**,KT631485,GQ366376,KT632684,KT632125
-Decaspermum humile,decaspermum humile,decaspermum humile,decaspermum,humile,NA,decaspermum humile,Accepted,,(Sweet ex G.Don) A.J.Scott,GenBank,AM489905,AM234128,,AM489824
-Eucalyptopsis alauda,eucalyptopsis alauda,eucalyptopsis alauda,eucalyptopsis,alauda,NA,eucalyptopsis alauda,Accepted,,Craven,CANB 704249**,KT631486,,,KT632126
-Eucalyptopsis papuana,eucalyptopsis papuana,eucalyptopsis papuana,eucalyptopsis,papuana,NA,eucalyptopsis papuana,Accepted,,C.T.White,GenBank,DQ352538,AF190354,AF368205,AF190388
-Eucalyptus abdita,eucalyptus abdita,eucalyptus abdita,eucalyptus,abdita,NA,eucalyptus abdita,Accepted,,Brooker & Hopper,CANB 687864**,KT631487,KT630934,KT632685,KT632127
 Eucalyptus absita,eucalyptus absita,eucalyptus absita,eucalyptus,absita,NA,eucalyptus absita,Accepted,,Grayling & Brooker,Currency Creek 1154,KT631488,KT630935,KT632686,KT632128
 Eucalyptus acaciiformis,eucalyptus acaciiformis,eucalyptus acaciiformis,eucalyptus,acaciiformis,NA,eucalyptus acaciiformis,Accepted,,H.Deane & Maiden,Currency Creek 657,KT631489,KT630936,KT632687,
 Eucalyptus accedens,eucalyptus accedens,eucalyptus accedens,eucalyptus,accedens,NA,eucalyptus accedens,Accepted,,W.Fitzg.,Currency Creek 1164,KT631490,KT630937,KT632688,KT632129
-Eucalyptus acies,eucalyptus acies,eucalyptus acies,eucalyptus,acies,NA,eucalyptus acies,Accepted,,Brooker,CANB 610687**,KT631491,EF051489,KT632689,KT632130
 Eucalyptus acmenoides,eucalyptus acmenoides,eucalyptus acmenoides,eucalyptus,acmenoides,NA,eucalyptus acmenoides,Accepted,,Schauer,Currency Creek 2087,KT631492,KT630938,KT632690,KT632131
-Eucalyptus acroleuca,eucalyptus acroleuca,eucalyptus acroleuca,eucalyptus,acroleuca,NA,eucalyptus acroleuca,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 593424**,KT631493,,,
 Eucalyptus aequioperta,eucalyptus aequioperta,eucalyptus aequioperta,eucalyptus,aequioperta,NA,eucalyptus aequioperta,Accepted,,Brooker & Hopper,Currency Creek 3448,KT631494,KT630939,KT632691,KT632132
 Eucalyptus agglomerata,eucalyptus agglomerata,eucalyptus agglomerata,eucalyptus,agglomerata,NA,eucalyptus agglomerata,Accepted,,Maiden,Currency Creek 2928,KT631495,KT630940,KT632692,KT632133
 Eucalyptus aggregata,eucalyptus aggregata,eucalyptus aggregata,eucalyptus,aggregata,NA,eucalyptus aggregata,Accepted,,H.Deane & Maiden,Currency Creek 1224,KT631496,KT630941,KT632693,KT632134
 Eucalyptus alaticaulis,eucalyptus alaticaulis,eucalyptus alaticaulis,eucalyptus,alaticaulis,NA,eucalyptus alaticaulis,Accepted,,R.J.Watson & Ladiges,Currency Creek 356,KT631497,KT630942,KT632694,KT632135
-Eucalyptus alba,eucalyptus alba,eucalyptus alba,eucalyptus,alba,NA,eucalyptus alba,Accepted,,Reinw. ex Blume,GenBank,,AF390485,,
 Eucalyptus albens,eucalyptus albens,eucalyptus albens,eucalyptus,albens,NA,eucalyptus albens,Accepted,,Benth.,Currency Creek 2898,KT631498,AF390502,KT632695,KT632136
 Eucalyptus albida,eucalyptus albida,eucalyptus albida,eucalyptus,albida,NA,eucalyptus albida,Accepted,,Maiden & Blakely,Currency Creek 3437,KT631499,KT630943,KT632696,KT632137
 Eucalyptus albopurpurea,eucalyptus albopurpurea,eucalyptus albopurpurea,eucalyptus,albopurpurea,NA,eucalyptus albopurpurea,Accepted,,(Boomsma) D.Nicolle,Currency Creek 3180,KT631500,KT630944,KT632697,KT632138
 Eucalyptus alipes,eucalyptus alipes,eucalyptus alipes,eucalyptus,alipes,NA,eucalyptus alipes,Accepted,,(L.A.S.Johnson & K.D.Hill),Currency Creek 3678,KT631501,KT630945,KT632698,
 Eucalyptus alligatrix subsp. alligatrix,eucalyptus alligatrix subsp. alligatrix,eucalyptus alligatrix,eucalyptus,alligatrix,alligatrix,eucalyptus alligatrix subsp. alligatrix,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1773,KT631502,KT630946,KT632699,
 Eucalyptus amplifolia subsp. amplifolia,eucalyptus amplifolia subsp. amplifolia,eucalyptus amplifolia,eucalyptus,amplifolia,amplifolia,eucalyptus amplifolia subsp. amplifolia,Accepted,,Naudin,Currency Creek 604,KT631503,KT630947,KT632700,
-Eucalyptus amygdalina,eucalyptus amygdalina,eucalyptus amygdalina,eucalyptus,amygdalina,NA,eucalyptus amygdalina,Accepted,,Labill.,CANB 481986**,KT631504,HM596032,,KT632139
-Eucalyptus ancophila,eucalyptus ancophila,eucalyptus ancophila,eucalyptus,ancophila,NA,eucalyptus ancophila,Accepted,,L.A.S.Johnson & K.D.Hill,Mt Annan 841467,KT631505,KT630948,KT632701,
-Eucalyptus andrewsii subsp. andrewsii,eucalyptus andrewsii subsp. andrewsii,eucalyptus andrewsii,eucalyptus,andrewsii,andrewsii,eucalyptus andrewsii subsp. andrewsii,Accepted,,Maiden,ANBG 8410679,KT631506,,KT632702,KT632140
 Eucalyptus angophoroides,eucalyptus angophoroides,eucalyptus angophoroides,eucalyptus,angophoroides,NA,eucalyptus angophoroides,Accepted,,R.T.Baker,Currency Creek 1745,KT631507,KT630949,KT632703,
 Eucalyptus angulosa,eucalyptus angulosa,eucalyptus angulosa,eucalyptus,angulosa,NA,eucalyptus angulosa,Accepted,,Schauer,Currency Creek 939,KT631508,KT630950,,KT632141
-Eucalyptus angustissima,eucalyptus angustissima,eucalyptus angustissima,eucalyptus,angustissima,NA,eucalyptus angustissima,Accepted,,F.Muell.,CANB 794337**,KT631509,KT630951,KT632704,KT632142
-Eucalyptus annulata,eucalyptus annulata,eucalyptus annulata,eucalyptus,annulata,NA,eucalyptus annulata,Accepted,,Benth.,CANB 794263**,,,KT632705,KT632143
 Eucalyptus apiculata,eucalyptus apiculata,eucalyptus apiculata,eucalyptus,apiculata,NA,eucalyptus apiculata,Accepted,,R.T.Baker & H.G.Sm.,Currency Creek 772,KT631510,KT630952,KT632706,KT632144
-Eucalyptus apodophylla subsp. provecta,eucalyptus apodophylla subsp. provecta,eucalyptus apodophylla,eucalyptus,apodophylla,provecta,eucalyptus apodophylla subsp. provecta,Accepted,,Blakely & Jacobs,CANB 7855329**,KT631511,KT630953,KT632707,KT632145
-Eucalyptus apothalassica,eucalyptus apothalassica,eucalyptus apothalassica,eucalyptus,apothalassica,NA,eucalyptus apothalassica,Accepted,,L.A.S.Johnson & K.D.Hill,Mt Annan 842080,KT631512,KT630954,KT632708,KT632146
-Eucalyptus approximans subsp. codonocarpa,eucalyptus approximans subsp. codonocarpa,eucalyptus approximans,eucalyptus,approximans,codonocarpa,eucalyptus approximans subsp. codonocarpa,Accepted,,(Blakely & McKie) L.A.S.Johnson,ANBG 69702,KT631513,KT630955,KT632709,KT632147
-Eucalyptus aquilina,eucalyptus aquilina,eucalyptus aquilina,eucalyptus,aquilina,NA,eucalyptus aquilina,Accepted,,Brooker,GenBank,KT631514,FJ494708,,
-Eucalyptus arachneae subsp. arecta,eucalyptus arachneae subsp. arecta,eucalyptus arachneae,eucalyptus,arachneae,arecta,eucalyptus arachneae subsp. arecta,Accepted,,Brooker & Hopper,CANB 435460**,KT631515,KT630956,KT632710,KT632148
 Eucalyptus arborella,eucalyptus arborella,eucalyptus arborella,eucalyptus,arborella,NA,eucalyptus arborella,Accepted,,Brooker & Hopper,Currency Creek 1115,KT631516,,,
-Eucalyptus arenacea,eucalyptus arenacea,eucalyptus arenacea,eucalyptus,arenacea,NA,eucalyptus arenacea,Accepted,,J.C.Marginson & Ladiges,CANB 786035**,KT631517,FJ494709,KT632711,KT632149
-Eucalyptus argillacea,eucalyptus argillacea,eucalyptus argillacea,eucalyptus,argillacea,NA,eucalyptus argillacea,Accepted,,W.Fitzg. ex Maiden,CANB 785537**,KT631518,KT630957,KT632712,
 Eucalyptus argophloia,eucalyptus argophloia,eucalyptus argophloia,eucalyptus,argophloia,NA,eucalyptus argophloia,Accepted,,Blakely,Currency Creek 686,KT631519,KT630958,KT632713,
-Eucalyptus argutifolia,eucalyptus argutifolia,eucalyptus argutifolia,eucalyptus,argutifolia,NA,eucalyptus argutifolia,Accepted,,Grayling & Brooker,Waite Arboretum 2365B,KT631520,KT630959,KT632714,KT632150
 Eucalyptus argyphea,eucalyptus argyphea,eucalyptus argyphea,eucalyptus,argyphea,NA,eucalyptus argyphea,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3433,KT631521,KT630960,KT632715,KT632151
-Eucalyptus aromaphloia subsp. aromaphloia,eucalyptus aromaphloia subsp. aromaphloia,eucalyptus aromaphloia,eucalyptus,aromaphloia,aromaphloia,eucalyptus aromaphloia subsp. aromaphloia,Accepted,,Pryor & J.H.Willis,CANB 564611**,KT631522,AF058465,KT632716,KT632152
 Eucalyptus articulata,eucalyptus articulata,eucalyptus articulata,eucalyptus,articulata,NA,eucalyptus articulata,Accepted,,Brooker & Hopper,Currency Creek 520,KT631523,KT630961,KT632717,KT632153
 Eucalyptus aspersa,eucalyptus aspersa,eucalyptus aspersa,eucalyptus,aspersa,NA,eucalyptus aspersa,Accepted,,Brooker & Hopper,Currency Creek 1890,KT631524,KT630962,KT632718,KT632154
-Eucalyptus aspratilis,eucalyptus aspratilis,eucalyptus aspratilis,eucalyptus,aspratilis,NA,eucalyptus aspratilis,Accepted,,L.A.S.Johnson & K.D.Hill,Waite Arboretum 2323C,KT631525,KT630963,KT632719,KT632155
 Eucalyptus assimilans,eucalyptus assimilans,eucalyptus assimilans,eucalyptus,assimilans,NA,eucalyptus assimilans,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1826,KT631526,KT630964,,
 Eucalyptus astringens subsp. astringens,eucalyptus astringens subsp. astringens,eucalyptus astringens,eucalyptus,astringens,astringens,eucalyptus astringens subsp. astringens,Accepted,,(Maiden) Maiden,Currency Creek 3503,KT631527,KT630965,,KT632156
-Eucalyptus atrata,eucalyptus atrata,eucalyptus atrata,eucalyptus,atrata,NA,eucalyptus atrata,Accepted,,L.A.S.Johnson & K.D.Hill,ANBG 8603434,KT631528,KT630966,KT632720,KT632157
 Eucalyptus badjensis,eucalyptus badjensis,eucalyptus badjensis,eucalyptus,badjensis,NA,eucalyptus badjensis,Accepted,,Beuzev. & Welch,Currency Creek 1767,KT631529,KT630967,KT632721,
-Eucalyptus baeuerlenii,eucalyptus baeuerlenii,eucalyptus baeuerlenii,eucalyptus,baeuerlenii,NA,eucalyptus baeuerlenii,Accepted,,F.Muell.,ANBG 7810671,KT631530,KT630968,KT632722,
-Eucalyptus baileyana,eucalyptus baileyana,eucalyptus baileyana,eucalyptus,baileyana,NA,eucalyptus baileyana,Accepted,,F.Muell.,Mt Annan 892003,FJ654425,AF390467,,KT632158
 Eucalyptus bakeri,eucalyptus bakeri,eucalyptus bakeri,eucalyptus,bakeri,NA,eucalyptus bakeri,Accepted,,Maiden,Currency Creek 1269,KT631531,KT630969,KT632723,KT632159
-Eucalyptus balanites,eucalyptus balanites,eucalyptus balanites,eucalyptus,balanites,NA,eucalyptus balanites,Accepted,,Grayling & Brooker,CANB 687715**,KT631532,,,KT632160
-Eucalyptus balanopelex,eucalyptus balanopelex,eucalyptus balanopelex,eucalyptus,balanopelex,NA,eucalyptus balanopelex,Accepted,,L.A.S.Johnson & K.D.Hill,Waite Arboretum 2459,KT631533,KT630970,KT632724,KT632161
-Eucalyptus balladoniensis subsp. balladoniensis,eucalyptus balladoniensis subsp. balladoniensis,eucalyptus balladoniensis,eucalyptus,balladoniensis,balladoniensis,eucalyptus balladoniensis subsp. balladoniensis,Accepted,,Brooker,CANB 586833**,,KT630971,KT632725,KT632162
 Eucalyptus barberi,eucalyptus barberi,eucalyptus barberi,eucalyptus,barberi,NA,eucalyptus barberi,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 1989,KT631534,KT630972,KT632726,KT632163
 Eucalyptus baueriana,eucalyptus baueriana,eucalyptus baueriana,eucalyptus,baueriana,NA,eucalyptus baueriana,Accepted,,Schauer,Currency Creek 1734,KT631535,KT630973,KT632727,KT632164
-Eucalyptus baxteri,eucalyptus baxteri,eucalyptus baxteri,eucalyptus,baxteri,NA,eucalyptus baxteri,Accepted,,(Benth.) J.M.Black,ANBG 8701806,KT631536,KT630974,KT632728,KT632165
-Eucalyptus beaniana,eucalyptus beaniana,eucalyptus beaniana,eucalyptus,beaniana,NA,eucalyptus beaniana,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 842071**,,KT630975,,
-Eucalyptus beardiana,eucalyptus beardiana,eucalyptus beardiana,eucalyptus,beardiana,NA,eucalyptus beardiana,Accepted,,Brooker & Blaxell,CANB 632554**,KT631537,KT630976,,KT632166
 Eucalyptus behriana,eucalyptus behriana,eucalyptus behriana,eucalyptus,behriana,NA,eucalyptus behriana,Accepted,,F.Muell.,Currency Creek 3183,KT631538,KT630977,KT632729,KT632167
-Eucalyptus bensonii,eucalyptus bensonii,eucalyptus bensonii,eucalyptus,bensonii,NA,eucalyptus bensonii,Accepted,,L.A.S.Johnson & K.D.Hill,Mt Annan 830911,KT631539,KT630978,KT632730,KT632168
 Eucalyptus benthamii,eucalyptus benthamii,eucalyptus benthamii,eucalyptus,benthamii,NA,eucalyptus benthamii,Accepted,,Maiden & Cambage,Currency Creek 3203,KT631540,KT630979,KT632731,
 Eucalyptus beyeriana,eucalyptus beyeriana,eucalyptus beyeriana,eucalyptus,beyeriana,NA,eucalyptus beyeriana,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1761,KT631541,KT630980,KT632732,KT632169
 Eucalyptus blakelyi,eucalyptus blakelyi,eucalyptus blakelyi,eucalyptus,blakelyi,NA,eucalyptus blakelyi,Accepted,,Maiden,Currency Creek 722,KT631542,KT630981,KT632733,KT632170
-Eucalyptus blaxellii,eucalyptus blaxellii,eucalyptus blaxellii,eucalyptus,blaxellii,NA,eucalyptus blaxellii,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 804415**,KT631543,KT630982,KT632734,KT632171
-Eucalyptus blaxlandii,eucalyptus blaxlandii,eucalyptus blaxlandii,eucalyptus,blaxlandii,NA,eucalyptus blaxlandii,Accepted,,Maiden & Cambage,ANBG 8001329,KT631544,KT630983,KT632735,KT632172
-Eucalyptus boliviana,eucalyptus boliviana,eucalyptus boliviana,eucalyptus,boliviana,NA,eucalyptus boliviana,Accepted,,J.B.Williams & K.D.Hill,ANBG 518876,KT631545,KT630984,KT632736,KT632173
 Eucalyptus bosistoana,eucalyptus bosistoana,eucalyptus bosistoana,eucalyptus,bosistoana,NA,eucalyptus bosistoana,Accepted,,F.Muell.,Currency Creek 2902,KT631546,KT630985,KT632737,KT632174
 Eucalyptus botryoides,eucalyptus botryoides,eucalyptus botryoides,eucalyptus,botryoides,NA,eucalyptus botryoides,Accepted,,Sm.,Currency Creek 1739,KT631547,KT630986,KT632738,
-Eucalyptus brachyandra,eucalyptus brachyandra,eucalyptus brachyandra,eucalyptus,brachyandra,NA,eucalyptus brachyandra,Accepted,,F.Muell.,CANB 785499**,KT631548,KT630987,KT632739,KT632175
 Eucalyptus brachycalyx,eucalyptus brachycalyx,eucalyptus brachycalyx,eucalyptus,brachycalyx,NA,eucalyptus brachycalyx,Accepted,,Blakely,Currency Creek 2245,KT631549,KT630988,KT632740,KT632176
 Eucalyptus brachycorys,eucalyptus brachycorys,eucalyptus brachycorys,eucalyptus,brachycorys,NA,eucalyptus brachycorys,Accepted,,Blakely,Currency Creek 1897,KT631550,KT630989,KT632741,KT632177
-Eucalyptus brachyphylla,eucalyptus brachyphylla,eucalyptus brachyphylla,eucalyptus,brachyphylla,NA,eucalyptus brachyphylla,Accepted,,C.A.Gardner,ANBG 9807043,KT631551,KT630990,KT632742,KT632178
-Eucalyptus brassiana,eucalyptus brassiana,eucalyptus brassiana,eucalyptus,brassiana,NA,eucalyptus brassiana,Accepted,,S.T.Blake,GenBank,KT631552,AF390483,KT632743,KT632179
-Eucalyptus brevifolia,eucalyptus brevifolia,eucalyptus brevifolia,eucalyptus,brevifolia,NA,eucalyptus brevifolia,Accepted,,F.Muell.,CANB 785549**,KT631553,KT630991,KT632744,KT632180
-Eucalyptus brevipes,eucalyptus brevipes,eucalyptus brevipes,eucalyptus,brevipes,NA,eucalyptus brevipes,Accepted,,Brooker,CANB 692658**,KT631554,,KT632745,
 Eucalyptus brevistylis,eucalyptus brevistylis,eucalyptus brevistylis,eucalyptus,brevistylis,NA,eucalyptus brevistylis,Accepted,,Brooker,Currency Creek 1141,KT631555,AF390527,KT632746,KT632181
 Eucalyptus bridgesiana,eucalyptus bridgesiana,eucalyptus bridgesiana,eucalyptus,bridgesiana,NA,eucalyptus bridgesiana,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 570,KT631556,KT630992,KT632747,
 Eucalyptus brockwayi,eucalyptus brockwayi,eucalyptus brockwayi,eucalyptus,brockwayi,NA,eucalyptus brockwayi,Accepted,,C.A.Gardner,Currency Creek 2166,KT631557,AF390505,KT632748,KT632182
 Eucalyptus brookeriana subsp. brookeriana,eucalyptus brookeriana subsp. brookeriana,eucalyptus brookeriana,eucalyptus,brookeriana,brookeriana,eucalyptus brookeriana subsp. brookeriana,Accepted,,A.M.Gray,Currency Creek 1988,KT631558,KT630993,KT632749,
 Eucalyptus brunnea,eucalyptus brunnea,eucalyptus brunnea,eucalyptus,brunnea,NA,eucalyptus brunnea,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 669,KT631559,KT630994,KT632750,KT632183
-Eucalyptus buprestium,eucalyptus buprestium,eucalyptus buprestium,eucalyptus,buprestium,NA,eucalyptus buprestium,Accepted,,F.Muell.,CANB 632568**,KT631560,FJ494710,KT632751,KT632184
 Eucalyptus burdettiana,eucalyptus burdettiana,eucalyptus burdettiana,eucalyptus,burdettiana,NA,eucalyptus burdettiana,Accepted,,Blakely & H.Steedman,Currency Creek 2246,KT631561,KT630995,KT632752,
-Eucalyptus burgessiana,eucalyptus burgessiana,eucalyptus burgessiana,eucalyptus,burgessiana,NA,eucalyptus burgessiana,Accepted,,L.A.S.Johnson & Blaxell,ANBG s.n.,KT631562,,KT632753,KT632185
-Eucalyptus burracoppinensis,eucalyptus burracoppinensis,eucalyptus burracoppinensis,eucalyptus,burracoppinensis,NA,eucalyptus burracoppinensis,Accepted,,Maiden & Blakely,CANB 794037**,KT631563,KT630996,KT632754,KT632186
 Eucalyptus cadens,eucalyptus cadens,eucalyptus cadens,eucalyptus,cadens,NA,eucalyptus cadens,Accepted,,J.D.Briggs & Crisp,Currency Creek 1772,KT631564,KT630997,KT632755,KT632187
 Eucalyptus caesia subsp. caesia,eucalyptus caesia subsp. caesia,eucalyptus caesia,eucalyptus,caesia,caesia,eucalyptus caesia subsp. caesia,Accepted,,Benth.,Currency Creek 3683,KT631565,KT630998,KT632756,KT632188
 Eucalyptus calcareana,eucalyptus calcareana,eucalyptus calcareana,eucalyptus,calcareana,NA,eucalyptus calcareana,Accepted,,Boomsma,Currency Creek 2800,KT631566,KT630999,KT632757,KT632189
@@ -192,7 +63,6 @@ Eucalyptus calcicola subsp. calcicola,eucalyptus calcicola subsp. calcicola,euca
 Eucalyptus caleyi subsp. caleyi,eucalyptus caleyi subsp. caleyi,eucalyptus caleyi,eucalyptus,caleyi,caleyi,eucalyptus caleyi subsp. caleyi,Accepted,,Maiden,Currency Creek 2102,KT631568,KT631001,KT632759,KT632191
 Eucalyptus caliginosa,eucalyptus caliginosa,eucalyptus caliginosa,eucalyptus,caliginosa,NA,eucalyptus caliginosa,Accepted,,Blakely & McKie,Currency Creek 1249,KT631569,,KT632760,KT632192
 Eucalyptus calycogona subsp. calycogona,eucalyptus calycogona subsp. calycogona,eucalyptus calycogona,eucalyptus,calycogona,calycogona,eucalyptus calycogona subsp. calycogona,Accepted,,Turcz.,Currency Creek 1112,KT631570,KT631002,KT632761,KT632193
-Eucalyptus camaldulensis subsp. camaldulensis,eucalyptus camaldulensis subsp. camaldulensis,eucalyptus camaldulensis,eucalyptus,camaldulensis,camaldulensis,eucalyptus camaldulensis subsp. camaldulensis,Accepted,,Dehnh.,GenBank,DQ352528,AF190363,HQ995676,AF190380
 Eucalyptus campaspe,eucalyptus campaspe,eucalyptus campaspe,eucalyptus,campaspe,NA,eucalyptus campaspe,Accepted,,S.Moore,Currency Creek 2147,KT631571,KT631003,KT632762,KT632194
 Eucalyptus camphora subsp. camphora,eucalyptus camphora subsp. camphora,eucalyptus camphora,eucalyptus,camphora,camphora,eucalyptus camphora subsp. camphora,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 762,KT631572,KT631004,KT632763,
 Eucalyptus canaliculata,eucalyptus canaliculata,eucalyptus canaliculata,eucalyptus,canaliculata,NA,eucalyptus canaliculata,Accepted,,Maiden,Currency Creek 1232,KT631573,KT631005,KT632764,KT632195
@@ -200,21 +70,12 @@ Eucalyptus canescens subsp. canescens,eucalyptus canescens subsp. canescens,euca
 Eucalyptus canobolensis,eucalyptus canobolensis,eucalyptus canobolensis,eucalyptus,canobolensis,NA,eucalyptus canobolensis,Accepted,,(L.A.S.Johnson & K.D.Hill),Currency Creek 1222,KT631575,KT631007,KT632766,
 Eucalyptus capillosa,eucalyptus capillosa,eucalyptus capillosa,eucalyptus,capillosa,NA,eucalyptus capillosa,Accepted,,Brooker & Hopper,Currency Creek 2192,KT631576,KT631008,KT632767,KT632197
 Eucalyptus capitellata,eucalyptus capitellata,eucalyptus capitellata,eucalyptus,capitellata,NA,eucalyptus capitellata,Accepted,,Sm.,Currency Creek 640,KT631577,,KT632768,KT632198
-Eucalyptus captiosa,eucalyptus captiosa,eucalyptus captiosa,eucalyptus,captiosa,NA,eucalyptus captiosa,Accepted,,Brooker & Hopper,CANB 799340**,KT631578,KT631009,KT632769,KT632199
-Eucalyptus carnabyi,eucalyptus carnabyi,eucalyptus carnabyi,eucalyptus,carnabyi,NA,eucalyptus carnabyi,Accepted,,Blakely & H.Steedman,CANB 632591**,KT631579,,,KT632200
 Eucalyptus carnea,eucalyptus carnea,eucalyptus carnea,eucalyptus,carnea,NA,eucalyptus carnea,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 1236,KT631580,KT631010,KT632770,
 Eucalyptus carnei,eucalyptus carnei,eucalyptus carnei,eucalyptus,carnei,NA,eucalyptus carnei,Accepted,,C.A.Gardner,Currency Creek 547,KT631581,KT631011,KT632771,KT632201
-Eucalyptus castrensis,eucalyptus castrensis,eucalyptus castrensis,eucalyptus,castrensis,NA,eucalyptus castrensis,Accepted,,K.D.Hill,ANBG 653995,KT631582,KT631012,KT632772,KT632202
 Eucalyptus celastroides subsp. celastroides,eucalyptus celastroides subsp. celastroides,eucalyptus celastroides,eucalyptus,celastroides,celastroides,eucalyptus celastroides subsp. celastroides,Accepted,,Turcz.,Currency Creek 132,KT631583,KT631013,KT632773,KT632203
 Eucalyptus cephalocarpa,eucalyptus cephalocarpa,eucalyptus cephalocarpa,eucalyptus,cephalocarpa,NA,eucalyptus cephalocarpa,Accepted,,Blakely,Currency Creek 1730,KT631584,KT631014,KT632774,KT632204
-Eucalyptus ceracea,eucalyptus ceracea,eucalyptus ceracea,eucalyptus,ceracea,NA,eucalyptus ceracea,Accepted,,Brooker & Done,CANB 551306**,KT631585,AF058459,,KT632205
-Eucalyptus cerasiformis,eucalyptus cerasiformis,eucalyptus cerasiformis,eucalyptus,cerasiformis,NA,eucalyptus cerasiformis,Accepted,,Brooker & Blaxell,CANB 586828**,KT631586,KT631015,,
 Eucalyptus ceratocorys,eucalyptus ceratocorys,eucalyptus ceratocorys,eucalyptus,ceratocorys,NA,eucalyptus ceratocorys,Accepted,,(Blakely) L.A.S.Johnson &,Currency Creek 2232,KT631587,KT631016,KT632775,KT632206
 Eucalyptus cernua,eucalyptus cernua,eucalyptus cernua,eucalyptus,cernua,NA,eucalyptus cernua,Accepted,,Brooker & Hopper,Currency Creek 3574,KT631588,KT631017,KT632776,KT632207
-Eucalyptus chartaboma,eucalyptus chartaboma,eucalyptus chartaboma,eucalyptus,chartaboma,NA,eucalyptus chartaboma,Accepted,,D.Nicolle,CANB 703248**,KT631589,FJ654412,,KT632208
-Eucalyptus chlorophylla,eucalyptus chlorophylla,eucalyptus chlorophylla,eucalyptus,chlorophylla,NA,eucalyptus chlorophylla,Accepted,,Brooker & Done,CANB 785565**,KT631590,KT631018,,KT632209
-Eucalyptus cinerea subsp. triplex,eucalyptus cinerea subsp. triplex,eucalyptus cinerea,eucalyptus,cinerea,triplex,eucalyptus cinerea subsp. triplex,Accepted,,(L.A.S.Johnson & K.D.Hill),ANBG 8703938,KT631591,KT631019,KT632777,KT632210
-Eucalyptus cladocalyx,eucalyptus cladocalyx,eucalyptus cladocalyx,eucalyptus,cladocalyx,NA,eucalyptus cladocalyx,Accepted,,F.Muell.,ANBG 652722,KT631592,EF488228,KT632778,KT632211
 Eucalyptus clelandii,eucalyptus clelandii,eucalyptus clelandii,eucalyptus,clelandii,NA,eucalyptus clelandii,Accepted,,(Maiden) Maiden,Currency Creek 333,KT631593,KT631020,KT632779,KT632212
 Eucalyptus clivicola,eucalyptus clivicola,eucalyptus clivicola,eucalyptus,clivicola,NA,eucalyptus clivicola,Accepted,,Brooker & Hopper,Currency Creek 3779,KT631594,KT631021,KT632780,KT632213
 Eucalyptus cloeziana,eucalyptus cloeziana,eucalyptus cloeziana,eucalyptus,cloeziana,NA,eucalyptus cloeziana,Accepted,,F.Muell.,Currency Creek 696,KT631595,AF390522,KT632781,KT632214
@@ -223,52 +84,33 @@ Eucalyptus comitae-vallis,eucalyptus comitae-vallis,eucalyptus comitae-vallis,eu
 Eucalyptus communalis,eucalyptus communalis,eucalyptus communalis,eucalyptus,communalis,NA,eucalyptus communalis,Accepted,,Brooker & Hopper,Currency Creek 200,KT631598,KT631024,KT632784,KT632217
 Eucalyptus concinna,eucalyptus concinna,eucalyptus concinna,eucalyptus,concinna,NA,eucalyptus concinna,Accepted,,Maiden & Blakely,Currency Creek 2631,KT631599,KT631025,KT632785,KT632218
 Eucalyptus conferruminata subsp. recherche,eucalyptus conferruminata subsp. recherche,eucalyptus conferruminata,eucalyptus,conferruminata,recherche,eucalyptus conferruminata subsp. recherche,Accepted,,D.J.Carr & S.G.M.Carr,Currency Creek 4588,KT631600,,KT632786,KT632219
-Eucalyptus confluens,eucalyptus confluens,eucalyptus confluens,eucalyptus,confluens,NA,eucalyptus confluens,Accepted,,W.Fitzg. ex Maiden,CANB 785543**,KT631601,KT631026,KT632787,
 Eucalyptus conglobata subsp. conglobata,eucalyptus conglobata subsp. conglobata,eucalyptus conglobata,eucalyptus,conglobata,conglobata,eucalyptus conglobata subsp. conglobata,Accepted,,(Benth.) Maiden,Currency Creek 3588,KT631602,KT631027,KT632788,KT632220
-Eucalyptus conglomerata,eucalyptus conglomerata,eucalyptus conglomerata,eucalyptus,conglomerata,NA,eucalyptus conglomerata,Accepted,,Maiden & Blakely,GenBank,,FJ494712,,
-Eucalyptus conica,eucalyptus conica,eucalyptus conica,eucalyptus,conica,NA,eucalyptus conica,Accepted,,H.Deane & Maiden,Waite Arboretum 35,KT631603,KT631028,KT632789,KT632221
 Eucalyptus consideniana,eucalyptus consideniana,eucalyptus consideniana,eucalyptus,consideniana,NA,eucalyptus consideniana,Accepted,,Maiden,Currency Creek 611,KT631604,KT631029,KT632790,KT632222
 Eucalyptus conspicua,eucalyptus conspicua,eucalyptus conspicua,eucalyptus,conspicua,NA,eucalyptus conspicua,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 4516,KT631605,KT631030,KT632791,
 Eucalyptus conveniens,eucalyptus conveniens,eucalyptus conveniens,eucalyptus,conveniens,NA,eucalyptus conveniens,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3516,FJ654419,FJ654402,,FJ654350
-Eucalyptus coolabah,eucalyptus coolabah,eucalyptus coolabah,eucalyptus,coolabah,NA,eucalyptus coolabah,Accepted,,Blakely & Jacobs,CANB 785547**,KT631606,KT631031,KT632792,KT632223
 Eucalyptus cooperiana,eucalyptus cooperiana,eucalyptus cooperiana,eucalyptus,cooperiana,NA,eucalyptus cooperiana,Accepted,,F.Muell.,Currency Creek 1813,KT631607,KT631032,KT632793,KT632224
-Eucalyptus cordata,eucalyptus cordata,eucalyptus cordata,eucalyptus,cordata,NA,eucalyptus cordata,Accepted,,Labill.,ANBG 8804430,KT631608,KT631033,KT632794,KT632225
 Eucalyptus cornuta,eucalyptus cornuta,eucalyptus cornuta,eucalyptus,cornuta,NA,eucalyptus cornuta,Accepted,,Labill.,Currency Creek 3748,,AF390496,,KT632226
 Eucalyptus coronata,eucalyptus coronata,eucalyptus coronata,eucalyptus,coronata,NA,eucalyptus coronata,Accepted,,C.A.Gardner,Currency Creek 2247,KT631609,KT631034,KT632795,KT632227
 Eucalyptus corrugata,eucalyptus corrugata,eucalyptus corrugata,eucalyptus,corrugata,NA,eucalyptus corrugata,Accepted,,Luehm.,Currency Creek 3483,KT631610,KT631035,KT632796,KT632228
-Eucalyptus corticosa,eucalyptus corticosa,eucalyptus corticosa,eucalyptus,corticosa,NA,eucalyptus corticosa,Synonym,E ucalyptus argophloia,Blakely,ANBG 54339,KT631611,KT631036,KT632797,
-Eucalyptus cosmophylla,eucalyptus cosmophylla,eucalyptus cosmophylla,eucalyptus,cosmophylla,NA,eucalyptus cosmophylla,Accepted,,F.Muell.,ANBG 8409259,KT631612,EF488226,KT632798,KT632229
-Eucalyptus crebra,eucalyptus crebra,eucalyptus crebra,eucalyptus,crebra,NA,eucalyptus crebra,Accepted,,F.Muell.,ANBG 732903,KT631613,AF390503,KT632799,KT632230
 Eucalyptus crenulata,eucalyptus crenulata,eucalyptus crenulata,eucalyptus,crenulata,NA,eucalyptus crenulata,Accepted,,Blakely & Beuzev.,Currency Creek 1775,KT631614,KT631037,KT632800,
 Eucalyptus creta,eucalyptus creta,eucalyptus creta,eucalyptus,creta,NA,eucalyptus creta,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3606,KT631615,KT631038,KT632801,
 Eucalyptus cretata,eucalyptus cretata,eucalyptus cretata,eucalyptus,cretata,NA,eucalyptus cretata,Accepted,,P.J.Lang & Brooker,Currency Creek 1689,KT631616,KT631039,KT632802,KT632231
 Eucalyptus croajingolensis,eucalyptus croajingolensis,eucalyptus croajingolensis,eucalyptus,croajingolensis,NA,eucalyptus croajingolensis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1744,KT631617,AF058497,KT632803,KT632232
 Eucalyptus crucis subsp. crucis,eucalyptus crucis subsp. crucis,eucalyptus crucis,eucalyptus,crucis,crucis,eucalyptus crucis subsp. crucis,Accepted,,Maiden,Currency Creek 3681,KT631618,KT631040,KT632804,KT632233
-Eucalyptus cunninghamii,eucalyptus cunninghamii,eucalyptus cunninghamii,eucalyptus,cunninghamii,NA,eucalyptus cunninghamii,Accepted,,Sweet,ANBG 9806132,KT631619,KT631041,KT632805,KT632234
 Eucalyptus cuprea,eucalyptus cuprea,eucalyptus cuprea,eucalyptus,cuprea,NA,eucalyptus cuprea,Accepted,,Brooker & Hopper,Currency Creek 3536,KT631620,KT631042,KT632806,KT632235
-Eucalyptus cupularis,eucalyptus cupularis,eucalyptus cupularis,eucalyptus,cupularis,NA,eucalyptus cupularis,Accepted,,C.A.Gardner,CANB 785563**,KT631621,KT631043,KT632807,KT632236
 Eucalyptus curtisii,eucalyptus curtisii,eucalyptus curtisii,eucalyptus,curtisii,NA,eucalyptus curtisii,Accepted,,Blakely & C.T.White,Currency Creek 2108,KT631622,AF390524,AF368206,KT632237
 Eucalyptus cuspidata,eucalyptus cuspidata,eucalyptus cuspidata,eucalyptus,cuspidata,NA,eucalyptus cuspidata,Synonym,Eucalyptus angulosa,Schauer,Currency Creek 3746,KT631623,,KT632808,KT632238
 Eucalyptus cyanophylla,eucalyptus cyanophylla,eucalyptus cyanophylla,eucalyptus,cyanophylla,NA,eucalyptus cyanophylla,Accepted,,Brooker,Currency Creek 983,KT631624,KT631044,KT632809,KT632239
-Eucalyptus cyclostoma,eucalyptus cyclostoma,eucalyptus cyclostoma,eucalyptus,cyclostoma,NA,eucalyptus cyclostoma,Accepted,,Brooker,ANBG 9903101,KT631625,KT631045,KT632810,KT632240
-Eucalyptus cylindriflora,eucalyptus cylindriflora,eucalyptus cylindriflora,eucalyptus,cylindriflora,NA,eucalyptus cylindriflora,Accepted,,Maiden & Blakely,CANB 794327**,KT631626,KT631046,KT632811,KT632241
-Eucalyptus cylindrocarpa,eucalyptus cylindrocarpa,eucalyptus cylindrocarpa,eucalyptus,cylindrocarpa,NA,eucalyptus cylindrocarpa,Accepted,,Blakely,Waite Arboretum 1944A,KT631627,KT631047,KT632812,KT632242
 Eucalyptus cypellocarpa,eucalyptus cypellocarpa,eucalyptus cypellocarpa,eucalyptus,cypellocarpa,NA,eucalyptus cypellocarpa,Accepted,,L.A.S.Johnson,Currency Creek 2946,KT631628,KT631048,KT632813,KT632243
-Eucalyptus dalrympleana subsp. dalrympleana,eucalyptus dalrympleana subsp. dalrympleana,eucalyptus dalrympleana,eucalyptus,dalrympleana,dalrympleana,eucalyptus dalrympleana subsp. dalrympleana,Accepted,,Maiden,ANBG 7804378,KT631629,KT631049,KT632814,
 Eucalyptus dawsonii,eucalyptus dawsonii,eucalyptus dawsonii,eucalyptus,dawsonii,NA,eucalyptus dawsonii,Accepted,,R.T.Baker,Currency Creek 743,KT631630,,,KT632244
 Eucalyptus dealbata,eucalyptus dealbata,eucalyptus dealbata,eucalyptus,dealbata,NA,eucalyptus dealbata,Accepted,,A.Cunn. ex Schauer,Currency Creek 723,KT631631,KT631050,KT632815,KT632245
 Eucalyptus deanei,eucalyptus deanei,eucalyptus deanei,eucalyptus,deanei,NA,eucalyptus deanei,Accepted,,Maiden,Currency Creek 633,KT631632,KT631051,KT632816,
 Eucalyptus decipiens subsp. decipens,eucalyptus decipiens subsp. decipens,eucalyptus decipiens,eucalyptus,decipiens,decipens,eucalyptus decipiens subsp. decipens,Accepted,,Endl.,Currency Creek 3700,KT631633,KT631052,KT632817,KT632246
 Eucalyptus decolor,eucalyptus decolor,eucalyptus decolor,eucalyptus,decolor,NA,eucalyptus decolor,Accepted,,A.R.Bean & Brooker,Currency Creek 2545,KT631634,KT631053,KT632818,KT632247
-Eucalyptus decorticans,eucalyptus decorticans,eucalyptus decorticans,eucalyptus,decorticans,NA,eucalyptus decorticans,Accepted,,(F.M.Bailey) Maiden,ANBG 73445,KT631635,KT631054,KT632819,KT632248
-Eucalyptus decurva,eucalyptus decurva,eucalyptus decurva,eucalyptus,decurva,NA,eucalyptus decurva,Accepted,,F.Muell.,CANB 794258**,KT631636,KT631055,KT632820,KT632249
 Eucalyptus deflexa,eucalyptus deflexa,eucalyptus deflexa,eucalyptus,deflexa,NA,eucalyptus deflexa,Accepted,,Brooker,Currency Creek 1110,KT631637,KT631056,KT632821,KT632250
-Eucalyptus deglupta,eucalyptus deglupta,eucalyptus deglupta,eucalyptus,deglupta,NA,eucalyptus deglupta,Accepted,,Blume,BG 859,DQ352531,KT631057,KT632822,KT632251
-Eucalyptus delegatensis subsp. delegatensis,eucalyptus delegatensis subsp. delegatensis,eucalyptus delegatensis,eucalyptus,delegatensis,delegatensis,eucalyptus delegatensis subsp. delegatensis,Accepted,,F.Muell. ex R.T.Baker,GenBank,KT631638,AF058480,,
 Eucalyptus delicata,eucalyptus delicata,eucalyptus delicata,eucalyptus,delicata,NA,eucalyptus delicata,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2262,KT631639,AF390507,KT632823,KT632252
 Eucalyptus densa subsp. densa,eucalyptus densa subsp. densa,eucalyptus densa,eucalyptus,densa,densa,eucalyptus densa subsp. densa,Accepted,,Brooker & Hopper,Currency Creek 1111,KT631640,KT631058,,
 Eucalyptus denticulata,eucalyptus denticulata,eucalyptus denticulata,eucalyptus,denticulata,NA,eucalyptus denticulata,Accepted,,I.O.Cook & Ladiges,Currency Creek 1743,KT631641,KT631059,KT632824,KT632253
-Eucalyptus depauperata,eucalyptus depauperata,eucalyptus depauperata,eucalyptus,depauperata,NA,eucalyptus depauperata,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 794299**,KT631642,KT631060,KT632825,KT632254
 Eucalyptus desmondensis,eucalyptus desmondensis,eucalyptus desmondensis,eucalyptus,desmondensis,NA,eucalyptus desmondensis,Accepted,,Maiden & Blakely,Currency Creek 192,KT631643,KT631061,KT632826,KT632255
 Eucalyptus deuaensis,eucalyptus deuaensis,eucalyptus deuaensis,eucalyptus,deuaensis,NA,eucalyptus deuaensis,Accepted,,Boland & P.M.Gilmour,Currency Creek 1769,KT631644,FJ494714,KT632827,KT632256
 Eucalyptus dielsii,eucalyptus dielsii,eucalyptus dielsii,eucalyptus,dielsii,NA,eucalyptus dielsii,Accepted,,C.A.Gardner,Currency Creek 3596,KT631645,KT631062,KT632828,KT632257
@@ -277,100 +119,55 @@ Eucalyptus diptera,eucalyptus diptera,eucalyptus diptera,eucalyptus,diptera,NA,e
 Eucalyptus disclusa,eucalyptus disclusa,eucalyptus disclusa,eucalyptus,disclusa,NA,eucalyptus disclusa,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 707,KT631648,KT631065,KT632831,KT632260
 Eucalyptus discreta,eucalyptus discreta,eucalyptus discreta,eucalyptus,discreta,NA,eucalyptus discreta,Accepted,,Brooker,Currency Creek 1091,KT631649,KT631066,KT632832,KT632261
 Eucalyptus dissimulata,eucalyptus dissimulata,eucalyptus dissimulata,eucalyptus,dissimulata,NA,eucalyptus dissimulata,Accepted,,Brooker,Currency Creek s.n.,KT631650,KT631067,KT632833,KT632262
-Eucalyptus distans,eucalyptus distans,eucalyptus distans,eucalyptus,distans,NA,eucalyptus distans,Accepted,,"Brooker, Boland & Kleinig",CANB 409167**,KT631651,KT631068,,KT632263
 Eucalyptus distuberosa subsp. aerata,eucalyptus distuberosa subsp. aerata,eucalyptus distuberosa,eucalyptus,distuberosa,aerata,eucalyptus distuberosa subsp. aerata,Accepted,,D.Nicolle,Currency Creek 3563,KT631652,KT631069,KT632834,
-Eucalyptus diversicolor,eucalyptus diversicolor,eucalyptus diversicolor,eucalyptus,diversicolor,NA,eucalyptus diversicolor,Accepted,,F.Muell.,ANBG 7901541,KT631653,AF390493,KT632835,KT632264
-Eucalyptus diversifolia subsp. diversifolia,eucalyptus diversifolia subsp. diversifolia,eucalyptus diversifolia,eucalyptus,diversifolia,diversifolia,eucalyptus diversifolia subsp. diversifolia,Accepted,,Bonpl.,GenBank,FJ494745,AF058483,,
-Eucalyptus dives,eucalyptus dives,eucalyptus dives,eucalyptus,dives,NA,eucalyptus dives,Accepted,,Schauer,ANBG 7809979,KT631654,AF058503,KT632836,KT632265
 Eucalyptus dolichocera,eucalyptus dolichocera,eucalyptus dolichocera,eucalyptus,dolichocera,NA,eucalyptus dolichocera,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3525,KT631655,KT631070,KT632837,KT632266
 Eucalyptus dolichorhyncha,eucalyptus dolichorhyncha,eucalyptus dolichorhyncha,eucalyptus,dolichorhyncha,NA,eucalyptus dolichorhyncha,Accepted,,(Brooker) Brooker & Hopper,Currency Creek 152,KT631656,KT631071,KT632838,KT632267
-Eucalyptus dolorosa,eucalyptus dolorosa,eucalyptus dolorosa,eucalyptus,dolorosa,NA,eucalyptus dolorosa,Accepted,,Brooker & Hopper,ANBG 610751,KT631657,KT631072,KT632839,KT632268
 Eucalyptus dorotoxylon,eucalyptus dorotoxylon,eucalyptus dorotoxylon,eucalyptus,dorotoxylon,NA,eucalyptus dorotoxylon,Accepted,,F.Muell.,Currency Creek 178,KT631658,KT631073,KT632840,KT632269
 Eucalyptus drummondii subsp. drummondii,eucalyptus drummondii subsp. drummondii,eucalyptus drummondii,eucalyptus,drummondii,drummondii,eucalyptus drummondii subsp. drummondii,Accepted,,Benth.,Currency Creek 1156,KT631659,KT631074,KT632841,KT632270
 Eucalyptus dumosa,eucalyptus dumosa,eucalyptus dumosa,eucalyptus,dumosa,NA,eucalyptus dumosa,Accepted,,A.Cunn. ex Oxley,Currency Creek 981,KT631660,KT631075,KT632842,KT632271
 Eucalyptus dundasii,eucalyptus dundasii,eucalyptus dundasii,eucalyptus,dundasii,NA,eucalyptus dundasii,Accepted,,Maiden,Currency Creek 2175,KT631661,AF390501,KT632843,KT632272
 Eucalyptus dunnii,eucalyptus dunnii,eucalyptus dunnii,eucalyptus,dunnii,NA,eucalyptus dunnii,Accepted,,Maiden,Currency Creek 1257,KT631662,AF390510,KT632844,KT632273
 Eucalyptus dura,eucalyptus dura,eucalyptus dura,eucalyptus,dura,NA,eucalyptus dura,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 689,KT631663,KT631076,,
-Eucalyptus dwyeri,eucalyptus dwyeri,eucalyptus dwyeri,eucalyptus,dwyeri,NA,eucalyptus dwyeri,Accepted,,Maiden & Blakely,ANBG 9406593,KT631664,KT631077,KT632846,KT632274
-Eucalyptus ebbanoensis subsp. ebbanoensis,eucalyptus ebbanoensis subsp. ebbanoensis,eucalyptus ebbanoensis,eucalyptus,ebbanoensis,ebbanoensis,eucalyptus ebbanoensis subsp. ebbanoensis,Accepted,,Maiden,ANBG 9806509,KT631665,KT631078,KT632847,KT632275
-Eucalyptus educta,eucalyptus educta,eucalyptus educta,eucalyptus,educta,NA,eucalyptus educta,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 461013**,KT631666,KT631079,KT632848,
 Eucalyptus effusa subsp. effusa,eucalyptus effusa subsp. effusa,eucalyptus effusa,eucalyptus,effusa,effusa,eucalyptus effusa subsp. effusa,Accepted,,Brooker,Currency Creek 3631,KT631667,KT631080,KT632849,KT632276
 Eucalyptus elaeophloia,eucalyptus elaeophloia,eucalyptus elaeophloia,eucalyptus,elaeophloia,NA,eucalyptus elaeophloia,Accepted,,"Chappill, Crisp & Prober",Currency Creek 586,KT631668,KT631081,KT632850,
-Eucalyptus elata,eucalyptus elata,eucalyptus elata,eucalyptus,elata,NA,eucalyptus elata,Accepted,,Dehnh.,ANBG 73059,KT631669,KT631082,KT632851,KT632277
-Eucalyptus elliptica,eucalyptus elliptica,eucalyptus elliptica,eucalyptus,elliptica,NA,eucalyptus elliptica,Accepted,,(Blakely & McKie) L.A.S.Johnson,ANBG 69616,KT631670,KT631083,KT632852,KT632278
-Eucalyptus erectifolia,eucalyptus erectifolia,eucalyptus erectifolia,eucalyptus,erectifolia,NA,eucalyptus erectifolia,Accepted,,Brooker & Hopper,CANB 794270**,KT631671,KT631084,KT632853,KT632279
 Eucalyptus eremicola subsp. eremicola,eucalyptus eremicola subsp. eremicola,eucalyptus eremicola,eucalyptus,eremicola,eremicola,eucalyptus eremicola subsp. eremicola,Accepted,,Boomsma,Currency Creek 1500,KT631672,KT631085,KT632854,KT632280
-Eucalyptus eremophila,eucalyptus eremophila,eucalyptus eremophila,eucalyptus,eremophila,NA,eucalyptus eremophila,Accepted,,(Diels) Maiden,CANB 794016**,KT631673,KT631086,KT632855,KT632281
-Eucalyptus erythrocorys,eucalyptus erythrocorys,eucalyptus erythrocorys,eucalyptus,erythrocorys,NA,eucalyptus erythrocorys,Accepted,,F.Muell.,ANBG 9806156,FJ654422,AF190365,KT632856,AF190382
 Eucalyptus erythronema subsp. erythronema,eucalyptus erythronema subsp. erythronema,eucalyptus erythronema,eucalyptus,erythronema,erythronema,eucalyptus erythronema subsp. erythronema,Accepted,,Turcz.,Currency Creek 3458,KT631674,KT631087,KT632857,KT632282
-Eucalyptus eudesmioides subsp. eudesmioides,eucalyptus eudesmioides subsp. eudesmioides,eucalyptus eudesmioides,eucalyptus,eudesmioides,eudesmioides,eucalyptus eudesmioides subsp. eudesmioides,Accepted,,F.Muell.,CANB 794073**,KT631675,KT631088,KT632858,KT632283
 Eucalyptus eugenioides,eucalyptus eugenioides,eucalyptus eugenioides,eucalyptus,eugenioides,NA,eucalyptus eugenioides,Accepted,,Sieber ex Spreng.,Currency Creek 1235,KT631676,KT631089,KT632859,KT632284
 Eucalyptus ewartiana,eucalyptus ewartiana,eucalyptus ewartiana,eucalyptus,ewartiana,NA,eucalyptus ewartiana,Accepted,,Maiden,Currency Creek 2721,KT631677,KT631090,KT632860,KT632285
 Eucalyptus exigua,eucalyptus exigua,eucalyptus exigua,eucalyptus,exigua,NA,eucalyptus exigua,Accepted,,Brooker & Hopper,Currency Creek 3676,KT631678,KT631091,,KT632286
-Eucalyptus exilipes,eucalyptus exilipes,eucalyptus exilipes,eucalyptus,exilipes,NA,eucalyptus exilipes,Accepted,,Brooker & A.R.Bean,CANB 582959**,KT631679,,,KT632287
-Eucalyptus exilis,eucalyptus exilis,eucalyptus exilis,eucalyptus,exilis,NA,eucalyptus exilis,Accepted,,Brooker,ANBG 8004906,KT631680,FJ494715,KT632861,KT632288
 Eucalyptus extensa,eucalyptus extensa,eucalyptus extensa,eucalyptus,extensa,NA,eucalyptus extensa,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3467,KT631681,KT631092,KT632862,
-Eucalyptus extrica,eucalyptus extrica,eucalyptus extrica,eucalyptus,extrica,NA,eucalyptus extrica,Accepted,,D.Nicolle,CANB 632680**,,FJ654392,,FJ654343
-Eucalyptus falcata,eucalyptus falcata,eucalyptus falcata,eucalyptus,falcata,NA,eucalyptus falcata,Accepted,,Turcz.,CANB 630597**,KT631682,AF390506,KT632863,KT632289
-Eucalyptus famelica,eucalyptus famelica,eucalyptus famelica,eucalyptus,famelica,NA,eucalyptus famelica,Accepted,,Brooker & Hopper,Waite Arboretum 2440A,KT631683,KT631093,KT632864,KT632290
-Eucalyptus farinosa,eucalyptus farinosa,eucalyptus farinosa,eucalyptus,farinosa,NA,eucalyptus farinosa,Accepted,,K.D.Hill,CANB 738929**,,,KT632865,KT632291
 Eucalyptus fasciculosa,eucalyptus fasciculosa,eucalyptus fasciculosa,eucalyptus,fasciculosa,NA,eucalyptus fasciculosa,Accepted,,F.Muell.,Currency Creek 1716,KT631684,KT631094,KT632866,KT632292
-Eucalyptus fastigata,eucalyptus fastigata,eucalyptus fastigata,eucalyptus,fastigata,NA,eucalyptus fastigata,Accepted,,H.Deane & Maiden,ANBG 8603812,KT631685,KT631095,KT632867,KT632293
 Eucalyptus fergusonii subsp. fergusonii,eucalyptus fergusonii subsp. fergusonii,eucalyptus fergusonii,eucalyptus,fergusonii,fergusonii,eucalyptus fergusonii subsp. fergusonii,Accepted,,R.T.Baker,Currency Creek 2918,KT631686,KT631096,KT632868,KT632294
 Eucalyptus fibrosa subsp. fibrosa,eucalyptus fibrosa subsp. fibrosa,eucalyptus fibrosa,eucalyptus,fibrosa,fibrosa,eucalyptus fibrosa subsp. fibrosa,Accepted,,F.Muell.,Currency Creek 666,KT631687,KT631097,KT632869,KT632295
-Eucalyptus flindersii,eucalyptus flindersii,eucalyptus flindersii,eucalyptus,flindersii,NA,eucalyptus flindersii,Accepted,,Boomsma,Waite Arboretum 1837B,KT631688,KT631098,KT632870,KT632296
 Eucalyptus flocktoniae subsp. flocktoniae,eucalyptus flocktoniae subsp. flocktoniae,eucalyptus flocktoniae,eucalyptus,flocktoniae,flocktoniae,eucalyptus flocktoniae subsp. flocktoniae,Accepted,,(Maiden) Maiden,Currency Creek 1870,KT631689,KT631099,KT632871,KT632297
 Eucalyptus foecunda,eucalyptus foecunda,eucalyptus foecunda,eucalyptus,foecunda,NA,eucalyptus foecunda,Accepted,,Schauer,Currency Creek 1152,KT631690,KT631100,KT632872,KT632298
-Eucalyptus foliosa,eucalyptus foliosa,eucalyptus foliosa,eucalyptus,foliosa,NA,eucalyptus foliosa,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 794339**,KT631691,KT631101,KT632873,KT632299
-Eucalyptus formanii,eucalyptus formanii,eucalyptus formanii,eucalyptus,formanii,NA,eucalyptus formanii,Accepted,,C.A.Gardner,Waite Arboretum 1655,KT631692,KT631102,KT632874,
-Eucalyptus forrestiana,eucalyptus forrestiana,eucalyptus forrestiana,eucalyptus,forrestiana,NA,eucalyptus forrestiana,Accepted,,Diels,CANB 804508**,KT631693,KT631103,KT632875,KT632300
 Eucalyptus fraseri subsp. fraseri,eucalyptus fraseri subsp. fraseri,eucalyptus fraseri,eucalyptus,fraseri,fraseri,eucalyptus fraseri subsp. fraseri,Accepted,,(Brooker) Brooker,Currency Creek 3619,KT631694,KT631104,KT632876,KT632301
-Eucalyptus fraxinoides,eucalyptus fraxinoides,eucalyptus fraxinoides,eucalyptus,fraxinoides,NA,eucalyptus fraxinoides,Accepted,,H.Deane & Maiden,ANBG 751650,KT631695,,KT632877,KT632302
 Eucalyptus frenchiana,eucalyptus frenchiana,eucalyptus frenchiana,eucalyptus,frenchiana,NA,eucalyptus frenchiana,Accepted,,D.Nicolle,Currency Creek 3660,KT631696,KT631105,KT632878,KT632303
 Eucalyptus froggattii,eucalyptus froggattii,eucalyptus froggattii,eucalyptus,froggattii,NA,eucalyptus froggattii,Accepted,,Blakely,Currency Creek 2583,KT631697,KT631106,KT632879,KT632304
 Eucalyptus fruticosa,eucalyptus fruticosa,eucalyptus fruticosa,eucalyptus,fruticosa,NA,eucalyptus fruticosa,Accepted,,Brooker,Currency Creek 3532,KT631698,KT631107,KT632880,KT632305
-Eucalyptus fulgens,eucalyptus fulgens,eucalyptus fulgens,eucalyptus,fulgens,NA,eucalyptus fulgens,Accepted,,Rule,ANBG 9707943,KT631699,KT631108,KT632881,KT632306
-Eucalyptus fusiformis,eucalyptus fusiformis,eucalyptus fusiformis,eucalyptus,fusiformis,NA,eucalyptus fusiformis,Accepted,,Boland & Kleinig,ANBG 8604718,KT631700,KT631109,,KT632307
-Eucalyptus gamophylla,eucalyptus gamophylla,eucalyptus gamophylla,eucalyptus,gamophylla,NA,eucalyptus gamophylla,Accepted,,F.Muell.,CANB 785577**,FJ654415,AF390469,KT632882,KT632308
 Eucalyptus gardneri subsp. gardneri,eucalyptus gardneri subsp. gardneri,eucalyptus gardneri,eucalyptus,gardneri,gardneri,eucalyptus gardneri subsp. gardneri,Accepted,,Maiden,Currency Creek 3434,KT631701,KT631110,KT632883,KT632309
 Eucalyptus georgei subsp. georgei,eucalyptus georgei subsp. georgei,eucalyptus georgei,eucalyptus,georgei,georgei,eucalyptus georgei subsp. georgei,Accepted,,Brooker & Blaxell,Currency Creek 325,KT631702,KT631111,,KT632310
-Eucalyptus gigantangion,eucalyptus gigantangion,eucalyptus gigantangion,eucalyptus,gigantangion,NA,eucalyptus gigantangion,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 454615**,KT631703,FJ654413,,KT632311
 Eucalyptus gillenii,eucalyptus gillenii,eucalyptus gillenii,eucalyptus,gillenii,NA,eucalyptus gillenii,Accepted,,Ewart & L.R.Kerr,Currency Creek 2689,KT631704,KT631112,KT632884,KT632312
 Eucalyptus gillii,eucalyptus gillii,eucalyptus gillii,eucalyptus,gillii,NA,eucalyptus gillii,Accepted,,Maiden,Currency Creek 2959,KT631705,KT631113,KT632885,KT632313
-Eucalyptus gittinsii subsp. gittinsii,eucalyptus gittinsii subsp. gittinsii,eucalyptus gittinsii,eucalyptus,gittinsii,gittinsii,eucalyptus gittinsii subsp. gittinsii,Accepted,,Brooker & Blaxell,CANB 794094**,,KT631114,KT632886,KT632314
 Eucalyptus glaucescens,eucalyptus glaucescens,eucalyptus glaucescens,eucalyptus,glaucescens,NA,eucalyptus glaucescens,Accepted,,Maiden & Blakely,Currency Creek 588,KT631706,KT631115,KT632887,KT632315
 Eucalyptus glaucina,eucalyptus glaucina,eucalyptus glaucina,eucalyptus,glaucina,NA,eucalyptus glaucina,Accepted,,(Blakely) L.A.S.Johnson,Currency Creek 2085,KT631707,AF390481,KT632888,KT632316
 Eucalyptus globoidea,eucalyptus globoidea,eucalyptus globoidea,eucalyptus,globoidea,NA,eucalyptus globoidea,Accepted,,Blakely,Currency Creek 1732,KT631708,KT631116,KT632889,KT632317
-Eucalyptus globulus subsp. globulus,eucalyptus globulus subsp. globulus,eucalyptus globulus,eucalyptus,globulus,globulus,eucalyptus globulus subsp. globulus,Accepted,,Labill.,ANBG 85001816,KT631709,AF058463,KT632890,
 Eucalyptus glomerosa,eucalyptus glomerosa,eucalyptus glomerosa,eucalyptus,glomerosa,NA,eucalyptus glomerosa,Accepted,,Brooker & Hopper,Currency Creek 1508,KT631710,KT631117,KT632891,KT632318
 Eucalyptus gomphocephala,eucalyptus gomphocephala,eucalyptus gomphocephala,eucalyptus,gomphocephala,NA,eucalyptus gomphocephala,Accepted,,A.Cunn. ex DC.,Currency Creek 1148,KT631711,KT631118,KT632892,KT632319
-Eucalyptus gongylocarpa,eucalyptus gongylocarpa,eucalyptus gongylocarpa,eucalyptus,gongylocarpa,NA,eucalyptus gongylocarpa,Accepted,,Blakely,CANB 804339**,KT631712,KT631119,KT632893,KT632320
 Eucalyptus goniantha subsp. goniantha,eucalyptus goniantha subsp. goniantha,eucalyptus goniantha,eucalyptus,goniantha,goniantha,eucalyptus goniantha subsp. goniantha,Accepted,,Turcz.,Currency Creek 1626,KT631713,KT631120,,KT632321
 Eucalyptus goniocalyx subsp. goniocalyx,eucalyptus goniocalyx subsp. goniocalyx,eucalyptus goniocalyx,eucalyptus,goniocalyx,goniocalyx,eucalyptus goniocalyx subsp. goniocalyx,Accepted,,F.Muell. ex Miq.,Currency Creek 2952,KT631714,KT631121,KT632894,KT632322
 Eucalyptus goniocarpa,eucalyptus goniocarpa,eucalyptus goniocarpa,eucalyptus,goniocarpa,NA,eucalyptus goniocarpa,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 186,KT631715,KT631122,KT632895,KT632323
 Eucalyptus gracilis,eucalyptus gracilis,eucalyptus gracilis,eucalyptus,gracilis,NA,eucalyptus gracilis,Accepted,,F.Muell.,Currency Creek 444,KT631716,KT631123,KT632896,KT632324
-Eucalyptus grandis,eucalyptus grandis,eucalyptus grandis,eucalyptus,grandis,NA,eucalyptus grandis,Accepted,,W.Hill,GenBank,,AF058475,HM347959,HM347959
-Eucalyptus granitica,eucalyptus granitica,eucalyptus granitica,eucalyptus,granitica,NA,eucalyptus granitica,Accepted,,L.A.S.Johnson & K.D.Hill,Mt Annan 831413,,KT631124,KT632897,KT632325
 Eucalyptus gregoriensis,eucalyptus gregoriensis,eucalyptus gregoriensis,eucalyptus,gregoriensis,NA,eucalyptus gregoriensis,Accepted,,N.G.Walsh & Albr.,Currency Creek 2447,KT631717,,KT632898,KT632326
 Eucalyptus gregsoniana,eucalyptus gregsoniana,eucalyptus gregsoniana,eucalyptus,gregsoniana,NA,eucalyptus gregsoniana,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 1756,KT631718,KT631125,KT632899,KT632327
 Eucalyptus griffithsii,eucalyptus griffithsii,eucalyptus griffithsii,eucalyptus,griffithsii,NA,eucalyptus griffithsii,Accepted,,Maiden,Currency Creek 3637,KT631719,KT631126,KT632900,KT632328
 Eucalyptus grisea,eucalyptus grisea,eucalyptus grisea,eucalyptus,grisea,NA,eucalyptus grisea,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1271,KT631720,KT631127,KT632901,KT632329
-Eucalyptus grossa,eucalyptus grossa,eucalyptus grossa,eucalyptus,grossa,NA,eucalyptus grossa,Accepted,,F.Muell. ex Benth.,CANB 794307**,KT631721,KT631128,KT632902,KT632330
-Eucalyptus guilfoylei,eucalyptus guilfoylei,eucalyptus guilfoylei,eucalyptus,guilfoylei,NA,eucalyptus guilfoylei,Accepted,,Maiden,CANB 794246**,KT631722,KT631129,KT632903,KT632331
-Eucalyptus gunnii,eucalyptus gunnii,eucalyptus gunnii,eucalyptus,gunnii,NA,eucalyptus gunnii,Accepted,,Hook.f.,ANBG 656505,KT631723,KT631130,KT632904,
 Eucalyptus gypsophila,eucalyptus gypsophila,eucalyptus gypsophila,eucalyptus,gypsophila,NA,eucalyptus gypsophila,Accepted,,Nicolle,Currency Creek 1550,KT631724,KT631131,KT632905,KT632332
-Eucalyptus haemastoma,eucalyptus haemastoma,eucalyptus haemastoma,eucalyptus,haemastoma,NA,eucalyptus haemastoma,Accepted,,Sm.,Mt Annan 20051000,KT631725,FJ494717,KT632906,KT632333
-Eucalyptus hallii,eucalyptus hallii,eucalyptus hallii,eucalyptus,hallii,NA,eucalyptus hallii,Accepted,,Brooker,GenBank,,AF390512,,
-Eucalyptus halophila,eucalyptus halophila,eucalyptus halophila,eucalyptus,halophila,NA,eucalyptus halophila,Accepted,,D.J.Carr & S.G.M.Carr,CANB 794338**,KT631726,KT631132,KT632907,KT632334
-Eucalyptus hebetifolia,eucalyptus hebetifolia,eucalyptus hebetifolia,eucalyptus,hebetifolia,NA,eucalyptus hebetifolia,Accepted,,Brooker & Hopper,ANBG 467228,KT631727,KT631133,KT632908,
-Eucalyptus herbertiana,eucalyptus herbertiana,eucalyptus herbertiana,eucalyptus,herbertiana,NA,eucalyptus herbertiana,Accepted,,Maiden,CANB 785524**,KT631728,KT631134,KT632909,KT632335
 Eucalyptus histophylla,eucalyptus histophylla,eucalyptus histophylla,eucalyptus,histophylla,NA,eucalyptus histophylla,Accepted,,Brooker & Hopper,Currency Creek 3661,KT631729,KT631135,KT632910,
 Eucalyptus horistes,eucalyptus horistes,eucalyptus horistes,eucalyptus,horistes,NA,eucalyptus horistes,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1169,KT631730,KT631136,KT632911,KT632336
-Eucalyptus houseana,eucalyptus houseana,eucalyptus houseana,eucalyptus,houseana,NA,eucalyptus houseana,Accepted,,W.Fitzg. ex Maiden,CANB 785535**,KT631731,KT631137,KT632912,KT632337
 Eucalyptus howittiana,eucalyptus howittiana,eucalyptus howittiana,eucalyptus,howittiana,NA,eucalyptus howittiana,Accepted,,F.Muell.,Currency Creek 2526,KT631732,KT631138,HQ287629,KT632338
 Eucalyptus hypolaena,eucalyptus hypolaena,eucalyptus hypolaena,eucalyptus,hypolaena,NA,eucalyptus hypolaena,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2303,KT631733,KT631139,KT632913,KT632339
 Eucalyptus ignorabilis,eucalyptus ignorabilis,eucalyptus ignorabilis,eucalyptus,ignorabilis,NA,eucalyptus ignorabilis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1746,KT631734,KT631140,KT632914,KT632340
-Eucalyptus imlayensis,eucalyptus imlayensis,eucalyptus imlayensis,eucalyptus,imlayensis,NA,eucalyptus imlayensis,Accepted,,Crisp & Brooker,ANBG 782689,KT631735,KT631141,KT632915,
 Eucalyptus impensa,eucalyptus impensa,eucalyptus impensa,eucalyptus,impensa,NA,eucalyptus impensa,Accepted,,Brooker & Hopper,Currency Creek 264,KT631736,KT631142,KT632916,KT632341
 Eucalyptus incerata,eucalyptus incerata,eucalyptus incerata,eucalyptus,incerata,NA,eucalyptus incerata,Accepted,,Brooker & Hopper,Currency Creek 4678,KT631737,,KT632917,KT632342
 Eucalyptus incrassata,eucalyptus incrassata,eucalyptus incrassata,eucalyptus,incrassata,NA,eucalyptus incrassata,Accepted,,Labill.,Currency Creek 1638,KT631738,KT631143,KT632918,KT632343
@@ -379,56 +176,35 @@ Eucalyptus infera,eucalyptus infera,eucalyptus infera,eucalyptus,infera,NA,eucal
 Eucalyptus insularis,eucalyptus insularis,eucalyptus insularis,eucalyptus,insularis,NA,eucalyptus insularis,Accepted,,Brooker,Currency Creek 1637,KT631741,KT631146,KT632921,KT632346
 Eucalyptus interstans,eucalyptus interstans,eucalyptus interstans,eucalyptus,interstans,NA,eucalyptus interstans,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 667,KT631742,KT631147,KT632922,KT632347
 Eucalyptus intertexta,eucalyptus intertexta,eucalyptus intertexta,eucalyptus,intertexta,NA,eucalyptus intertexta,Accepted,,R.T.Baker,Currency Creek 423,KT631743,KT631148,KT632923,KT632348
-Eucalyptus jacksonii,eucalyptus jacksonii,eucalyptus jacksonii,eucalyptus,jacksonii,NA,eucalyptus jacksonii,Accepted,,Maiden,CANB 794245**,KT631744,AF390529,HQ287631,KT632349
 Eucalyptus jimberlanica,eucalyptus jimberlanica,eucalyptus jimberlanica,eucalyptus,jimberlanica,NA,eucalyptus jimberlanica,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3647,KT631745,KT631149,KT632924,KT632350
-Eucalyptus johnsoniana,eucalyptus johnsoniana,eucalyptus johnsoniana,eucalyptus,johnsoniana,NA,eucalyptus johnsoniana,Accepted,,Brooker & Blaxell,CANB 794214**,KT631746,KT631150,KT632925,KT632351
-Eucalyptus jucunda,eucalyptus jucunda,eucalyptus jucunda,eucalyptus,jucunda,NA,eucalyptus jucunda,Accepted,,C.A.Gardner,CANB 794089**,KT631747,KT631151,KT632926,KT632352
 Eucalyptus jutsonii subsp. jutsonii,eucalyptus jutsonii subsp. jutsonii,eucalyptus jutsonii,eucalyptus,jutsonii,jutsonii,eucalyptus jutsonii subsp. jutsonii,Accepted,,Maiden,Currency Creek 458,KT631748,KT631152,KT632927,KT632353
 Eucalyptus kartzoffiana,eucalyptus kartzoffiana,eucalyptus kartzoffiana,eucalyptus,kartzoffiana,NA,eucalyptus kartzoffiana,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek s.n.,KT631749,KT631153,KT632928,
 Eucalyptus kessellii subsp. kessellii,eucalyptus kessellii subsp. kessellii,eucalyptus kessellii,eucalyptus,kessellii,kessellii,eucalyptus kessellii subsp. kessellii,Accepted,,Maiden & Blakely,Currency Creek 1101,KT631750,KT631154,KT632929,KT632354
-Eucalyptus kingsmillii subsp. kingsmillii,eucalyptus kingsmillii subsp. kingsmillii,eucalyptus kingsmillii,eucalyptus,kingsmillii,kingsmillii,eucalyptus kingsmillii subsp. kingsmillii,Accepted,,(Maiden) Maiden & Blakely,Mt Annan 866008,KT631751,KT631155,KT632930,KT632355
 Eucalyptus kitsoniana,eucalyptus kitsoniana,eucalyptus kitsoniana,eucalyptus,kitsoniana,NA,eucalyptus kitsoniana,Accepted,,Maiden,Currency Creek 4311,KT631752,EF694712,KT632931,KT632356
 Eucalyptus kochii subsp. kochii,eucalyptus kochii subsp. kochii,eucalyptus kochii,eucalyptus,kochii,kochii,eucalyptus kochii subsp. kochii,Accepted,,Maiden & Blakely,Currency Creek 2223,KT631753,KT631156,KT632932,KT632357
 Eucalyptus kondininensis,eucalyptus kondininensis,eucalyptus kondininensis,eucalyptus,kondininensis,NA,eucalyptus kondininensis,Accepted,,Maiden & Blakely,Currency Creek 3424,KT631754,KT631157,KT632933,KT632358
-Eucalyptus koolpinensis,eucalyptus koolpinensis,eucalyptus koolpinensis,eucalyptus,koolpinensis,NA,eucalyptus koolpinensis,Accepted,,Brooker & Dunlop,CANB 454611**,,KT631158,,
 Eucalyptus kruseana,eucalyptus kruseana,eucalyptus kruseana,eucalyptus,kruseana,NA,eucalyptus kruseana,Accepted,,F.Muell.,Currency Creek s.n.,KT631755,,,
 Eucalyptus kumarlensis,eucalyptus kumarlensis,eucalyptus kumarlensis,eucalyptus,kumarlensis,NA,eucalyptus kumarlensis,Accepted,,Brooker,Currency Creek 141,KT631756,KT631159,KT632934,
-Eucalyptus kybeanensis,eucalyptus kybeanensis,eucalyptus kybeanensis,eucalyptus,kybeanensis,NA,eucalyptus kybeanensis,Accepted,,Maiden & Cambage,Waite Arboretum 2469,KT631757,KT631160,KT632935,KT632359
 Eucalyptus lacrimans,eucalyptus lacrimans,eucalyptus lacrimans,eucalyptus,lacrimans,NA,eucalyptus lacrimans,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 590,KT631758,EF051495,KT632936,KT632360
 Eucalyptus laeliae,eucalyptus laeliae,eucalyptus laeliae,eucalyptus,laeliae,NA,eucalyptus laeliae,Accepted,,Podger & Chippend.,Currency Creek 1150,KT631759,KT631161,,
 Eucalyptus laevopinea,eucalyptus laevopinea,eucalyptus laevopinea,eucalyptus,laevopinea,NA,eucalyptus laevopinea,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 649,KT631760,KT631162,KT632937,KT632361
 Eucalyptus lanepoolei,eucalyptus lanepoolei,eucalyptus lanepoolei,eucalyptus,lanepoolei,NA,eucalyptus lanepoolei,Accepted,,Maiden,Currency Creek 3514,KT631761,KT631163,KT632938,KT632362
-Eucalyptus langleyi,eucalyptus langleyi,eucalyptus langleyi,eucalyptus,langleyi,NA,eucalyptus langleyi,Accepted,,L.A.S.Johnson & Blaxell,ANBG 8801319,KT631762,KT631164,KT632939,KT632363
 Eucalyptus lansdowneana,eucalyptus lansdowneana,eucalyptus lansdowneana,eucalyptus,lansdowneana,NA,eucalyptus lansdowneana,Accepted,,F.Muell. & J.E.Br.,Currency Creek 57,KT631763,AF058476,KT632940,KT632364
-Eucalyptus largeana,eucalyptus largeana,eucalyptus largeana,eucalyptus,largeana,NA,eucalyptus largeana,Accepted,,Blakely & Beuzev.,CANB 470581**,,KT631165,,
-Eucalyptus largiflorens,eucalyptus largiflorens,eucalyptus largiflorens,eucalyptus,largiflorens,NA,eucalyptus largiflorens,Synonym,Eucalyptus bicolor,A.Cunn. ex Hook.,CANB 785604**,KT631764,KT631166,KT632941,KT632365
 Eucalyptus latens,eucalyptus latens,eucalyptus latens,eucalyptus,latens,NA,eucalyptus latens,Accepted,,Brooker,Currency Creek 1613,KT631765,KT631167,KT632942,KT632366
-Eucalyptus lateritica,eucalyptus lateritica,eucalyptus lateritica,eucalyptus,lateritica,NA,eucalyptus lateritica,Accepted,,Brooker & Hopper,CANB 794197**,KT631766,KT631168,KT632943,KT632367
 Eucalyptus latisinensis,eucalyptus latisinensis,eucalyptus latisinensis,eucalyptus,latisinensis,NA,eucalyptus latisinensis,Accepted,,K.D.Hill,Currency Creek 715,KT631767,AF390532,,KT632368
 Eucalyptus lehmannii subsp. lehmannii,eucalyptus lehmannii subsp. lehmannii,eucalyptus lehmannii,eucalyptus,lehmannii,lehmannii,eucalyptus lehmannii subsp. lehmannii,Accepted,,(Schauer) Benth.,Currency Creek 294,KT631768,,,KT632369
 Eucalyptus leptocalyx subsp. leptocalyx,eucalyptus leptocalyx subsp. leptocalyx,eucalyptus leptocalyx,eucalyptus,leptocalyx,leptocalyx,eucalyptus leptocalyx subsp. leptocalyx,Accepted,,Blakely,Currency Creek 3592,KT631769,KT631169,,KT632370
-Eucalyptus leptophleba,eucalyptus leptophleba,eucalyptus leptophleba,eucalyptus,leptophleba,NA,eucalyptus leptophleba,Accepted,,F.Muell.,CANB 597951**,KT631770,,,KT632371
 Eucalyptus leptophylla,eucalyptus leptophylla,eucalyptus leptophylla,eucalyptus,leptophylla,NA,eucalyptus leptophylla,Synonym,Eucalyptus foecunda,Schauer,Currency Creek 3486,KT631771,KT631170,KT632944,KT632372
-Eucalyptus leptopoda subsp. leptopoda,eucalyptus leptopoda subsp. leptopoda,eucalyptus leptopoda,eucalyptus,leptopoda,leptopoda,eucalyptus leptopoda subsp. leptopoda,Accepted,,Benth.,CANB 519232**,KT631772,KT631171,KT632945,
 Eucalyptus lesouefii,eucalyptus lesouefii,eucalyptus lesouefii,eucalyptus,lesouefii,NA,eucalyptus lesouefii,Accepted,,Maiden,Currency Creek 3633,KT631773,KT631172,KT632946,KT632373
 Eucalyptus leucophloia subsp. euroa,eucalyptus leucophloia subsp. euroa,eucalyptus leucophloia,eucalyptus,leucophloia,euroa,eucalyptus leucophloia subsp. euroa,Accepted,,Brooker,Currency Creek 2498,KT631774,KT631173,KT632947,KT632374
 Eucalyptus leucoxylon subsp. leucoxylon,eucalyptus leucoxylon subsp. leucoxylon,eucalyptus leucoxylon,eucalyptus,leucoxylon,leucoxylon,eucalyptus leucoxylon subsp. leucoxylon,Accepted,,F.Muell.,Currency Creek 3788,KT631775,KT631174,KT632948,KT632375
 Eucalyptus ligulata subsp. ligulata,eucalyptus ligulata subsp. ligulata,eucalyptus ligulata,eucalyptus,ligulata,ligulata,eucalyptus ligulata subsp. ligulata,Accepted,,Brooker,Currency Creek 175,KT631776,KT631175,KT632949,KT632376
 Eucalyptus ligustrina,eucalyptus ligustrina,eucalyptus ligustrina,eucalyptus,ligustrina,NA,eucalyptus ligustrina,Accepted,,A.Cunn. ex DC.,Currency Creek 624,KT631777,KT631176,KT632950,KT632377
-Eucalyptus limitaris,eucalyptus limitaris,eucalyptus limitaris,eucalyptus,limitaris,NA,eucalyptus limitaris,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 785552**,KT631778,KT631177,KT632951,KT632378
-Eucalyptus lirata,eucalyptus lirata,eucalyptus lirata,eucalyptus,lirata,NA,eucalyptus lirata,Accepted,,W.Fitzg. ex Maiden,CANB 784082**,FJ654424,,,KT632379
 Eucalyptus litorea,eucalyptus litorea,eucalyptus litorea,eucalyptus,litorea,NA,eucalyptus litorea,Accepted,,Brooker & Hopper,Currency Creek 1094,KT631779,KT631178,KT632952,KT632380
-Eucalyptus livida,eucalyptus livida,eucalyptus livida,eucalyptus,livida,NA,eucalyptus livida,Accepted,,Brooker & Hopper,CANB 794326**,KT631780,KT631179,KT632953,KT632381
-Eucalyptus lockyeri,eucalyptus lockyeri,eucalyptus lockyeri,eucalyptus,lockyeri,NA,eucalyptus lockyeri,Accepted,,Blaxell & K.D.Hill,GenBank,,AF390488,,
 Eucalyptus longicornis,eucalyptus longicornis,eucalyptus longicornis,eucalyptus,longicornis,NA,eucalyptus longicornis,Accepted,,(F.Muell.) Maiden,Currency Creek 2241,KT631781,KT631180,KT632954,KT632382
-Eucalyptus longifolia,eucalyptus longifolia,eucalyptus longifolia,eucalyptus,longifolia,NA,eucalyptus longifolia,Accepted,,Link,GenBank,,EF488224,,
 Eucalyptus longirostrata,eucalyptus longirostrata,eucalyptus longirostrata,eucalyptus,longirostrata,NA,eucalyptus longirostrata,Accepted,,(Blakely) L.A.S.Johnson &,Currency Creek 2112,KT631782,KT631181,KT632955,KT632383
-Eucalyptus loxophleba subsp. loxophleba,eucalyptus loxophleba subsp. loxophleba,eucalyptus loxophleba,eucalyptus,loxophleba,loxophleba,eucalyptus loxophleba subsp. loxophleba,Accepted,,Benth.,ANBG 9205090,KT631783,KT631182,KT632956,KT632384
-Eucalyptus lucasii,eucalyptus lucasii,eucalyptus lucasii,eucalyptus,lucasii,NA,eucalyptus lucasii,Accepted,,Blakely,CANB 804340**,KT631784,KT631183,KT632957,KT632385
 Eucalyptus lucens,eucalyptus lucens,eucalyptus lucens,eucalyptus,lucens,NA,eucalyptus lucens,Accepted,,Brooker & Dunlop,Currency Creek 1353,KT631785,KT631184,KT632958,
 Eucalyptus luculenta,eucalyptus luculenta,eucalyptus luculenta,eucalyptus,luculenta,NA,eucalyptus luculenta,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3618,KT631786,KT631185,KT632959,KT632386
-Eucalyptus luehmanniana,eucalyptus luehmanniana,eucalyptus luehmanniana,eucalyptus,luehmanniana,NA,eucalyptus luehmanniana,Accepted,,F.Muell.,ANBG 8300316,KT631787,KT631186,KT632960,KT632387
-Eucalyptus macarthurii,eucalyptus macarthurii,eucalyptus macarthurii,eucalyptus,macarthurii,NA,eucalyptus macarthurii,Accepted,,H.Deane & Maiden,ANBG s.n.,KT631788,KT631187,KT632961,
 Eucalyptus mackintii,eucalyptus mackintii,eucalyptus mackintii,eucalyptus,mackintii,NA,eucalyptus mackintii,Accepted,,Kottek,Currency Creek 1737,KT631789,KT631188,KT632962,KT632388
 Eucalyptus macrandra,eucalyptus macrandra,eucalyptus macrandra,eucalyptus,macrandra,NA,eucalyptus macrandra,Accepted,,F.Muell. ex Benth.,Currency Creek 1887,KT631790,KT631189,KT632963,KT632389
 Eucalyptus macrocarpa,eucalyptus macrocarpa,eucalyptus macrocarpa,eucalyptus,macrocarpa,NA,eucalyptus macrocarpa,Accepted,,Hook.,Currency Creek 3428,KT631791,KT631190,KT632964,KT632390
@@ -438,47 +214,29 @@ Eucalyptus major,eucalyptus major,eucalyptus major,eucalyptus,major,NA,eucalyptu
 Eucalyptus malacoxylon,eucalyptus malacoxylon,eucalyptus malacoxylon,eucalyptus,malacoxylon,NA,eucalyptus malacoxylon,Accepted,,Blakely,Currency Creek 1368,KT631795,KT631194,KT632968,
 Eucalyptus mannensis subsp. vespertina,eucalyptus mannensis subsp. vespertina,eucalyptus mannensis,eucalyptus,mannensis,vespertina,eucalyptus mannensis subsp. vespertina,Accepted,,Boomsma,Currency Creek 1171,KT631796,KT631195,KT632969,KT632394
 Eucalyptus mannifera subsp. mannifera,eucalyptus mannifera subsp. mannifera,eucalyptus mannifera,eucalyptus,mannifera,mannifera,eucalyptus mannifera subsp. mannifera,Accepted,,Mudie,Currency Creek 2066,KT631797,KT631196,KT632970,
-Eucalyptus marginata subsp. marginata,eucalyptus marginata subsp. marginata,eucalyptus marginata,eucalyptus,marginata,marginata,eucalyptus marginata subsp. marginata,Accepted,,Donn ex Sm.,CANB 794234**,FJ494752,AF390530,KT632971,KT632395
 Eucalyptus mckieana,eucalyptus mckieana,eucalyptus mckieana,eucalyptus,mckieana,NA,eucalyptus mckieana,Accepted,,Blakely,Currency Creek 659,KT631798,KT631197,KT632972,KT632396
 Eucalyptus mcquoidii,eucalyptus mcquoidii,eucalyptus mcquoidii,eucalyptus,mcquoidii,NA,eucalyptus mcquoidii,Accepted,,Brooker & Hopper,Currency Creek 3569,KT631799,KT631198,,KT632397
-Eucalyptus medialis,eucalyptus medialis,eucalyptus medialis,eucalyptus,medialis,NA,eucalyptus medialis,Accepted,,Brooker & Hopper,Waite Arboretum 2471,KT631800,KT631199,KT632973,KT632398
-Eucalyptus megacarpa,eucalyptus megacarpa,eucalyptus megacarpa,eucalyptus,megacarpa,NA,eucalyptus megacarpa,Accepted,,F.Muell.,CANB 804457**,KT631801,KT631200,KT632974,KT632399
 Eucalyptus megacornuta,eucalyptus megacornuta,eucalyptus megacornuta,eucalyptus,megacornuta,NA,eucalyptus megacornuta,Accepted,,C.A.Gardner,Currency Creek 3578,KT631802,KT631201,KT632975,KT632400
 Eucalyptus melanoleuca,eucalyptus melanoleuca,eucalyptus melanoleuca,eucalyptus,melanoleuca,NA,eucalyptus melanoleuca,Accepted,,S.T.Blake,Currency Creek 2111,KT631803,KT631202,KT632976,KT632401
 Eucalyptus melanophitra,eucalyptus melanophitra,eucalyptus melanophitra,eucalyptus,melanophitra,NA,eucalyptus melanophitra,Accepted,,Brooker & Hopper,Currency Creek 211,KT631804,KT631203,,KT632402
 Eucalyptus melanophloia subsp. melanophloia,eucalyptus melanophloia subsp. melanophloia,eucalyptus melanophloia,eucalyptus,melanophloia,melanophloia,eucalyptus melanophloia subsp. melanophloia,Accepted,,F.Muell.,Currency Creek 690,KT631805,KT631204,,
 Eucalyptus melanoxylon,eucalyptus melanoxylon,eucalyptus melanoxylon,eucalyptus,melanoxylon,NA,eucalyptus melanoxylon,Accepted,,Maiden,Currency Creek 2552,KT631806,,KT632977,KT632403
-Eucalyptus melliodora,eucalyptus melliodora,eucalyptus melliodora,eucalyptus,melliodora,NA,eucalyptus melliodora,Accepted,,A.Cunn. ex Schauer,ANBG 662272,KT631807,KT631205,KT632978,KT632404
-Eucalyptus merrickiae,eucalyptus merrickiae,eucalyptus merrickiae,eucalyptus,merrickiae,NA,eucalyptus merrickiae,Accepted,,Maiden & Blakely,CANB 794336**,KT631808,KT631206,KT632979,KT632405
 Eucalyptus michaeliana,eucalyptus michaeliana,eucalyptus michaeliana,eucalyptus,michaeliana,NA,eucalyptus michaeliana,Accepted,,Blakely,Currency Creek 650,,AF390484,KT632980,
 Eucalyptus micranthera,eucalyptus micranthera,eucalyptus micranthera,eucalyptus,micranthera,NA,eucalyptus micranthera,Accepted,,F.Muell. ex Benth.,Currency Creek 1090,KT631809,,,KT632406
 Eucalyptus microcarpa,eucalyptus microcarpa,eucalyptus microcarpa,eucalyptus,microcarpa,NA,eucalyptus microcarpa,Accepted,,(Maiden) Maiden,Currency Creek 2895,KT631810,KT631207,KT632981,
-Eucalyptus microcorys,eucalyptus microcorys,eucalyptus microcorys,eucalyptus,microcorys,NA,eucalyptus microcorys,Accepted,,F.Muell.,ANBG 491154,KT631811,AF390516,KT632982,
-Eucalyptus microneura,eucalyptus microneura,eucalyptus microneura,eucalyptus,microneura,NA,eucalyptus microneura,Accepted,,Maiden & Blakely,ANBG 8603418,KT631812,KT631208,KT632983,KT632407
-Eucalyptus microschema,eucalyptus microschema,eucalyptus microschema,eucalyptus,microschema,NA,eucalyptus microschema,Accepted,,Brooker & Hopper,CANB 635056**,,,KT632984,
-Eucalyptus microtheca,eucalyptus microtheca,eucalyptus microtheca,eucalyptus,microtheca,NA,eucalyptus microtheca,Accepted,,F.Muell.,CANB 785484**,KT631813,AF390515,KT632985,
 Eucalyptus mimica subsp. mimica,eucalyptus mimica subsp. mimica,eucalyptus mimica,eucalyptus,mimica,mimica,eucalyptus mimica subsp. mimica,Accepted,,Brooker & Hopper,Currency Creek 188,KT631814,KT631209,KT632986,KT632408
-Eucalyptus miniata,eucalyptus miniata,eucalyptus miniata,eucalyptus,miniata,NA,eucalyptus miniata,Accepted,,A.Cunn. ex Schauer,CANB 785476**,KT631815,KT631210,KT632987,KT632409
 Eucalyptus minigwalica,eucalyptus minigwalica,eucalyptus minigwalica,eucalyptus,minigwalica,NA,eucalyptus minigwalica,MS,,D.Nicolle,Currency Creek 522,KT631816,KT631211,KT632988,KT632410
 Eucalyptus minniritchi,eucalyptus minniritchi,eucalyptus minniritchi,eucalyptus,minniritchi,NA,eucalyptus minniritchi,Accepted,,D.Nicolle,Currency Creek 1354,KT631817,KT631212,KT632989,KT632411
-Eucalyptus misella,eucalyptus misella,eucalyptus misella,eucalyptus,misella,NA,eucalyptus misella,Accepted,,L.A.S.Johnson & K.D.Hill,CANB 794329**,KT631818,KT631213,KT632990,KT632412
 Eucalyptus mitchelliana,eucalyptus mitchelliana,eucalyptus mitchelliana,eucalyptus,mitchelliana,NA,eucalyptus mitchelliana,Accepted,,Cambage,Currency Creek 574,KT631819,FJ494720,KT632991,KT632413
 Eucalyptus moderata,eucalyptus moderata,eucalyptus moderata,eucalyptus,moderata,NA,eucalyptus moderata,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1661,KT631820,KT631214,KT632992,KT632414
-Eucalyptus moluccana,eucalyptus moluccana,eucalyptus moluccana,eucalyptus,moluccana,NA,eucalyptus moluccana,Accepted,,Wall. ex Roxb.,ANBG 50761,KT631821,KT631215,KT632993,KT632415
-Eucalyptus mooreana,eucalyptus mooreana,eucalyptus mooreana,eucalyptus,mooreana,NA,eucalyptus mooreana,Accepted,,Maiden,CANB 750218**,,KT631216,,
-Eucalyptus moorei subsp. moorei,eucalyptus moorei subsp. moorei,eucalyptus moorei,eucalyptus,moorei,moorei,eucalyptus moorei subsp. moorei,Accepted,,Maiden & Cambage,ANBG 9600762,KT631822,KT631217,KT632994,KT632416
 Eucalyptus morrisbyi,eucalyptus morrisbyi,eucalyptus morrisbyi,eucalyptus,morrisbyi,NA,eucalyptus morrisbyi,Accepted,,Brett,Currency Creek 1983,KT631823,HM596054,KT632995,KT632417
 Eucalyptus morrisii,eucalyptus morrisii,eucalyptus morrisii,eucalyptus,morrisii,NA,eucalyptus morrisii,Accepted,,R.T.Baker,Currency Creek 730,KT631824,KT631218,KT632996,KT632418
 Eucalyptus muelleriana,eucalyptus muelleriana,eucalyptus muelleriana,eucalyptus,muelleriana,NA,eucalyptus muelleriana,Accepted,,Howitt,Currency Creek 1753,KT631825,KT631219,KT632997,KT632419
-Eucalyptus multicaulis,eucalyptus multicaulis,eucalyptus multicaulis,eucalyptus,multicaulis,NA,eucalyptus multicaulis,Accepted,,Blakely,ANBG 761635,KT631826,KT631220,KT632998,
 Eucalyptus myriadena,eucalyptus myriadena,eucalyptus myriadena,eucalyptus,myriadena,NA,eucalyptus myriadena,Accepted,,Brooker,Currency Creek 321,KT631827,KT631221,KT632999,KT632420
-Eucalyptus nanderwarica,eucalyptus nanderwarica,eucalyptus nanderwarica,eucalyptus,nanderwarica,NA,eucalyptus nanderwarica,Accepted,,L.A.S.Johnson & K.D.Hill,ANBG 9707924,KT631828,KT631222,KT633000,KT632421
-Eucalyptus neglecta,eucalyptus neglecta,eucalyptus neglecta,eucalyptus,neglecta,NA,eucalyptus neglecta,Accepted,,Maiden,ANBG 72027,KT631829,KT631223,KT633001,
 Eucalyptus nerthicola,eucalyptus nerthicola,eucalyptus nerthicola,eucalyptus,nerthicola,NA,eucalyptus nerthicola,Accepted,,D.Nicolle,Currency Creek 3608,KT631830,KT631224,KT633002,KT632422
 Eucalyptus neutra,eucalyptus neutra,eucalyptus neutra,eucalyptus,neutra,NA,eucalyptus neutra,Accepted,,D.Nicolle,Currency Creek 1855,KT631831,,KT633003,KT632423
 Eucalyptus newbeyi,eucalyptus newbeyi,eucalyptus newbeyi,eucalyptus,newbeyi,NA,eucalyptus newbeyi,Accepted,,D.J.Carr & S.G.M.Carr,Currency Creek 212,KT631832,KT631225,,
 Eucalyptus nicholii,eucalyptus nicholii,eucalyptus nicholii,eucalyptus,nicholii,NA,eucalyptus nicholii,Accepted,,Maiden & Blakely,Currency Creek 651,KT631833,KT631226,KT633004,KT632424
-Eucalyptus nitens,eucalyptus nitens,eucalyptus nitens,eucalyptus,nitens,NA,eucalyptus nitens,Accepted,,(H.Deane & Maiden) Maiden,ANBG 651034,KT631834,KT631227,KT633005,
 Eucalyptus nitida,eucalyptus nitida,eucalyptus nitida,eucalyptus,nitida,NA,eucalyptus nitida,Synonym,E ucalyptus ambigua,A.Cunn. ex DC.,Currency Creek 1964,KT631835,KT631228,KT633006,KT632425
 Eucalyptus nobilis,eucalyptus nobilis,eucalyptus nobilis,eucalyptus,nobilis,NA,eucalyptus nobilis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 753,KT631836,KT631229,KT633007,
 Eucalyptus normantonensis,eucalyptus normantonensis,eucalyptus normantonensis,eucalyptus,normantonensis,NA,eucalyptus normantonensis,Accepted,,Maiden & Cambage,Currency Creek 1202,KT631837,,KT633008,
@@ -486,108 +244,65 @@ Eucalyptus nortonii,eucalyptus nortonii,eucalyptus nortonii,eucalyptus,nortonii,
 Eucalyptus nova-anglica,eucalyptus nova-anglica,eucalyptus nova-anglica,eucalyptus,nova-anglica,NA,eucalyptus nova-anglica,Accepted,,H.Deane & Maiden,Currency Creek 656,KT631839,KT631231,KT633010,KT632426
 Eucalyptus nudicaulis,eucalyptus nudicaulis,eucalyptus nudicaulis,eucalyptus,nudicaulis,NA,eucalyptus nudicaulis,Accepted,,A.R.Bean,Currency Creek 4184,KT631840,KT631232,KT633011,KT632427
 Eucalyptus nutans,eucalyptus nutans,eucalyptus nutans,eucalyptus,nutans,NA,eucalyptus nutans,Accepted,,F.Muell.,Currency Creek 4800,KT631841,KT631233,KT633012,KT632428
-Eucalyptus obconica,eucalyptus obconica,eucalyptus obconica,eucalyptus,obconica,NA,eucalyptus obconica,Accepted,,Brooker & Kleinig,CANB 644802**,KT631842,KT631234,KT633013,
 Eucalyptus obesa,eucalyptus obesa,eucalyptus obesa,eucalyptus,obesa,NA,eucalyptus obesa,Accepted,,Brooker & Hopper,Currency Creek 3724,KT631843,,,
-Eucalyptus obliqua,eucalyptus obliqua,eucalyptus obliqua,eucalyptus,obliqua,NA,eucalyptus obliqua,Accepted,,L'Hér.,Royal Canberra Golf Club AHT21,KT631844,AF058484,KT633014,KT632429
 Eucalyptus oblonga,eucalyptus oblonga,eucalyptus oblonga,eucalyptus,oblonga,NA,eucalyptus oblonga,Accepted,,A.Cunn. ex DC.,Currency Creek 622,,,,KT632430
-Eucalyptus obtusiflora,eucalyptus obtusiflora,eucalyptus obtusiflora,eucalyptus,obtusiflora,NA,eucalyptus obtusiflora,Accepted,,A.Cunn. ex DC.,CANB 794053**,KT631845,KT631235,KT633015,KT632431
 Eucalyptus occidentalis,eucalyptus occidentalis,eucalyptus occidentalis,eucalyptus,occidentalis,NA,eucalyptus occidentalis,Accepted,,Endl.,Currency Creek 3556,KT631846,KT631236,KT633016,
-Eucalyptus ochrophloia,eucalyptus ochrophloia,eucalyptus ochrophloia,eucalyptus,ochrophloia,NA,eucalyptus ochrophloia,Accepted,,F.Muell.,CANB 785600**,KT631847,KT631237,,KT632432
-Eucalyptus odontocarpa,eucalyptus odontocarpa,eucalyptus odontocarpa,eucalyptus,odontocarpa,NA,eucalyptus odontocarpa,Accepted,,F.Muell.,CANB 785573**,FJ654418,FJ654394,KT633017,FJ654354
-Eucalyptus oldfieldii,eucalyptus oldfieldii,eucalyptus oldfieldii,eucalyptus,oldfieldii,NA,eucalyptus oldfieldii,Accepted,,F.Muell.,CANB 794068**,KT631848,KT631238,KT633018,KT632433
 Eucalyptus oleosa subsp. oleosa,eucalyptus oleosa subsp. oleosa,eucalyptus oleosa,eucalyptus,oleosa,oleosa,eucalyptus oleosa subsp. oleosa,Accepted,,F.Muell. ex Miq.,Currency Creek 2163,KT631849,KT631239,KT633019,KT632434
 Eucalyptus olida,eucalyptus olida,eucalyptus olida,eucalyptus,olida,NA,eucalyptus olida,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 661,KT631850,KT631240,KT633020,KT632435
-Eucalyptus oligantha,eucalyptus oligantha,eucalyptus oligantha,eucalyptus,oligantha,NA,eucalyptus oligantha,Accepted,,Schauer,CANB 785536**,KT631851,KT631241,KT633021,
 Eucalyptus olivina,eucalyptus olivina,eucalyptus olivina,eucalyptus,olivina,NA,eucalyptus olivina,Accepted,,Brooker & Hopper,Currency Creek 3670,KT631852,KT631242,KT633022,KT632436
-Eucalyptus olsenii,eucalyptus olsenii,eucalyptus olsenii,eucalyptus,olsenii,NA,eucalyptus olsenii,Accepted,,L.A.S.Johnson & Blaxell,ANBG 762144,KT631853,KT631243,KT633023,KT632437
 Eucalyptus ophitica,eucalyptus ophitica,eucalyptus ophitica,eucalyptus,ophitica,NA,eucalyptus ophitica,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2099,KT631854,,,
 Eucalyptus optima,eucalyptus optima,eucalyptus optima,eucalyptus,optima,NA,eucalyptus optima,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2154,KT631855,KT631244,KT633024,KT632438
 Eucalyptus oraria,eucalyptus oraria,eucalyptus oraria,eucalyptus,oraria,NA,eucalyptus oraria,Accepted,,L.A.S.Johnson,Currency Creek 3527,KT631856,KT631245,KT633025,KT632439
 Eucalyptus orbifolia,eucalyptus orbifolia,eucalyptus orbifolia,eucalyptus,orbifolia,NA,eucalyptus orbifolia,Accepted,,F.Muell.,Currency Creek 2774,KT631857,KT631246,KT633026,KT632440
 Eucalyptus oreades,eucalyptus oreades,eucalyptus oreades,eucalyptus,oreades,NA,eucalyptus oreades,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 628,KT631858,KT631247,KT633027,KT632441
-Eucalyptus orgadophila,eucalyptus orgadophila,eucalyptus orgadophila,eucalyptus,orgadophila,NA,eucalyptus orgadophila,Accepted,,Maiden & Blakely,Waite Arboretum 90,KT631859,KT631248,KT633028,KT632442
 Eucalyptus ornata,eucalyptus ornata,eucalyptus ornata,eucalyptus,ornata,NA,eucalyptus ornata,Accepted,,Crisp,Currency Creek 243,KT631860,,KT633029,KT632443
 Eucalyptus orthostemon,eucalyptus orthostemon,eucalyptus orthostemon,eucalyptus,orthostemon,NA,eucalyptus orthostemon,Accepted,,D.Nicolle & Brooker,Currency Creek 3426,KT631861,KT631249,KT633030,KT632444
-Eucalyptus ovata var. ovata,eucalyptus ovata var. ovata,eucalyptus ovata var. ovata,eucalyptus,ovata,ovata,eucalyptus ovata var. ovata,Accepted,,Labill.,ANBG 475702,KT631862,KT631250,KT633031,KT632445
 Eucalyptus ovularis,eucalyptus ovularis,eucalyptus ovularis,eucalyptus,ovularis,NA,eucalyptus ovularis,Accepted,,Maiden & Blakely,Currency Creek 1107,KT631863,KT631251,KT633032,KT632446
 Eucalyptus oxymitra,eucalyptus oxymitra,eucalyptus oxymitra,eucalyptus,oxymitra,NA,eucalyptus oxymitra,Accepted,,Blakely,Currency Creek 1704,KT631864,,KT633033,KT632447
 Eucalyptus pachycalyx subsp. pachycalyx,eucalyptus pachycalyx subsp. pachycalyx,eucalyptus pachycalyx,eucalyptus,pachycalyx,pachycalyx,eucalyptus pachycalyx subsp. pachycalyx,Accepted,,Maiden & Blakely,Currency Creek 1307,KT631865,KT631252,KT633034,KT632448
 Eucalyptus pachyloma,eucalyptus pachyloma,eucalyptus pachyloma,eucalyptus,pachyloma,NA,eucalyptus pachyloma,Accepted,,Benth.,Currency Creek 3735,KT631866,KT631253,KT633035,KT632449
-Eucalyptus pachyphylla,eucalyptus pachyphylla,eucalyptus pachyphylla,eucalyptus,pachyphylla,NA,eucalyptus pachyphylla,Accepted,,F.Muell.,ANBG 8503938,KT631867,AF390473,KT633036,KT632450
 Eucalyptus paedoglauca,eucalyptus paedoglauca,eucalyptus paedoglauca,eucalyptus,paedoglauca,NA,eucalyptus paedoglauca,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 1298,KT631868,KT631254,KT633037,KT632451
-Eucalyptus paliformis,eucalyptus paliformis,eucalyptus paliformis,eucalyptus,paliformis,NA,eucalyptus paliformis,Accepted,,L.A.S.Johnson & Blaxell,CANB 460597**,KT631869,EF051497,KT633038,KT632452
-Eucalyptus paludicola,eucalyptus paludicola,eucalyptus paludicola,eucalyptus,paludicola,NA,eucalyptus paludicola,Accepted,,Nicolle,ANBG 496820,KT631870,EF488227,KT633039,
 Eucalyptus panda,eucalyptus panda,eucalyptus panda,eucalyptus,panda,NA,eucalyptus panda,Accepted,,S.T.Blake,Currency Creek 683,KT631871,KT631255,KT633040,KT632453
 Eucalyptus paniculata,eucalyptus paniculata,eucalyptus paniculata,eucalyptus,paniculata,NA,eucalyptus paniculata,Accepted,,Sm.,Currency Creek 2903,KT631872,KT631256,KT633041,KT632454
 Eucalyptus parramattensis subsp. parramattensis,eucalyptus parramattensis subsp. parramattensis,eucalyptus parramattensis,eucalyptus,parramattensis,parramattensis,eucalyptus parramattensis subsp. parramattensis,Accepted,,C.C.Hall,Currency Creek 1763,KT631873,KT631257,KT633042,KT632455
 Eucalyptus parvula,eucalyptus parvula,eucalyptus parvula,eucalyptus,parvula,NA,eucalyptus parvula,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 591,KT631874,KT631258,KT633043,KT632456
-Eucalyptus patellaris,eucalyptus patellaris,eucalyptus patellaris,eucalyptus,patellaris,NA,eucalyptus patellaris,Accepted,,F.Muell.,CANB 558538**,KT631875,KT631259,,KT632457
-Eucalyptus patens,eucalyptus patens,eucalyptus patens,eucalyptus,patens,NA,eucalyptus patens,Accepted,,Benth.,ANBG 55807,KT631876,FJ494724,KT633044,KT632458
-Eucalyptus pauciflora subsp. pauciflora,eucalyptus pauciflora subsp. pauciflora,eucalyptus pauciflora,eucalyptus,pauciflora,pauciflora,eucalyptus pauciflora subsp. pauciflora,Accepted,,Sieber ex Spreng.,ANBG 9303293,KT631877,KT631260,KT633045,KT632459
-Eucalyptus pellita,eucalyptus pellita,eucalyptus pellita,eucalyptus,pellita,NA,eucalyptus pellita,Accepted,,F.Muell.,ANBG 8413520,KT631878,KT631261,KT633046,KT632460
-Eucalyptus pendens,eucalyptus pendens,eucalyptus pendens,eucalyptus,pendens,NA,eucalyptus pendens,Accepted,,Brooker,CANB 794222**,KT631879,,KT633047,KT632461
 Eucalyptus perangusta,eucalyptus perangusta,eucalyptus perangusta,eucalyptus,perangusta,NA,eucalyptus perangusta,Accepted,,Brooker,Currency Creek 3712,KT631880,KT631262,KT633048,KT632462
 Eucalyptus percostata,eucalyptus percostata,eucalyptus percostata,eucalyptus,percostata,NA,eucalyptus percostata,Accepted,,Brooker & P.J.Lang,Currency Creek 1603,KT631881,KT631263,KT633049,KT632463
 Eucalyptus perriniana,eucalyptus perriniana,eucalyptus perriniana,eucalyptus,perriniana,NA,eucalyptus perriniana,Accepted,,F.Muell. ex Rodway,Currency Creek 584,KT631882,KT631264,AM489985,KT632464
-Eucalyptus persistens subsp. tardecidens,eucalyptus persistens subsp. tardecidens,eucalyptus persistens,eucalyptus,persistens,tardecidens,eucalyptus persistens subsp. tardecidens,Synonym,Eucalyptus tardecidens,(L.A.S.Johnson & K.D.Hill),Waite Arboretum 1954B,KT631883,KT631265,KT633050,KT632465
-Eucalyptus petiolaris,eucalyptus petiolaris,eucalyptus petiolaris,eucalyptus,petiolaris,NA,eucalyptus petiolaris,Synonym,Eucalyptus leucoxylon,Boland,ANBG 8317297,KT631884,KT631266,KT633051,KT632466
 Eucalyptus petraea,eucalyptus petraea,eucalyptus petraea,eucalyptus,petraea,NA,eucalyptus petraea,Accepted,,D.J.Carr & S.G.M.Carr,Currency Creek 3766,KT631885,KT631267,KT633052,KT632467
-Eucalyptus petrensis,eucalyptus petrensis,eucalyptus petrensis,eucalyptus,petrensis,NA,eucalyptus petrensis,Accepted,,Brooker & Hopper,ANBG 456210,KT631886,KT631268,KT633053,KT632468
-Eucalyptus phaenophylla subsp. phaenophylla,eucalyptus phaenophylla subsp. phaenophylla,eucalyptus phaenophylla,eucalyptus,phaenophylla,phaenophylla,eucalyptus phaenophylla subsp. phaenophylla,Accepted,,Brooker & Hopper,CANB 794282**,KT631887,KT631269,KT633054,
 Eucalyptus phenax subsp. phenax,eucalyptus phenax subsp. phenax,eucalyptus phenax,eucalyptus,phenax,phenax,eucalyptus phenax subsp. phenax,Accepted,,Brooker & Slee,Currency Creek 929,KT631888,KT631270,KT633055,KT632469
-Eucalyptus phoenicea,eucalyptus phoenicea,eucalyptus phoenicea,eucalyptus,phoenicea,NA,eucalyptus phoenicea,Accepted,,F.Muell.,CANB 785492**,KT631889,FJ654391,KT633056,KT632470
-Eucalyptus pilbarensis,eucalyptus pilbarensis,eucalyptus pilbarensis,eucalyptus,pilbarensis,NA,eucalyptus pilbarensis,Accepted,,Brooker & Edgecombe,CANB 804362**,KT631890,KT631271,KT633057,KT632471
 Eucalyptus pileata,eucalyptus pileata,eucalyptus pileata,eucalyptus,pileata,NA,eucalyptus pileata,Accepted,,Blakely,Currency Creek 3644,KT631891,KT631272,KT633058,KT632472
 Eucalyptus pilligaensis,eucalyptus pilligaensis,eucalyptus pilligaensis,eucalyptus,pilligaensis,NA,eucalyptus pilligaensis,Synonym,Eucalyptus woollsiana,F.Muell. ex R.T.Baker,Currency Creek 681,KT631892,,KT633059,
 Eucalyptus pilularis,eucalyptus pilularis,eucalyptus pilularis,eucalyptus,pilularis,NA,eucalyptus pilularis,Accepted,,Sm.,Currency Creek 644,KT631893,KT631273,KT633060,KT632473
 Eucalyptus pimpiniana,eucalyptus pimpiniana,eucalyptus pimpiniana,eucalyptus,pimpiniana,NA,eucalyptus pimpiniana,Accepted,,Maiden,Currency Creek 2738,KT631894,KT631274,KT633061,KT632474
-Eucalyptus piperita subsp. piperita,eucalyptus piperita subsp. piperita,eucalyptus piperita,eucalyptus,piperita,piperita,eucalyptus piperita subsp. piperita,Accepted,,Sm.,ANBG 8411654,KT631895,AF058485,,KT632475
-Eucalyptus placita,eucalyptus placita,eucalyptus placita,eucalyptus,placita,NA,eucalyptus placita,Accepted,,L.A.S.Johnson & K.D.Hill,Waite Arboretum 1526,KT631896,KT631275,KT633062,KT632476
-Eucalyptus planchoniana,eucalyptus planchoniana,eucalyptus planchoniana,eucalyptus,planchoniana,NA,eucalyptus planchoniana,Accepted,,F.Muell.,GenBank,FJ494761,FJ494725,,
 Eucalyptus platycorys subsp. platycorys,eucalyptus platycorys subsp. platycorys,eucalyptus platycorys,eucalyptus,platycorys,platycorys,eucalyptus platycorys subsp. platycorys,Accepted,,Maiden & Blakely,Currency Creek 3627,KT631897,KT631276,KT633063,KT632477
-Eucalyptus platydisca,eucalyptus platydisca,eucalyptus platydisca,eucalyptus,platydisca,NA,eucalyptus platydisca,Accepted,,D.Nicolle & Brooker,CANB 638520**,KT631898,KT631277,KT633064,KT632478
-Eucalyptus platyphylla,eucalyptus platyphylla,eucalyptus platyphylla,eucalyptus,platyphylla,NA,eucalyptus platyphylla,Accepted,,F.Muell.,GenBank,,AF390486,,
 Eucalyptus plauta,eucalyptus plauta,eucalyptus plauta,eucalyptus,plauta,NA,eucalyptus plauta,Synonym,Eucalyptus dissimulata,L.A.S.Johnson & K.D.Hill,Currency Creek 3613,KT631899,KT631278,KT633065,KT632479
 Eucalyptus pleurocarpa,eucalyptus pleurocarpa,eucalyptus pleurocarpa,eucalyptus,pleurocarpa,NA,eucalyptus pleurocarpa,Synonym,Eucalyptus tetragona,(R.Br.) F.Muell.,Currency Creek 3557,KT631900,FJ654393,,FJ654349
 Eucalyptus pluricaulis subsp. pluricaulis,eucalyptus pluricaulis subsp. pluricaulis,eucalyptus pluricaulis,eucalyptus,pluricaulis,pluricaulis,eucalyptus pluricaulis subsp. pluricaulis,Accepted,,Brooker & Hopper,Currency Creek 1662,KT631901,,KT633066,
 Eucalyptus polita,eucalyptus polita,eucalyptus polita,eucalyptus,polita,NA,eucalyptus polita,Accepted,,Brooker & Hopper,Currency Creek 3449,KT631902,KT631279,KT633067,KT632480
 Eucalyptus polyanthemos subsp. polyanthemos,eucalyptus polyanthemos subsp. polyanthemos,eucalyptus polyanthemos,eucalyptus,polyanthemos,polyanthemos,eucalyptus polyanthemos subsp. polyanthemos,Accepted,,Schauer,Currency Creek 2899,KT631903,KT631280,KT633068,KT632481
 Eucalyptus polybractea,eucalyptus polybractea,eucalyptus polybractea,eucalyptus,polybractea,NA,eucalyptus polybractea,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 736,KT631904,KT631281,KT633069,KT632482
-Eucalyptus populnea,eucalyptus populnea,eucalyptus populnea,eucalyptus,populnea,NA,eucalyptus populnea,Accepted,,F.Muell.,CANB 785598**,KT631905,KT631282,KT633070,KT632483
-Eucalyptus porosa,eucalyptus porosa,eucalyptus porosa,eucalyptus,porosa,NA,eucalyptus porosa,Accepted,,Miq.,CANB 786047**,KT631906,KT631283,KT633071,KT632484
-Eucalyptus praetermissa,eucalyptus praetermissa,eucalyptus praetermissa,eucalyptus,praetermissa,NA,eucalyptus praetermissa,Accepted,,Brooker & Hopper,CANB 610680**,KT631907,KT631284,KT633072,KT632485
 Eucalyptus prava,eucalyptus prava,eucalyptus prava,eucalyptus,prava,NA,eucalyptus prava,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 671,KT631908,KT631285,KT633073,KT632486
 Eucalyptus preissiana subsp. preissiana,eucalyptus preissiana subsp. preissiana,eucalyptus preissiana,eucalyptus,preissiana,preissiana,eucalyptus preissiana subsp. preissiana,Accepted,,Schauer,Currency Creek 3762,KT631909,KT631286,,KT632487
-Eucalyptus prolixa,eucalyptus prolixa,eucalyptus prolixa,eucalyptus,prolixa,NA,eucalyptus prolixa,Accepted,,D.Nicolle,CANB 536396**,KT631910,,,
 Eucalyptus prominens,eucalyptus prominens,eucalyptus prominens,eucalyptus,prominens,NA,eucalyptus prominens,Accepted,,Brooker,Currency Creek 1181,KT631911,KT631287,KT633074,KT632488
 Eucalyptus propinqua,eucalyptus propinqua,eucalyptus propinqua,eucalyptus,propinqua,NA,eucalyptus propinqua,Accepted,,H.Deane & Maiden,Currency Creek 1239,KT631912,KT631288,KT633075,KT632489
 Eucalyptus protensa,eucalyptus protensa,eucalyptus protensa,eucalyptus,protensa,NA,eucalyptus protensa,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3641,KT631913,KT631289,KT633076,KT632490
 Eucalyptus proxima,eucalyptus proxima,eucalyptus proxima,eucalyptus,proxima,NA,eucalyptus proxima,Accepted,,D.Nicolle & Brooker,Currency Creek 3571,KT631914,KT631290,KT633077,KT632491
-Eucalyptus pruiniramis,eucalyptus pruiniramis,eucalyptus pruiniramis,eucalyptus,pruiniramis,NA,eucalyptus pruiniramis,Accepted,,L.A.S.Johnson & K.D.Hill,GenBank,KT631915,KT631291,KT633078,KT632492
-Eucalyptus pruinosa subsp. pruinosa,eucalyptus pruinosa subsp. pruinosa,eucalyptus pruinosa,eucalyptus,pruinosa,pruinosa,eucalyptus pruinosa subsp. pruinosa,Accepted,,Schauer,Mt Annan 841760,,KT631292,KT633079,KT632493
 Eucalyptus pterocarpa,eucalyptus pterocarpa,eucalyptus pterocarpa,eucalyptus,pterocarpa,NA,eucalyptus pterocarpa,Accepted,,C.A.Gardner ex P.J.Lang,Currency Creek 3656,KT631916,KT631293,KT633080,KT632494
 Eucalyptus pulchella,eucalyptus pulchella,eucalyptus pulchella,eucalyptus,pulchella,NA,eucalyptus pulchella,Accepted,,Desf.,Currency Creek 2984,KT631917,AF058487,KT633081,KT632495
 Eucalyptus pulverulenta,eucalyptus pulverulenta,eucalyptus pulverulenta,eucalyptus,pulverulenta,NA,eucalyptus pulverulenta,Accepted,,Sims,Currency Creek 1226,KT631918,KT631294,KT633082,KT632496
 Eucalyptus pumila,eucalyptus pumila,eucalyptus pumila,eucalyptus,pumila,NA,eucalyptus pumila,Accepted,,Cambage,Currency Creek 636,KT631919,EF488232,,
 Eucalyptus purpurata,eucalyptus purpurata,eucalyptus purpurata,eucalyptus,purpurata,NA,eucalyptus purpurata,Accepted,,D.Nicolle,Currency Creek 3579,KT631920,KT631295,KT633083,KT632497
 Eucalyptus pyriformis,eucalyptus pyriformis,eucalyptus pyriformis,eucalyptus,pyriformis,NA,eucalyptus pyriformis,Accepted,,Turcz.,Currency Creek 1660,KT631921,,KT633084,KT632498
-Eucalyptus pyrocarpa,eucalyptus pyrocarpa,eucalyptus pyrocarpa,eucalyptus,pyrocarpa,NA,eucalyptus pyrocarpa,Accepted,,L.A.S.Johnson & Blaxell,ANBG 630205,KT631922,KT631296,KT633085,KT632499
 Eucalyptus quadrangulata,eucalyptus quadrangulata,eucalyptus quadrangulata,eucalyptus,quadrangulata,NA,eucalyptus quadrangulata,Accepted,,H.Deane & Maiden,Currency Creek 618,KT631923,KT631297,KT633086,
 Eucalyptus quadrans,eucalyptus quadrans,eucalyptus quadrans,eucalyptus,quadrans,NA,eucalyptus quadrans,Accepted,,Brooker & Hopper,Currency Creek 1099,KT631924,KT631298,KT633087,KT632500
-Eucalyptus quadricostata,eucalyptus quadricostata,eucalyptus quadricostata,eucalyptus,quadricostata,NA,eucalyptus quadricostata,Accepted,,Brooker,ANBG 8603516,KT631925,KT631299,KT633088,KT632501
-Eucalyptus quaerenda,eucalyptus quaerenda,eucalyptus quaerenda,eucalyptus,quaerenda,NA,eucalyptus quaerenda,Accepted,,(L.A.S.Johnson & K.D.Hill),CANB 794294**,KT631926,KT631300,KT633089,KT632502
-Eucalyptus quinniorum,eucalyptus quinniorum,eucalyptus quinniorum,eucalyptus,quinniorum,NA,eucalyptus quinniorum,Accepted,,J.T.Hunter & J.J.Bruhl,ANBG 9707932,KT631927,KT631301,KT633090,KT632503
-Eucalyptus racemosa,eucalyptus racemosa,eucalyptus racemosa,eucalyptus,racemosa,NA,eucalyptus racemosa,Accepted,,Cav.,ANBG 732766,KT631928,KT631302,KT633091,KT632504
 Eucalyptus radiata subsp. radiata,eucalyptus radiata subsp. radiata,eucalyptus radiata,eucalyptus,radiata,radiata,eucalyptus radiata subsp. radiata,Accepted,,A.Cunn. ex DC.,Currency Creek 602,KT631929,KT631303,KT633092,KT632505
 Eucalyptus ralla,eucalyptus ralla,eucalyptus ralla,eucalyptus,ralla,NA,eucalyptus ralla,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 614,KT631930,KT631304,KT633093,KT632506
 Eucalyptus rameliana,eucalyptus rameliana,eucalyptus rameliana,eucalyptus,rameliana,NA,eucalyptus rameliana,Accepted,,F.Muell.,Currency Creek 543,KT631931,KT631305,KT633094,
 Eucalyptus raveretiana,eucalyptus raveretiana,eucalyptus raveretiana,eucalyptus,raveretiana,NA,eucalyptus raveretiana,Accepted,,F.Muell.,Currency Creek 1297,KT631932,EF694715,KT633095,KT632507
 Eucalyptus ravida,eucalyptus ravida,eucalyptus ravida,eucalyptus,ravida,NA,eucalyptus ravida,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2781,KT631933,KT631306,KT633096,KT632508
 Eucalyptus recta,eucalyptus recta,eucalyptus recta,eucalyptus,recta,NA,eucalyptus recta,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek s.n.,KT631934,KT631307,KT633097,KT632509
-Eucalyptus recurva,eucalyptus recurva,eucalyptus recurva,eucalyptus,recurva,NA,eucalyptus recurva,Accepted,,Crisp,ANBG s.n.,KT631935,KT631308,KT633098,
 Eucalyptus redunca,eucalyptus redunca,eucalyptus redunca,eucalyptus,redunca,NA,eucalyptus redunca,Accepted,,Schauer,Currency Creek 221,KT631936,KT631309,KT633099,KT632510
-Eucalyptus regnans,eucalyptus regnans,eucalyptus regnans,eucalyptus,regnans,NA,eucalyptus regnans,Accepted,,F.Muell.,ANBG 8501815,KT631937,AF058488,KT633100,KT632511
-Eucalyptus remota,eucalyptus remota,eucalyptus remota,eucalyptus,remota,NA,eucalyptus remota,Accepted,,Blakely,ANBG 9807783,KT631938,KT631310,KT633101,KT632512
 Eucalyptus resinifera subsp. resinifera,eucalyptus resinifera subsp. resinifera,eucalyptus resinifera,eucalyptus,resinifera,resinifera,eucalyptus resinifera subsp. resinifera,Accepted,,Sm.,Currency Creek 2908,KT631939,KT631311,KT633102,KT632513
 Eucalyptus retinens,eucalyptus retinens,eucalyptus retinens,eucalyptus,retinens,NA,eucalyptus retinens,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 648,KT631940,KT631312,KT633103,KT632514
 Eucalyptus retusa,eucalyptus retusa,eucalyptus retusa,eucalyptus,retusa,NA,eucalyptus retusa,Accepted,,"D.Nicolle, M.E.French &",Currency Creek 4801,KT631941,KT631313,,
@@ -597,10 +312,8 @@ Eucalyptus rhomboidea,eucalyptus rhomboidea,eucalyptus rhomboidea,eucalyptus,rho
 Eucalyptus rigens,eucalyptus rigens,eucalyptus rigens,eucalyptus,rigens,NA,eucalyptus rigens,Accepted,,Brooker & Hopper,Currency Creek 3595,KT631945,KT631317,KT633107,KT632518
 Eucalyptus rigidula,eucalyptus rigidula,eucalyptus rigidula,eucalyptus,rigidula,NA,eucalyptus rigidula,Accepted,,Cambage & Blakely,Currency Creek 244,KT631946,KT631318,KT633108,KT632519
 Eucalyptus risdonii,eucalyptus risdonii,eucalyptus risdonii,eucalyptus,risdonii,NA,eucalyptus risdonii,Accepted,,Hook.f.,Currency Creek 1982,KT631947,AF058493,KT633109,KT632520
-Eucalyptus rodwayi,eucalyptus rodwayi,eucalyptus rodwayi,eucalyptus,rodwayi,NA,eucalyptus rodwayi,Accepted,,R.T.Baker & H.G.Sm.,ANBG 62705,KT631948,KT631319,KT633110,KT632521
 Eucalyptus rosacea,eucalyptus rosacea,eucalyptus rosacea,eucalyptus,rosacea,NA,eucalyptus rosacea,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 518,KT631949,KT631320,KT633111,KT632522
 Eucalyptus roycei,eucalyptus roycei,eucalyptus roycei,eucalyptus,roycei,NA,eucalyptus roycei,Accepted,,"S.G.M.Carr, D.J.Carr &",Currency Creek 1175,KT631950,KT631321,KT633112,KT632523
-Eucalyptus rubida subsp. rubida,eucalyptus rubida subsp. rubida,eucalyptus rubida,eucalyptus,rubida,rubida,eucalyptus rubida subsp. rubida,Accepted,,H.Deane & Maiden,ANBG 732895,KT631951,HM596064,KT633113,KT632524
 Eucalyptus rubiginosa,eucalyptus rubiginosa,eucalyptus rubiginosa,eucalyptus,rubiginosa,NA,eucalyptus rubiginosa,Accepted,,Brooker,Currency Creek 2114,KT631952,AF390526,,KT632525
 Eucalyptus rudderi,eucalyptus rudderi,eucalyptus rudderi,eucalyptus,rudderi,NA,eucalyptus rudderi,Accepted,,Maiden,Currency Creek 2082,KT631953,KT631322,KT633114,KT632526
 Eucalyptus rudis,eucalyptus rudis,eucalyptus rudis,eucalyptus,rudis,NA,eucalyptus rudis,Accepted,,Endl.,Currency Creek 1146,KT631954,KT631323,KT633115,KT632527
@@ -609,89 +322,52 @@ Eucalyptus rugulata,eucalyptus rugulata,eucalyptus rugulata,eucalyptus,rugulata,
 Eucalyptus rummeryi,eucalyptus rummeryi,eucalyptus rummeryi,eucalyptus,rummeryi,NA,eucalyptus rummeryi,Accepted,,Maiden,Currency Creek 1245,KT631957,,,KT632530
 Eucalyptus salicola,eucalyptus salicola,eucalyptus salicola,eucalyptus,salicola,NA,eucalyptus salicola,Accepted,,Brooker,Currency Creek 3493,KT631958,KT631325,KT633118,KT632531
 Eucalyptus saligna,eucalyptus saligna,eucalyptus saligna,eucalyptus,saligna,NA,eucalyptus saligna,Accepted,,Sm.,Currency Creek 2924,KT631959,KT631326,KT633119,KT632532
-Eucalyptus salmonophloia,eucalyptus salmonophloia,eucalyptus salmonophloia,eucalyptus,salmonophloia,NA,eucalyptus salmonophloia,Accepted,,F.Muell.,CANB 564460**,KT631960,AF390509,KT633120,KT632533
 Eucalyptus salubris,eucalyptus salubris,eucalyptus salubris,eucalyptus,salubris,NA,eucalyptus salubris,Accepted,,F.Muell.,Currency Creek 3496,KT631961,KT631327,KT633121,KT632534
 Eucalyptus sargentii subsp. sargentii,eucalyptus sargentii subsp. sargentii,eucalyptus sargentii,eucalyptus,sargentii,sargentii,eucalyptus sargentii subsp. sargentii,Accepted,,Maiden,Currency Creek 2229,KT631962,KT631328,KT633122,KT632535
-Eucalyptus saxatilis,eucalyptus saxatilis,eucalyptus saxatilis,eucalyptus,saxatilis,NA,eucalyptus saxatilis,Accepted,,J.B.Kirkp. & Brooker,ANBG 7906246,KT631963,KT631329,KT633123,
 Eucalyptus scias subsp. scias,eucalyptus scias subsp. scias,eucalyptus scias,eucalyptus,scias,scias,eucalyptus scias subsp. scias,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 2911,KT631964,KT631330,,KT632536
-Eucalyptus scoparia,eucalyptus scoparia,eucalyptus scoparia,eucalyptus,scoparia,NA,eucalyptus scoparia,Accepted,,Maiden,ANBG 501278,KT631965,KT631331,KT633124,KT632537
 Eucalyptus scopulorum,eucalyptus scopulorum,eucalyptus scopulorum,eucalyptus,scopulorum,NA,eucalyptus scopulorum,Accepted,,K.D.Hill,Currency Creek 2927,KT631966,KT631332,KT633125,KT632538
-Eucalyptus scyphocalyx,eucalyptus scyphocalyx,eucalyptus scyphocalyx,eucalyptus,scyphocalyx,NA,eucalyptus scyphocalyx,Accepted,,(Benth.) Maiden & Blakely,Waite Arboretum 1940A,KT631967,KT631333,KT633126,KT632539
 Eucalyptus seeana,eucalyptus seeana,eucalyptus seeana,eucalyptus,seeana,NA,eucalyptus seeana,Accepted,,Maiden,Currency Creek 2089,KT631968,KT631334,KT633127,KT632540
 Eucalyptus semota,eucalyptus semota,eucalyptus semota,eucalyptus,semota,NA,eucalyptus semota,Accepted,,Macph. & Grayling,Currency Creek 2193,KT631969,,KT633128,
-Eucalyptus sepulcralis,eucalyptus sepulcralis,eucalyptus sepulcralis,eucalyptus,sepulcralis,NA,eucalyptus sepulcralis,Accepted,,F.Muell.,CANB 378343**,KT631970,EF051499,KT633129,KT632541
-Eucalyptus serraensis,eucalyptus serraensis,eucalyptus serraensis,eucalyptus,serraensis,NA,eucalyptus serraensis,Accepted,,Ladiges & Whiffin,CANB 786029**,KT631971,KT631335,KT633130,KT632542
 Eucalyptus sessilis,eucalyptus sessilis,eucalyptus sessilis,eucalyptus,sessilis,NA,eucalyptus sessilis,Accepted,,(Maiden) Blakely,Currency Creek 1352,KT631972,KT631336,KT633131,KT632543
-Eucalyptus sicilifolia,eucalyptus sicilifolia,eucalyptus sicilifolia,eucalyptus,sicilifolia,NA,eucalyptus sicilifolia,Accepted,,L.A.S.Johnson & K.D.Hill,ANBG 8603421,KT631973,KT631337,KT633132,KT632544
-Eucalyptus siderophloia,eucalyptus siderophloia,eucalyptus siderophloia,eucalyptus,siderophloia,NA,eucalyptus siderophloia,Accepted,,Benth.,ANBG 7906137,KT631974,KT631338,KT633133,
 Eucalyptus sideroxylon,eucalyptus sideroxylon,eucalyptus sideroxylon,eucalyptus,sideroxylon,NA,eucalyptus sideroxylon,Accepted,,A.Cunn. ex Woolls,Currency Creek 674,KT631975,KT631339,KT633134,KT632545
-Eucalyptus sieberi,eucalyptus sieberi,eucalyptus sieberi,eucalyptus,sieberi,NA,eucalyptus sieberi,Accepted,,L.A.S.Johnson,ANBG 8411661,KT631976,AF058495,KT633135,KT632546
-Eucalyptus similis,eucalyptus similis,eucalyptus similis,eucalyptus,similis,NA,eucalyptus similis,Accepted,,Maiden,GenBank,,FJ654409,,FJ654359
-Eucalyptus singularis,eucalyptus singularis,eucalyptus singularis,eucalyptus,singularis,NA,eucalyptus singularis,Accepted,,L.A.S.Johnson & D.F.Blaxell,Waite Arboretum 2368,KT631977,KT631340,KT633136,KT632547
 Eucalyptus smithii,eucalyptus smithii,eucalyptus smithii,eucalyptus,smithii,NA,eucalyptus smithii,Accepted,,F.Muell. ex R.T.Baker,Currency Creek 598,KT631978,KT631341,KT633137,KT632548
 Eucalyptus socialis subsp. socialis,eucalyptus socialis subsp. socialis,eucalyptus socialis,eucalyptus,socialis,socialis,eucalyptus socialis subsp. socialis,Accepted,,F.Muell. ex Miq.,Currency Creek 1804,KT631979,KT631342,KT633138,KT632549
-Eucalyptus sparsa,eucalyptus sparsa,eucalyptus sparsa,eucalyptus,sparsa,NA,eucalyptus sparsa,Accepted,,Boomsma,Waite Arboretum 1558,KT631980,KT631343,KT633139,KT632550
 Eucalyptus sparsifolia,eucalyptus sparsifolia,eucalyptus sparsifolia,eucalyptus,sparsifolia,NA,eucalyptus sparsifolia,Synonym,Eucalyptus oblonga,A.Cunn. ex DC.,Currency Creek 629,KT631981,,,KT632551
 Eucalyptus spathulata subsp. spathulata,eucalyptus spathulata subsp. spathulata,eucalyptus spathulata,eucalyptus,spathulata,spathulata,eucalyptus spathulata subsp. spathulata,Accepted,,Hook.,Currency Creek 234,KT631982,AF058477,,
-Eucalyptus sphaerocarpa,eucalyptus sphaerocarpa,eucalyptus sphaerocarpa,eucalyptus,sphaerocarpa,NA,eucalyptus sphaerocarpa,Accepted,,L.A.S.Johnson & Blaxell,GenBank,FJ494769,FJ494730,,
 Eucalyptus splendens subsp. splendens,eucalyptus splendens subsp. splendens,eucalyptus splendens,eucalyptus,splendens,splendens,eucalyptus splendens subsp. splendens,Accepted,,Rule,Currency Creek 1722,KT631983,KT631344,KT633140,KT632552
 Eucalyptus spreta,eucalyptus spreta,eucalyptus spreta,eucalyptus,spreta,NA,eucalyptus spreta,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3634,KT631984,KT631345,KT633141,KT632553
 Eucalyptus squamosa,eucalyptus squamosa,eucalyptus squamosa,eucalyptus,squamosa,NA,eucalyptus squamosa,Accepted,,H.Deane & Maiden,Currency Creek 2072,KT631985,KT631346,KT633142,KT632554
 Eucalyptus staeri,eucalyptus staeri,eucalyptus staeri,eucalyptus,staeri,NA,eucalyptus staeri,Accepted,,(Maiden) Maiden ex Kessell &,Currency Creek 1133,KT631986,AF390531,,
 Eucalyptus steedmanii,eucalyptus steedmanii,eucalyptus steedmanii,eucalyptus,steedmanii,NA,eucalyptus steedmanii,Accepted,,C.A.Gardner,Currency Creek 317,KT631987,KT631347,KT633143,KT632555
-Eucalyptus stellulata,eucalyptus stellulata,eucalyptus stellulata,eucalyptus,stellulata,NA,eucalyptus stellulata,Accepted,,Sieber ex DC.,ANBG 9102880,KT631988,KT631348,KT633144,KT632556
 Eucalyptus stenostoma,eucalyptus stenostoma,eucalyptus stenostoma,eucalyptus,stenostoma,NA,eucalyptus stenostoma,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 2900,KT631989,FJ494731,,
 Eucalyptus stoatei,eucalyptus stoatei,eucalyptus stoatei,eucalyptus,stoatei,NA,eucalyptus stoatei,Accepted,,C.A.Gardner,Currency Creek 181,KT631990,KT631349,KT633145,KT632557
-Eucalyptus stowardii,eucalyptus stowardii,eucalyptus stowardii,eucalyptus,stowardii,NA,eucalyptus stowardii,Accepted,,Maiden,CANB 790458**,KT631991,KT631350,KT633146,
 Eucalyptus stricklandii,eucalyptus stricklandii,eucalyptus stricklandii,eucalyptus,stricklandii,NA,eucalyptus stricklandii,Accepted,,Maiden,Currency Creek 3646,KT631992,KT631351,KT633147,KT632558
 Eucalyptus stricta,eucalyptus stricta,eucalyptus stricta,eucalyptus,stricta,NA,eucalyptus stricta,Accepted,,Sieber ex Spreng.,Currency Creek 1751,KT631993,EF051501,,
 Eucalyptus strzeleckii subsp. strzeleckii,eucalyptus strzeleckii subsp. strzeleckii,eucalyptus strzeleckii,eucalyptus,strzeleckii,strzeleckii,eucalyptus strzeleckii subsp. strzeleckii,Accepted,,Rule,Currency Creek 1731,KT631994,KT631352,KT633148,KT632559
 Eucalyptus sturgissiana,eucalyptus sturgissiana,eucalyptus sturgissiana,eucalyptus,sturgissiana,NA,eucalyptus sturgissiana,Accepted,,L.A.S.Johnson & Blaxell,Currency Creek 1757,KT631995,KT631353,KT633149,
 Eucalyptus subangusta subsp. subangusta,eucalyptus subangusta subsp. subangusta,eucalyptus subangusta,eucalyptus,subangusta,subangusta,eucalyptus subangusta subsp. subangusta,Accepted,,(Blakely) Brooker & Hopper,Currency Creek 3451,KT631996,KT631354,KT633150,KT632560
-Eucalyptus subcrenulata,eucalyptus subcrenulata,eucalyptus subcrenulata,eucalyptus,subcrenulata,NA,eucalyptus subcrenulata,Accepted,,Maiden & Blakely,ANBG 9702884,KT631997,,,
-Eucalyptus suberea,eucalyptus suberea,eucalyptus suberea,eucalyptus,suberea,NA,eucalyptus suberea,Accepted,,Brooker & Hopper,CANB 794196**,KT631998,FJ494732,KT633151,KT632561
 Eucalyptus subtilis,eucalyptus subtilis,eucalyptus subtilis,eucalyptus,subtilis,NA,eucalyptus subtilis,Accepted,,Brooker & Hopper,Currency Creek 3715,KT631999,KT631355,KT633152,KT632562
 Eucalyptus suggrandis subsp. suggrandis,eucalyptus suggrandis subsp. suggrandis,eucalyptus suggrandis,eucalyptus,suggrandis,suggrandis,eucalyptus suggrandis subsp. suggrandis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3583,KT632000,KT631356,KT633153,KT632563
 Eucalyptus surgens,eucalyptus surgens,eucalyptus surgens,eucalyptus,surgens,NA,eucalyptus surgens,Accepted,,Brooker & Hopper,Currency Creek 558,KT632001,KT631357,KT633154,KT632564
-Eucalyptus synandra,eucalyptus synandra,eucalyptus synandra,eucalyptus,synandra,NA,eucalyptus synandra,Accepted,,Crisp,CANB 794049**,KT632002,KT631358,KT633155,KT632565
 Eucalyptus talyuberlup,eucalyptus talyuberlup,eucalyptus talyuberlup,eucalyptus,talyuberlup,NA,eucalyptus talyuberlup,Accepted,,D.J.Carr & S.G.M.Carr,Currency Creek 4804,KT632003,KT631359,KT633156,KT632566
-Eucalyptus tectifica,eucalyptus tectifica,eucalyptus tectifica,eucalyptus,tectifica,NA,eucalyptus tectifica,Accepted,,F.Muell.,CANB 785474**,KT632004,KT631360,KT633157,
 Eucalyptus tenella,eucalyptus tenella,eucalyptus tenella,eucalyptus,tenella,NA,eucalyptus tenella,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 763,KT632005,KT631361,KT633158,KT632567
 Eucalyptus tenera,eucalyptus tenera,eucalyptus tenera,eucalyptus,tenera,NA,eucalyptus tenera,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3590,KT632006,KT631362,KT633159,KT632568
-Eucalyptus tenuipes,eucalyptus tenuipes,eucalyptus tenuipes,eucalyptus,tenuipes,NA,eucalyptus tenuipes,Accepted,,(Maiden & Blakely) Blakely &,GenBank,FJ799979,AF390523,HQ287637,FJ654340
-Eucalyptus tenuiramis,eucalyptus tenuiramis,eucalyptus tenuiramis,eucalyptus,tenuiramis,NA,eucalyptus tenuiramis,Accepted,,Miq.,CANB 692639**,KT632007,AF058500,KT633160,KT632569
 Eucalyptus tenuis,eucalyptus tenuis,eucalyptus tenuis,eucalyptus,tenuis,NA,eucalyptus tenuis,Accepted,,Brooker & Hopper,Currency Creek 326,KT632008,KT631363,KT633161,KT632570
 Eucalyptus tephrodes,eucalyptus tephrodes,eucalyptus tephrodes,eucalyptus,tephrodes,NA,eucalyptus tephrodes,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1194,KT632009,KT631364,KT633162,KT632571
 Eucalyptus terebra,eucalyptus terebra,eucalyptus terebra,eucalyptus,terebra,NA,eucalyptus terebra,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3607,KT632010,KT631365,KT633163,KT632572
 Eucalyptus tereticornis subsp. tereticornis,eucalyptus tereticornis subsp. tereticornis,eucalyptus tereticornis,eucalyptus,tereticornis,tereticornis,eucalyptus tereticornis subsp. tereticornis,Accepted,,Sm.,Currency Creek 713,KT632011,KT631366,KT633164,KT632573
 Eucalyptus tetrapleura,eucalyptus tetrapleura,eucalyptus tetrapleura,eucalyptus,tetrapleura,NA,eucalyptus tetrapleura,Accepted,,L.A.S.Johnson,Currency Creek 1242,KT632012,KT631367,KT633165,KT632574
-Eucalyptus tetraptera,eucalyptus tetraptera,eucalyptus tetraptera,eucalyptus,tetraptera,NA,eucalyptus tetraptera,Accepted,,Turcz.,Waite Arboretum 1860A,KT632013,KT631368,KT633166,KT632575
-Eucalyptus tetrodonta,eucalyptus tetrodonta,eucalyptus tetrodonta,eucalyptus,tetrodonta,NA,eucalyptus tetrodonta,Accepted,,F.Muell.,CANB 785477**,FJ654428,AF390465,KT633167,KT632576
 Eucalyptus thamnoides,eucalyptus thamnoides,eucalyptus thamnoides,eucalyptus,thamnoides,NA,eucalyptus thamnoides,Accepted,,Brooker & Hopper,Currency Creek 3545,KT632014,KT631369,KT633168,KT632577
-Eucalyptus tholiformis,eucalyptus tholiformis,eucalyptus tholiformis,eucalyptus,tholiformis,NA,eucalyptus tholiformis,Accepted,,A.R.Bean & Brooker,Waite Arboretum 2708,KT632015,KT631370,KT633169,
-Eucalyptus thozetiana,eucalyptus thozetiana,eucalyptus thozetiana,eucalyptus,thozetiana,NA,eucalyptus thozetiana,Accepted,,F.Muell. ex R.T.Baker,CANB 785597**,KT632016,KT631371,KT633170,
-Eucalyptus tindaliae,eucalyptus tindaliae,eucalyptus tindaliae,eucalyptus,tindaliae,NA,eucalyptus tindaliae,Accepted,,Blakely,GenBank,,AF390534,,
-Eucalyptus tintinnans,eucalyptus tintinnans,eucalyptus tintinnans,eucalyptus,tintinnans,NA,eucalyptus tintinnans,Accepted,,(Blakely & Jacobs) L.A.S.Johnson,CANB 557752**,KT632017,KT631372,KT633171,KT632578
-Eucalyptus todtiana,eucalyptus todtiana,eucalyptus todtiana,eucalyptus,todtiana,NA,eucalyptus todtiana,Accepted,,F.Muell.,CANB 530801**,FJ494771,FJ494735,,KT632579
-Eucalyptus torquata,eucalyptus torquata,eucalyptus torquata,eucalyptus,torquata,NA,eucalyptus torquata,Accepted,,Luehm.,CANB 794031**,KT632018,KT631373,KT633172,KT632580
 Eucalyptus tortilis,eucalyptus tortilis,eucalyptus tortilis,eucalyptus,tortilis,NA,eucalyptus tortilis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 130,KT632019,KT631374,KT633173,KT632581
 Eucalyptus transcontinentalis,eucalyptus transcontinentalis,eucalyptus transcontinentalis,eucalyptus,transcontinentalis,NA,eucalyptus transcontinentalis,Accepted,,Maiden,Currency Creek 550,KT632020,KT631375,KT633174,KT632582
-Eucalyptus tricarpa,eucalyptus tricarpa,eucalyptus tricarpa,eucalyptus,tricarpa,NA,eucalyptus tricarpa,Accepted,,(L.A.S.Johnson) L.A.S.Johnson &,ANBG 8701791,KT632021,KT631376,KT633175,KT632583
-Eucalyptus triflora,eucalyptus triflora,eucalyptus triflora,eucalyptus,triflora,NA,eucalyptus triflora,Accepted,,(Maiden) Blakely,ANBG 763500,KT632022,KT631377,KT633176,KT632584
-Eucalyptus trivalvis,eucalyptus trivalvis,eucalyptus trivalvis,eucalyptus,trivalvis,NA,eucalyptus trivalvis,Accepted,,Blakely,Waite Arboretum 1842,KT632023,KT631378,KT633177,KT632585
-Eucalyptus tumida,eucalyptus tumida,eucalyptus tumida,eucalyptus,tumida,NA,eucalyptus tumida,Accepted,,Brooker & Hopper,CANB 794343**,KT632024,KT631379,KT633178,KT632586
 Eucalyptus ultima,eucalyptus ultima,eucalyptus ultima,eucalyptus,ultima,NA,eucalyptus ultima,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 1182,KT632025,KT631380,KT633179,
-Eucalyptus umbra,eucalyptus umbra,eucalyptus umbra,eucalyptus,umbra,NA,eucalyptus umbra,Accepted,,F.Muell. ex R.T.Baker,ANBG 60074,KT632026,AF058505,KT633180,KT632587
 Eucalyptus uncinata subsp. uncinata,eucalyptus uncinata subsp. uncinata,eucalyptus uncinata,eucalyptus,uncinata,uncinata,eucalyptus uncinata subsp. uncinata,Accepted,,Turcz.,Currency Creek s.n.,KT632027,KT631381,KT633181,KT632588
 Eucalyptus urna,eucalyptus urna,eucalyptus urna,eucalyptus,urna,NA,eucalyptus urna,Accepted,,D.Nicolle,Currency Creek 1817,KT632028,KT631382,KT633182,KT632589
-Eucalyptus urophylla,eucalyptus urophylla,eucalyptus urophylla,eucalyptus,urophylla,NA,eucalyptus urophylla,Accepted,,S.T.Blake,CANB 180346**,,AF390489,KT633183,KT632590
 Eucalyptus utilis,eucalyptus utilis,eucalyptus utilis,eucalyptus,utilis,NA,eucalyptus utilis,Accepted,,Brooker & Hopper,Currency Creek 3705,KT632029,KT631383,KT633184,KT632591
 Eucalyptus valens,eucalyptus valens,eucalyptus valens,eucalyptus,valens,NA,eucalyptus valens,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 158,KT632030,KT631384,KT633185,KT632592
 Eucalyptus vegrandis subsp. vegrandis,eucalyptus vegrandis subsp. vegrandis,eucalyptus vegrandis,eucalyptus,vegrandis,vegrandis,eucalyptus vegrandis subsp. vegrandis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3563,KT632031,KT631385,KT633186,KT632593
-Eucalyptus vernicosa,eucalyptus vernicosa,eucalyptus vernicosa,eucalyptus,vernicosa,NA,eucalyptus vernicosa,Accepted,,Hook.f.,ANBG s.n.,KT632032,KT631386,KT633187,KT632594
 Eucalyptus verrucata,eucalyptus verrucata,eucalyptus verrucata,eucalyptus,verrucata,NA,eucalyptus verrucata,Accepted,,Ladiges & Whiffin,Currency Creek 3787,KT632033,KT631387,KT633188,KT632595
 Eucalyptus vesiculosa,eucalyptus vesiculosa,eucalyptus vesiculosa,eucalyptus,vesiculosa,NA,eucalyptus vesiculosa,Accepted,,Brooker & Hopper,Currency Creek s.n.,KT632034,KT631388,KT633189,KT632596
-Eucalyptus vicina,eucalyptus vicina,eucalyptus vicina,eucalyptus,vicina,NA,eucalyptus vicina,Accepted,,L.A.S.Johnson & K.D.Hill,GenBank,,HM116971,,
 Eucalyptus victoriana,eucalyptus victoriana,eucalyptus victoriana,eucalyptus,victoriana,NA,eucalyptus victoriana,Accepted,,Ladiges & Whiffin,Currency Creek 3786,KT632035,KT631389,KT633190,
 Eucalyptus victrix,eucalyptus victrix,eucalyptus victrix,eucalyptus,victrix,NA,eucalyptus victrix,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek s.n.,KT632036,,KT633191,KT632597
 Eucalyptus viminalis subsp. viminalis,eucalyptus viminalis subsp. viminalis,eucalyptus viminalis,eucalyptus,viminalis,viminalis,eucalyptus viminalis subsp. viminalis,Accepted,,Labill.,Currency Creek 1969,KT632037,HM596069,KT633192,KT632598
@@ -700,34 +376,12 @@ Eucalyptus viridis,eucalyptus viridis,eucalyptus viridis,eucalyptus,viridis,NA,e
 Eucalyptus vittata,eucalyptus vittata,eucalyptus vittata,eucalyptus,vittata,NA,eucalyptus vittata,Accepted,,D.Nicolle,Currency Creek 3667,KT632040,KT631392,KT633195,KT632601
 Eucalyptus vokesensis,eucalyptus vokesensis,eucalyptus vokesensis,eucalyptus,vokesensis,NA,eucalyptus vokesensis,Accepted,,D.Nicolle & L.A.S.Johnson &,Currency Creek 2619,KT632041,KT631393,KT633196,KT632602
 Eucalyptus wandoo subsp. wandoo,eucalyptus wandoo subsp. wandoo,eucalyptus wandoo,eucalyptus,wandoo,wandoo,eucalyptus wandoo subsp. wandoo,Accepted,,Blakely,Currency Creek 3447,KT632042,KT631394,KT633197,KT632603
-Eucalyptus websteriana subsp. websteriana,eucalyptus websteriana subsp. websteriana,eucalyptus websteriana,eucalyptus,websteriana,websteriana,eucalyptus websteriana subsp. websteriana,Accepted,,Maiden,Waite Arboretum 1833B,KT632043,,KT633198,KT632604
-Eucalyptus wetarensis,eucalyptus wetarensis,eucalyptus wetarensis,eucalyptus,wetarensis,NA,eucalyptus wetarensis,Accepted,,L.D.Pryor,GenBank,,AY039752,,
 Eucalyptus whitei,eucalyptus whitei,eucalyptus whitei,eucalyptus,whitei,NA,eucalyptus whitei,Accepted,,Maiden & Blakely,Currency Creek 2550,KT632044,,KT633199,KT632605
 Eucalyptus wilcoxii,eucalyptus wilcoxii,eucalyptus wilcoxii,eucalyptus,wilcoxii,NA,eucalyptus wilcoxii,Accepted,,Boland & Kleinig,Currency Creek 1773,KT632045,KT631395,KT633200,
 Eucalyptus williamsiana,eucalyptus williamsiana,eucalyptus williamsiana,eucalyptus,williamsiana,NA,eucalyptus williamsiana,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 660,KT632046,KT631396,KT633201,KT632606
-Eucalyptus willisii subsp. willisii,eucalyptus willisii subsp. willisii,eucalyptus willisii,eucalyptus,willisii,willisii,eucalyptus willisii subsp. willisii,Accepted,,"Ladiges, Humphries & Brooker",CANB 468525**,KT632047,AF058499,KT633202,KT632607
-Eucalyptus woodwardii,eucalyptus woodwardii,eucalyptus woodwardii,eucalyptus,woodwardii,NA,eucalyptus woodwardii,Accepted,,Maiden,CANB 794035**,KT632048,KT631397,,KT632608
 Eucalyptus wubinensis,eucalyptus wubinensis,eucalyptus wubinensis,eucalyptus,wubinensis,NA,eucalyptus wubinensis,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 3498,KT632049,,,
 Eucalyptus wyolensis,eucalyptus wyolensis,eucalyptus wyolensis,eucalyptus,wyolensis,NA,eucalyptus wyolensis,Accepted,,Boomsma,Currency Creek 2633,KT632050,KT631398,KT633204,KT632609
-Eucalyptus xanthonema subsp. xanthonema,eucalyptus xanthonema subsp. xanthonema,eucalyptus xanthonema,eucalyptus,xanthonema,xanthonema,eucalyptus xanthonema subsp. xanthonema,Accepted,,Turcz.,CANB 794264**,KT632051,KT631399,KT633205,KT632610
 Eucalyptus xerothermica,eucalyptus xerothermica,eucalyptus xerothermica,eucalyptus,xerothermica,NA,eucalyptus xerothermica,Accepted,,L.A.S.Johnson & K.D.Hill,Currency Creek 541,,KT631400,,KT632611
 Eucalyptus yalatensis,eucalyptus yalatensis,eucalyptus yalatensis,eucalyptus,yalatensis,NA,eucalyptus yalatensis,Accepted,,Boomsma,Currency Creek 2142,KT632052,KT631401,KT633206,KT632612
-Eucalyptus yangoura,eucalyptus yangoura,eucalyptus yangoura,eucalyptus,yangoura,NA,eucalyptus yangoura,Synonym,Eucalyptus globoidea,Blakely,Waite Arboretum 2389,KT632053,KT631402,KT633207,KT632613
-Eucalyptus yarraensis,eucalyptus yarraensis,eucalyptus yarraensis,eucalyptus,yarraensis,NA,eucalyptus yarraensis,Accepted,,Maiden & Cambage,ANBG 8005851,KT632054,KT631403,KT633208,
-Eucalyptus yilgarnensis,eucalyptus yilgarnensis,eucalyptus yilgarnensis,eucalyptus,yilgarnensis,NA,eucalyptus yilgarnensis,Accepted,,(Maiden) Brooker,Waite Arboretum 2349,KT632055,KT631404,KT633209,KT632614
-Eucalyptus youmanii,eucalyptus youmanii,eucalyptus youmanii,eucalyptus,youmanii,NA,eucalyptus youmanii,Accepted,,Blakely & McKie,ANBG 73091,KT632056,KT631405,KT633210,KT632615
 Eucalyptus youngiana,eucalyptus youngiana,eucalyptus youngiana,eucalyptus,youngiana,NA,eucalyptus youngiana,Accepted,,F.Muell.,Currency Creek 523,KT632057,KT631406,KT633211,KT632616
 Eucalyptus yumbarrana,eucalyptus yumbarrana,eucalyptus yumbarrana,eucalyptus,yumbarrana,NA,eucalyptus yumbarrana,Accepted,,Boomsma,Currency Creek 1808,KT632058,KT631407,KT633212,
-Eucalyptus zopherophloia,eucalyptus zopherophloia,eucalyptus zopherophloia,eucalyptus,zopherophloia,NA,eucalyptus zopherophloia,Accepted,,Brooker & Hopper,Waite Arboretum 2725,KT632059,KT631408,KT633213,KT632617
-Heteropyxis natalensis,heteropyxis natalensis,heteropyxis natalensis,heteropyxis,natalensis,NA,heteropyxis natalensis,Accepted,,Harv.,GenBank,,AF283676,AF368208,
-Hypocalymma linifolium,hypocalymma linifolium,hypocalymma linifolium,hypocalymma,linifolium,NA,hypocalymma linifolium,Synonym,Hypocalymma tetrapterum,Turcz.,GenBank,,,AF489379,
-Kjellbergiodendron celebicum,kjellbergiodendron celebicum,kjellbergiodendron celebicum,kjellbergiodendron,celebicum,NA,kjellbergiodendron celebicum,Accepted,,(Koord.) Merr.,GenBank,,"HM160110, HM160109",AF368209,
-Kunzea ericoides,kunzea ericoides,kunzea ericoides,kunzea,ericoides,NA,kunzea ericoides,Accepted,,(A.Rich.) Joy Thomps.,GenBank,EU815435,DQ499113,AF184724,
-Lophostemon confertus,lophostemon confertus,lophostemon confertus,lophostemon,confertus,NA,lophostemon confertus,Accepted,,(R.Br.) Peter G.Wilson &,GenBank,AM489925,AF390444,AM489994,AF190368
-Lophostemon suaveolens,lophostemon suaveolens,lophostemon suaveolens,lophostemon,suaveolens,NA,lophostemon suaveolens,Accepted,,(Sol. ex Gaertn.) Peter G.Wilson,CANB 750277**,KT632060,KT631409,KT633214,KT632618
-Myrtus communis,myrtus communis,myrtus communis,myrtus,communis,NA,myrtus communis,Accepted,,L.,GenBank,AM489955,AM234149,AY525136,
-Stockwellia quadrifida,stockwellia quadrifida,stockwellia quadrifida,stockwellia,quadrifida,NA,stockwellia quadrifida,Accepted,,"D.J.Carr, S.G.M.Carr & B.Hyland",GenBank,DQ352539,AF058452,AY525138,
-Syncarpia glomulifera,syncarpia glomulifera,syncarpia glomulifera,syncarpia,glomulifera,NA,syncarpia glomulifera,Accepted,,(Sm.) Nied.,Boodooree Botanic Garden s.n.,KT632061,HM160117,AF368220,KT632619
-Syncarpia hillii,syncarpia hillii,syncarpia hillii,syncarpia,hillii,NA,syncarpia hillii,Accepted,,F.M.Bailey,ANBG 612122,KT632062,KT631410,KT633215,KT632620
-Syzygium angophoroides,syzygium angophoroides,syzygium angophoroides,syzygium,angophoroides,NA,syzygium angophoroides,Accepted,,(F.Muell.) B.Hyland,GenBank,AY187106,AY187172,DQ088557,
-Tepualia stipularis,tepualia stipularis,tepualia stipularis,tepualia,stipularis,NA,tepualia stipularis,Accepted,,(Hook. & Arn.) Griseb.,GenBank,AM489969,AM234071,AF368222,AM489884

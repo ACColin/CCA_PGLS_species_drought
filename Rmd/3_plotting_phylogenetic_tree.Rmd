@@ -1,0 +1,156 @@
+---
+title: "Plotting_phylo_tree"
+author: "AC"
+date: "04/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+librarian::shelf(tidyverse, readr, conflicted, ggtree, ape, data.table, phytools, TreeTools,tidytree,  DesiQuintans/desiderata)
+conflict_prefer("filter", "dplyr")
+```
+
+## Plotting Thornhill phylogeny
+
+```{r}
+thornhill_labels <- read.csv("../data/tree_labels.csv")
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+labels <- read.csv("../data/labels.csv", header = T)
+```
+
+```{r}
+tree_tbl <- as_tibble(tree)
+nrow(tree_tbl)
+tree_tbl <- left_join(tree_tbl, labels, by = 'label')
+view(tree_tbl)
+
+write.csv(tree_tbl, "../outputs/phylo_tibble.csv") # I manually changed the labels so I can work with them
+```
+
+```{r}
+tree_tbl <- read.csv("../outputs/phylo_tibble.csv", header = T)
+nrow(tree_tbl)
+class(tree_tbl) <- c("tbl_tree", class(tree_tbl))
+as.treedata(tree_tbl)
+tree_tbl
+```
+
+This isn't working, I am trying a new method with full_join instead
+```{r}
+tree_tbl <- as_tibble(tree)
+str(tree_tbl)
+nrow(tree_tbl)
+tree_tbl <- full_join(tree_tbl, labels, by = 'label')
+view(tree_tbl)
+
+write.csv(tree_tbl, "../outputs/phylo_tibble_test.csv") # I manually changed the labels so I can work with them
+tree_tbl <- read.csv("../outputs/phylo_tibble_test.csv", header = T)
+
+class(tree_tbl) <- c("tbl_tree", class(tree_tbl))
+as.treedata(tree_tbl)
+
+write.csv(tree_tbl, "../outputs/phylo_tibble_test2.csv")
+tree_tbl <- read.csv("../outputs/phylo_tibble_test2.csv", header = T)
+tree_tbl
+as.treedata(tree_tbl)
+as_tibble(tree_tbl)
+as.phylo(tree_tbl)
+
+view(tree_tbl)
+write.nexus(tree_tbl, "../outputs/test_tree_newnames")
+write.tree(tree_tbl, "../outputs/test_tree_newnames")
+plotTree(tree_tbl,type="fan",fsize=0.7,lwd=1,
+    ftype="i")
+```
+
+
+
+## Making the phylogeny's tip labels match with victoria's dataset:
+
+``` {r changing phylo tip labels}
+tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
+tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x)) # converts the character string into a printable expression
+
+ggtree(tree, layout = "circular", tree$tip.label)
+
+plot(tree, type = "fan", x.lim = c(-200,400), y.lim = c(-200,400))
+
+ggsave("../plots/test2.pdf", width = 50, height = 120, limitsize = FALSE)
+
+plot(tree, type = "fan", edge.width = 2, cex = 1, label.offset = 0.05)
+plotTree(tree,type="fan",fsize=0.7,lwd=1,
+    ftype="i")
+ggsave("../plots/test_circular.pdf", width = 50, height = 120, limitsize = FALSE)
+```
+
+
+
+
+
+
+## First removing the tips that don't have data/are not present at CCA:
+
+First I load the original tree from Thornhill's publication
+```{r}
+thornhill_labels <- read.csv("../data/tree_labels.csv")
+tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+
+tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
+tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
+```
+
+Let's have a look at the tree
+```{r}
+ggtree(tree)
+z<- plotTree(tree,type="fan",fsize=0.7,lwd=1,
+    ftype="i")
+print(z)
+ggsave("../plots/z.pdf", width = 50, height = 120, limitsize = FALSE)
+```
+
+Removing tips with drop.tip() function from the TreeTools package:  
+(https://cran.rstudio.com/web/packages/TreeTools/TreeTools.pdf)
+```{r}
+#pr.species<-c("eucalyptus grandis")
+#ii<-sapply(pr.species,grep,anolis.tree$tip.label)
+
+prune.species <- c("lophostemon_suaveolens", "myrtus_communis", "decaspermum_humile", "amomyrtus_luma", "cloezia_floribunda", "tepualia_stipularis", "acmena_smithii", "syzygium_angophoroides", "syncarpia_hillii", "syncarpia_glomulifera", "hypocalymma_linifolium", "kunzea_ericoides", "agonis_flexuosa", "allosyncarpia_ternata", "stockwellia_quadrifida", "stockwellia_quadrifida", "eucalyptopsis_papuana", "eucalyptopsis_alauda", "arillastrum_gummiferum")
+drop.tip
+pruned.tree <- drop.tip(tree, prune.species, trim.internal = T)
+pruned.tree
+tree
+plot(pruned_tree, type = "fan", x.lim = c(-200,400), y.lim = c(-200,400))
+
+plotTree(pruned_tree,type="fan",fsize=0.7,lwd=1,
+    ftype="i")
+ggsave("../plots/pruning_test.pdf", width = 50, height = 120, limitsize = FALSE)
+```
+
+
+This is the list of taxa to remove, put in a vector:
+```{r}
+
+prune.species <- c("lophostemon_suaveolens", "myrtus_communis", "decaspermum_humile", "amomyrtus_luma", "cloezia_floribunda", "tepualia_stipularis", "acmena_smithii", "syzygium_angophoroides", "syncarpia_hillii", "syncarpia_glomulifera", "hypocalymma_linifolium", "kunzea_ericoides", "agonis_flexuosa", "allosyncarpia_ternata", "stockwellia_quadrifida", "stockwellia_quadrifida", "eucalyptopsis_papuana", "eucalyptopsis_alauda", "arillastrum_gummiferum")
+
+
+pruned_tree <- DropTip(tree, pruned.tips, preorder = TRUE)
+str(tree)
+pruned_tree$tip.label<-thornhill_labels$name3[match(pruned_tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
+tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
+ggtree(tree, layout = "fan")
+```
+```{r}
+tree_original <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+ggtree(tree_original,ladderize = T,branch.length = "edge.length", layout = "fan")
+```
+
+
+## Now adding the new tips to the phylogeny: subsp./provenances
+
+To do so I'm using the add.taxa.phylo() function from vanderleidebastiani:
+
+```{r}
+
+```
+
