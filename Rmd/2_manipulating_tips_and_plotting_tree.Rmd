@@ -101,7 +101,5 @@ full_tree <- pruned_tree
 class(new_tips_data)
 class(full_tree)
 full_tree <- add.taxa.phylo(full_tree, new_tips_data)
-
-tree.label.info(full_tree, new_tips_data)
 ```
 
