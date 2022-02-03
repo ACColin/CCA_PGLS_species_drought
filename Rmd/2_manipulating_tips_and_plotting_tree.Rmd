@@ -88,18 +88,73 @@ This is the matrix required for the function:
 ```{r include=FALSE}
 new_tips_data <- read.csv("../data/NewTipsMatrixCleaned.csv")
 new_tips_data <- new_tips_data %>%
-  mutate_if(is.logical, as.character)
+  mutate_if(is.logical, as.character) %>%
+  glimpse()
+
+new_tips_data <- read.csv("../data/NewTips(onlyduplicates).csv") %>%
+  glimpse()# this one contains only the tips
+                                                                 # that will receive a modification
+new_tips_data <- new_tips_data %>%
+  mutate_if(is.logical, as.character) %>%
+  glimpse()
 ```
 
-The names will be matched based on 'name5' which corresponds to the binomial with underscore as a white space.
+'name5' corresponds to the binomial with underscores as white spaces.
 The names will match between the binomial in Thornhill, and each taxa name in CCA.
+
+
+Now let's add the tip branch lengths to all the new tips so they can be merged with the tree using add.taxa.phylo()
+```{r}
+full_tree <- pruned_tree
+tibble_tree <- as_tibble(full_tree) %>% # putting the full_tree$tips and full_tree$branchlength to the right format to merge
+  as_data_frame() %>%
+  glimpse()
+
+branch_length_matrix <- left_join(new_tips_data, tibble_tree, by = c("phylo.tip.label.match" = "label")) %>% # merging
+  as_data_frame() %>%
+  select("phylo.tip.label.match", "new.tip_unique.ID", "branch.length") # keeping only the important stuff
+
+#branch_length_matrix$branch.length[branch_length_matrix$phylo.tip.label.match == "eucalyptus_baileyana"] <- 18.57541 # fixing a typo that I don't really understand why it happens during the merging
+
+branch_length_matrix %>% # as matrix otherwise the function doesn't work
+  as.matrix() %>%
+  glimpse()
+
+# Troubleshoot: "Some nodes/tips in taxa are not present in tree$node.label/tree$tip.label:"
+# returns all values of A$C that are NOT in B$C
+
+new_tips_data$phylo.tip.label.match[!new_tips_data$phylo.tip.label.match %in% tibble_tree$label]
+      # returns 0: all tips in taxa are in tips in tree
+      # node values??
+
+
+full_tree <- add.taxa.phylo(full_tree, branch_length_matrix, prefix = "")
+plot(full_tree)
+
+```
+
+
+```{r}
+class(new_tips_data)
+
+matrix = as.matrix(new_tips_data)
+print(matrix)
+```
+
 
 Now let's use the function.
 
 ```{r}
 full_tree <- pruned_tree
-class(new_tips_data)
-class(full_tree)
-full_tree <- add.taxa.phylo(full_tree, new_tips_data)
+full_tree <- add.taxa.phylo(full_tree, matrix)
+
+is.null(full_tree$edge.length)
+any(is.na(full_tree$edge.length))
+
 ```
+
+```{r}
+test_tree <- add.taxa.phylo(full_tree, matrix)
+```
+
 
