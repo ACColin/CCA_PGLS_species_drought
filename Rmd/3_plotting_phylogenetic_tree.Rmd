@@ -13,144 +13,127 @@ conflict_prefer("filter", "dplyr")
 
 ## Plotting Thornhill phylogeny
 
+Now that we have that damn tree we can plot it and map traits onto it!
+
 ```{r}
-thornhill_labels <- read.csv("../data/tree_labels.csv")
-tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
-labels <- read.csv("../data/labels.csv", header = T)
+tree <- read.tree("plots/final_tree_uniqueID.tre")
+info <- read.csv("data/DroughtImpact_SummaryBy_Completetraits.csv")
 ```
 
+Just visualizing the data beforehand
 ```{r}
-tree_tbl <- as_tibble(tree)
-nrow(tree_tbl)
-tree_tbl <- left_join(tree_tbl, labels, by = 'label')
-view(tree_tbl)
-
-write.csv(tree_tbl, "../outputs/phylo_tibble.csv") # I manually changed the labels so I can work with them
-```
-
-```{r}
-tree_tbl <- read.csv("../outputs/phylo_tibble.csv", header = T)
-nrow(tree_tbl)
-class(tree_tbl) <- c("tbl_tree", class(tree_tbl))
-as.treedata(tree_tbl)
-tree_tbl
-```
-
-This isn't working, I am trying a new method with full_join instead
-```{r}
-tree_tbl <- as_tibble(tree)
-str(tree_tbl)
-nrow(tree_tbl)
-tree_tbl <- full_join(tree_tbl, labels, by = 'label')
-view(tree_tbl)
-
-write.csv(tree_tbl, "../outputs/phylo_tibble_test.csv") # I manually changed the labels so I can work with them
-tree_tbl <- read.csv("../outputs/phylo_tibble_test.csv", header = T)
-
-class(tree_tbl) <- c("tbl_tree", class(tree_tbl))
-as.treedata(tree_tbl)
-
-write.csv(tree_tbl, "../outputs/phylo_tibble_test2.csv")
-tree_tbl <- read.csv("../outputs/phylo_tibble_test2.csv", header = T)
-tree_tbl
-as.treedata(tree_tbl)
-as_tibble(tree_tbl)
-as.phylo(tree_tbl)
-
-view(tree_tbl)
-write.nexus(tree_tbl, "../outputs/test_tree_newnames")
-write.tree(tree_tbl, "../outputs/test_tree_newnames")
-plotTree(tree_tbl,type="fan",fsize=0.7,lwd=1,
-    ftype="i")
+plot(tree, "fan")
+view(info)
 ```
 
 
+Let's start with mapping the drought incidence
+```{r}
+p1 <- ggtree(tree, layout='circular') %<+% info + 
+  geom_tippoint(aes(color=Drought2020Scale.mean)) +
+  geom_tile(aes(color=Drought2020Scale.mean)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
+  geom_tiplab(aes(color=Drought2020Scale.mean, ftype="i",fsize=0.5), hjust = -.1)
+print(p1)
+ggsave("plots/Drought2020Scale.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
 
-## Making the phylogeny's tip labels match with victoria's dataset:
+p2 <- ggtree(tree, layout='circular') %<+% info + 
+  geom_tippoint(aes(color=AICorrected)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
+  geom_tiplab(aes(color=AICorrected, ftype="i",fsize=0.5), hjust = -.1)
+print(p2)
+ggsave("plots/AICorrected.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
 
-``` {r changing phylo tip labels}
-tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
-tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x)) # converts the character string into a printable expression
+p3 <- ggtree(tree, layout='circular') %<+% info + 
+  geom_tippoint(aes(color=height_max_m)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
+  geom_tiplab(aes(color=height_max_m, ftype="i",fsize=0.5), hjust = -.1)
+print(p3)
+ggsave("plots/height_max_m.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
 
-ggtree(tree, layout = "circular", tree$tip.label)
+p4 <- ggtree(tree, layout='circular') %<+% info + 
+  geom_tippoint(aes(color=Wooddensity.g.cm3..mean)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
+  geom_tiplab(aes(color=Wooddensity.g.cm3..mean, ftype="i",fsize=0.5), hjust = -.1)
+print(p4)
+ggsave("plots/Wooddensity.g.cm3..mean.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
 
-plot(tree, type = "fan", x.lim = c(-200,400), y.lim = c(-200,400))
-
-ggsave("../plots/test2.pdf", width = 50, height = 120, limitsize = FALSE)
-
-plot(tree, type = "fan", edge.width = 2, cex = 1, label.offset = 0.05)
-plotTree(tree,type="fan",fsize=0.7,lwd=1,
-    ftype="i")
-ggsave("../plots/test_circular.pdf", width = 50, height = 120, limitsize = FALSE)
 ```
 
-
-
-
-
-
-## First removing the tips that don't have data/are not present at CCA:
-
-First I load the original tree from Thornhill's publication
+Cool, now let's add the multiple associated matrices: Aridity Index, Drought Scale Damage and Maximum tree height
 ```{r}
-thornhill_labels <- read.csv("../data/tree_labels.csv")
-tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+library(ggtreeExtra)
+library(ggtree)
+library(treeio)
+library(tidytree)
+library(ggstar)
+library(ggplot2)
+library(ggnewscale)
+library(TDbook)
 
-tree$tip.label<-thornhill_labels$name3[match(tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
-tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
+p <- ggtree(tree, layout='circular') %<+% info + 
+  geom_tippoint(aes(color=AICorrected)) +
+  scale_color_gradientn(colours= rainbow(5))# +
+#  geom_tiplab(aes(color=Drought2020Scale.mean, ftype="i",fsize=0.5), hjust = -.1) +
+#  geom_tiplab(aes(color=AICorrected, ftype="i",fsize=0.5), hjust = -.1)
+print(p)
+
+
+# p1 <- p + new_scale_fill() %<+% info +
+#   geom_fruit(geom=geom_tile,
+#              mapping=aes(Drought2020Scale.mean, fill=Drought2020Scale.mean),
+#              color = "grey50", offset = 0.04,size = 0.02)+
+#   scale_alpha_continuous(range=c(0, 1),
+#                          guide=guide_legend(keywidth = 0.3, 
+#                                             keyheight = 0.3, order=5))# +
+#   geom_fruit(data=dat3, geom=geom_bar,
+#              mapping=aes(y=ID, x=HigherAbundance, fill=Sites),
+#              pwidth=0.38, 
+#              orientation="y", 
+#              stat="identity",
+#   )
+
+p <- ggtree(tree, layout='circular')
+
+p1 <- p + new_scale_fill() %<+% info +
+  geom_fruit(geom=geomtile,
+             mapping=aes(fill=Drought2020Scale.mean),
+             color = "grey50", offset = 0.04,size = 0.02) +
+  
+  geom_fruit(geom=geom_tile,
+             mapping=aes(color=height_max_m) +
+               scale_color_gradientn(colours= c("yellow","pink"))
 ```
 
-Let's have a look at the tree
 ```{r}
-ggtree(tree)
-z<- plotTree(tree,type="fan",fsize=0.7,lwd=1,
-    ftype="i")
-print(z)
-ggsave("../plots/z.pdf", width = 50, height = 120, limitsize = FALSE)
-```
+circ <- ggtree(tree, layout = "circular")
 
-Removing tips with drop.tip() function from the TreeTools package:  
-(https://cran.rstudio.com/web/packages/TreeTools/TreeTools.pdf)
-```{r}
-#pr.species<-c("eucalyptus grandis")
-#ii<-sapply(pr.species,grep,anolis.tree$tip.label)
+df <- info %>% 
+  select(UniqueID, height_max_m) %>% 
+  as.data.frame() %>% 
+  glimpse()
 
-prune.species <- c("lophostemon_suaveolens", "myrtus_communis", "decaspermum_humile", "amomyrtus_luma", "cloezia_floribunda", "tepualia_stipularis", "acmena_smithii", "syzygium_angophoroides", "syncarpia_hillii", "syncarpia_glomulifera", "hypocalymma_linifolium", "kunzea_ericoides", "agonis_flexuosa", "allosyncarpia_ternata", "stockwellia_quadrifida", "stockwellia_quadrifida", "eucalyptopsis_papuana", "eucalyptopsis_alauda", "arillastrum_gummiferum")
-drop.tip
-pruned.tree <- drop.tip(tree, prune.species, trim.internal = T)
-pruned.tree
-tree
-plot(pruned_tree, type = "fan", x.lim = c(-200,400), y.lim = c(-200,400))
-
-plotTree(pruned_tree,type="fan",fsize=0.7,lwd=1,
-    ftype="i")
-ggsave("../plots/pruning_test.pdf", width = 50, height = 120, limitsize = FALSE)
-```
+df1 <- info %>% 
+  select(UniqueID, Drought2020Scale.mean, AICorrected) %>% 
+  as.data.frame() %>% 
+  glimpse()
 
 
-This is the list of taxa to remove, put in a vector:
-```{r}
+p1 <- gheatmap(circ, df, offset=.8, width=.2,
+               colnames_angle=95, colnames_offset_y = .25) +
+    scale_fill_viridis_d(option="D", name="discrete\nvalue")
 
-prune.species <- c("lophostemon_suaveolens", "myrtus_communis", "decaspermum_humile", "amomyrtus_luma", "cloezia_floribunda", "tepualia_stipularis", "acmena_smithii", "syzygium_angophoroides", "syncarpia_hillii", "syncarpia_glomulifera", "hypocalymma_linifolium", "kunzea_ericoides", "agonis_flexuosa", "allosyncarpia_ternata", "stockwellia_quadrifida", "stockwellia_quadrifida", "eucalyptopsis_papuana", "eucalyptopsis_alauda", "arillastrum_gummiferum")
+test_tree <- p1$data %>% 
+  as.phylo()
+class(test_tree)
 
+ggtree(test_tree)
 
-pruned_tree <- DropTip(tree, pruned.tips, preorder = TRUE)
-str(tree)
-pruned_tree$tip.label<-thornhill_labels$name3[match(pruned_tree$tip.label, thornhill_labels$original)] # changing tip label to match victoria species name
-tree$tip.label<-sapply(tree$tip.label, function(x) parse(text=x))
-ggtree(tree, layout = "fan")
-```
-```{r}
-tree_original <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
-ggtree(tree_original,ladderize = T,branch.length = "edge.length", layout = "fan")
-```
-
-
-## Now adding the new tips to the phylogeny: subsp./provenances
-
-To do so I'm using the add.taxa.phylo() function from vanderleidebastiani:
-
-```{r}
+library(ggnewscale)
+p2 <- p1 + new_scale_fill()
+gheatmap(p2, df1, offset=15, width=.3,
+         colnames_angle=90, colnames_offset_y = .25) +
+    scale_fill_viridis_c(option="A", name="continuous\nvalue")
 
 ```
 

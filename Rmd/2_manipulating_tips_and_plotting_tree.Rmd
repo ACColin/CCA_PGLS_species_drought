@@ -7,15 +7,16 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+librarian::shelf(dplyr, ape, conflicted)
 conflict_prefer("filter", "dplyr")
 conflict_prefer("drop.tip", "ape")
-librarian::shelf(tidyverse, readr, conflicted, ggtree, ape, data.table, phytools, TreeTools, tidytree, treeio, daee, DesiQuintans/desiderata)
+librarian::shelf(tidyverse, ggtree, phytools, TreeTools, tidytree, treeio)
 
 ```
 
 ```{r, raw data}
-thornhill_labels <- read.csv("../data/tree_labels.csv")
-tree <- read.tree("../data/Eucalypts_ML2_dated_r8s.tre")
+thornhill_labels <- read.csv("data/tree_labels.csv")
+tree <- read.tree("data/Eucalypts_ML2_dated_r8s.tre")
 ```
 
 
@@ -41,10 +42,12 @@ I'm using the match() function of TreeTools to change the tip.label. As you can 
 Note to myself: there are other ways to change the tip labels but this set of commands is the only way to conserve tip.label as character, ensuring that the phylo object remains readable by phylo packages in the following steps. If tip.label is not displayed as character then any manipulation of tips will fail as the function is unable to retrieve them in the phylo object.  
 
 If you open thornhill_labels, you will see that the variable "name3" corresponds to the full species name with underscores instead of white spaces as they can be problematic for some manipulations with phylogenetic packages in R.  
+'name5' corresponds to the binomial with underscores as white spaces.
+The names will match between the binomial in Thornhill, and each taxa name in CCA.
 
 ## Second tree manipulation: removing some tips
 
-Now we want to remove species in the phylogeny that are not part of the analysis so they do not appear in the modified phylogeny. To do so I use the function drop.tip() from TreeTools, which removes a set of tips and collapses the corresponding set of branches.
+Now we want to remove species in the phylogeny that are not part of the analysis so they do not appear in the modified phylogeny. To do so I use the function drop.tip() from TreeTools, which removes a set of tips and collapses to the corresponding set of branches.
 
 ```{r}
 pruned_tree <- new_tree
@@ -69,7 +72,7 @@ plot(pruned_tree)
 #write.tree(pruned_tree, "../plots/tree_inprogress_check_taxanames_in_double.tre")
 ```
 
-You can see at the bottom part of the tree that a set of tips and the corresponding branches are gone.  
+You can see at the base of the tree that species outside of Angophora, Corymbia and Eucalyptus are gone and the tree collapsed.  
 
 If you look at the phylo object 'pruned_tree' you can see that the listed tips in the vector 'prune.species' are removed from tip.label and that the number of tips and nodes is now reduced.  
 
@@ -77,84 +80,240 @@ If you look at the phylo object 'pruned_tree' you can see that the listed tips i
 
 Now we can change the tree to include the additional tips for all subspecies, hybrids and provenances at CCA.
 
-I use the R function add.taxa.phylo from @vanderleidebastiani:
-    `https://github.com/vanderleidebastiani/daee/blob/master/R/add.taxa.phylo.R`
-    
-A description of the function and required data:  
-The function add.taxa.phylo allows to add the new tips according to more related species or node provided. The taxa object is a matrix with three columns. The first column is the node label or tip label to new tip be anchored. The second column is the label to new tip. The third column is the terminal edge length for the added tips, can be NA. If anchored label is a node the new tip is inserted as polytomy and edge length is not used, the length is computed to keep the tree ultrametric. If anchored is a tip label and edge length was provided the new tip is inserted with length provide, and if edge length was NA the length is computed simply by split current edge length by two.
+First, we need to create a matrix with the required data for the function bind.tip() to use.
+I transform the tree as a tibble to extract the information I require from the existing tips (tips' labels and node numbers) to use the bind.tip() function to add the new tips.
 
-This is the matrix required for the function:
+I only kept the information that bind.tip requires, the node number to which the new tip will be attached and its corresponding new label.
+``` {r}
+all_tree <- pruned_tree
+new_tips_data <- read.csv("data/NewTips(onlyduplicates).csv") # only duplicates = only contains the tips from the current tree that will be receive new tips. not the tips that will remain unchanged (which I manually removed from the dataframe).
 
-```{r include=FALSE}
-new_tips_data <- read.csv("../data/NewTipsMatrixCleaned.csv")
-new_tips_data <- new_tips_data %>%
-  mutate_if(is.logical, as.character) %>%
-  glimpse()
-
-new_tips_data <- read.csv("../data/NewTips(onlyduplicates).csv") %>%
-  glimpse()# this one contains only the tips
-                                                                 # that will receive a modification
-new_tips_data <- new_tips_data %>%
-  mutate_if(is.logical, as.character) %>%
-  glimpse()
-```
-
-'name5' corresponds to the binomial with underscores as white spaces.
-The names will match between the binomial in Thornhill, and each taxa name in CCA.
-
-
-Now let's add the tip branch lengths to all the new tips so they can be merged with the tree using add.taxa.phylo()
-```{r}
-full_tree <- pruned_tree
-tibble_tree <- as_tibble(full_tree) %>% # putting the full_tree$tips and full_tree$branchlength to the right format to merge
-  as_data_frame() %>%
+tibble_tree <- as_tibble(all_tree) %>% # putting the full_tree$tips and
+  as_data_frame() %>%                   # full_tree$branchlength to the right format to merge
   glimpse()
 
 branch_length_matrix <- left_join(new_tips_data, tibble_tree, by = c("phylo.tip.label.match" = "label")) %>% # merging
   as_data_frame() %>%
-  select("phylo.tip.label.match", "new.tip_unique.ID", "branch.length") # keeping only the important stuff
-
-#branch_length_matrix$branch.length[branch_length_matrix$phylo.tip.label.match == "eucalyptus_baileyana"] <- 18.57541 # fixing a typo that I don't really understand why it happens during the merging
-
-branch_length_matrix %>% # as matrix otherwise the function doesn't work
-  as.matrix() %>%
+  select("uniqueID", "node") %>% # keeping only the important stuff
+  as.matrix() %>% 
   glimpse()
 
-# Troubleshoot: "Some nodes/tips in taxa are not present in tree$node.label/tree$tip.label:"
-# returns all values of A$C that are NOT in B$C
-
-new_tips_data$phylo.tip.label.match[!new_tips_data$phylo.tip.label.match %in% tibble_tree$label]
-      # returns 0: all tips in taxa are in tips in tree
-      # node values??
+#write_csv(branch_length_matrix, "bind.tip_tip_matrix.csv") # saved it just in case
 
 
-full_tree <- add.taxa.phylo(full_tree, branch_length_matrix, prefix = "")
-plot(full_tree)
+head(all_tree)
+head(branch_length_matrix)
+?bind.tip
+
 
 ```
 
+To use bind.tip() on all tips I then made a for loop on the function.
+Now let's add all the new tips for each CCA taxa to the tree.
+Matrix providing data for each new tip:
+  - column 1: the label of the new tip
+  - column 2: the node number to which this tip will be anchored
+  - column 3: the branch length for this new tip
 
 ```{r}
-class(new_tips_data)
+bldf <- as.data.frame(branch_length_matrix)
+bldf$node <- as.numeric(bldf[,2])
+head(bldf)
 
-matrix = as.matrix(new_tips_data)
-print(matrix)
+
+test_tree2 <- all_tree
+
+for (i in 1:length(bldf$uniqueID)) { # the for loop takes a minute to run
+  labs <- bldf$uniqueID[i]
+  nodes <- which(test_tree2$tip.label == all_tree$tip.label[bldf$node[i]])
+  test_tree2 <- bind.tip(test_tree2, tip.label = labs, edge.length= 0, where=nodes)
+}
+
+plot(test_tree2, cex = 0.25)
+
+write.tree(test_tree2, "plots/with_new_tips_as_unique_ID_full_tree.tre")
+
 ```
 
 
-Now let's use the function.
+## Final tree manipulation:
+
+We can't really see it in the plots in Rstudio but the tree still contains the original tree labels 
+(without the unique ID) where the new tips have been anchored.
+For example on node 10 for Angophora costata we now have:
+  `2073`
+  `6796`
+  `2082`
+  `3206`
+  and the original `angophora_costata`
+Same goes on for all of them.
+
+We want to:
+(1) change the labels for the tips that didn't need to have new tips added
+(2) prune the tree a final time to only have the labels with the unique IDs
 
 ```{r}
-full_tree <- pruned_tree
-full_tree <- add.taxa.phylo(full_tree, matrix)
 
-is.null(full_tree$edge.length)
-any(is.na(full_tree$edge.length))
+pruned_tree2 <-read.tree("plots/with_new_tips_as_unique_ID_full_tree.tre")
+
+prune.species <- c("angophora_costata", "angophora_hispida", "corymbia_arenaria", "corymbia_brachycarpa",
+                  "corymbia_cadophora", "corymbia_calophylla", "corymbia_dichromophloia", "corymbia_papillosa",
+                  "corymbia_chippendalei", "corymbia_haematoxylon", "corymbia_citriodora", "corymbia_erythrophloia",
+                  "corymbia_greeniana", "corymbia_deserticola", "corymbia_ellipsoidea", "corymbia_eremaea",
+                  "corymbia_ferruginea", "corymbia_ficifolia", "corymbia_grandifolia", "corymbia_hamersleyana",
+                  "corymbia_lenziana", "corymbia_ligans", "corymbia_henryi", "corymbia_nesophila", "corymbia_opaca",
+                  "corymbia_pachycarpa", "corymbia_polycarpa", "corymbia_polysciada", "corymbia_ptychocarpa",
+                  "corymbia_stockeri", "corymbia_terminalis", "corymbia_trachyphloia", "corymbia_watsoniana",
+                  "eucalyptus_acaciiformis", "eucalyptus_acmenoides", "eucalyptus_decipiens", "eucalyptus_viridis",
+                  "eucalyptus_aequioperta", "eucalyptus_trivalvis", "eucalyptus_umbra", "eucalyptus_agglomerata",
+                  "eucalyptus_aggregata", "eucalyptus_cypellocarpa", "eucalyptus_kingsmillii", "eucalyptus_alba",
+                  "eucalyptus_albens", "eucalyptus_albida", "eucalyptus_albopurpurea", "eucalyptus_alipes",
+                  "eucalyptus_alligatrix", "eucalyptus_nudicaulis", "eucalyptus_amplifolia", "eucalyptus_amygdalina",
+                  "eucalyptus_andrewsii", "eucalyptus_angulosa", "eucalyptus_angustissima", "eucalyptus_kessellii",
+                  "eucalyptus_apiculata", "eucalyptus_apothalassica", "eucalyptus_approximans", "eucalyptus_aquilina",
+                  "eucalyptus_arachnaea", "eucalyptus_arborella", "eucalyptus_aromaphloia", "eucalyptus_gunnii",
+                  "eucalyptus_arenacea", "eucalyptus_argutifolia", "eucalyptus_lucasii", "eucalyptus_erythronema",
+                  "eucalyptus_aspersa", "eucalyptus_aspratilis", "eucalyptus_assimilans", "eucalyptus_astringens",
+                  "eucalyptus_miniata", "eucalyptus_baeuerlenii", "eucalyptus_baileyana", "eucalyptus_bakeri",
+                  "eucalyptus_balladoniensis", "eucalyptus_interstans", "eucalyptus_goniocalyx", "eucalyptus_barberi",
+                  "eucalyptus_ovularis", "eucalyptus_baueriana", "eucalyptus_baxteri", "eucalyptus_beardiana",
+                  "eucalyptus_behriana", "eucalyptus_bensonii", "eucalyptus_benthamii", "eucalyptus_globulus",
+                  "eucalyptus_deglupta", "eucalyptus_pellita", "eucalyptus_blakelyi", "eucalyptus_blaxlandii",
+                  "eucalyptus_bosistoana", "eucalyptus_botryoides", "eucalyptus_brachycalyx", "eucalyptus_tetraptera",
+                  "eucalyptus_brassiana", "eucalyptus_brevifolia", "eucalyptus_bridgesiana", "eucalyptus_brockwayi",
+                  "eucalyptus_brookeriana", "eucalyptus_hallii", "eucalyptus_buprestium", "eucalyptus_caesia",
+                  "eucalyptus_calcareana", "eucalyptus_calcicola", "eucalyptus_caleyi", "eucalyptus_caliginosa",
+                  "eucalyptus_calycogona", "eucalyptus_camaldulensis", "eucalyptus_largeana", "eucalyptus_mckieana",
+                  "eucalyptus_campaspe", "eucalyptus_camphora", "eucalyptus_canescens", "eucalyptus_capillosa",
+                  "eucalyptus_ceratocorys", "eucalyptus_capitellata", "eucalyptus_captiosa", "eucalyptus_carnea",
+                  "eucalyptus_carnei", "eucalyptus_celastroides", "eucalyptus_cernua", "eucalyptus_dalrympleana",
+                  "eucalyptus_chartaboma", "eucalyptus_chlorophylla", "eucalyptus_cinerea", "eucalyptus_cladocalyx",
+                  "eucalyptus_clelandii", "eucalyptus_clivicola", "eucalyptus_comitae-vallis", "eucalyptus_concinna",
+                  "eucalyptus_conferruminata", "eucalyptus_confluens", "eucalyptus_conglobata", "eucalyptus_conspicua",
+                  "eucalyptus_conveniens", "eucalyptus_coolabah", "eucalyptus_cooperiana", "eucalyptus_cordata",
+                  "eucalyptus_cornuta", "eucalyptus_corrugata", "eucalyptus_corticosa", "eucalyptus_melanoleuca",
+                  "eucalyptus_cosmophylla", "eucalyptus_crebra", "eucalyptus_creta", "eucalyptus_cretata",
+                  "eucalyptus_crucis", "eucalyptus_exilipes", "eucalyptus_cunninghamii", "eucalyptus_cupularis",
+                  "eucalyptus_cylindrocarpa", "eucalyptus_magnificata", "eucalyptus_dealbata", "eucalyptus_decurva",
+                  "eucalyptus_deflexa", "eucalyptus_delegatensis", "eucalyptus_delicata", "eucalyptus_burgessiana",
+                  "eucalyptus_densa", "eucalyptus_dielsii", "eucalyptus_diminuta", "eucalyptus_discreta",
+                  "eucalyptus_uncinata", "eucalyptus_dissimulata", "eucalyptus_distans", "eucalyptus_distuberosa",
+                  "eucalyptus_diversicolor", "eucalyptus_diversifolia", "eucalyptus_dives", "eucalyptus_dolichocera",
+                  "eucalyptus_falcata", "eucalyptus_drummondii", "eucalyptus_dumosa", "eucalyptus_dundasii",
+                  "eucalyptus_dura", "eucalyptus_dwyeri", "eucalyptus_ebbanoensis", "eucalyptus_petrensis",
+                  "eucalyptus_educta", "eucalyptus_effusa", "eucalyptus_elaeophloia", "eucalyptus_elata",
+                  "eucalyptus_elliptica", "eucalyptus_erectifolia", "eucalyptus_eremicola", "eucalyptus_eremophila",
+                  "eucalyptus_eugenioides", "eucalyptus_erythrocorys", "eucalyptus_eudesmioides",
+                  "eucalyptus_ewartiana", "eucalyptus_exigua", "eucalyptus_exilis", "eucalyptus_extensa",
+                  "eucalyptus_willisii", "eucalyptus_fasciculosa", "eucalyptus_paniculata", "eucalyptus_fibrosa",
+                  "eucalyptus_histophylla", "eucalyptus_flindersii", "eucalyptus_flocktoniae", "eucalyptus_foecunda",
+                  "eucalyptus_formanii", "eucalyptus_forrestiana", "eucalyptus_fraseri", "eucalyptus_fraxinoides",
+                  "eucalyptus_frenchiana", "eucalyptus_froggattii", "eucalyptus_fruticosa", "eucalyptus_gamophylla",
+                  "eucalyptus_gardneri", "eucalyptus_georgei", "eucalyptus_gillenii", "eucalyptus_gillii",
+                  "eucalyptus_gittinsii", "eucalyptus_glaucescens", "eucalyptus_glaucina", "eucalyptus_globoidea",
+                  "eucalyptus_gongylocarpa", "eucalyptus_goniantha", "eucalyptus_gracilis", "eucalyptus_grandis",
+                  "eucalyptus_griffithsii", "eucalyptus_grisea", "eucalyptus_grossa", "eucalyptus_guilfoylei",
+                  "eucalyptus_gypsophila", "eucalyptus_hebetifolia", "eucalyptus_herbertiana", "eucalyptus_horistes",
+                  "eucalyptus_hypolaena", "eucalyptus_incerata", "eucalyptus_incrassata", "eucalyptus_indurata",
+                  "eucalyptus_infera", "eucalyptus_lockyeri", "eucalyptus_insularis", "eucalyptus_intertexta",
+                  "eucalyptus_jacksonii", "eucalyptus_jimberlanica", "eucalyptus_subcrenulata", "eucalyptus_jucunda",
+                  "eucalyptus_jutsonii", "eucalyptus_tereticornis", "eucalyptus_kitsoniana", "eucalyptus_kochii",
+                  "eucalyptus_kondininensis", "eucalyptus_kruseana", "eucalyptus_kumarlensis", "eucalyptus_lacrimans",
+                  "eucalyptus_melanoxylon", "eucalyptus_lanepoolei", "eucalyptus_langleyi", "eucalyptus_lansdowneana",
+                  "eucalyptus_largiflorens", "eucalyptus_lehmannii", "eucalyptus_leptocalyx", "eucalyptus_leptophleba",
+                  "eucalyptus_leptophylla", "eucalyptus_leptopoda", "eucalyptus_lesouefii", "eucalyptus_leucophloia",
+                  "eucalyptus_tephrodes", "eucalyptus_leucoxylon", "eucalyptus_ligulata", "eucalyptus_litorea",
+                  "eucalyptus_longicornis", "eucalyptus_longifolia", "eucalyptus_loxophleba", "eucalyptus_luculenta",
+                  "eucalyptus_luehmanniana", "eucalyptus_macarthurii", "eucalyptus_macrandra", "eucalyptus_macrocarpa",
+                  "eucalyptus_macrorhyncha", "eucalyptus_scias", "eucalyptus_major", "eucalyptus_mannensis",
+                  "eucalyptus_mannifera", "eucalyptus_marginata", "eucalyptus_mcquoidii", "eucalyptus_megacarpa",
+                  "eucalyptus_megacornuta", "eucalyptus_melanophloia", "eucalyptus_melliodora", "eucalyptus_merrickiae",
+                  "eucalyptus_micranthera", "eucalyptus_microcarpa", "eucalyptus_mimica", "eucalyptus_minniritchi",
+                  "eucalyptus_moderata", "eucalyptus_moluccana", "eucalyptus_moorei", "eucalyptus_morrisbyi",
+                  "eucalyptus_morrisii", "eucalyptus_multicaulis", "eucalyptus_myriadena", "eucalyptus_nandewarica",
+                  "eucalyptus_nitida", "eucalyptus_neglecta", "eucalyptus_neutra", "eucalyptus_nicholii",
+                  "eucalyptus_nobilis", "eucalyptus_normantonensis", "eucalyptus_nortonii", "eucalyptus_nutans",
+                  "eucalyptus_obconica", "eucalyptus_obesa", "eucalyptus_obliqua", "eucalyptus_obtusiflora",
+                  "eucalyptus_occidentalis", "eucalyptus_polybractea", "eucalyptus_oldfieldii", "eucalyptus_oleosa",
+                  "eucalyptus_oligantha", "eucalyptus_olivina", "eucalyptus_olsenii", "eucalyptus_optima",
+                  "eucalyptus_oraria", "eucalyptus_orbifolia", "eucalyptus_oreades", "eucalyptus_ornata",
+                  "eucalyptus_orthostemon", "eucalyptus_ovata", "eucalyptus_pachyloma", "eucalyptus_pachyphylla",
+                  "eucalyptus_paedoglauca", "eucalyptus_panda", "eucalyptus_mooreana", "eucalyptus_parramattensis",
+                  "eucalyptus_patens", "eucalyptus_pauciflora", "eucalyptus_perangusta", "eucalyptus_perriniana",
+                  "eucalyptus_petiolaris", "eucalyptus_petraea", "eucalyptus_phaenophylla", "eucalyptus_phenax",
+                  "eucalyptus_phoenicea", "eucalyptus_pileata", "eucalyptus_pimpiniana", "eucalyptus_piperita",
+                  "eucalyptus_platycorys", "eucalyptus_platyphylla", "eucalyptus_pleurocarpa", "eucalyptus_polita",
+                  "eucalyptus_polyanthemos", "eucalyptus_preissiana", "eucalyptus_prolixa", "eucalyptus_youmanii",
+                  "eucalyptus_propinqua", "eucalyptus_protensa", "eucalyptus_pruinosa", "eucalyptus_pterocarpa",
+                  "eucalyptus_pulverulenta", "eucalyptus_purpurata", "eucalyptus_quadrans", "eucalyptus_quadricostata",
+                  "eucalyptus_quaerenda", "eucalyptus_racemosa", "eucalyptus_radiata", "eucalyptus_rameliana",
+                  "eucalyptus_ravida", "eucalyptus_recta", "eucalyptus_tindaliae", "eucalyptus_pluricaulis",
+                  "eucalyptus_regnans", "eucalyptus_resinifera", "eucalyptus_rigens", "eucalyptus_rigidula",
+                  "eucalyptus_rodwayi", "eucalyptus_rosacea", "eucalyptus_roycei", "eucalyptus_rubida",
+                  "eucalyptus_rudderi", "eucalyptus_rudis", "eucalyptus_rugosa", "eucalyptus_rugulata",
+                  "eucalyptus_salicola", "eucalyptus_saligna", "eucalyptus_salmonophloia", "eucalyptus_salubris",
+                  "eucalyptus_sargentii", "eucalyptus_saxatilis", "eucalyptus_scoparia", "eucalyptus_surgens",
+                  "eucalyptus_sepulcralis", "eucalyptus_serraensis", "eucalyptus_vittata", "eucalyptus_sideroxylon",
+                  "eucalyptus_singularis", "eucalyptus_smithii", "eucalyptus_socialis", "eucalyptus_urna",
+                  "eucalyptus_nerthicola", "eucalyptus_sparsa", "eucalyptus_sparsifolia", "eucalyptus_spathulata",
+                  "eucalyptus_stricta", "eucalyptus_spreta", "eucalyptus_steedmanii", "eucalyptus_stellulata",
+                  "eucalyptus_stricklandii", "eucalyptus_strzeleckii", "eucalyptus_subangusta", "eucalyptus_subtilis",
+                  "eucalyptus_suggrandis", "eucalyptus_synandra", "eucalyptus_talyuberlup", "eucalyptus_tholiformis",
+                  "eucalyptus_tenera", "eucalyptus_tenuipes", "eucalyptus_tenuiramis", "eucalyptus_terebra",
+                  "eucalyptus_thamnoides", "eucalyptus_todtiana", "eucalyptus_tricarpa", "eucalyptus_triflora",
+                  "eucalyptus_ultima", "eucalyptus_utilis", "eucalyptus_redunca", "eucalyptus_vegrandis",
+                  "eucalyptus_vernicosa", "eucalyptus_verrucata", "eucalyptus_vicina", "eucalyptus_victoriana",
+                  "eucalyptus_victrix", "eucalyptus_viminalis", "eucalyptus_vokesensis", "eucalyptus_retinens",
+                  "eucalyptus_wandoo", "eucalyptus_woodwardii", "eucalyptus_wyolensis", "eucalyptus_impensa",
+                  "eucalyptus_lateritica", "eucalyptus_xanthonema", "eucalyptus_xerothermica", "eucalyptus_yalatensis",
+                  "eucalyptus_yilgarnensis", "eucalyptus_youngiana", "eucalyptus_yumbarrana")
+
+
+pruned_tree2 <- drop.tip(pruned_tree2, prune.species, trim.internal = T)
+
+tree_tipsID <- pruned_tree2
+plot(pruned_tree2)
+
+second.prunning <- c("angophora_bakeri", "angophora_exul", "angophora_robur", "angophora_woodsiana", 
+                     "corymbia_aparrerinja", "corymbia_arafurica", "corymbia_blakei", "corymbia_candida",
+                     "corymbia_catenaria", "corymbia_confertiflora", "corymbia_dallachiana", "corymbia_dampieri",
+                     "corymbia_dendromerinx", "corymbia_dunlopiana", "corymbia_flavescens", "corymbia_gilbertensis",
+                     "corymbia_hylandii", "corymbia_lamprophylla", "corymbia_novaguineesis", "corymbia_opacula",
+                     "corymbia_papuana", "corymbia_pauciseta", "corymbia_porphyritica", "corymbia_tessellaris",
+                     "corymbia_torelliana", "corymbia_torta", "corymbia_variegata", "eucalyptus_acroleuca",
+                     "eucalyptus_alaticaulis", "eucalyptus_argyphea", "eucalyptus_brachycorys", "eucalyptus_carnabyi",
+                     "eucalyptus_communalis", "eucalyptus_cuspidata", "eucalyptus_disclusa", "eucalyptus_dolorosa",
+                     "eucalyptus_fergusonii", "eucalyptus_ignorabilis", "eucalyptus_imlayensis", "eucalyptus_limitaris",
+                     "eucalyptus_medialis", "eucalyptus_microschema", "eucalyptus_minigwalica", "eucalyptus_placita",
+                     "eucalyptus_plauta", "eucalyptus_ralla", "eucalyptus_scyphocalyx", "eucalyptus_tectifica",
+                     "eucalyptus_tintinnans")
+
+pruned_tree2 <- drop.tip(pruned_tree2, second.prunning, trim.internal = T)
+plot(pruned_tree2)
+write.tree(pruned_tree2, "plots/check-prunning_full_tree.tre")
+
+tree_tipsID <- pruned_tree2
 
 ```
+
+
+Just checking what's left to do on the tree...
+```{r}
+
+tibble_tree2 <- as_tibble(tree_tipsID$tip.label) %>% # putting the full_tree$tips and
+  as_data_frame() %>%                   # full_tree$branchlength to the right format to merge
+  glimpse()
+write_csv(tibble_tree2, "checking_species_names_tree_matrix.csv") # compare list of species names and their numbers
+```
+I checked and everything that is on the tree will be renamed.
 
 ```{r}
-test_tree <- add.taxa.phylo(full_tree, matrix)
+ID_tips_data <- read.csv("data/rename.fulltree.with.uniqueID.csv")
+
+tree_tipsID$tip.label <- ID_tips_data$new[TreeTools::match(tree_tipsID$tip.label, ID_tips_data$old)]
+par(mfrow=c(1,2))
+plot(tree_tipsID)
+
+write.tree(tree_tipsID, "plots/final_tree_uniqueID.tre") ######### !! FINALLY !! ##########
 ```
-
-
+Now we have the final tree to map the traits!!!
