@@ -9,7 +9,8 @@
 #' 
 #' *Questions:*
 #'   - Accounting for phylogenetic signal, do we observe the same trait associations between the drought incidence at CCA and the other variables across all species?
-#'   
+#'  *Plan:* I perform a Phylogenetic Generalized Least Squares analysis on drought impact against all other traits across all trees at CCA, accounting for phylogenetic signal using the modified tree made previously from Thornhill et al 2016.
+
 #' *Preparation of 
 #' First let's load what we need:
 librarian::shelf(ape, geiger, tidyverse, treeplyr, caper)
