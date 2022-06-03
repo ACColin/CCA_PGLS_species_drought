@@ -86,7 +86,7 @@ I transform the tree as a tibble to extract the information I require from the e
 I only kept the information that bind.tip requires, the node number to which the new tip will be attached and its corresponding new label.
 ``` {r}
 all_tree <- pruned_tree
-new_tips_data <- read.csv("data/NewTips(onlyduplicates).csv") # only duplicates = only contains the tips from the current tree that will be receive new tips. not the tips that will remain unchanged (which I manually removed from the dataframe).
+new_tips_data <- read.csv("data/NewTips(onlyduplicates).csv") # only duplicates = only contains the tips from the current tree that will be receiving new tips i.e. taxonomically closest species absent in Thornhill that need a tip, all current placements on the phylogeny in which trees at CCA will be put. not the tips that will remain unchanged (which I manually removed from the dataframe). Unique tips (~30/50 tips from what I recall) include tips that will receive only one uniqueID
 
 tibble_tree <- as_tibble(all_tree) %>% # putting the full_tree$tips and
   as_data_frame() %>%                   # full_tree$branchlength to the right format to merge

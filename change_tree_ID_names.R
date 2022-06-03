@@ -73,3 +73,11 @@ tree3 <- read.tree("../../../../supertree.ufbt.treefile")
 tree3$tip.label <- ID_table$Binomial[TreeTools::match(tree3$tip.label, ID_table$FieldID)]
 class(tree1)
 write.tree(tree3,"../../../../supertree.ufbt_spnames.treefile")
+
+
+ID_table <-read.csv("scr/100_Adna_phylo_sample_metadata.csv")
+tree1 <- read.tree("scr/MARE-filtered_AA_concat_all_BUSCOs.treefile")
+tree1$tip.label <- ID_table$TaxonoriginalDN[TreeTools::match(tree1$tip.label, ID_table$tip.label)]
+class(tree1)
+plot(tree1)
+write.tree(tree1,"scr/MARE-filtered_AA_concat_all_BUSCOs_spnames.treefile")
