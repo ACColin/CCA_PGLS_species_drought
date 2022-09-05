@@ -1,6 +1,6 @@
 ---
 title: "4_PGLS_analysis_with_Thornhill-EUCLID-CCA_phylogeny"
-author: "Shelley, Sangay and AC"
+author: "AC"
 date: "12/04/2022"
 output: html_document
 ---

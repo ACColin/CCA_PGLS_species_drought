@@ -44,15 +44,31 @@ p2 <- ggtree(tree, layout='circular') %<+% info +
 print(p2)
 ggsave("plots/AICorrected.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
 
-p3 <- ggtree(tree, layout='circular') %<+% info + 
-  geom_tippoint(aes(color=height_max_m)) +
+p3 <- ggtree(tree, layout='rectangular') %<+% info + 
+  geom_tippoint(aes(color=height_max_m, size=10)) +
   scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
-  geom_tiplab(aes(color=height_max_m, ftype="i",fsize=0.5), hjust = -.1)
+  geom_tiplab(aes(color=height_max_m, size=10), hjust = -.1) + 
+  geom_tiplab2(aes(label=RegenStrategysimplified), align=F, linetype=NA, 
+              size=2, offset=4, hjust=0.5) 
+p3 + xlim(0, 0.25) + ylim(0, 30)
 print(p3)
-ggsave("plots/height_max_m.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
+ggsave("plots/height_max_m.mapped.colours.rectangular.pdf", width = 50, height = 120, limitsize = FALSE)
 
-p4 <- ggtree(tree, layout='circular') %<+% info + 
-  geom_tippoint(aes(color=Wooddensity.g.cm3..mean)) +
+X = info %>% 
+  dplyr::select(AICorrected, height_max_m) %>% 
+  as.matrix()
+ggplot(X, aes(displ, hwy, colour = class)) + 
+  geom_point()
+
+ggtree(beast_tree, aes(color=rate)) +
+    scale_color_continuous(low='darkgreen', high='red') +
+p4 <- ggtree(tree, aes(color=rate),
+             layout='rectangular',
+             ladderize = FALSE,
+             continuous = 'colour',
+             size=2) %<+% info + 
+  scale_color_continuous(low='darkgreen', high='red') +
+  geom_tippoint(aes(color=Wooddensity.g.cm3..mean, size = 10)) +
   scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) +
   geom_tiplab(aes(color=Wooddensity.g.cm3..mean, ftype="i",fsize=0.5), hjust = -.1)
 print(p4)
@@ -137,3 +153,39 @@ gheatmap(p2, df1, offset=15, width=.3,
 
 ```
 
+####
+
+librarian::shelf(tidyverse, treeio, ggnewscale, readr, conflicted, ggtree, ape, data.table, phytools, TreeTools,tidytree,  DesiQuintans/desiderata)
+conflict_prefer("filter", "dplyr")
+
+tree <- read.tree("plots/final_tree_uniqueID.tre")
+info <- read.csv("data/DroughtImpact_SummaryBy_Completetraits.csv")
+
+
+X = info %>% 
+  dplyr::select(AICorrected, height_max_m) %>% 
+  as.matrix()
+ggplot(X, aes(displ, hwy, colour = class)) + 
+  geom_point()
+
+ggtree(tree, aes(color=rate)) +
+  scale_color_continuous(low='darkgreen', high='red')
+
+ggtree(tree, layout='rectangular', color="black") %<+% info + 
+  geom_tippoint(aes(color=Drought2020Scale.mean, size = 5)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) 
+ggtree(tree, layout='rectangular', color="black") %<+% info + 
+#  geom_tree(aes(color=AICorrected), continuous="color", size=0.2) +
+#  scale_color_gradientn(colours=c("blue","cyan","green", "yellow", "orange", "red", "black"))
+#  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) #+
+#  scale_color_continuous(low='darkgreen', high='red') +
+  geom_tippoint(aes(color=height_max_m, size = 5)) +
+  scale_color_gradientn(colours=c("purple","blue","cyan", "green", "yellow", "orange", "red")) #+
+#  geom_tiplab(aes(color=Wooddensity.g.cm3..mean, ftype="i",fsize=0.5), hjust = -.1) +
+
+t2 = t1 + new_scale_fill()
+  geom_tile(aes(color=AICorrected)) +
+  scale_color_gradientn(colours=c("blue", "green", "yellow", "red")) #+
+
+ggtree(p4)
+ggsave("plots/Wooddensity.g.cm3..mean.mapped.colours.pdf", width = 50, height = 120, limitsize = FALSE)
