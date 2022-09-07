@@ -16,7 +16,8 @@ librarian::shelf(tidyverse, ggtree, phytools, TreeTools, tidytree, treeio)
 
 ```{r, raw data}
 thornhill_labels <- read.csv("data/tree_labels.csv")
-tree <- read.tree("data/Eucalypts_ML2_dated_r8s.tre")
+tree <- read.tree("data/Eucalypts_ML2_dated_r8s.tre") # idk why sometimes read.tree doesn't work
+tree = read.nexus("data/Eucalypts_ML2_dated_r8s.tre")
 ```
 
 
