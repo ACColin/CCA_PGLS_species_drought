@@ -173,6 +173,7 @@ thornhill_labels = read.csv("data/tree_labels.csv")
 tree = read.tree("plots/final_tree_species_tips_ultra-extended.tre")
 ggtree(tree,layout = "fan")
 tree = multi2di(tree)
+plotTree(tree, fsize=.6)
 new_tree = tree
 new_tree$tip.label = thornhill_labels$name5[TreeTools::match(tree$tip.label, thornhill_labels$original)]
 par(mfrow=c(1,2))
@@ -182,18 +183,18 @@ euctree = new_tree
 is.rooted(euctree)
 is.ultrametric(euctree)
 
-eucdat = read.csv("outputs/all_eucs_PCA_dataframe.csv", row.names = NULL) #%>% 
-                    dplyr::select(Taxonsimplified_DN, UniqueID, Drought2020Scale.mean,AP,AICorrected,PDryQ,
+eucdat = read.csv("outputs/all_eucs_PCA_dataframe.csv", row.names = NULL) %>% 
+                    dplyr::select(Taxonsimplified_DN, binomial, UniqueID, Drought2020Scale.mean,AP,AICorrected,PDryQ,
                                   PrecDeficit,height_max_m,Habit_num,
                                   RegenStrategysimplified_num,LeafAreaEst_cm2,Aridclass_num, Section,Genus) %>% 
                     na.omit()
 eucdat_sp = eucdat %>%
-  dplyr::select(Taxonsimplified_DN, RegenStrategysimplified_num,
+  dplyr::select(binomial, RegenStrategysimplified_num,
                 Habit_num, Aridclass_num,
                 height_max_m, Section, Genus) %>%
-  dplyr::distinct(Taxonsimplified_DN, .keep_all = T)
+  dplyr::distinct(binomial, .keep_all = T)
 
-eucdat = eucdat[euctree$tip.label, ]
+eucdat = eucdat_sp[euctree$tip.label, ]
 
 ######## Reconstructing ancestral state for discrete variables #########
 
