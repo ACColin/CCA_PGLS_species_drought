@@ -1,5 +1,5 @@
 
-librarian::shelf(ape, phytools, picante, ggtree, BioGeoBEARS)
+librarian::shelf(ape, phytools, picante, ggtree, BioGeoBEARS, tidyverse, geiger)
 
 
 ######### Tree setup for species level traits ###########
@@ -175,7 +175,7 @@ ggtree(tree,layout = "fan")
 tree = multi2di(tree)
 plotTree(tree, fsize=.6)
 new_tree = tree
-new_tree$tip.label = thornhill_labels$name5[TreeTools::match(tree$tip.label, thornhill_labels$original)]
+#new_tree$tip.label = thornhill_labels$name4[TreeTools::match(tree$tip.label, thornhill_labels$original)]
 par(mfrow=c(1,2))
 plot(tree)
 plot(new_tree)
@@ -183,30 +183,130 @@ euctree = new_tree
 is.rooted(euctree)
 is.ultrametric(euctree)
 
-eucdat = read.csv("outputs/all_eucs_PCA_dataframe.csv", row.names = NULL) %>% 
-                    dplyr::select(Taxonsimplified_DN, binomial, UniqueID, Drought2020Scale.mean,AP,AICorrected,PDryQ,
-                                  PrecDeficit,height_max_m,Habit_num,
-                                  RegenStrategysimplified_num,LeafAreaEst_cm2,Aridclass_num, Section,Genus) %>% 
+eucdat = read.csv("outputs/all_eucs_PCA_dataframe_sp_avg.csv",header = T) %>% 
+                    dplyr::select(binomial, height_max_m,) %>% 
                     na.omit()
+eucdat
+
+MH_sp_avg = aggregate(eucdat,by = list(binomial = eucdat$binomial), FUN = mean)
+row.names(MH_sp_avg) = MH_sp_avg$binomial
+
+d = eucdat %>%
+  dplyr::select(binomial)
+rownames(eucdat) = NULL
+data = cbind(rownamesd, eucdat)
+# I kept only one continuous and one discrete variable
+
 eucdat_sp = eucdat %>%
-  dplyr::select(binomial, RegenStrategysimplified_num,
-                Habit_num, Aridclass_num,
-                height_max_m, Section, Genus) %>%
-  dplyr::distinct(binomial, .keep_all = T)
-
-eucdat = eucdat_sp[euctree$tip.label, ]
-
+  dplyr::select(binomial, Habit_num, height_max_m) %>%
+  dplyr::distinct(binomial, .keep_all = T) %>%
+  glimpse()
+is.na(eucdat_sp) # we are good to go it seems..
+eucdat_sp
 ######## Reconstructing ancestral state for discrete variables #########
 
 
 ## Estimating ancestral character states for discrete characters under a continuous-time Markov chain
 
+# habit = eucdat_sp$Habit_num
+# height = eucdat_sp$height_max_m
+# DF.traits = data.frame(habit, height, row.names = row.names(eucdat_sp))
+# eucdat = eucdat_sp[euctree$tip.label, ]
 
-habit = eucdat$Habit_num
 names(habit) = row.names(eucdat)
 
-ERreconstruction = ace(habit, euctree, type = "discrete", model = "ER")
+check = name.check(phy = test, data = MH_sp_avg,
+                    data.names = MH_sp_avg$binomial)
+check
+
+# removing in tree what is not in data
+
+list_names_1 = c("acmena_smithii", "agonis_flexuosa", "allosyncarpia_ternata", "amomyrtus_luma", "angophora_bakeri", "angophora_exul", "angophora_robur", "angophora_woodsiana", "arillastrum_gummiferum", "cloezia_floribunda", "corymbia_abbreviata", "corymbia_aparrerinja", "corymbia_arafurica", "corymbia_arenaria", "corymbia_aspera", "corymbia_blakei", "corymbia_bleeseri", "corymbia_cadophora", "corymbia_catenaria", "corymbia_clarksoniana", "corymbia_collina", "corymbia_confertiflora", "corymbia_dallachiana", "corymbia_dampieri", "corymbia_dendromerinx", "corymbia_dolichocarpa", "corymbia_dunlopiana", "corymbia_erythrophloia", "corymbia_ferruginea", "corymbia_flavescens", "corymbia_foelscheana", "corymbia_gilbertensis", "corymbia_grandifolia", "corymbia_greeniana", "corymbia_gummifera", "corymbia_henryi", "corymbia_hylandii", "corymbia_lamprophylla", "corymbia_latifolia", "corymbia_lenziana", "corymbia_nesophila", "corymbia_novaguineesis", "corymbia_opacula", "corymbia_papuana", "corymbia_pauciseta", "corymbia_petalophylla", "corymbia_plena", "corymbia_polysciada", "corymbia_porphyritica", "corymbia_porrecta", "corymbia_ptychocarpa", "corymbia_stockeri", "corymbia_tessellaris", "corymbia_torelliana", "corymbia_torta", "corymbia_zygophylla", "decaspermum_humile", "eucalyptopsis_alauda", "eucalyptopsis_papuana", "eucalyptus_abdita", "eucalyptus_acroleuca", "eucalyptus_agglomerata", "eucalyptus_alaticaulis", "eucalyptus_alba", "eucalyptus_argyphea", "eucalyptus_aspersa", "eucalyptus_balanites")
+list_names_2 = c("eucalyptus_balanopelex", "eucalyptus_bensonii", "eucalyptus_brachyandra", "eucalyptus_brachycorys", "eucalyptus_brachyphylla", "eucalyptus_burdettiana", "eucalyptus_captiosa", "eucalyptus_carnabyi", "eucalyptus_castrensis", "eucalyptus_ceracea", "eucalyptus_chartaboma", "eucalyptus_communalis", "eucalyptus_conglomerata", "eucalyptus_crenulata", "eucalyptus_croajingolensis", "eucalyptus_cuspidata", "eucalyptus_cylindriflora", "eucalyptus_decurva", "eucalyptus_deglupta", "eucalyptus_depauperata", "eucalyptus_diptera", "eucalyptus_disclusa", "eucalyptus_dolorosa", "eucalyptus_dorotoxylon", "eucalyptus_dunnii", "eucalyptus_erectifolia", "eucalyptus_famelica", "eucalyptus_fastigata", "eucalyptus_fulgens", "eucalyptus_gigantangion", "eucalyptus_gregoriensis", "eucalyptus_houseana", "eucalyptus_ignorabilis", "eucalyptus_imlayensis", "eucalyptus_impensa", "eucalyptus_johnsoniana", "eucalyptus_kingsmillii", "eucalyptus_koolpinensis", "eucalyptus_kybeanensis", "eucalyptus_latens", "eucalyptus_lateritica", "eucalyptus_limitaris", "eucalyptus_lirata", "eucalyptus_medialis", "eucalyptus_microschema", "eucalyptus_miniata", "eucalyptus_minigwalica", "eucalyptus_mooreana", "eucalyptus_nerthicola", "eucalyptus_nitens", "eucalyptus_nobilis", "eucalyptus_oblonga", "eucalyptus_odontocarpa", "eucalyptus_pachyloma", "eucalyptus_paliformis", "eucalyptus_paludicola", "eucalyptus_patens", "eucalyptus_pellita", "eucalyptus_pendens", "eucalyptus_phoenicea")
+list_names_3 = c("eucalyptus_pilligaensis", "eucalyptus_pilularis", "eucalyptus_placita", "eucalyptus_planchoniana", "eucalyptus_platyphylla", "eucalyptus_plauta", "eucalyptus_pluricaulis", "eucalyptus_prominens", "eucalyptus_pruiniramis", "eucalyptus_pulchella", "eucalyptus_quinniorum", "eucalyptus_ralla", "eucalyptus_rameliana", "eucalyptus_recurva", "eucalyptus_regnans", "eucalyptus_retinens", "eucalyptus_risdonii", "eucalyptus_saligna", "eucalyptus_semota", "eucalyptus_similis", "eucalyptus_splendens", "eucalyptus_suberea", "eucalyptus_surgens", "eucalyptus_talyuberlup", "eucalyptus_tectifica", "eucalyptus_tephrodes", "eucalyptus_tetrodonta", "eucalyptus_tintinnans", "eucalyptus_tortilis", "eucalyptus_transcontinentalis", "eucalyptus_trivalvis", "eucalyptus_umbra", "eucalyptus_urophylla", "eucalyptus_verrucata", "eucalyptus_wetarensis", "eucalyptus_wilcoxii", "eucalyptus_williamsiana", "eucalyptus_yangoura", "eucalyptus_yarraensis", "hypocalymma_linifolium", "kjellbergiodendron_celebicum", "kunzea_ericoides", "lophostemon_confertus", "lophostemon_suaveolens", "myrtus_communis", "stockwellia_quadrifida", "syncarpia_glomulifera", "syncarpia_hillii", "syzygium_angophoroides", "tepualia_stipularis")
+pruned_euctree = drop.tip(euctree, list_names_1, trim.internal = T)
+pruned_euctree = drop.tip(pruned_euctree, list_names_2, trim.internal = T)
+pruned_euctree = drop.tip(pruned_euctree, list_names_3, trim.internal = T)
+
+check = name.check(phy = pruned_euctree, data = MH_sp_avg,
+                   data.names = MH_sp_avg$binomial)
+check
+
+#now adding tips for data that is not in tree
+#update: can't add tips because they don't have another tip to be anchored to somehow.
+
+is.rooted(pruned_euctree)
+is.ultrametric(pruned_euctree)
+
+tre_extend = pruned_euctree                           # have a copy of the tree
+N = Ntip(tre_extend)
+root_node = N + 1 
+root_to_tip = dist.nodes(tre_extend)[1:N, root_node]
+
+age_difference = max(root_to_tip) - root_to_tip       # compute the diff. from each root-to-tip distance to their max
+tip_edges = tre_extend$edge[, 2] <= Ntip(tre_extend)  # grab the edges from matrix that corresponds to tips
+# edges in $edge.label corresponds to the row numbers in $edge
+
+tre_extend$edge.length[tip_edges] = tre_extend$edge.length[tip_edges] + age_difference
+is.ultrametric(tre_extend) # [1] TRUE (yeyy!)
+
+
+diff_edge_lengths <- function(phy, phy2) { # function to compare two phylogenies with identical topologies
+  # but differing branch lengths
+  diffs <- phy2$edge.length - phy$edge.length
+  cols <- sign(diffs)
+  cols[cols == 1] <- "#7fbc41"
+  cols[cols == -1] <- "#de77ae"
+  cols[cols == 0] <- NA
+  plot(phy, show.tip.label = FALSE, no.margin = TRUE)
+  edgelabels(pch = 15, col = cols)
+  sprintf("%i longer branches, %i shorter branches", sum(diffs > 0), sum(diffs < 0))
+}
+
+diff_edge_lengths(pruned_euctree, tre_extend) # using this fix basically increased the size of almost all the final
+# branches lengths which were problematic especially in the very young clades
+is.rooted(tre_extend)
+is.ultrametric(tre_extend)
+
+# Now we should save it and try to perform the ancestral state reconstruction and PGLS analyses with it.
+write.tree(tre_extend, "plots/final_tree_species_tips_ultra-extended_for_MH_ACR.tre")
+
+test = read.tree("plots/final_tree_species_tips_ultra-extended_for_MH_ACR.tre")
+plot(test)
+test_root = multi2di(test)
+par(mfrow=c(1,2))
+plot(test_root)
+is.ultrametric(test_root)
+
+
+
+ERreconstruction = ace(MH_sp_avg, test_root, type = "continuous", model = "ER")
 ERreconstruction
+
+list1 = c("angophora_leiocarpa", "corymbia clarksoniana", "corymbia_capricornia", "corymbia_chlorolampra", "corymbia_serendipita", "corymbia_setosa", "corymbia_umbonata", "eucalyptus_'arctata'_ms", "eucalyptus_'dorsiventralis'_ms", "eucalyptus_aenea", "eucalyptus_ammophila", "eucalyptus_angulosa_(Sa_variant)", "eucalyptus_annettae", "eucalyptus_arachneae", "eucalyptus_archeri", "eucalyptus_arenicola", "eucalyptus_aridomontana", "eucalyptus_armillata", "eucalyptus_aurifodina", "eucalyptus_baiophylla", "eucalyptus_bancroftii", "eucalyptus_banksii", "eucalyptus_baudiniana", "eucalyptus_bicostata", "eucalyptus_biterranea", "eucalyptus_brandiana", "eucalyptus_brownii", "eucalyptus_cajuputea", "eucalyptus_cambageana", "eucalyptus_camfieldii", "eucalyptus_capitanea", "eucalyptus_chapmaniana", "eucalyptus_chloroclada", "eucalyptus_clelandiorum", "eucalyptus_coccifera", "eucalyptus_codonocarpa", "eucalyptus_connexa", "eucalyptus_corynodes", "eucalyptus_cullenii", "eucalyptus_dendromorpha", "eucalyptus_doratoxylon", "eucalyptus_dorrienii", "eucalyptus_dorrigoensis", "eucalyptus_drepanophylla", "eucalyptus_ecdysiastes", "eucalyptus_ecostata", "eucalyptus_efflorescens", "eucalyptus_elegans", "eucalyptus_erosa", "eucalyptus_expressa", "eucalyptus_exserta", "eucalyptus_falciformis", "eucalyptus_flavida", "eucalyptus_fracta", "eucalyptus_glomericassis", "eucalyptus_grasbyi", "eucalyptus_gregoryensis", "eucalyptus_helidonica", "eucalyptus_hypostomatica", "eucalyptus_imitans", "eucalyptus_improcera", "eucalyptus_jensenii", "eucalyptus_johnstonii", "eucalyptus_kabiana", "eucalyptus_lactea", "eucalyptus_laevis", "eucalyptus_leucophylla", "eucalyptus_longissima", "eucalyptus_lunata", "eucalyptus_macta", "eucalyptus_maidenii", "eucalyptus_mediocris", "eucalyptus_microcodon", "eucalyptus_molyneuxii", "eucalyptus_nebulosa", "eucalyptus_notabilis", "eucalyptus_notactites", "eucalyptus_nubilis", "eucalyptus_obstans", "eucalyptus_odorata", "eucalyptus_omissa", "eucalyptus_ordiana", "eucalyptus_pallida", "eucalyptus_peninsularis", "eucalyptus_planipes")
+list2 = c("eucalyptus_platypus", "eucalyptus_plumula", "eucalyptus_prominula", "eucalyptus_provecta", "eucalyptus_psammitica", "eucalyptus_pseudoglobulus", "eucalyptus_punctata", "eucalyptus_relicta", "eucalyptus_repullulans", "eucalyptus_revelata", "eucalyptus_robusta", "eucalyptus_rossii", "eucalyptus_rowleyi", "eucalyptus_rupestris", "eucalyptus_sabulosa", "eucalyptus_selachiana", "eucalyptus_semiglobosa", "eucalyptus_sheathiana", "eucalyptus_shirleyi", "eucalyptus_sinuensis", "eucalyptus_sinuosa", "eucalyptus_sp._cable_Haul_Road", "eucalyptus_sp._Dartmoor", "eucalyptus_sp._Dunbar_Road", "eucalyptus_sp._esperance", "eucalyptus_sp._Lake_Magenta", "eucalyptus_sp._Little_Sandy_Desert", "eucalyptus_sp._North_Balladonia", "eucalyptus_sp._Queen_Victoria_Spring", "eucalyptus_sp._South_Newdegate_lakes", "eucalyptus_sp._Southern_wheatbelt", "eucalyptus_spectatrix", "eucalyptus_sporadica", "eucalyptus_staigeriana", "eucalyptus_striaticalyx", "eucalyptus_subcaerulea", "eucalyptus_suffulgens", "eucalyptus_sweedmaniana", "eucalyptus_tardecidens", "eucalyptus_taurina", "eucalyptus_tephroclada", "eucalyptus_terrica", "eucalyptus_trivalva", "eucalyptus_umbrawarrensis", "eucalyptus_urnigera", "eucalyptus_varia", "eucalyptus_virella", "eucalyptus_virginea", "eucalyptus_volcanica", "eucalyptus_wimmerensis", "eucalyptus_woollsiana", "angophora_leiocarpa", "corymbia clarksoniana", "corymbia_capricornia", "corymbia_chlorolampra", "corymbia_serendipita", "corymbia_setosa", "corymbia_umbonata", "eucalyptus_'arctata'_ms", "eucalyptus_'dorsiventralis'_ms", "eucalyptus_aenea", "eucalyptus_ammophila", "eucalyptus_angulosa_(Sa_variant)", "eucalyptus_annettae", "eucalyptus_arachneae", "eucalyptus_archeri", "eucalyptus_arenicola", "eucalyptus_aridomontana", "eucalyptus_armillata", "eucalyptus_aurifodina", "eucalyptus_baiophylla", "eucalyptus_bancroftii", "eucalyptus_banksii", "eucalyptus_baudiniana", "eucalyptus_bicostata", "eucalyptus_biterranea", "eucalyptus_brandiana", "eucalyptus_brownii", "eucalyptus_cajuputea", "eucalyptus_cambageana", "eucalyptus_camfieldii", "eucalyptus_capitanea", "eucalyptus_chapmaniana", "eucalyptus_chloroclada", "eucalyptus_clelandiorum", "eucalyptus_coccifera", "eucalyptus_codonocarpa", "eucalyptus_connexa", "eucalyptus_corynodes", "eucalyptus_cullenii", "eucalyptus_dendromorpha", "eucalyptus_doratoxylon", "eucalyptus_dorrienii", "eucalyptus_dorrigoensis", "eucalyptus_drepanophylla", "eucalyptus_ecdysiastes", "eucalyptus_ecostata", "eucalyptus_efflorescens", "eucalyptus_elegans", "eucalyptus_erosa", "eucalyptus_expressa", "eucalyptus_exserta", "eucalyptus_falciformis", "eucalyptus_flavida", "eucalyptus_fracta", "eucalyptus_glomericassis", "eucalyptus_grasbyi")
+list3 = c("eucalyptus_gregoryensis", "eucalyptus_helidonica", "eucalyptus_hypostomatica", "eucalyptus_imitans", "eucalyptus_improcera", "eucalyptus_jensenii", "eucalyptus_johnstonii", "eucalyptus_kabiana", "eucalyptus_lactea", "eucalyptus_laevis", "eucalyptus_leucophylla", "eucalyptus_longissima", "eucalyptus_lunata", "eucalyptus_macta", "eucalyptus_maidenii", "eucalyptus_mediocris", "eucalyptus_microcodon", "eucalyptus_molyneuxii", "eucalyptus_nebulosa", "eucalyptus_notabilis", "eucalyptus_notactites", "eucalyptus_nubilis", "eucalyptus_obstans", "eucalyptus_odorata", "eucalyptus_omissa", "eucalyptus_ordiana", "eucalyptus_pallida", "eucalyptus_peninsularis", "eucalyptus_planipes", "eucalyptus_platypus", "eucalyptus_plumula", "eucalyptus_prominula", "eucalyptus_provecta", "eucalyptus_psammitica", "eucalyptus_pseudoglobulus", "eucalyptus_punctata", "eucalyptus_relicta", "eucalyptus_repullulans", "eucalyptus_revelata", "eucalyptus_robusta", "eucalyptus_rossii", "eucalyptus_rowleyi", "eucalyptus_rupestris", "eucalyptus_sabulosa", "eucalyptus_selachiana", "eucalyptus_semiglobosa", "eucalyptus_sheathiana", "eucalyptus_shirleyi", "eucalyptus_sinuensis", "eucalyptus_sinuosa", "eucalyptus_sp._cable_Haul_Road", "eucalyptus_sp._Dartmoor", "eucalyptus_sp._Dunbar_Road", "eucalyptus_sp._esperance", "eucalyptus_sp._Lake_Magenta", "eucalyptus_sp._Little_Sandy_Desert", "eucalyptus_sp._North_Balladonia", "eucalyptus_sp._Queen_Victoria_Spring", "eucalyptus_sp._South_Newdegate_lakes", "eucalyptus_sp._Southern_wheatbelt", "eucalyptus_spectatrix", "eucalyptus_sporadica", "eucalyptus_staigeriana", "eucalyptus_striaticalyx", "eucalyptus_subcaerulea", "eucalyptus_suffulgens", "eucalyptus_sweedmaniana", "eucalyptus_tardecidens", "eucalyptus_taurina", "eucalyptus_tephroclada", "eucalyptus_terrica", "eucalyptus_trivalva", "eucalyptus_umbrawarrensis", "eucalyptus_urnigera", "eucalyptus_varia", "eucalyptus_virella", "eucalyptus_virginea", "eucalyptus_volcanica", "eucalyptus_wimmerensis", "eucalyptus_woollsiana")
+
+MH_sp_avg_red = MH_sp_avg[ ! row.names(MH_sp_avg) %in% list1, ]
+MH_sp_avg_red = MH_sp_avg_red[ ! row.names(MH_sp_avg_red) %in% list2, ]
+MH_sp_avg_red = MH_sp_avg_red[ ! row.names(MH_sp_avg_red) %in% list3, ]
+
+ERreconstruction = ace(MH_sp_avg_red, test_root, type = "continuous", model = "ER")
+ERreconstruction
+
+check = name.check(phy = test_root, data = MH_sp_avg_red,
+                   data.names = MH_sp_avg_red$binomial)
+check
+
+
 SYMreconstruction = ace(habit, euctree, type = "discrete", model = "SYM")
 ARDreconstruction = ace(habit, euctree, type = "discrete", model = "ARD")
 
+
+
+### continuous trait with http://www.phytools.org/eqg/Exercise_5.2/
+set.seed(1234)
+library(phytools)
+x = fastBM(test_root)
+C = vcvPhylo(test_root)
+pp = rep(1, test_root$Nnode)
