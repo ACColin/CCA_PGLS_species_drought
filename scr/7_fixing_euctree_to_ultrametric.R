@@ -83,8 +83,8 @@ max_tip = max(scaled_root_to_tip)
 
 # First, reorder the tree for postorder traversal, and set up some convenience variables.
 tre_node_adjust = reorder(euctree, "postorder")
-e1 = tre_node_adjust$edge[, 1] # parent node
-e2 = tre_node_adjust$edge[, 2] # child node
+e1 = tre_node_adjust$edge[, 1]                  # parent node
+e2 = tre_node_adjust$edge[, 2]                  # child node
 EL = tre_node_adjust$edge.length
 
 # Also set up an ages variable that will hold internal calculations for how old a node should be.
@@ -92,16 +92,16 @@ ages = numeric(N + tre_node_adjust$Nnode)
 
 # Start iterating:
 for (ii in seq_along(EL)) {
-  if (ages[e1[ii]] == 0) { # If we haven’t already stored an age for the parent node,
-                           # go ahead and compute that now from the (left)1 child node and the current edge length.
+  if (ages[e1[ii]] == 0) {          # If we haven’t already stored an age for the parent node,
+                                    # go ahead and compute that now from the (left)1 child node and the current edge length.
     ages[e1[ii]] <- ages[e2[ii]] + EL[ii]
-  } else { # Otherwise, retrieve the stored age for the parent node,
-           # and re-compute what the age should be based on the (right)1 child node.
+  } else {                          # Otherwise, retrieve the stored age for the parent node,
+                                    # and re-compute what the age should be based on the (right)1 child node.
     recorded_age <- ages[e1[ii]]
     new_age <- ages[e2[ii]] + EL[ii]
-    if (recorded_age != new_age) { # Now test whether those ages differ.
-                                   # I could actually use either the variance or the relative difference method,
-                                   # but here I’ll just check for absolute difference.
+    if (recorded_age != new_age) {  # Now test whether those ages differ.
+                                    # I could actually use either the variance or the relative difference method,
+                                    # but here I’ll just check for absolute difference.
       cat(sprintf("node %i age %.6f != %.6f\n", e1[ii], recorded_age, new_age))
     }
   }
@@ -164,8 +164,50 @@ write.tree(tre_extend, "plots/final_tree_species_tips_ultra-extended.tre")
 
 ################ <<<<<<<<<<<<<<<<
 
-################## end tree setup #######################
 
+
+################ Fix 2 - non-negative least squares ################ >>>>>>>>>>>>>>>
+
+
+# This is the default approach used in the R function phytools::force.ultrametric and the topic of a phytools blog post.
+
+# For a given tree, this function can find the set of edge lengths with
+# implied distances with minimum sum-of-squared differences to the true distances
+# - in this case the patristic distances on our phylogeny.
+
+tre_nnls = phangorn::nnls.tree(cophenetic(euctree), euctree, rooted = TRUE)
+is.ultrametric(tre_nnls)
+
+# Since it’s trying to minimize differences among the pairwise tip distance matrix,
+# you’d expect many branches to be adjusted. Plotting the differences show that this is indeed the case:
+diff_edge_lengths(euctree, tre_nnls)
+
+################ <<<<<<<<<<<<<<<<
+
+
+################ Fix 3 - node adjustment  ################ >>>>>>>>>>>>>>>
+
+# This is the approach optionally used in DendroPy,4 and is how TACT fixes ultrametricity issues if asked.
+# Whenever a node’s age differs between its left and right children,
+# correct one of the branch lengths so the node’s age will be calculated the same regardless of
+# whether you’re using the left descendants or the right descendants.1
+
+# Change the prior loop that checks node ages to additionally adjust the branch length:
+
+for (ii in seq_along(EL)) {
+  if (ages[e1[ii]] == 0) {
+    ages[e1[ii]] = ages[e2[ii]] + EL[ii]
+  } else {
+    recorded_age = ages[e1[ii]]
+    new_age = ages[e2[ii]] + EL[ii]
+    if (recorded_age != new_age) {
+      cat(sprintf("node %i age %.6f != %.6f\n", e1[ii], recorded_age, new_age))
+      + EL[ii] = recorded_age - ages[e2[ii]]
+    }
+  }
+}
+
+################## end tree setup #######################
 
 ############### LET'S GIVE IT A SHOT NOW ##############
 
